@@ -1,0 +1,9 @@
+---
+
+id: CMALoggingMod                      # The mod's id. This should not change over the lifetime of the mod.
+name: "CMA's Logging mod"               # The mod's name. This is looked up in the language string yaml configuration.
+author: "CMAvelis"
+description: "This enables combat logging to the log.txt file, which I can use for replays" # The mod's description. This is looked up in the language string yaml configuration.
+
+
+...

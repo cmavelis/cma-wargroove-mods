@@ -1,0 +1,10 @@
+---
+modifyingUnitClasses:
+  - id: giant
+      replace:  
+        moveRange: 3
+      add:
+        verbs:
+         - explode
+
+...

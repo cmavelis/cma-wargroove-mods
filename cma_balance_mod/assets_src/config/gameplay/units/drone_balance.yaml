@@ -1,0 +1,7 @@
+---
+modifyingUnitClasses:
+ - id: drone
+   replace:  
+     damageMultiplier: 0.85
+
+...

@@ -1,0 +1,9 @@
+---
+
+# This is the string configuration file for English.
+en-GB:
+  
+  # Splash Verb
+  ui_unit_verbs_splash: Splash
+  
+...
