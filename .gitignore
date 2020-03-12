@@ -1,6 +1,9 @@
+original_assets/
+
 */assets
 */assets/**
 */*Mod
 */*Mod/**
 
 .vscode
+*.iml

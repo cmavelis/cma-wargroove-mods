@@ -4,7 +4,11 @@ verbs:
   - id: splash
     icon: ui/icons/grooves/unit_action_icon_bomb.png
     name: ui_unit_verbs_splash
+    targetColour: target
+    targetOutlineColour: target_outline
     splashOutlineColour: attack_target_outline
     scriptName: verbs/splash
+    targetted: true
+    splashRadius: 1
 
 ...

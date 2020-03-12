@@ -12,8 +12,8 @@ local Splash = Verb:new()
 --   G X
 --     X
 -- X X X
---   G 
---     
+--   G
+--
 
 -- calculate attack dmg like regular attack
 -- counterattack
@@ -22,31 +22,58 @@ local Splash = Verb:new()
 -- -- nice-to-have:
 -- add range indicator
 
+local function getFacing(from, to)
+    local dx = to.x - from.x
+    local dy = to.y - from.y
 
+    if math.abs(dx) > math.abs(dy) then
+        if dx > 0 then
+            return 1 -- Right
+        else
+            return 3 -- Left
+        end
+    else
+        if dy > 0 then
+            return 2 -- Down
+        else
+            return 0 -- Up
+        end
+    end
+end
 
+function Splash:getMaximumRange(unit, endPos)
+    return 1
+end
+
+function Splash:getTargetType()
+    return "all"
+end
 
 function Splash:execute(unit, targetPos, strParam, path)
     Wargroove.spawnMapAnimation(unit.pos, 1, "fx/groove/koji_groove_fx", "idle", "behind_units", { x = 12, y = 12 })
-    print("splash attack used")
-    for i,line in ipairs(unit) do
-        print(line)
-    end
-    -- for i,line in ipairs(targetPos) do
-    --     print(line)
-    -- end
-    -- for i,line in ipairs(path) do
-    --     print(line)
-    -- end
-    
-    for i, pos in ipairs(Wargroove.getTargetsInRange(unit.pos, 1, "unit")) do
-        local u = Wargroove.getUnitAt(pos)
-        if u and Wargroove.areEnemies(u.playerId, unit.playerId) then
-            local cost = u.unitClass.cost
-            local damage = Combat:getGrooveAttackerDamage(unit, u, "random", unit.pos, u.pos, path, "kojiAttack") * 0.5
+    print("==Splash:execute")
+    local targets = Wargroove.getTargetsInRange(targetPos, 1, "unit")
 
-            u:setHealth(u.health - damage, unit.id)
-            Wargroove.updateUnit(u)
-            Wargroove.playUnitAnimation(u.id, "hit")
+    local facing = getFacing(unit.pos, targetPos)
+
+--    if (targetType == "all") then
+--        table.insert(result, { x = x, y = y})
+--    else
+
+    local function squareRadiusFromTarget(a)
+        return math.max(math.abs(a.x - targetPos.x), math.abs(a.y - targetPos.y))
+    end
+
+    for i, pos in ipairs(targets) do
+        if squareRadiusFromTarget(pos) < 2 then
+            local u = Wargroove.getUnitAt(pos)
+            if u and Wargroove.areEnemies(u.playerId, unit.playerId) then
+                local damage = Combat:getGrooveAttackerDamage(unit, u, "random", unit.pos, u.pos, path, "kojiAttack") * 0.5
+    --            edit damage to follow attack pattern
+                u:setHealth(u.health - damage, unit.id)
+                Wargroove.updateUnit(u)
+                Wargroove.playUnitAnimation(u.id, "hit")
+            end
         end
     end
 
@@ -103,7 +130,7 @@ function Splash:getScore(unitId, order)
 
     if not foundTarget then
         return {score = -1, introspection = {}}
-    end    
+    end
 
     local locationGradient = 0.0
     if (Wargroove.getAICanLookAhead(unitId)) then
