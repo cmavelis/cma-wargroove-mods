@@ -1,0 +1,38 @@
+---
+
+worldMaps:
+- id: arthuria
+  name: world_map_arthuria_name
+  icon: ui/campaign/map_icon6.png
+  size: [874, 974]
+  images:
+  - image: world/maps/arthuria/world_map_arthuria.png
+    layer: background
+    pos: [0, 0]
+  - image: world/maps/arthuria/world_map_arthuria_pillars.png
+    layer: ground_decorations
+    pos: [0, 0]
+  - image: world/maps/arthuria/world_map_arthuria_water.png
+    effect: water
+    layer: background_tiles_water
+    mask: world/maps/arthuria/world_map_arthuria_water_ramp.png
+    pos: [0, 0]
+  waterMask: masks/arthuria_water_mask.png
+  fishes:
+  - pos: [117, 252]
+    radius: 120
+  - pos: [750, 320]
+    radius: 100
+  - pos: [160, 890]
+    radius: 100
+  sound:
+  - event: environmental/oceanAmbience
+  - event: environmental/forestAmbienceMono
+    sources:
+    - pos: [194, 182]
+      refDistance: 110
+      maxDistance: 140
+    - pos: [155, 270]
+      refDistance: 78
+      maxDistance: 500
+...

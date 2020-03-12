@@ -1,0 +1,326 @@
+---
+
+commanders:
+  - id: mercia
+    name: character_mercia_name
+    title: character_mercia_title
+    faction: cherrystone
+    factionIndex: 0
+    portrait:
+      neutral: portraits/commanders/small/mercia_portrait_small.png
+      happy: portraits/commanders/small/mercia_portrait_happy.png
+      sad: portraits/commanders/small/mercia_portrait_sad.png
+      extra: portraits/commanders/small/mercia_portrait_determined.png
+    cutscenePortrait: portraits/commanders/big/mercia_portrait
+    portraitOffset: [0, 7]
+    namePlate: ui/character_select/charlabel/charlabel_mercia.png
+    themeSong: music/mercia
+    skinColour: typeII
+    unitClassId: commander_mercia
+    selectionSound: mercia/merciaShoutWontLetYouDown
+    dialogueBoxVoice: ui/dialogue/textScrollMercia
+
+  - id: emeric
+    name: character_emeric_name
+    title: character_emeric_title
+    faction: cherrystone
+    factionIndex: 1
+    portrait:
+      neutral: portraits/commanders/small/emeric_portrait_small.png
+      happy: portraits/commanders/small/emeric_portrait_happy.png
+      sad: portraits/commanders/small/emeric_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/emeric_portrait
+    portraitOffset: [0, -25]
+    namePlate: ui/character_select/charlabel/charlabel_emeric.png
+    themeSong: music/emeric
+    skinColour: typeVI
+    unitClassId: commander_emeric
+    selectionSound: emeric/emericShoutEducatedChoice
+    dialogueBoxVoice: ui/dialogue/textScrollEmeric
+
+  - id: caesar
+    name: character_caesar_name
+    title: character_caesar_title
+    faction: cherrystone
+    factionIndex: 2
+    portrait:
+      neutral: portraits/commanders/small/caesar_portrait_small.png
+      happy: portraits/commanders/small/caesar_portrait_happy.png
+      sad: portraits/commanders/small/caesar_portrait_sad.png
+      extra: portraits/commanders/small/caesar_portrait_extra.png
+    cutscenePortrait: portraits/commanders/big/caesar_portrait
+    portraitOffset: [-5, 5]
+    namePlate: ui/character_select/charlabel/charlabel_caesar.png
+    themeSong: music/caesar
+    skinColour: typeII
+    unitClassId: commander_caesar
+    selectionSound: caesar/caesarSelect
+    dialogueBoxVoice: ui/dialogue/textScrollCaesar
+
+  - id: valder
+    name: character_valder_name
+    title: character_valder_title
+    faction: felheim
+    factionIndex: 0
+    portrait:
+      neutral: portraits/commanders/small/valder_portrait_small.png
+      happy: portraits/commanders/small/valder_portrait_happy.png
+      sad: portraits/commanders/small/valder_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/valder_portrait
+    portraitOffset: [0, -26]
+    namePlate: ui/character_select/charlabel/charlabel_valder.png
+    themeSong: music/valder
+    skinColour: typeIV
+    unitClassId: commander_valder
+    selectionSound: valder/valderFelheimRises
+    dialogueBoxVoice: ui/dialogue/textScrollValder
+
+  - id: ragna
+    name: character_ragna_name
+    title: character_ragna_title
+    faction: felheim
+    factionIndex: 1
+    portrait:
+      neutral: portraits/commanders/small/ragna_portrait_small.png
+      happy: portraits/commanders/small/ragna_portrait_happy.png
+      sad: portraits/commanders/small/ragna_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/ragna_portrait
+    portraitOffset: [0, 2]
+    namePlate: ui/character_select/charlabel/charlabel_ragna.png
+    themeSong: music/ragna
+    skinColour: typeI
+    unitClassId: commander_ragna
+    selectionSound: ragna/ragnaShoutThisSucks
+    dialogueBoxVoice: ui/dialogue/textScrollRagna
+
+  - id: sigrid
+    name: character_sigrid_name
+    title: character_sigrid_title
+    faction: felheim
+    factionIndex: 2
+    portrait:
+      neutral: portraits/commanders/small/sigrid_portrait_small.png
+      happy: portraits/commanders/small/sigrid_portrait_happy.png
+      sad: portraits/commanders/small/sigrid_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/sigrid_portrait
+    portraitOffset: [0, 11]
+    namePlate: ui/character_select/charlabel/charlabel_sigrid.png
+    themeSong: music/sigrid
+    skinColour: typeI
+    unitClassId: commander_sigrid
+    selectionSound: sigrid/sigridShoutCalmMortalsDieEasily
+    dialogueBoxVoice: ui/dialogue/textScrollSigrid
+
+  - id: tenri
+    name: character_tenri_name
+    title: character_tenri_title
+    faction: heavensong
+    factionIndex: 0
+    portrait:
+      neutral: portraits/commanders/small/tenri_portrait_small.png
+      happy: portraits/commanders/small/tenri_portrait_happy.png
+      sad: portraits/commanders/small/tenri_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/tenri_portrait
+    portraitOffset: [0, -15]
+    namePlate: ui/character_select/charlabel/charlabel_tenri.png
+    themeSong: music/tenri
+    skinColour: typeIII
+    unitClassId: commander_tenri
+    selectionSound: tenri/tenriShoutImNotHereToPlay
+    dialogueBoxVoice: ui/dialogue/textScrollTenri
+
+  - id: koji
+    name: character_koji_name
+    title: character_koji_title
+    faction: heavensong
+    factionIndex: 2
+    portrait:
+      neutral: portraits/commanders/small/koji_portrait_small.png
+      happy: portraits/commanders/small/koji_portrait_happy.png
+      sad: portraits/commanders/small/koji_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/koji_portrait
+    portraitOffset: [30, 5]
+    namePlate: ui/character_select/charlabel/charlabel_koji.png
+    themeSong: music/koji
+    skinColour: typeIII
+    unitClassId: commander_koji
+    selectionSound: koji/kojiShoutThisWillBeAwesome
+    dialogueBoxVoice: ui/dialogue/textScrollKoji
+
+  - id: ryota
+    name: character_ryota_name
+    title: character_ryota_title
+    faction: heavensong
+    factionIndex: 1
+    portrait:
+      neutral: portraits/commanders/small/ryota_portrait_small.png
+      happy: portraits/commanders/small/ryota_portrait_happy.png
+      sad: portraits/commanders/small/ryota_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/ryota_portrait
+    portraitOffset: [0, -5]
+    namePlate: ui/character_select/charlabel/charlabel_ryota.png
+    themeSong: music/ryota
+    skinColour: typeIII
+    unitClassId: commander_ryota
+    selectionSound: ryota/ryotaShoutIWillNotBeDefeated
+    dialogueBoxVoice: ui/dialogue/textScrollRyota
+
+  - id: greenfinger
+    name: character_greenfinger_name
+    title: character_greenfinger_title
+    faction: floran
+    factionIndex: 0
+    portrait:
+      neutral: portraits/commanders/small/greenfinger_portrait_small.png
+      happy: portraits/commanders/small/greenfinger_portrait_happy.png
+      sad: portraits/commanders/small/greenfinger_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/greenfinger_portrait
+    portraitOffset: [0, -25]
+    namePlate: ui/character_select/charlabel/charlabel_greenfinger.png
+    themeSong: music/greenfinger
+    skinColour: green
+    unitClassId: commander_greenfinger
+    selectionSound: greenfinger/greenfingerShoutOfCourse
+    dialogueBoxVoice: ui/dialogue/textScrollGreenfinger
+
+  - id: nuru
+    name: character_nuru_name
+    title: character_nuru_title
+    faction: floran
+    factionIndex: 1
+    portrait:
+      neutral: portraits/commanders/small/nuru_portrait_small.png
+      happy: portraits/commanders/small/nuru_portrait_happy.png
+      sad: portraits/commanders/small/nuru_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/nuru_portrait
+    portraitOffset: [-25, -40]
+    namePlate: ui/character_select/charlabel/charlabel_nuru.png
+    themeSong: music/nuru
+    skinColour: green
+    unitClassId: commander_nuru
+    selectionSound: nuru/nuruShoutBigFight
+    dialogueBoxVoice: ui/dialogue/textScrollNuru
+
+  - id: sedge
+    name: character_sedge_name
+    title: character_sedge_title
+    faction: floran
+    factionIndex: 2
+    portrait:
+      neutral: portraits/commanders/small/sedge_portrait_small.png
+      happy: portraits/commanders/small/sedge_portrait_happy.png
+      sad: portraits/commanders/small/sedge_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/sedge_portrait
+    portraitOffset: [15, 0]
+    namePlate: ui/character_select/charlabel/charlabel_sedge.png
+    themeSong: music/sedge
+    skinColour: green
+    unitClassId: commander_sedge
+    selectionSound: sedge/sedgeShoutTheHuntBegins
+    dialogueBoxVoice: ui/dialogue/textScrollSedge
+
+  - id: generic_cherrystone
+    name: character_generic_cherrystone_name
+    faction: cherrystone
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/cherrystone_portrait_small.png
+      happy: portraits/commanders/small/cherrystone_portrait_small.png
+      sad: portraits/commanders/small/cherrystone_portrait_small.png
+      extra: portraits/commanders/small/cherrystone_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/cherrystone_portrait
+    themeSong: music/hostile
+    skinColour: typeIV
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_felheim
+    name: character_generic_felheim_name
+    faction: felheim
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/felheim_portrait_small.png
+      happy: portraits/commanders/small/felheim_portrait_small.png
+      sad: portraits/commanders/small/felheim_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/felheim_portrait
+    themeSong: music/hostile
+    skinColour: typeI
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_floran
+    name: character_generic_floran_name
+    faction: floran
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/floran_portrait_small.png
+      happy: portraits/commanders/small/floran_portrait_small.png
+      sad: portraits/commanders/small/floran_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/floran_portrait
+    themeSong: music/hostile
+    skinColour: green
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_heavensong
+    name: character_generic_heavensong_name
+    faction: heavensong
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/heavensong_portrait_small.png
+      happy: portraits/commanders/small/heavensong_portrait_small.png
+      sad: portraits/commanders/small/heavensong_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/heavensong_portrait
+    themeSong: music/hostile
+    skinColour: typeIII
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_outlaw
+    name: character_generic_outlaw_name
+    faction: outlaw
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/outlaw_portrait_small.png
+      happy: portraits/commanders/small/outlaw_portrait_small.png
+      sad: portraits/commanders/small/outlaw_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/outlaw_portrait
+    portraitOffset: [0, 20]
+    themeSong: music/hostile
+    skinColour: typeII
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+    
+  - id: generic_soldier
+    name: character_generic_soldier_name
+    faction: cherrystone
+    playable: false
+    hidden: true
+    portrait:
+      neutral: portraits/commanders/small/soldier_portrait_small.png
+      happy: portraits/commanders/small/soldier_portrait_happy.png
+      sad: portraits/commanders/small/soldier_portrait_sad.png
+      extra: portraits/commanders/small/soldier_portrait_extra.png
+    cutscenePortrait: portraits/commanders/big/cherrystone_portrait
+    themeSong: music/hostile
+    skinColour: typeVI
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+    
+  - id: generic_soldier2
+    name: character_generic_soldier2_name
+    faction: heavensong
+    playable: false
+    hidden: true
+    portrait:
+      neutral: portraits/commanders/small/soldier2_portrait_small.png
+      happy: portraits/commanders/small/soldier2_portrait_happy.png
+      sad: portraits/commanders/small/soldier2_portrait_sad.png
+      extra: portraits/commanders/small/soldier2_portrait_extra.png
+    cutscenePortrait: portraits/commanders/big/cherrystone_portrait
+    themeSong: music/hostile
+    skinColour: typeII
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+...

@@ -1,0 +1,63 @@
+---
+
+worldMaps:
+- id: aurania
+  name: world_map_aurania_name
+  icon: ui/campaign/map_icon1.png
+  size: [1440, 810]
+  images:
+  - image: world/maps/aurania/world_map.png
+    layer: background
+    pos: [0, 0]
+  - image: world/maps/aurania/world_map_pillars.png
+    layer: ground_decorations
+    pos: [0, 0]
+  - image: world/maps/aurania/world_map_water.png
+    effect: water
+    layer: background_tiles_water
+    mask: world/maps/aurania/world_map_water_ramp.png
+    pos: [0, 0]
+  - animation: world/maps/aurania/world_map_smoke
+    layer: sky_effects
+    pos: [762, 535]
+  waterMask: masks/aurania_water_mask.png
+  fishes:
+  - pos: [297, 54]
+    radius: 60
+  - pos: [252, 64]
+    radius: 60
+  - pos: [150, 336]
+    radius: 45
+  - pos: [103, 603]
+    radius: 45
+  - pos: [309, 756]
+    radius: 60
+  - pos: [610, 810]
+    radius: 30
+  - pos: [925, 672]
+    radius: 75
+  - pos: [630, 453]
+    radius: 30
+  - pos: [870, 396]
+    radius: 45
+  - pos: [1182, 640]
+    radius: 60
+  - pos: [1350, 321]
+    radius: 45
+  - pos: [1285, 123]
+    radius: 45
+  - pos: [1027, 0]
+    radius: 30
+  - pos: [790, 0]
+    radius: 30
+  sound:
+  - event: environmental/oceanAmbience
+  - event: environmental/forestAmbienceMono
+    sources:
+    - pos: [455, 320]
+      refDistance: 78
+      maxDistance: 150
+    - pos: [595, 300]
+      refDistance: 78
+      maxDistance: 150
+...

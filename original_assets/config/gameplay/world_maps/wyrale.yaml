@@ -1,0 +1,38 @@
+---
+
+worldMaps:
+- id: wyrale
+  name: world_map_wyrale_name
+  icon: ui/campaign/map_icon5.png
+  size: [874, 524]
+  images:
+  - image: world/maps/wyrale/world_map_wyrale.png
+    layer: background
+    pos: [0, 0]
+  - image: world/maps/wyrale/world_map_wyrale_pillars.png
+    layer: ground_decorations
+    pos: [0, 0]
+  - image: world/maps/wyrale/world_map_wyrale_water.png
+    effect: water
+    layer: background_tiles_water
+    mask: world/maps/wyrale/world_map_wyrale_water_ramp.png
+    pos: [0, 0]
+  waterMask: masks/wyrale_water_mask.png
+  fishes:
+  - pos: [54, 20]
+    radius: 60
+  - pos: [194, 182]
+    radius: 60
+  - pos: [260, 4]
+    radius: 60
+  sound:
+  - event: environmental/oceanAmbience
+  - event: environmental/forestAmbienceMono
+    sources:
+    - pos: [194, 182]
+      refDistance: 110
+      maxDistance: 140
+    - pos: [420, 264]
+      refDistance: 78
+      maxDistance: 150
+...

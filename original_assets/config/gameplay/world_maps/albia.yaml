@@ -1,0 +1,47 @@
+---
+
+worldMaps:
+- id: albia
+  name: world_map_albia_name
+  icon: ui/campaign/map_icon2.png
+  size: [928, 563]
+  images:
+  - image: world/maps/albia/world_map_albia.png
+    layer: background
+    pos: [0, 0]
+  - image: world/maps/albia/world_map_albia_pillars.png
+    layer: ground_decorations
+    pos: [0, 0]
+  - image: world/maps/albia/world_map_albia_water.png
+    effect: water
+    layer: background_tiles_water
+    mask: world/maps/albia/world_map_albia_water_ramp.png
+    pos: [0, 0]
+  waterMask: masks/albia_water_mask.png
+  fishes:
+  - pos: [72, 30]
+    radius: 60
+  - pos: [850, 252]
+    radius: 60 
+  - pos: [670, 341]
+    radius: 60 
+  - pos: [765, 535] 
+    radius: 60         
+  sound:
+  - event: environmental/oceanAmbience
+  - event: environmental/forestAmbienceMono
+    sources:
+    - pos: [224, 220]
+      refDistance: 80
+      maxDistance: 122
+    - pos: [259, 420]
+      refDistance: 66
+      maxDistance: 108
+    - pos: [126, 486]
+      refDistance: 62
+      maxDistance: 94
+    - pos: [504, 408]
+      refDistance: 37
+      maxDistance: 55
+
+...

@@ -1,0 +1,21 @@
+---
+
+aiProfiles:
+  - id: guard
+    name: ai_profile_guard
+    attackLookAhead: 0
+    captureLookAhead: 0
+    captureBias: 0.0
+    attackBias: 1.5
+    braveryBonus: 0.5
+    recklessness: 1.0
+    moveBias: 0.0
+    lookAheadBias: 0.5
+    baseDoomPenalty: 100.0
+    additionalDoomPenalty: 1000.0
+    attackThreshold:
+      commander: 0.25
+      hq: 0.25
+    strategicValue: {}
+
+...

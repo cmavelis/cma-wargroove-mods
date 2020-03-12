@@ -1,0 +1,27 @@
+---
+
+aiProfiles:
+  - id: balanced
+    name: ai_profile_balanced
+    attackLookAhead: 3
+    captureLookAhead: 5
+    captureBias: 1.0
+    attackBias: 1.5
+    braveryBonus: 0.0
+    recklessness: 0.1
+    moveBias: 0.3
+    lookAheadBias: 0.5
+    baseDoomPenalty: 100.0
+    additionalDoomPenalty: 1000.0
+    attackThreshold:
+      commander: 0.25
+      hq: 0.25
+    strategicValue:
+      commander:
+        enemy: 2.0
+      hq:
+        enemy: 0.8
+      structure:
+        enemy: 0.5
+
+...

@@ -1,0 +1,38 @@
+---
+
+worldMaps:
+- id: solitudus
+  name: world_map_solitudus_name
+  icon: ui/campaign/map_icon4.png
+  size: [874, 524]
+  images:
+  - image: world/maps/solitudus/desert_map.png
+    layer: background
+    pos: [0, 0]
+  - image: world/maps/solitudus/desert_map_pillars.png
+    layer: ground_decorations
+    pos: [0, 0]
+  - image: world/maps/solitudus/desert_map_water.png
+    effect: water
+    layer: background_tiles_water
+    mask: world/maps/solitudus/desert_map_water_ramp.png
+    pos: [0, 0]
+  waterMask: masks/solitudus_water_mask.png
+  fishes:
+  - pos: [64, 64]
+    radius: 60
+  - pos: [792, 66]
+    radius: 60
+  - pos: [68, 454]
+    radius: 60
+  sound:
+  - event: environmental/oceanAmbience
+  - event: environmental/forestAmbienceMono
+    sources:
+    - pos: [455, 320]
+      refDistance: 110
+      maxDistance: 140
+    - pos: [654, 176]
+      refDistance: 78
+      maxDistance: 150
+...

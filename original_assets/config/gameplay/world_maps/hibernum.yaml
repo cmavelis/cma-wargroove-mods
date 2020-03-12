@@ -1,0 +1,53 @@
+---
+
+worldMaps:
+- id: hibernum
+  name: world_map_hibernum_name
+  icon: ui/campaign/map_icon3.png
+  size: [928, 563]
+  images:
+  - image: world/maps/hibernum/world_map_hibernum.png
+    layer: background
+    pos: [0, 0]
+  - image: world/maps/hibernum/world_map_hibernum_pillars.png
+    layer: ground_decorations
+    pos: [0, 0]
+  - image: world/maps/hibernum/world_map_hibernum_water.png
+    effect: water
+    layer: background_tiles_water
+    mask: world/maps/hibernum/world_map_hibernum_water_ramp.png
+    pos: [0, 0]
+  waterMask: masks/hibernum_water_mask.png
+  fishes:
+  - pos: [72, 36]
+    radius: 60
+  - pos: [815, 490]
+    radius: 60 
+  - pos: [834, 77]
+    radius: 60 
+  - pos: [144, 418] 
+    radius: 60         
+  sound:
+  - event: environmental/oceanAmbience
+  - event: environmental/forestAmbienceMono
+    sources:
+    - pos: [618, 46]
+      refDistance: 52
+      maxDistance: 100
+    - pos: [602, 124]
+      refDistance: 48
+      maxDistance: 85
+    - pos: [390, 396]
+      refDistance: 38
+      maxDistance: 65
+    - pos: [666, 312]
+      refDistance: 42
+      maxDistance: 75
+    - pos: [120, 168]
+      refDistance: 41
+      maxDistance: 75
+    - pos: [16, 128]
+      refDistance: 41
+      maxDistance: 75
+
+...
