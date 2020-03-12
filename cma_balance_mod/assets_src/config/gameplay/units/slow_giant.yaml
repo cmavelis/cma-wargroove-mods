@@ -5,7 +5,6 @@ modifyingUnitClasses:
       moveRange: 3
     add:
       verbs:
-       - explode
        - splash
 
 ...

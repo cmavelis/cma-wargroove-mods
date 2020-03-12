@@ -73,6 +73,9 @@ function Wargroove.startCombat(attacker, defender, path)
     print('mapSize')
     print(dump(mapSize))
 
+    print('getting all units')
+    print(dump(OldWargroove.getAllUnitsForPlayer(0,0)))
+
     print('Wargroove.getTerrainNameAt(pos)')
     pos = {}
     for y=0,5 do

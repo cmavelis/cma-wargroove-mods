@@ -3,6 +3,27 @@ local Verb = require "wargroove/verb"
 local Combat = require "wargroove/combat"
 
 local Splash = Verb:new()
+-- splash attack for the 3 squares in front of unit
+
+
+-- -- TODO:
+-- range finder (Wargroove.getTargetsInRange)
+--     X
+--   G X
+--     X
+-- X X X
+--   G 
+--     
+
+-- calculate attack dmg like regular attack
+-- counterattack
+-- confirmation of action
+
+-- -- nice-to-have:
+-- add range indicator
+
+
+
 
 function Splash:execute(unit, targetPos, strParam, path)
     Wargroove.spawnMapAnimation(unit.pos, 1, "fx/groove/koji_groove_fx", "idle", "behind_units", { x = 12, y = 12 })
