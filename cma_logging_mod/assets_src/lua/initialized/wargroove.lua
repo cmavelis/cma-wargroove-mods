@@ -40,6 +40,7 @@ function Wargroove.init()
     OldWargroove.getAllUnitIdsForPlayer = Wargroove.getAllUnitIdsForPlayer
     OldWargroove.getAllUnitsForPlayer = Wargroove.getAllUnitsForPlayer
     OldWargroove.getMapVariables = Wargroove.getMapVariables
+    OldWargroove.getMoney = Wargroove.getMoney
     OldWargroove.setMoney = Wargroove.setMoney
     OldWargroove.setTurnInfo = Wargroove.setTurnInfo
     OldWargroove.startCombat = Wargroove.startCombat
@@ -47,7 +48,7 @@ function Wargroove.init()
     -- local mapSize = CopyWargroove.getMapSize()
     -- print('mapSize')
     -- print(dump(mapSize))
-  
+
     -- print('getting during init')
     -- print(dump(OldWargroove.getAllUnitsForPlayer(0,0)))
 end
@@ -55,7 +56,7 @@ end
 
 function Wargroove.getAllUnitsForPlayer(playerId, includeChildren)
     print('===Wargroove.getAllUnitsForPlayer')
-    allUnits = Functional.map(OldWargroove.getUnitById, CopyWargroove.getAllUnitIdsForPlayer(playerId, includeChildren))
+    local allUnits = Functional.map(OldWargroove.getUnitById, CopyWargroove.getAllUnitIdsForPlayer(playerId, includeChildren))
     print(dump(allUnits))
     return allUnits
 end
@@ -77,7 +78,7 @@ function Wargroove.startCombat(attacker, defender, path)
     print(dump(OldWargroove.getAllUnitsForPlayer(0,0)))
 
     print('Wargroove.getTerrainNameAt(pos)')
-    pos = {}
+    local pos = {}
     for y=0,5 do
         pos.y = y
         for x=0,5 do
@@ -105,7 +106,7 @@ end
 
 function Wargroove.getAllUnitIdsForPlayer(playerId, includeChildren)
     print('===Wargroove.getAllUnitIdsForPlayer(playerId, includeChildren)')
-    answer = CopyWargroove.getAllUnitIdsForPlayer(playerId, includeChildren)
+    local answer = CopyWargroove.getAllUnitIdsForPlayer(playerId, includeChildren)
     print(dump(answer))
     return answer
 end
@@ -113,14 +114,21 @@ end
 
 function Wargroove.getAllUnitsForPlayer(playerId, includeChildren)
     print('===Wargroove.getAllUnitsForPlayer(playerId, includeChildren)')
-    answer = CopyWargroove.getAllUnitsForPlayer(playerId, includeChildren)
+    local answer = CopyWargroove.getAllUnitsForPlayer(playerId, includeChildren)
     print(dump(answer))
     return answer
 end
 
 function Wargroove.getMapVariables(id)
     print('===Wargroove.getMapVariables(id)')
-    answer = CopyWargroove.getMapVariables(id)
+    local answer = CopyWargroove.getMapVariables(id)
+    print(dump(answer))
+    return answer
+end
+
+function Wargroove.getMoney(playerId)
+    print('===Wargroove.getMoney(playerId)')
+    local answer = CopyWargroove.getMoney(playerId)
     print(dump(answer))
     return answer
 end
@@ -135,7 +143,7 @@ end
 
 function Wargroove.setMatchSeed(matchSeed)
     print('===Wargroove.setMatchSeed(matchSeed)')
-    answer = CopyWargroove.setMatchSeed(matchSeed)
+    local answer = CopyWargroove.setMatchSeed(matchSeed)
     print(dump(answer))
     return answer
 end
