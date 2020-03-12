@@ -35,7 +35,7 @@ local function dump(o)
 
 function Wargroove.init()
     print('===Wargroove.init')
-    OldWargroove.getTargetsInRange = Wargroove.getTargetsInRange
+    -- OldWargroove.getTargetsInRange = Wargroove.getTargetsInRange
 
     -- local mapSize = CopyWargroove.getMapSize()
     -- print('mapSize')
@@ -62,65 +62,65 @@ local function getFacing(from, to)
     end
 end
 
-function Wargroove.getTargetsInRange(pos, range, targetType)
-    local mapSize = Wargroove.getMapSize()
+-- function Wargroove.getTargetsInRange(pos, range, targetType)
+--     local mapSize = Wargroove.getMapSize()
 
-   local result = {}
-   local x0 = pos.x
-   local y0 = pos.y
-   for yo = -range, range do
-       for xo = -range, range do
-           local distance = math.abs(xo) + math.abs(yo)
-           if distance <= range then
-               local x = x0 + xo
-               local y = y0 + yo
-               if (x >= 0) and (y >= 0) and (x < mapSize.x) and (y < mapSize.y) then
-                   if (targetType == "all") then
-                       table.insert(result, { x = x, y = y})
-                   else
-                       local unitId = Wargroove.getUnitIdAtXY(x, y)
-                       if (targetType == "unit" and unitId ~= -1) or (targetType == "empty" and unitId == -1) then
-                           table.insert(result, { x = x, y = y})
-                       end
-                   end
-               end
-           end
-       end
-   end
+--    local result = {}
+--    local x0 = pos.x
+--    local y0 = pos.y
+--    for yo = -range, range do
+--        for xo = -range, range do
+--            local distance = math.abs(xo) + math.abs(yo)
+--            if distance <= range then
+--                local x = x0 + xo
+--                local y = y0 + yo
+--                if (x >= 0) and (y >= 0) and (x < mapSize.x) and (y < mapSize.y) then
+--                    if (targetType == "all") then
+--                        table.insert(result, { x = x, y = y})
+--                    else
+--                        local unitId = Wargroove.getUnitIdAtXY(x, y)
+--                        if (targetType == "unit" and unitId ~= -1) or (targetType == "empty" and unitId == -1) then
+--                            table.insert(result, { x = x, y = y})
+--                        end
+--                    end
+--                end
+--            end
+--        end
+--    end
 
-   return result
-end
+--    return result
+-- end
 
-function Wargroove.getCleaveTargets(pos, range)
-    -- pos: x, y coords of the reference location
-    local mapSize = Wargroove.getMapSize()
-    local targetType = "unit"
+-- function Wargroove.getCleaveTargets(pos, range)
+--     -- pos: x, y coords of the reference location
+--     local mapSize = Wargroove.getMapSize()
+--     local targetType = "unit"
 
-   local result = {}
-   local x0 = pos.x
-   local y0 = pos.y
-   for yo = -range, range do
-       for xo = -range, range do
-           local distance = math.abs(xo) + math.abs(yo)
-           if distance <= range then
-               local x = x0 + xo
-               local y = y0 + yo
-               if (x >= 0) and (y >= 0) and (x < mapSize.x) and (y < mapSize.y) then
-                   if (targetType == "all") then
-                       table.insert(result, { x = x, y = y})
-                   else
-                       local unitId = Wargroove.getUnitIdAtXY(x, y)
-                       if (targetType == "unit" and unitId ~= -1) or (targetType == "empty" and unitId == -1) then
-                           table.insert(result, { x = x, y = y})
-                       end
-                   end
-               end
-           end
-       end
-   end
+--    local result = {}
+--    local x0 = pos.x
+--    local y0 = pos.y
+--    for yo = -range, range do
+--        for xo = -range, range do
+--            local distance = math.abs(xo) + math.abs(yo)
+--            if distance <= range then
+--                local x = x0 + xo
+--                local y = y0 + yo
+--                if (x >= 0) and (y >= 0) and (x < mapSize.x) and (y < mapSize.y) then
+--                    if (targetType == "all") then
+--                        table.insert(result, { x = x, y = y})
+--                    else
+--                        local unitId = Wargroove.getUnitIdAtXY(x, y)
+--                        if (targetType == "unit" and unitId ~= -1) or (targetType == "empty" and unitId == -1) then
+--                            table.insert(result, { x = x, y = y})
+--                        end
+--                    end
+--                end
+--            end
+--        end
+--    end
 
-   return result
-end
+--    return result
+-- end
 
 
 return Wargroove
