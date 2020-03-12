@@ -43,11 +43,11 @@ function Wargroove.init()
     OldWargroove.setMoney = Wargroove.setMoney
     OldWargroove.setTurnInfo = Wargroove.setTurnInfo
     OldWargroove.startCombat = Wargroove.startCombat
-
+    OldWargroove.setMatchSeed = Wargroove.setMatchSeed
     -- local mapSize = CopyWargroove.getMapSize()
     -- print('mapSize')
     -- print(dump(mapSize))
-    
+  
     -- print('getting during init')
     -- print(dump(OldWargroove.getAllUnitsForPlayer(0,0)))
 end
@@ -133,12 +133,11 @@ function Wargroove.setTurnInfo(turnNumber, currentPlayerId)
 end
 
 
--- function Wargroove.setMatchSeed(matchSeed)
---     api.setMatchSeed(matchSeed)
--- end
-
--- function Wargroove.getMapSize()
---     return api.getMapSize()
--- end
+function Wargroove.setMatchSeed(matchSeed)
+    print('===Wargroove.setMatchSeed(matchSeed)')
+    answer = CopyWargroove.setMatchSeed(matchSeed)
+    print(dump(answer))
+    return answer
+end
 
 return Wargroove
