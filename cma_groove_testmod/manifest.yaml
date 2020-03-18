@@ -1,0 +1,9 @@
+---
+
+id: CMAGrooveTestMod                      # The mod's id. This should not change over the lifetime of the mod.
+name: "CMA's Groove Testing Mod"               # The mod's name. This is looked up in the language string yaml configuration.
+author: "CMAvelis"
+description: "These are grooves being tested by the GoW community for inclusion in a modpack.  Made for skirmish use" # The mod's description. This is looked up in the language string yaml configuration.
+
+
+...

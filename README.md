@@ -5,8 +5,9 @@ A collection of Wargroove mods I've been working on
 Mods contained:
 - Balance mod
 - Logging mod
+- Groove Testmod
 
-##Balance Mod
+## Balance Mod
 
 This mod adjusts balance from 2.0
 
@@ -22,7 +23,7 @@ This mod adjusts balance from 2.0
 implementation notes:
 
 
-##Logging Mod
+## Logging Mod
 
 The purpose of this mod is to log information in a replay format for usage in a Javascript web application
 
@@ -34,3 +35,13 @@ Progress:
         - damage dealt ?
     - map terrain
     
+
+## Groove Testmod
+
+This is the sandbox for testing new mods to incorporate into the game.  
+
+Grooves inluded:
+CO | Groove Name | ID # | Status 
+--- | --- | --- | ---
+Sedge | Marked Prey | [008] | (wip)
+Sigrid | Effigy | [020] | (wip)

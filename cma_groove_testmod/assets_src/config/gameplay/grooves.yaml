@@ -1,0 +1,16 @@
+---
+
+grooves:
+  - id: groove_008                        # The groove id
+    name: groove_name_008                 # The groove name (looks up the string in the string yaml file)
+    description: groove_description_008   # The groove description (looks up the string in the string yaml file)
+    maxCharge: 150                            # The maximum amount the groove can charge to
+    chargePerUse: 150                         # The amount of charge used per turn
+    chargeBy:                                 # The amount to charge the groove by when...
+      endOfTurn: 10                           #   The player ends their turn.
+      attack: 20                              #   The commander attacks an enemy unit.
+      counter: 10                             #   The commander is attacked by an enemy unit.
+      kill: 30                                #   The commander kills an enemy unit.
+    verb: groove_008                      #   The verb associated with the groove. This should match the id of the verb in verbs.yaml.
+
+...

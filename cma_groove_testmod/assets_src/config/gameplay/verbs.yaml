@@ -1,0 +1,12 @@
+---
+
+verbs:
+  - id: groove_008
+    icon: ui/icons/grooves/unit_action_icon_sadistic.png
+    name: groove_name_008
+    targetColour: attack_target
+    targetOutlineColour: attack_target_outline
+    targetted: true
+    scriptName: verbs/groove_008
+
+...
