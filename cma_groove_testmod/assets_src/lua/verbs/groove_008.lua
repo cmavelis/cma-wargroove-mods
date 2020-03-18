@@ -3,14 +3,31 @@ local GrooveVerb = require "wargroove/groove_verb"
 
 local MarkedPrey = GrooveVerb:new()
 
+local function isValidMarkedPreyTarget(myUnit, targetUnit)
+    local uc = targetUnit.unitClass
+    if (Wargroove.areEnemies(targetUnit.playerId, myUnit.playerId) and (not uc.isStructure) and (not uc.isCommander)) and targetUnit.health <= 30 then
+        return true
+    end
+    return false
+end
 
 function MarkedPrey:getMaximumRange(unit, endPos)
-    return 0
+    return 100
 end
 
 
 function MarkedPrey:getTargetType()
     return "unit"
+end
+
+
+function MarkedPrey:canExecuteWithTarget(unit, endPos, targetPos, strParam)
+    if targetPos.x == unit.pos.x and targetPos.y == unit.pos.y then
+        return true
+    end
+
+    local targetUnit = Wargroove.getUnitAt(targetPos)
+    return targetUnit and isValidMarkedPreyTarget(unit, targetUnit)
 end
 
 
@@ -29,7 +46,6 @@ function MarkedPrey:execute(unit, targetPos, strParam, path)
 
     Wargroove.setVisibleOverride(unit.id, false)
     Wargroove.waitTime(0.8)
-    Wargroove.spawnMapAnimation(targetPos, 0, "fx/groove/sedge_groove_fx", "idle", "sky", { x = 12, y = 12 })
 
     Wargroove.playGrooveEffect()
 
@@ -43,33 +59,25 @@ function MarkedPrey:execute(unit, targetPos, strParam, path)
         local u = Wargroove.getUnitAt(pos)
         local uc = u.unitClass
         -- local shouldDie = false
-        if u ~= nil and Wargroove.areEnemies(u.playerId, unit.playerId) and (not uc.isStructure) then
-            if u.health <= 30 then
-                u:setHealth(0, unit.id)
-            
-                Wargroove.updateUnit(u)
-                Wargroove.playUnitAnimation(u.id, "hit")  
-                Wargroove.waitTime(0.2)
-            end
+        if u ~= nil and isValidMarkedPreyTarget(unit, u) then
+            u:setHealth(0, unit.id)
+        
+            Wargroove.updateUnit(u)
+            Wargroove.spawnMapAnimation(u.pos, 0, "fx/groove/sedge_groove_fx", "idle", "sky", { x = 12, y = 12 })
+            -- -- This sound needs to be clipped to get just the slashing sound
+            -- Wargroove.playMapSound("sedge/sedgeGroove", targetPos)
+            Wargroove.playUnitAnimation(u.id, "hit")  
+            Wargroove.waitTime(0.2)
         end
     end
 
-    Wargroove.waitTime(0.6)    
+    Wargroove.waitTime(0.4)    
     Wargroove.unsetVisibleOverride(unit.id)
 
     Wargroove.playUnitAnimation(unit.id, "groove_3")
     Wargroove.waitTime(1.2)
 
 end
-
--- function MarkedPrey:onPostUpdateUnit(unit, targetPos, strParam, path)
---     GrooveVerb.onPostUpdateUnit(self, unit, targetPos, strParam, path)
---     local u = Wargroove.getUnitAt(targetPos)
---     if not u or u.health == 0 then
---         unit.hadTurn = false
---         unit.grooveCharge = unit.unitClass.maxGroove
---     end
--- end
 
 function MarkedPrey:generateOrders(unitId, canMove)
     local orders = {}
