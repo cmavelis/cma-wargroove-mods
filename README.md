@@ -44,4 +44,4 @@ Grooves inluded:
 CO | Groove Name | ID # | Status | Notes
 --- | --- | --- | ---
 Sedge | Marked Prey | [008] | Implemented | If someone could clip the groove audio into 3 pieces: Whirl, strike, laugh -- I would make the strike sound happen every hit
-Sigrid | Effigy | [020] | (wip) |
+Sigrid | Effigy | [020] | (started) |

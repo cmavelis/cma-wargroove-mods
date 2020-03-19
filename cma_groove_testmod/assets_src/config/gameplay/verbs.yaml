@@ -9,4 +9,16 @@ verbs:
     targetted: true
     scriptName: verbs/groove_008
 
+  - id: groove_020
+    icon: ui/icons/grooves/unit_action_icon_vampiric.png
+    name: groove_name_020
+    targetColour: attack_target
+    targetOutlineColour: attack_target_outline
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
+    preExecute: true
+    targetted: true
+    directTarget: true
+    scriptName: verbs/groove_020
+
 ...

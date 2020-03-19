@@ -3,5 +3,8 @@ modifyingUnitClasses:
   - id: commander_sedge
     replace:
       grooveId: groove_008
+  - id: commander_sigrid
+    replace:
+      grooveId: groove_020
 
 ...
