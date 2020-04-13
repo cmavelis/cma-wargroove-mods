@@ -1,0 +1,999 @@
+{
+    "root": {
+        "codex": [
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/commanders/mercia/portrait_mercia_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeII"
+                },
+                "id": "S:commander_mercia",
+                "name": "S:character_mercia_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_mercia_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_mercia_lore2_text",
+                        "title": "S:character_mercia_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_mercia_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_mercia_lore1_text",
+                        "title": "S:character_mercia_name",
+                        "unlock": "S:codex_mercia_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_mercia_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_mercia_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_mercia_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_merciagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_mercia",
+                        "title": "S:groove_name_heal_aura"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_merciagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_mercia",
+                        "title": "S:codex_title_strategy_mercia"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_mercia"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/commanders/emeric/portrait_emeric_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeVI"
+                },
+                "id": "S:commander_emeric",
+                "name": "S:character_emeric_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_emeric_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_emeric_lore2_text",
+                        "title": "S:character_emeric_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_emeric_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_emeric_lore1_text",
+                        "title": "S:character_emeric_name",
+                        "unlock": "S:codex_emeric_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_emeric_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_emeric_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_emeric_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_emericgroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_emeric",
+                        "title": "S:groove_name_cherrystone_defence"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_emericgroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_emeric",
+                        "title": "S:codex_title_strategy_emeric"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_emeric"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/commanders/caesar/portrait_caesar_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeII"
+                },
+                "id": "S:commander_caesar",
+                "name": "S:character_caesar_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_caesar_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_caesar_lore2_text",
+                        "title": "S:character_caesar_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_caesar_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_caesar_lore1_text",
+                        "title": "S:character_caesar_name",
+                        "unlock": "S:codex_caesar_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_caesar_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_caesar_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_caesar_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_caesargroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_caesar",
+                        "title": "S:groove_name_second_wind"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_caesargroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_caesar",
+                        "title": "S:codex_title_strategy_caesar"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_caesar"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/commanders/valder/portrait_valder_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:commander_valder",
+                "name": "S:character_valder_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_valder_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_valder_lore2_text",
+                        "title": "S:character_valder_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_valder_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_valder_lore1_text",
+                        "title": "S:character_valder_name",
+                        "unlock": "S:codex_valder_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_valder_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_valder_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_valder_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_valdergroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_valder",
+                        "title": "S:groove_name_raise_dead"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_valdergroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_valder",
+                        "title": "S:codex_title_strategy_valder"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_valder"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/commanders/ragna/portrait_ragna_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:commander_ragna",
+                "name": "S:character_ragna_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_ragna_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_ragna_lore2_text",
+                        "title": "S:character_ragna_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_ragna_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_ragna_lore1_text",
+                        "title": "S:character_ragna_name",
+                        "unlock": "S:codex_ragna_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_ragna_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_ragna_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_ragna_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_ragnagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_ragna",
+                        "title": "S:groove_name_splash_jump"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_ragnagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_ragna",
+                        "title": "S:codex_title_strategy_ragna"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_ragna"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/commanders/sigrid/portrait_sigrid_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:commander_sigrid",
+                "name": "S:character_sigrid_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_sigrid_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_sigrid_lore2_text",
+                        "title": "S:character_sigrid_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_sigrid_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_sigrid_lore1_text",
+                        "title": "S:character_sigrid_name",
+                        "unlock": "S:codex_sigrid_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_sigrid_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_sigrid_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_sigrid_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_sigridgroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_sigrid",
+                        "title": "S:groove_name_vampiric_touch"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_sigridgroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_sigrid",
+                        "title": "S:codex_title_strategy_sigrid"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_sigrid"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/commanders/greenfinger/portrait_greenfinger_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:commander_greenfinger",
+                "name": "S:character_greenfinger_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_greenfinger_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_greenfinger_lore2_text",
+                        "title": "S:character_greenfinger_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_greenfinger_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_greenfinger_lore1_text",
+                        "title": "S:character_greenfinger_name",
+                        "unlock": "S:codex_greenfinger_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_greenfinger_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_greenfinger_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_greenfinger_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_greenfingergroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_greenfinger",
+                        "title": "S:groove_name_vine_wall"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_greenfingergroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_greenfinger",
+                        "title": "S:codex_title_strategy_greenfinger"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_greenfinger"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/commanders/nuru/portrait_nuru_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:commander_nuru",
+                "name": "S:character_nuru_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_nuru_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_nuru_lore2_text",
+                        "title": "S:character_nuru_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_nuru_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_nuru_lore1_text",
+                        "title": "S:character_nuru_name",
+                        "unlock": "S:codex_nuru_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_nuru_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_nuru_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_nuru_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_nurugroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_nuru",
+                        "title": "S:groove_name_teleport_beam"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_nurugroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_nuru",
+                        "title": "S:codex_title_strategy_nuru"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_nuru"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/commanders/sedge/portrait_sedge_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:commander_sedge",
+                "name": "S:character_sedge_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_sedge_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_sedge_lore2_text",
+                        "title": "S:character_sedge_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_sedge_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_sedge_lore1_text",
+                        "title": "S:character_sedge_name",
+                        "unlock": "S:codex_sedge_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_sedge_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_sedge_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_sedge_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_sedgegroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_sedge",
+                        "title": "S:groove_name_sadistic_rush"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_sedgegroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_sedge",
+                        "title": "S:codex_title_strategy_sedge"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_sedge"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/commanders/tenri/portrait_tenri_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:commander_tenri",
+                "name": "S:character_tenri_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_tenri_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_tenri_lore2_text",
+                        "title": "S:character_tenri_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_tenri_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_tenri_lore1_text",
+                        "title": "S:character_tenri_name",
+                        "unlock": "S:codex_tenri_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_tenri_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_tenri_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_tenri_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_tenrigroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_tenri",
+                        "title": "S:groove_name_tornado"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_tenrigroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_tenri",
+                        "title": "S:codex_title_strategy_tenri"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_tenri"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/commanders/ryota/portrait_ryota_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:commander_ryota",
+                "name": "S:character_ryota_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_ryota_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_ryota_lore2_text",
+                        "title": "S:character_ryota_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_ryota_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_ryota_lore1_text",
+                        "title": "S:character_ryota_name",
+                        "unlock": "S:codex_ryota_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_ryota_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_ryota_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_ryota_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_ryotagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_ryota",
+                        "title": "S:groove_name_dash"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_ryotagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_ryota",
+                        "title": "S:codex_title_strategy_ryota"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_ryota"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/commanders/koji/portrait_koji_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:commander_koji",
+                "name": "S:character_koji_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_koji_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_koji_lore2_text",
+                        "title": "S:character_koji_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_koji_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_koji_lore1_text",
+                        "title": "S:character_koji_name",
+                        "unlock": "S:codex_koji_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_koji_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_koji_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_koji_extra_lore2"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_kojigroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_koji",
+                        "title": "S:groove_name_drone_bombs"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_kojigroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_koji",
+                        "title": "S:codex_title_strategy_koji"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_koji"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/commanders/mercival/portrait_mercival_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeII"
+                },
+                "id": "S:commander_mercival",
+                "name": "S:character_mercival_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_mercival_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_mercival_lore2_text",
+                        "title": "S:character_mercival_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_mercival_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_mercival_lore1_text",
+                        "title": "S:character_mercival_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_mercival_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_mercival_lore3_text",
+                        "title": "S:codex_commander_ethoshistory",
+                        "unlock": "S:codex_mercival_extra_lore"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_mercivalgroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_mercival",
+                        "title": "S:groove_name_fish"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_mercivalgroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_mercival",
+                        "title": "S:codex_title_strategy_mercival"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_mercival"
+                    }
+                ],
+                "unlock": "S:codex_entry_mercival"
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:purple",
+                    "image": "S:units/commanders/elodie/portrait_elodie_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:commander_elodie",
+                "name": "S:character_elodie_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_elodie_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_elodie_lore2_text",
+                        "title": "S:character_elodie_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_elodie_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_elodie_lore1_text",
+                        "title": "S:character_elodie_name"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_elodiegroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_elodie",
+                        "title": "S:groove_name_convert"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_elodiegroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_elodie",
+                        "title": "S:codex_title_strategy_elodie"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_elodie"
+                    }
+                ],
+                "unlock": "S:codex_entry_elodie"
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:purple",
+                    "image": "S:units/commanders/darkmercia/portrait_darkmercia_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeII"
+                },
+                "id": "S:commander_darkmercia",
+                "name": "S:character_darkmercia_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_darkmercia_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_darkmercia_lore2_text",
+                        "title": "S:character_darkmercia_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/commander_darkmercia_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_darkmercia_lore1_text",
+                        "title": "S:character_darkmercia_name"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_darkmerciagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_darkmercia",
+                        "title": "S:groove_name_drain_aura"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/commander_darkmerciagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_darkmercia",
+                        "title": "S:codex_title_strategy_darkmercia"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_darkmercia"
+                    }
+                ],
+                "unlock": "S:codex_entry_darkmercia"
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:black",
+                    "image": "S:units/commanders/wulfar/portrait_wulfar_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeII"
+                },
+                "id": "S:commander_wulfar",
+                "name": "S:character_wulfar_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_wulfar_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_wulfar_lore2_text",
+                        "title": "S:character_wulfar_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_wulfar_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_wulfar_lore1_text",
+                        "title": "S:character_wulfar_name",
+                        "unlock": "S:codex_wulfar_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_wulfar_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_wulfar_lore3_text",
+                        "title": "S:character_wulfar_name",
+                        "unlock": "S:codex_wulfar_extra_lore"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/dlc1/commander_wulfargroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_wulfar",
+                        "title": "S:groove_name_golf"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/dlc1/commander_wulfargroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_wulfar",
+                        "title": "S:codex_title_strategy_wulfar"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_mercia"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "icon": {
+                    "colour": "S:black",
+                    "image": "S:units/commanders/twins/portrait_twins_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeVI"
+                },
+                "id": "S:commander_twins",
+                "name": "S:character_twins_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_twins_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_twins_lore2_text",
+                        "title": "S:character_twins_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_twins_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_twins_lore1_text",
+                        "title": "S:character_twins_name",
+                        "unlock": "S:codex_twins_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_twins_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_twins_lore3_text",
+                        "title": "S:character_twins_name",
+                        "unlock": "S:codex_twins_extra_lore"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/dlc1/commander_twinsgroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_twins",
+                        "title": "S:groove_name_twins"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/dlc1/commander_twinsgroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_twins",
+                        "title": "S:codex_title_strategy_twins"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_mercia"
+                    }
+                ]
+            },
+            {
+                "category": "S:commanders",
+                "hiddenInDemo": "S:true",
+                "icon": {
+                    "colour": "S:black",
+                    "image": "S:units/commanders/vesper/portrait_vesper_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeVI"
+                },
+                "id": "S:commander_vesper",
+                "name": "S:character_vesper_name",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_vesper_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_vesper_lore2_text",
+                        "title": "S:character_vesper_name"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_vesper_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_vesper_lore1_text",
+                        "title": "S:character_vesper_name",
+                        "unlock": "S:codex_vesper_extra_lore"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_vesper_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:bio",
+                        "text": "S:codex_commander_vesper_lore3_text",
+                        "title": "S:character_vesper_name",
+                        "unlock": "S:codex_vesper_extra_lore"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/dlc1/commander_vespergroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:groove",
+                        "text": "S:codex_groove_description_vesper",
+                        "title": "S:groove_name_smoke_screen"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/dlc1/commander_vespergroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_groove_strategy_vesper",
+                        "title": "S:codex_title_strategy_vesper"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:commander_mercia"
+                    }
+                ]
+            }
+        ]
+    }
+}

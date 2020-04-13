@@ -1,0 +1,191 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:vine_wall",
+                "id": "S:commander_greenfinger",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:greenfingerAttack"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeAttackSounds": {
+                    "no_voice": "S:greenfinger/greenfingerAttackNoVoice"
+                },
+                "attacks": [
+                    {
+                        "hitDelay": "F:1.125",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "hitDelay": "F:1.125",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:secondary"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/greenfinger/battle_greenfinger",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_greenfinger_river",
+                "class": "S:commander_greenfinger",
+                "cutsceneHit": "S:hit_foot",
+                "cutsceneIdle": "S:capture_idle",
+                "cutscenePreIdle": "S:",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "bow": "S:emote_bow",
+                    "dance": "S:emote_dance",
+                    "idle": "S:capture_idle",
+                    "idle_mounted": "S:idle",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_negative",
+                    "negative_mounted": "S:emote_negative_mounted",
+                    "positive": "S:emote_positive",
+                    "surprise": "S:emote_surprise",
+                    "surprise_mounted": "S:emote_surprise_mounted"
+                },
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:25",
+                    "I:39"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:greenfinger_hit4",
+                        "S:greenfinger_hit5"
+                    ]
+                },
+                "mapAnimation": "S:units/commanders/greenfinger/map_greenfinger",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/greenfinger/portrait_greenfinger_medium.png",
+                "menuIdleSequence": "S:capture_idle",
+                "name": "S:character_greenfinger_name",
+                "shouts": {
+                    "greenfinger_attackvoice1": "S:greenfinger/greenfingerShoutAttack1",
+                    "greenfinger_attackvoice2": "S:greenfinger/greenfingerShoutAttack2",
+                    "greenfinger_attackvoice3": "S:greenfinger/greenfingerShoutAttack3",
+                    "greenfinger_attackvoice4": "S:greenfinger/greenfingerShoutAttack4",
+                    "greenfinger_attackvoice5": "S:greenfinger/greenfingerShoutAttack5",
+                    "greenfinger_believeinyou": "S:greenfinger/greenfingerShoutBelieveInYou",
+                    "greenfinger_capture": "S:greenfinger/greenfingerShoutThisPlaceWillDo",
+                    "greenfinger_die": "S:greenfinger/greenfingerShoutDie",
+                    "greenfinger_florancallforaid": "S:greenfinger/greenfingerShoutFloranCallForAid",
+                    "greenfinger_florannotmonsters": "S:greenfinger/greenfingerShoutFloranNotMonsters",
+                    "greenfinger_goodbye": "S:greenfinger/greenfingerShoutFarewell",
+                    "greenfinger_goodheart": "S:greenfinger/greenfingerShoutGoodHeart",
+                    "greenfinger_goodluckfriends": "S:greenfinger/greenfingerShoutGoodLuckFriends",
+                    "greenfinger_groan": "S:greenfinger/greenfingerShoutGroan",
+                    "greenfinger_groove": "S:greenfinger/greenfingerShoutNaturesCry",
+                    "greenfinger_hello": "S:greenfinger/greenfingerShoutHello",
+                    "greenfinger_hit1": "S:greenfinger/greenfingerShoutHit1",
+                    "greenfinger_hit2": "S:greenfinger/greenfingerShoutHit2",
+                    "greenfinger_hit3": "S:greenfinger/greenfingerShoutHit3",
+                    "greenfinger_hit4": "S:greenfinger/greenfingerShoutHit4",
+                    "greenfinger_hit5": "S:greenfinger/greenfingerShoutHit5",
+                    "greenfinger_hmm": "S:greenfinger/greenfingerShoutHmm",
+                    "greenfinger_howcurious": "S:greenfinger/greenfingerShoutHowCurious",
+                    "greenfinger_introduction": "S:greenfinger/greenfingerShoutIntroduction",
+                    "greenfinger_ithinknot": "S:greenfinger/greenfingerShoutIThinkNot",
+                    "greenfinger_joke": "S:greenfinger/greenfingerShoutMakeLikeATree",
+                    "greenfinger_laugh1": "S:greenfinger/greenfingerShoutLaugh1",
+                    "greenfinger_laugh2": "S:greenfinger/greenfingerShoutLaugh2",
+                    "greenfinger_mythanks": "S:greenfinger/greenfingerShoutMyThanks",
+                    "greenfinger_no": "S:greenfinger/greenfingerShoutNo",
+                    "greenfinger_preattack1": "S:greenfinger/greenfingerShoutCharge",
+                    "greenfinger_preattack2": "S:greenfinger/greenfingerShoutForward",
+                    "greenfinger_sedge": "S:greenfinger/greenfingerShoutSedge",
+                    "greenfinger_select": "S:greenfinger/greenfingerShoutOfCourse",
+                    "greenfinger_sigh": "S:greenfinger/greenfingerShoutSigh",
+                    "greenfinger_surprise": "S:greenfinger/greenfingerShoutSurprise",
+                    "greenfinger_thanks": "S:greenfinger/greenfingerShoutThankYou",
+                    "greenfinger_thatsenough": "S:greenfinger/greenfingerShoutThatsEnough",
+                    "greenfinger_threat": "S:greenfinger/greenfingerShoutNatureWillClaimYou",
+                    "greenfinger_victory": "S:greenfinger/greenfingerShoutSuchAWaste",
+                    "greenfinger_welcome": "S:greenfinger/greenfingerShoutWelcome",
+                    "greenfinger_whoops": "S:greenfinger/greenfingerShoutWhoops",
+                    "greenfinger_yes": "S:greenfinger/greenfingerShoutYes1",
+                    "greenfinger_yes2": "S:greenfinger/greenfingerShoutYes2"
+                },
+                "smallPortrait": "S:units/commanders/greenfinger/portrait_greenfinger_small.png",
+                "sounds": {
+                    "angryRun": "S:greenfinger/greenfingerStagEntry",
+                    "attack": "S:greenfinger/greenfingerAttack",
+                    "attackCommander": "S:greenfinger/greenfingerCommanderKillAttack",
+                    "attackCommanderShout": "S:greenfinger/greenfingerCommanderKillShout",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:greenfinger/greenfingerPreAttack",
+                    "captureShout": "S:greenfinger/greenfingerShoutThisPlaceWillDo",
+                    "death": "S:greenfinger/greenfingerDie",
+                    "deathMap": "S:greenfinger/greenfingerDieGhost",
+                    "deathMapNoBattle": "S:greenfinger/greenfingerDieNoBattle",
+                    "firstHit": "S:greenfinger/greenfingerHit",
+                    "groove": "S:greenfinger/greenfingerGrooveIntro",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitOrganic",
+                    "preIdle": "S:greenfinger/greenfingerGrowth",
+                    "run": "S:infantryLightMapEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:greenfingerAttack",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

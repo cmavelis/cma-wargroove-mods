@@ -1,0 +1,37 @@
+{
+    "root": {
+        "menuBackgrounds": [
+            {
+                "animations": [
+                    {
+                        "animation": "S:backgrounds/titlescreen/creation/forgeflames",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-210",
+                            "I:-94"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/creation/kojiforge",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-216",
+                            "I:-33"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/creation/sparrowbombs",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:140",
+                            "I:-5"
+                        ]
+                    }
+                ],
+                "background": "S:backgrounds/titlescreen/creation/background.png",
+                "foreground": "S:backgrounds/titlescreen/creation/foreground.png",
+                "id": "S:creation_menu"
+            }
+        ]
+    }
+}

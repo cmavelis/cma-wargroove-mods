@@ -1,0 +1,49 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "I:0",
+                "battleUnitCount": "I:1",
+                "classIcon": "S:unit_icons_commander",
+                "cost": "I:0",
+                "damageMultiplier": "I:1",
+                "hasTurn": "S:false",
+                "id": "S:ghost_mercival",
+                "isHidden": "S:true",
+                "isRecruitable": "S:false",
+                "isSpawnable": "S:false",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:character_ghost_mercival_name",
+                "tags": [
+                    "S:structure",
+                    "S:summon"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "battleAnimation": "S:units/commanders/mercival/battle_mercival",
+                "class": "S:ghost_mercival",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:26",
+                    "I:16"
+                ],
+                "hasBattleScreen": "S:false",
+                "hasUnitInfo": "S:false",
+                "mapAnimation": "S:units/commanders/mercival/map_mercival_ghost",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/mercival/portrait_mercival_ghost_medium.png",
+                "name": "S:character_mercival_name",
+                "smallPortrait": "S:units/commanders/mercival/portrait_mercival_ghost_small.png",
+                "sounds": {
+                    "death": "S:soldierDieRed",
+                    "hit": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            }
+        ]
+    }
+}

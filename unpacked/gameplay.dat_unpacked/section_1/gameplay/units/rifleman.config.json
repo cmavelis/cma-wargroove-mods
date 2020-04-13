@@ -1,0 +1,336 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "cost": "I:750",
+                "damageMultiplier": "I:1",
+                "defaultAttack": "S:attack_rifleman",
+                "id": "S:rifleman",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_rifleman",
+                "passiveMultiplier": "F:1.5",
+                "sightRange": "I:9",
+                "startingStates": [
+                    {
+                        "id": "S:ammo",
+                        "value": "I:3"
+                    }
+                ],
+                "tags": [
+                    "S:rifleman",
+                    "S:type.ground.hideout"
+                ],
+                "verbs": [
+                    "S:reload",
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:musket"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.6",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "hitDelay": "F:1.4",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:ranged",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/rifleman/cherrystone/battle_rifleman_cherrystone",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_rifleman_river",
+                "class": "S:rifleman",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:15",
+                    "I:24"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_shout3",
+                        "S:soldier_shout5",
+                        "S:soldier_shout6",
+                        "S:soldier_shout9"
+                    ]
+                },
+                "mapAnimation": "S:units/rifleman/cherrystone/map_rifleman_cherrystone",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/rifleman/cherrystone/portrait_rifleman_cherrystone_medium.png",
+                "name": "S:unit_name_rifleman_cherrystone",
+                "shouts": {
+                    "soldier_hit1": "S:soldierHitRed1",
+                    "soldier_hit2": "S:soldierHitRed2",
+                    "soldier_hit3": "S:soldierHitRed3",
+                    "soldier_hit4": "S:soldierHitRed4",
+                    "soldier_hit5": "S:soldierHitRed5",
+                    "soldier_shout1": "S:soldierShoutRed1",
+                    "soldier_shout2": "S:soldierShoutRed2",
+                    "soldier_shout3": "S:soldierShoutRed3",
+                    "soldier_shout4": "S:soldierShoutRed4",
+                    "soldier_shout5": "S:soldierShoutRed5",
+                    "soldier_shout6": "S:soldierShoutRed6",
+                    "soldier_shout7": "S:soldierShoutRed7",
+                    "soldier_shout8": "S:soldierShoutRed8",
+                    "soldier_shout9": "S:soldierShoutRed9"
+                },
+                "smallPortrait": "S:units/rifleman/cherrystone/portrait_rifleman_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:riflemanAttack",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackRed",
+                    "counter": "S:riflemanCounterAttack",
+                    "death": "S:soldierDieRed",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryMediumEntry2",
+                    "runMap": "S:infantryMediumMapEntry2"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.6",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "hitDelay": "F:1.4",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:ranged",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/rifleman/felheim/battle_rifleman_felheim",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_rifleman_river",
+                "class": "S:rifleman",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:15",
+                    "I:24"
+                ],
+                "mapAnimation": "S:units/rifleman/felheim/map_rifleman_felheim",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/rifleman/felheim/portrait_rifleman_felheim_medium.png",
+                "name": "S:unit_name_rifleman_felheim",
+                "shouts": {
+                    "soldier_blue_shout1": "S:soldierShoutBlue1",
+                    "soldier_blue_shout2": "S:soldierShoutBlue2",
+                    "undead_shout1": "S:undeadShout1",
+                    "undead_shout2": "S:undeadShout2"
+                },
+                "smallPortrait": "S:units/rifleman/felheim/portrait_rifleman_felheim_small.png",
+                "sounds": {
+                    "attack": "S:riflemanAttackBlue",
+                    "attackEffect1": "S:archerAttackEffect1",
+                    "attackEffect2": "S:archerAttackEffect2",
+                    "attackEffect3": "S:archerAttackEffect3",
+                    "attackEffect4": "S:archerAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:mageAttackVoiceBlue",
+                    "counter": "S:riflemanCounterAttack",
+                    "death": "S:undeadDieCrumble",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.6",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "hitDelay": "F:1.4",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:ranged",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/rifleman/heavensong/battle_rifleman_heavensong",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_rifleman_river",
+                "class": "S:rifleman",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:15",
+                    "I:24"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_yellow_shout2",
+                        "S:soldier_yellow_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/rifleman/heavensong/map_rifleman_heavensong",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/rifleman/heavensong/portrait_rifleman_heavensong_medium.png",
+                "name": "S:unit_name_rifleman_heavensong",
+                "shouts": {
+                    "soldier_yellow_hit1": "S:soldierHitYellow1",
+                    "soldier_yellow_hit2": "S:soldierHitYellow2",
+                    "soldier_yellow_hit3": "S:soldierHitYellow3",
+                    "soldier_yellow_hit4": "S:soldierHitYellow4",
+                    "soldier_yellow_shout1": "S:soldierShoutYellow1",
+                    "soldier_yellow_shout2": "S:soldierShoutYellow2",
+                    "soldier_yellow_shout3": "S:soldierShoutYellow3",
+                    "soldier_yellow_shout4": "S:soldierShoutYellow4",
+                    "soldier_yellow_shout5": "S:soldierShoutYellow5"
+                },
+                "smallPortrait": "S:units/rifleman/heavensong/portrait_rifleman_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:riflemanAttack",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackYellow",
+                    "counter": "S:riflemanCounterAttack",
+                    "death": "S:soldierDieYellow",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.6",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "hitDelay": "F:1.4",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:ranged",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/rifleman/floran/battle_rifleman_floran",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_rifleman_river",
+                "class": "S:rifleman",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:15",
+                    "I:24"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_green_shout2",
+                        "S:soldier_green_shout4",
+                        "S:soldier_green_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/rifleman/floran/map_rifleman_floran",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/rifleman/floran/portrait_rifleman_floran_medium.png",
+                "name": "S:unit_name_rifleman_floran",
+                "shouts": {
+                    "soldier_green_hit1": "S:soldierHitGreen1",
+                    "soldier_green_hit2": "S:soldierHitGreen2",
+                    "soldier_green_hit3": "S:soldierHitGreen3",
+                    "soldier_green_shout1": "S:soldierShoutGreen1",
+                    "soldier_green_shout2": "S:soldierShoutGreen2",
+                    "soldier_green_shout3": "S:soldierShoutGreen3",
+                    "soldier_green_shout4": "S:soldierShoutGreen4",
+                    "soldier_green_shout5": "S:soldierShoutGreen5",
+                    "soldier_green_shout6": "S:soldierShoutGreen6"
+                },
+                "smallPortrait": "S:units/rifleman/floran/portrait_rifleman_floran_small.png",
+                "sounds": {
+                    "attack": "S:riflemanAttackGreen",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackGreen",
+                    "counter": "S:riflemanCounterAttack",
+                    "death": "S:soldierDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:false",
+                "horizontalAndVerticalExtraWidth": "I:1",
+                "horizontalAndVerticalOnly": "S:true",
+                "id": "S:musket",
+                "rangeMax": "I:9",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:0.85",
+                    "ballista": "F:0.05",
+                    "balloon": "F:0.15",
+                    "commander": "F:0.05",
+                    "dog": "F:0.2",
+                    "dragon": "F:0.05",
+                    "giant": "F:0.05",
+                    "harpoonship": "F:0.15",
+                    "harpy": "F:0.6",
+                    "knight": "F:0.1",
+                    "mage": "F:1.0",
+                    "merman": "F:0.75",
+                    "rifleman": "F:0.85",
+                    "soldier": "F:1.2",
+                    "spearman": "F:1.0",
+                    "structure": "F:0.05",
+                    "thief": "F:1.0",
+                    "travelboat": "F:0.2",
+                    "trebuchet": "F:0.05",
+                    "turtle": "F:0.1",
+                    "villager": "F:1.2",
+                    "wagon": "F:0.1",
+                    "warship": "F:0.1",
+                    "witch": "F:0.6"
+                },
+                "terrainExclusion": [
+                    "S:forest"
+                ]
+            }
+        ]
+    }
+}

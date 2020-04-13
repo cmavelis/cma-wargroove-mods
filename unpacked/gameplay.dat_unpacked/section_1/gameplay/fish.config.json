@@ -1,0 +1,166 @@
+{
+    "root": {
+        "fish": [
+            {
+                "icon": "I:1",
+                "id": "S:boot",
+                "name": "S:fish_name_boot",
+                "rarity": "S:common"
+            },
+            {
+                "icon": "I:2",
+                "id": "S:piano_tuna",
+                "name": "S:fish_name_piano_tuna",
+                "rarity": "S:common"
+            },
+            {
+                "icon": "I:3",
+                "id": "S:ginger_guppy",
+                "name": "S:fish_name_ginger_guppy",
+                "rarity": "S:common"
+            },
+            {
+                "icon": "I:4",
+                "id": "S:jerkfish",
+                "name": "S:fish_name_jerkfish",
+                "rarity": "S:common"
+            },
+            {
+                "icon": "I:5",
+                "id": "S:salty_bass",
+                "name": "S:fish_name_salty_bass",
+                "rarity": "S:common",
+                "terrains": [
+                    "S:sea"
+                ]
+            },
+            {
+                "icon": "I:6",
+                "id": "S:pinchmaster",
+                "name": "S:fish_name_pinchmaster",
+                "rarity": "S:common",
+                "terrains": [
+                    "S:beach"
+                ]
+            },
+            {
+                "icon": "I:7",
+                "id": "S:fruitfrog",
+                "name": "S:fish_name_fruitfrog",
+                "rarity": "S:common",
+                "terrains": [
+                    "S:river"
+                ]
+            },
+            {
+                "biomes": [
+                    "S:grass"
+                ],
+                "icon": "I:8",
+                "id": "S:lemon_loach",
+                "name": "S:fish_name_lemon_loach",
+                "rarity": "S:uncommon"
+            },
+            {
+                "biomes": [
+                    "S:grass"
+                ],
+                "icon": "I:9",
+                "id": "S:storm_jelly",
+                "name": "S:fish_name_storm_jelly",
+                "rarity": "S:uncommon",
+                "weather": [
+                    "S:rain"
+                ]
+            },
+            {
+                "biomes": [
+                    "S:ice"
+                ],
+                "icon": "I:10",
+                "id": "S:eclectic_eel",
+                "name": "S:fish_name_eclectic_eel",
+                "rarity": "S:uncommon"
+            },
+            {
+                "biomes": [
+                    "S:ice"
+                ],
+                "icon": "I:11",
+                "id": "S:dreadfish",
+                "name": "S:fish_name_dreadfish",
+                "rarity": "S:uncommon",
+                "weather": [
+                    "S:snow"
+                ]
+            },
+            {
+                "biomes": [
+                    "S:desert"
+                ],
+                "icon": "I:12",
+                "id": "S:toy_koi",
+                "name": "S:fish_name_toy_koi",
+                "rarity": "S:uncommon"
+            },
+            {
+                "biomes": [
+                    "S:desert"
+                ],
+                "icon": "I:13",
+                "id": "S:clockwork_fish",
+                "name": "S:fish_name_clockwork_fish",
+                "rarity": "S:uncommon",
+                "weather": [
+                    "S:sandstorm"
+                ]
+            },
+            {
+                "biomes": [
+                    "S:grass"
+                ],
+                "icon": "I:14",
+                "id": "S:lime_sole",
+                "name": "S:fish_name_lime_sole",
+                "rarity": "S:rare"
+            },
+            {
+                "biomes": [
+                    "S:ice"
+                ],
+                "icon": "I:16",
+                "id": "S:snuffish",
+                "name": "S:fish_name_snuffish",
+                "rarity": "S:rare"
+            },
+            {
+                "biomes": [
+                    "S:desert"
+                ],
+                "icon": "I:15",
+                "id": "S:red_flapper",
+                "name": "S:fish_name_red_flapper",
+                "rarity": "S:rare"
+            },
+            {
+                "icon": "I:17",
+                "id": "S:chucklefish",
+                "name": "S:fish_name_chucklefish",
+                "rarity": "S:rare",
+                "weather": [
+                    "S:rain",
+                    "S:snow",
+                    "S:sandstorm"
+                ]
+            },
+            {
+                "icon": "I:18",
+                "id": "S:starfish",
+                "name": "S:fish_name_starfish",
+                "numFishRequired": "I:17",
+                "numStarsRequired": "I:199",
+                "rarity": "S:common"
+            }
+        ]
+    }
+}

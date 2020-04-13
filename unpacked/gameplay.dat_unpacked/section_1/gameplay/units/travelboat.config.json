@@ -1,0 +1,170 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.5",
+                "battleUnitCount": "I:1",
+                "cost": "I:200",
+                "damageMultiplier": "I:1",
+                "id": "S:travelboat",
+                "isHiddenInCutsceneEditor": "S:true",
+                "loadCapacity": "I:2",
+                "moveRange": "I:10",
+                "movement": "S:sailing",
+                "name": "S:unit_class_name_travelboat",
+                "tags": [
+                    "S:travelboat",
+                    "S:transport",
+                    "S:type.sea"
+                ],
+                "transportTags": [
+                    "S:type.ground.light",
+                    "S:type.ground.heavy",
+                    "S:type.amphibious",
+                    "S:type.ground.hideout"
+                ],
+                "verbs": [
+                    "S:unload"
+                ],
+                "weapons": []
+            }
+        ],
+        "units": [
+            {
+                "battleAnimation": "S:units/travelboat/cherrystone/battle_travelboat_cherrystone",
+                "class": "S:travelboat",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:15",
+                    "I:15"
+                ],
+                "mapAnimation": "S:units/travelboat/cherrystone/map_travelboat_cherrystone",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/travelboat/cherrystone/portrait_travelboat_cherrystone.png",
+                "name": "S:unit_name_travelboat_cherrystone",
+                "smallPortrait": "S:units/travelboat/cherrystone/portrait_travelboat_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            },
+            {
+                "battleAnimation": "S:units/travelboat/felheim/battle_travelboat_felheim",
+                "class": "S:travelboat",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:15",
+                    "I:15"
+                ],
+                "mapAnimation": "S:units/travelboat/felheim/map_travelboat_felheim",
+                "mapSpeed": "F:8.0",
+                "mediumPortrait": "S:units/travelboat/felheim/portrait_travelboat_felheim.png",
+                "name": "S:unit_name_travelboat_felheim",
+                "smallPortrait": "S:units/travelboat/felheim/portrait_travelboat_felheim_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            },
+            {
+                "battleAnimation": "S:units/travelboat/heavensong/battle_travelboat_heavensong",
+                "class": "S:travelboat",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:15",
+                    "I:15"
+                ],
+                "mapAnimation": "S:units/travelboat/heavensong/map_travelboat_heavensong",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/travelboat/heavensong/portrait_travelboat_heavensong.png",
+                "name": "S:unit_name_travelboat_heavensong",
+                "smallPortrait": "S:units/travelboat/heavensong/portrait_travelboat_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            },
+            {
+                "battleAnimation": "S:units/travelboat/floran/battle_travelboat_floran",
+                "class": "S:travelboat",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:15",
+                    "I:15"
+                ],
+                "mapAnimation": "S:units/travelboat/floran/map_travelboat_floran",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/travelboat/floran/portrait_travelboat_floran.png",
+                "name": "S:unit_name_travelboat_floran",
+                "smallPortrait": "S:units/travelboat/floran/portrait_travelboat_floran_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            },
+            {
+                "battleAnimation": "S:units/travelboat/outlaw/battle_travelboat_outlaw",
+                "class": "S:travelboat",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:15",
+                    "I:15"
+                ],
+                "mapAnimation": "S:units/travelboat/outlaw/map_travelboat_outlaw",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/travelboat/outlaw/portrait_travelboat_outlaw.png",
+                "name": "S:unit_name_travelboat_cherrystone",
+                "smallPortrait": "S:units/travelboat/outlaw/portrait_travelboat_outlaw_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,493 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "canSeeOverTerrain": "S:true",
+                "cost": "I:600",
+                "damageMultiplier": "F:1.0",
+                "id": "S:harpy",
+                "moveRange": "I:5",
+                "movement": "S:flying",
+                "name": "S:unit_class_name_harpy",
+                "passiveMultiplier": "F:1.25",
+                "sightRange": "I:5",
+                "tags": [
+                    "S:harpy",
+                    "S:type.air"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:harpyClaws"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect4",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_harpy_attack_4",
+                        "effectDelay": "F:1.4",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1",
+                            "F:2.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourHarpies",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect3",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_harpy_attack_3",
+                        "effectDelay": "F:1.4",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeHarpies",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect2",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_harpy_attack_2",
+                        "effectDelay": "F:1.4",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoHarpies",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect1",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_harpy_attack_1",
+                        "effectDelay": "F:1.4",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:1.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneHarpy",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackSound": "S:attackMelee",
+                        "hitDelay": "F:0.65",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:secondary"
+                    }
+                ],
+                "battleAnimation": "S:units/harpy/cherrystone/battle_harpy_cherrystone",
+                "class": "S:harpy",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:17",
+                    "I:11"
+                ],
+                "mapAnimation": "S:units/harpy/cherrystone/map_harpy_cherrystone",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpy/cherrystone/portrait_harpy_cherrystone_medium.png",
+                "name": "S:unit_name_harpy_cherrystone",
+                "smallPortrait": "S:units/harpy/cherrystone/portrait_harpy_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:harpyAttack",
+                    "attackEffect1": "S:harpyAttackEffect1",
+                    "attackEffect2": "S:harpyAttackEffect2",
+                    "attackEffect3": "S:harpyAttackEffect3",
+                    "attackEffect4": "S:harpyAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "attackMelee": "S:harpyMeleeAttack",
+                    "death": "S:witchDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:harpyEntry",
+                    "runMap": "S:harpyMapEntry"
+                }
+            },
+            {
+                "alternativeRuns": [
+                    {
+                        "id": "S:run_shadow"
+                    }
+                ],
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect4",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_vampire_attack_4",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1",
+                            "F:2.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourHarpies",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect3",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_vampire_attack_3",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeHarpies",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect2",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_vampire_attack_2",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoHarpies",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect1",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_vampire_attack_1",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": "F:1.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneHarpy",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackSound": "S:attackMelee",
+                        "hitDelay": "F:0.65",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:secondary"
+                    }
+                ],
+                "battleAnimation": "S:units/harpy/felheim/battle_harpy_felheim",
+                "class": "S:harpy",
+                "emotes": {
+                    "harpypose1": "S:emote_harpypose1",
+                    "harpypose2": "S:emote_harpypose2",
+                    "idle": "S:idle",
+                    "idle_shadow": "S:idle_shadow"
+                },
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:17",
+                    "I:11"
+                ],
+                "hidden": {
+                    "alternativeRuns": [
+                        "S:run_shadow"
+                    ],
+                    "emotes": [
+                        "S:idle_shadow"
+                    ]
+                },
+                "mapAnimation": "S:units/harpy/felheim/map_harpy_felheim",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpy/felheim/portrait_harpy_felheim_medium.png",
+                "name": "S:unit_name_harpy_felheim",
+                "smallPortrait": "S:units/harpy/felheim/portrait_harpy_felheim_small.png",
+                "sounds": {
+                    "attack": "S:harpyAttack",
+                    "attackEffect1": "S:harpyAttackEffect1",
+                    "attackEffect2": "S:harpyAttackEffect2",
+                    "attackEffect3": "S:harpyAttackEffect3",
+                    "attackEffect4": "S:harpyAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "attackMelee": "S:harpyMeleeAttack",
+                    "death": "S:witchDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:harpyEntry",
+                    "runMap": "S:harpyMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect4",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_tengu_attack_4",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1",
+                            "F:2.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourHarpies",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect3",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_tengu_attack_3",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeHarpies",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect2",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_tengu_attack_2",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoHarpies",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect1",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_tengu_attack_1",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": "F:1.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneHarpy",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackSound": "S:attackMelee",
+                        "hitDelay": "F:0.8",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:secondary"
+                    }
+                ],
+                "battleAnimation": "S:units/harpy/heavensong/battle_harpy_heavensong",
+                "class": "S:harpy",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:17",
+                    "I:11"
+                ],
+                "mapAnimation": "S:units/harpy/heavensong/map_harpy_heavensong",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpy/heavensong/portrait_harpy_heavensong_medium.png",
+                "name": "S:unit_name_harpy_heavensong",
+                "smallPortrait": "S:units/harpy/heavensong/portrait_harpy_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:harpyAttack",
+                    "attackEffect1": "S:harpyAttackEffect1",
+                    "attackEffect2": "S:harpyAttackEffect2",
+                    "attackEffect3": "S:harpyAttackEffect3",
+                    "attackEffect4": "S:harpyAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "attackMelee": "S:harpyMeleeAttackYellow",
+                    "death": "S:witchDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:harpyEntry",
+                    "runMap": "S:harpyMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect4",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_leafwing_attack_4",
+                        "effectDelay": "F:1.4",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1",
+                            "F:2.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourHarpies",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect3",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_leafwing_attack_3",
+                        "effectDelay": "F:1.4",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeHarpies",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect2",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_leafwing_attack_2",
+                        "effectDelay": "F:1.4",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoHarpies",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": "S:attack_range",
+                        "attackEffectSound": "S:attackEffect1",
+                        "attacksGround": "S:true",
+                        "effect": "S:fx/bs_leafwing_attack_1",
+                        "effectDelay": "F:1.4",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:1.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneHarpy",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackSound": "S:attackMelee",
+                        "hitDelay": "F:0.65",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:secondary"
+                    }
+                ],
+                "battleAnimation": "S:units/harpy/floran/battle_harpy_floran",
+                "class": "S:harpy",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:17",
+                    "I:11"
+                ],
+                "mapAnimation": "S:units/harpy/floran/map_harpy_floran",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpy/floran/portrait_harpy_floran_medium.png",
+                "name": "S:unit_name_harpy_floran",
+                "smallPortrait": "S:units/harpy/floran/portrait_harpy_floran_small.png",
+                "sounds": {
+                    "attack": "S:harpyAttackGreen",
+                    "attackEffect1": "S:harpyAttackEffect1",
+                    "attackEffect2": "S:harpyAttackEffect2",
+                    "attackEffect3": "S:harpyAttackEffect3",
+                    "attackEffect4": "S:harpyAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "attackMelee": "S:harpyMeleeAttackGreen",
+                    "death": "S:soldierDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:harpyEntry",
+                    "runMap": "S:harpyMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "air": "I:1",
+                    "land": "I:1",
+                    "water": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:harpyClaws",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:0.75",
+                    "ballista": "F:0.35",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.15",
+                    "dog": "F:0.55",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.1",
+                    "harpoonship": "F:0.25",
+                    "harpy": "F:0.55",
+                    "knight": "F:0.75",
+                    "mage": "F:0.25",
+                    "merman": "F:0.65",
+                    "rifleman": "F:0.75",
+                    "soldier": "F:0.65",
+                    "spearman": "F:0.45",
+                    "structure": "F:0.5",
+                    "thief": "F:0.65",
+                    "travelboat": "F:0.35",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.25",
+                    "villager": "F:0.65",
+                    "wagon": "F:0.35",
+                    "warship": "F:0.45",
+                    "witch": "F:0.3"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:tornado",
+                "id": "S:commander_tenri",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:tenriAttack"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeAttackSounds": {
+                    "no_voice": "S:tenri/tenriAttackNoVoice"
+                },
+                "attacks": [
+                    {
+                        "hitDelay": "F:1.5",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/tenri/battle_tenri",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_tenri_river",
+                "class": "S:commander_tenri",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "bow": "S:emote_bow",
+                    "calm": "S:emote_calm",
+                    "dance": "S:emote_dance",
+                    "idle": "S:idle",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_negative",
+                    "positive": "S:emote_positive",
+                    "surprise": "S:emote_surprise"
+                },
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:30",
+                    "I:28"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:tenri_attack1",
+                        "S:tenri_whatisthis2"
+                    ]
+                },
+                "mapAnimation": "S:units/commanders/tenri/map_tenri",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/tenri/portrait_tenri_medium.png",
+                "name": "S:character_tenri_name",
+                "shouts": {
+                    "tenri_absolutelynot": "S:tenri/tenriShoutAbsolutelyNot",
+                    "tenri_acoldwindblows": "S:tenri/tenriShoutAColdWindBlows",
+                    "tenri_agreed": "S:tenri/tenriShoutAgreed",
+                    "tenri_astormapproaches": "S:tenri/tenriShoutAStormApproaches",
+                    "tenri_attack1": "S:tenri/tenriShoutAttack1",
+                    "tenri_attack2": "S:tenri/tenriShoutAttack2",
+                    "tenri_attack3": "S:tenri/tenriShoutAttack3",
+                    "tenri_attack4": "S:tenri/tenriShoutAttack4",
+                    "tenri_fallback": "S:tenri/tenriShoutFallBack",
+                    "tenri_farewell": "S:tenri/tenriShoutFarewell",
+                    "tenri_getoutofmysight": "S:tenri/tenriShoutGetOutOfMySight",
+                    "tenri_greetings": "S:tenri/tenriShoutGreetings",
+                    "tenri_hit1": "S:tenri/tenriShoutHit1",
+                    "tenri_hit2": "S:tenri/tenriShoutHit2",
+                    "tenri_hit3": "S:tenri/tenriShoutHit3",
+                    "tenri_hmph": "S:tenri/tenriShoutHmph",
+                    "tenri_howtimeflies": "S:tenri/tenriShoutHowTimeFlies",
+                    "tenri_ihavefailed": "S:tenri/tenriShoutIHaveFailed",
+                    "tenri_illmakethisquick": "S:tenri/tenriShoutIllMakeThisQuick",
+                    "tenri_imnotheretoplay": "S:tenri/tenriShoutImNotHereToPlay",
+                    "tenri_itireofyourpresence": "S:tenri/tenriShoutITireOfYourPresence",
+                    "tenri_koji1": "S:tenri/tenriShoutKoji1",
+                    "tenri_koji2": "S:tenri/tenriShoutKoji2",
+                    "tenri_laugh1": "S:tenri/tenriShoutLaugh1",
+                    "tenri_laugh2": "S:tenri/tenriShoutLaugh2",
+                    "tenri_no": "S:tenri/tenriShoutNo",
+                    "tenri_noonethreatensmypeople": "S:tenri/tenriShoutNoOneThreatensMyPeople",
+                    "tenri_powerofthetempest": "S:tenri/tenriShoutPowerOfTheTempest",
+                    "tenri_sigh": "S:tenri/tenriShoutSigh",
+                    "tenri_standdown": "S:tenri/tenriShoutStandDown",
+                    "tenri_stopthis": "S:tenri/tenriShoutStopThis",
+                    "tenri_theresnotimetowaste": "S:tenri/tenriShoutTheresNoTimeToWaste",
+                    "tenri_thewindrises": "S:tenri/tenriShoutTheWindRises",
+                    "tenri_victoryshallbeswift": "S:tenri/tenriShoutVictoryShallBeSwift",
+                    "tenri_weareoldfriends": "S:tenri/tenriShoutWeAreOldFriends",
+                    "tenri_westandtogether": "S:tenri/tenriShoutWeStandTogether",
+                    "tenri_whatisthis1": "S:tenri/tenriShoutWhatIsThis1",
+                    "tenri_whatisthis2": "S:tenri/tenriShoutWhatIsThis2",
+                    "tenri_yes": "S:tenri/tenriShoutYes",
+                    "tenri_youfiend": "S:tenri/tenriShoutYouFiend",
+                    "tenri_youhavemythanks": "S:tenri/tenriShoutYouHaveMyThanks",
+                    "tenri_youthinkthisisagame": "S:tenri/tenriShoutYouThinkThisIsAGame"
+                },
+                "skinColour": "S:typeIII",
+                "smallPortrait": "S:units/commanders/tenri/portrait_tenri_small.png",
+                "sounds": {
+                    "attack": "S:tenri/tenriAttack",
+                    "attackCommanderShout": "S:tenri/tenriCommanderKillShout",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:tenri/tenriAttackShout",
+                    "captureShout": "S:tenri/tenriShoutTheresNoTimeToWaste",
+                    "death": "S:tenri/tenriDie",
+                    "deathMap": "S:tenri/tenriDieGhost",
+                    "deathMapNoBattle": "S:tenri/tenriDieNoBattle",
+                    "firstHit": "S:tenri/tenriHit",
+                    "groove": "S:tenri/tenriGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "preAttack": "S:tenri/tenriPreAttack",
+                    "run": "S:infantryLightMapEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:tenriAttack",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

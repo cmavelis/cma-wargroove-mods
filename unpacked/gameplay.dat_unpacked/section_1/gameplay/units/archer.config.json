@@ -1,0 +1,522 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "cost": "I:500",
+                "damageMultiplier": "I:1",
+                "id": "S:archer",
+                "moveRange": "I:3",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_archer",
+                "passiveMultiplier": "F:1.35",
+                "sightRange": "I:5",
+                "tags": [
+                    "S:archer",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:bow"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.8",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "effect": "S:fx/bs_archer_attack_1",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneArchers",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "effect": "S:fx/bs_archer_attack_2",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoArchers",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "effect": "S:fx/bs_archer_attack_3",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeArchers",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "effect": "S:fx/bs_archer_attack_4",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1",
+                            "F:2.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourArchers",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/archer/cherrystone/battle_archer_cherrystone",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_archer_river",
+                "class": "S:archer",
+                "emotes": {
+                    "dance": "S:emote_dance",
+                    "idle": "S:idle",
+                    "surprise": "S:emote_surprise"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:15",
+                    "I:24"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_shout3",
+                        "S:soldier_shout5",
+                        "S:soldier_shout6",
+                        "S:soldier_shout9"
+                    ]
+                },
+                "mapAnimation": "S:units/archer/cherrystone/map_archer_cherrystone",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/archer/cherrystone/portrait_archer_cherrystone_medium.png",
+                "name": "S:unit_name_archer_cherrystone",
+                "shouts": {
+                    "soldier_hit1": "S:soldierHitRed1",
+                    "soldier_hit2": "S:soldierHitRed2",
+                    "soldier_hit3": "S:soldierHitRed3",
+                    "soldier_hit4": "S:soldierHitRed4",
+                    "soldier_hit5": "S:soldierHitRed5",
+                    "soldier_shout1": "S:soldierShoutRed1",
+                    "soldier_shout2": "S:soldierShoutRed2",
+                    "soldier_shout3": "S:soldierShoutRed3",
+                    "soldier_shout4": "S:soldierShoutRed4",
+                    "soldier_shout5": "S:soldierShoutRed5",
+                    "soldier_shout6": "S:soldierShoutRed6",
+                    "soldier_shout7": "S:soldierShoutRed7",
+                    "soldier_shout8": "S:soldierShoutRed8",
+                    "soldier_shout9": "S:soldierShoutRed9"
+                },
+                "smallPortrait": "S:units/archer/cherrystone/portrait_archer_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:archerAttack",
+                    "attackEffect1": "S:archerAttackEffect1",
+                    "attackEffect2": "S:archerAttackEffect2",
+                    "attackEffect3": "S:archerAttackEffect3",
+                    "attackEffect4": "S:archerAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackRed",
+                    "counter": "S:archerCounterAttack",
+                    "death": "S:soldierDieRed",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.8",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "effect": "S:fx/bs_archer_attack_1",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneArchers",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "effect": "S:fx/bs_archer_attack_2",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoArchers",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "effect": "S:fx/bs_archer_attack_3",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeArchers",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "effect": "S:fx/bs_archer_attack_4",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1",
+                            "F:2.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourArchers",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/archer/felheim/battle_archer_felheim",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_archer_river",
+                "class": "S:archer",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:15",
+                    "I:24"
+                ],
+                "mapAnimation": "S:units/archer/felheim/map_archer_felheim",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/archer/felheim/portrait_archer_felheim_medium.png",
+                "name": "S:unit_name_archer_felheim",
+                "shouts": {
+                    "soldier_blue_shout1": "S:soldierShoutBlue1",
+                    "soldier_blue_shout2": "S:soldierShoutBlue2",
+                    "undead_shout1": "S:undeadShout1",
+                    "undead_shout2": "S:undeadShout2"
+                },
+                "smallPortrait": "S:units/archer/felheim/portrait_archer_felheim_small.png",
+                "sounds": {
+                    "attack": "S:archerAttack",
+                    "attackEffect1": "S:archerAttackEffect1",
+                    "attackEffect2": "S:archerAttackEffect2",
+                    "attackEffect3": "S:archerAttackEffect3",
+                    "attackEffect4": "S:archerAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:mageAttackVoiceBlue",
+                    "counter": "S:archerCounterAttack",
+                    "death": "S:undeadDieCrumble",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.8",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "effect": "S:fx/bs_archer_attack_1",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneArchers",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "effect": "S:fx/bs_archer_attack_2",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoArchers",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "effect": "S:fx/bs_archer_attack_3",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeArchers",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "effect": "S:fx/bs_archer_attack_4",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1",
+                            "F:2.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourArchers",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/archer/heavensong/battle_archer_heavensong",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_archer_river",
+                "class": "S:archer",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:15",
+                    "I:24"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_yellow_shout2",
+                        "S:soldier_yellow_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/archer/heavensong/map_archer_heavensong",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/archer/heavensong/portrait_archer_heavensong_medium.png",
+                "name": "S:unit_name_archer_heavensong",
+                "shouts": {
+                    "soldier_yellow_hit1": "S:soldierHitYellow1",
+                    "soldier_yellow_hit2": "S:soldierHitYellow2",
+                    "soldier_yellow_hit3": "S:soldierHitYellow3",
+                    "soldier_yellow_hit4": "S:soldierHitYellow4",
+                    "soldier_yellow_shout1": "S:soldierShoutYellow1",
+                    "soldier_yellow_shout2": "S:soldierShoutYellow2",
+                    "soldier_yellow_shout3": "S:soldierShoutYellow3",
+                    "soldier_yellow_shout4": "S:soldierShoutYellow4",
+                    "soldier_yellow_shout5": "S:soldierShoutYellow5"
+                },
+                "smallPortrait": "S:units/archer/heavensong/portrait_archer_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:archerAttack",
+                    "attackEffect1": "S:archerAttackEffect1",
+                    "attackEffect2": "S:archerAttackEffect2",
+                    "attackEffect3": "S:archerAttackEffect3",
+                    "attackEffect4": "S:archerAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackYellow",
+                    "counter": "S:archerCounterAttack",
+                    "death": "S:soldierDieYellow",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.8",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "effect": "S:fx/bs_archer_attack_1",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneArchers",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "effect": "S:fx/bs_archer_attack_2",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoArchers",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "effect": "S:fx/bs_archer_attack_3",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeArchers",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "effect": "S:fx/bs_archer_attack_4",
+                        "effectDelay": "F:1.4",
+                        "hitDelay": [
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1",
+                            "F:2.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourArchers",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/archer/floran/battle_archer_floran",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_archer_river",
+                "class": "S:archer",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:15",
+                    "I:24"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_green_shout2",
+                        "S:soldier_green_shout4",
+                        "S:soldier_green_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/archer/floran/map_archer_floran",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/archer/floran/portrait_archer_floran_medium.png",
+                "name": "S:unit_name_archer_floran",
+                "shouts": {
+                    "soldier_green_hit1": "S:soldierHitGreen1",
+                    "soldier_green_hit2": "S:soldierHitGreen2",
+                    "soldier_green_hit3": "S:soldierHitGreen3",
+                    "soldier_green_shout1": "S:soldierShoutGreen1",
+                    "soldier_green_shout2": "S:soldierShoutGreen2",
+                    "soldier_green_shout3": "S:soldierShoutGreen3",
+                    "soldier_green_shout4": "S:soldierShoutGreen4",
+                    "soldier_green_shout5": "S:soldierShoutGreen5",
+                    "soldier_green_shout6": "S:soldierShoutGreen6"
+                },
+                "smallPortrait": "S:units/archer/floran/portrait_archer_floran_small.png",
+                "sounds": {
+                    "attack": "S:archerAttack",
+                    "attackEffect1": "S:archerAttackEffect1",
+                    "attackEffect2": "S:archerAttackEffect2",
+                    "attackEffect3": "S:archerAttackEffect3",
+                    "attackEffect4": "S:archerAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackGreen",
+                    "counter": "S:archerCounterAttack",
+                    "death": "S:soldierDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "air": "I:1",
+                    "land": "I:1",
+                    "water": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:bow",
+                "rangeMax": "I:3",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:0.65",
+                    "ballista": "F:0.3",
+                    "balloon": "F:0.2",
+                    "commander": "F:0.05",
+                    "dog": "F:0.75",
+                    "dragon": "F:0.1",
+                    "giant": "F:0.1",
+                    "harpoonship": "F:0.2",
+                    "harpy": "F:0.3",
+                    "knight": "F:0.4",
+                    "mage": "F:0.75",
+                    "merman": "F:0.7",
+                    "rifleman": "F:0.8",
+                    "soldier": "F:0.7",
+                    "spearman": "F:0.6",
+                    "structure": "F:0.2",
+                    "thief": "F:0.7",
+                    "travelboat": "F:0.2",
+                    "trebuchet": "F:0.25",
+                    "turtle": "F:0.2",
+                    "villager": "F:0.7",
+                    "wagon": "F:0.35",
+                    "warship": "F:0.2",
+                    "witch": "F:0.2"
+                }
+            }
+        ]
+    }
+}

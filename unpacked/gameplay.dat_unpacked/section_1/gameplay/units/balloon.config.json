@@ -1,0 +1,143 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.5",
+                "battleUnitCount": "I:1",
+                "canSeeOverTerrain": "S:true",
+                "cost": "I:450",
+                "damageMultiplier": "I:1",
+                "id": "S:balloon",
+                "loadCapacity": "I:2",
+                "moveRange": "I:6",
+                "movement": "S:flying",
+                "name": "S:unit_class_name_balloon",
+                "tags": [
+                    "S:balloon",
+                    "S:type.air"
+                ],
+                "transportTags": [
+                    "S:type.ground.light",
+                    "S:type.amphibious",
+                    "S:type.ground.hideout"
+                ],
+                "verbs": [
+                    "S:unload"
+                ],
+                "weapons": []
+            }
+        ],
+        "units": [
+            {
+                "battleAnimation": "S:units/balloon/cherrystone/battle_balloon_cherrystone",
+                "class": "S:balloon",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:22",
+                    "I:5"
+                ],
+                "mapAnimation": "S:units/balloon/cherrystone/map_balloon_cherrystone",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/balloon/cherrystone/portrait_balloon_cherrystone_medium.png",
+                "name": "S:unit_name_balloon_cherrystone",
+                "smallPortrait": "S:units/balloon/cherrystone/portrait_balloon_cherrystone_small.png",
+                "sounds": {
+                    "death": "S:balloonDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:balloonEntry",
+                    "runMap": "S:balloonEntryMap"
+                }
+            },
+            {
+                "battleAnimation": "S:units/balloon/felheim/battle_balloon_felheim",
+                "class": "S:balloon",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:22",
+                    "I:5"
+                ],
+                "mapAnimation": "S:units/balloon/felheim/map_balloon_felheim",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/balloon/felheim/portrait_balloon_felheim_medium.png",
+                "name": "S:unit_name_balloon_felheim",
+                "smallPortrait": "S:units/balloon/felheim/portrait_balloon_felheim_small.png",
+                "sounds": {
+                    "death": "S:balloonDieBlue",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:balloonEntry",
+                    "runMap": "S:balloonEntryMap"
+                }
+            },
+            {
+                "battleAnimation": "S:units/balloon/heavensong/battle_balloon_heavensong",
+                "class": "S:balloon",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:23",
+                    "I:4"
+                ],
+                "mapAnimation": "S:units/balloon/heavensong/map_balloon_heavensong",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/balloon/heavensong/portrait_balloon_heavensong_medium.png",
+                "name": "S:unit_name_balloon_heavensong",
+                "smallPortrait": "S:units/balloon/heavensong/portrait_balloon_heavensong_small.png",
+                "sounds": {
+                    "death": "S:balloonDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:balloonEntry",
+                    "runMap": "S:balloonEntryMap"
+                }
+            },
+            {
+                "battleAnimation": "S:units/balloon/floran/battle_balloon_floran",
+                "class": "S:balloon",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:22",
+                    "I:5"
+                ],
+                "mapAnimation": "S:units/balloon/floran/map_balloon_floran",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/balloon/floran/portrait_balloon_floran_medium.png",
+                "name": "S:unit_name_balloon_floran",
+                "smallPortrait": "S:units/balloon/floran/portrait_balloon_floran_small.png",
+                "sounds": {
+                    "death": "S:balloonDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:balloonEntry",
+                    "runMap": "S:balloonEntryMap"
+                }
+            },
+            {
+                "battleAnimation": "S:units/balloon/outlaw/battle_balloon_outlaw",
+                "class": "S:balloon",
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:22",
+                    "I:5"
+                ],
+                "mapAnimation": "S:units/balloon/outlaw/map_balloon_outlaw",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/balloon/outlaw/portrait_balloon_outlaw_medium.png",
+                "name": "S:unit_name_balloon_cherrystone",
+                "smallPortrait": "S:units/balloon/outlaw/portrait_balloon_outlaw_small.png",
+                "sounds": {
+                    "death": "S:balloonDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:balloonEntry",
+                    "runMap": "S:balloonEntryMap"
+                }
+            }
+        ]
+    }
+}

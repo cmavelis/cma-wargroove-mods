@@ -1,0 +1,195 @@
+{
+    "root": {
+        "arcades": [
+            {
+                "id": "S:mercia",
+                "opponents": [
+                    "S:nuru",
+                    "S:ryota",
+                    "S:sedge",
+                    "S:ragna",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:emeric",
+                "opponents": [
+                    "S:ragna",
+                    "S:sedge",
+                    "S:sigrid",
+                    "S:nuru",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:caesar",
+                "opponents": [
+                    "S:koji",
+                    "S:nuru",
+                    "S:ryota",
+                    "S:greenfinger",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:sigrid",
+                "opponents": [
+                    "S:ryota",
+                    "S:greenfinger",
+                    "S:emeric",
+                    "S:valder",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:ragna",
+                "opponents": [
+                    "S:sedge",
+                    "S:caesar",
+                    "S:koji",
+                    "S:mercia",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:valder",
+                "opponents": [
+                    "S:caesar",
+                    "S:mercia",
+                    "S:tenri",
+                    "S:emeric",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:greenfinger",
+                "opponents": [
+                    "S:emeric",
+                    "S:tenri",
+                    "S:caesar",
+                    "S:koji",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:nuru",
+                "opponents": [
+                    "S:koji",
+                    "S:valder",
+                    "S:caesar",
+                    "S:tenri",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:sedge",
+                "opponents": [
+                    "S:sigrid",
+                    "S:ragna",
+                    "S:mercia",
+                    "S:ryota",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:koji",
+                "opponents": [
+                    "S:valder",
+                    "S:emeric",
+                    "S:greenfinger",
+                    "S:tenri",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:ryota",
+                "opponents": [
+                    "S:mercia",
+                    "S:sigrid",
+                    "S:nuru",
+                    "S:sedge",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:tenri",
+                "opponents": [
+                    "S:greenfinger",
+                    "S:ragna",
+                    "S:sigrid",
+                    "S:valder",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:darkmercia",
+                "opponents": [
+                    "S:greenfinger",
+                    "S:valder",
+                    "S:tenri",
+                    "S:emeric",
+                    "S:mercia"
+                ]
+            },
+            {
+                "id": "S:elodie",
+                "opponents": [
+                    "S:tenri",
+                    "S:greenfinger",
+                    "S:valder",
+                    "S:mercia",
+                    "S:elodie"
+                ]
+            },
+            {
+                "id": "S:mercival",
+                "opponents": [
+                    "S:mercia",
+                    "S:greenfinger",
+                    "S:tenri",
+                    "S:sigrid",
+                    "S:darkmercia"
+                ]
+            },
+            {
+                "id": "S:wulfar",
+                "opponents": [
+                    "S:sedge",
+                    "S:ragna",
+                    "S:sigrid",
+                    "S:vesper",
+                    "S:elodie"
+                ],
+                "tags": [
+                    "S:dlc"
+                ]
+            },
+            {
+                "id": "S:twins",
+                "opponents": [
+                    "S:mercia",
+                    "S:ragna",
+                    "S:sigrid",
+                    "S:sedge",
+                    "S:elodie"
+                ],
+                "tags": [
+                    "S:dlc"
+                ]
+            },
+            {
+                "id": "S:vesper",
+                "opponents": [
+                    "S:sigrid",
+                    "S:sedge",
+                    "S:nuru",
+                    "S:emeric",
+                    "S:elodie"
+                ],
+                "tags": [
+                    "S:dlc"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:convert",
+                "id": "S:commander_elodie",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:elodieCello"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeAttackSounds": {
+                    "no_voice": "S:elodie/elodieAttackNoVoice"
+                },
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_elodie_attack_2",
+                        "effectDelay": "F:2.0",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:2.0",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:closeRange",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "effect": "S:fx/bs_elodie_attack",
+                        "effectDelay": "F:2.0",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:2.1",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/elodie/battle_elodie",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_elodie_river",
+                "class": "S:commander_elodie",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "dance": "S:emote_dance",
+                    "human_1": "S:emote_human_1",
+                    "human_2": "S:emote_human_2",
+                    "idle": "S:idle",
+                    "negative": "S:emote_negative",
+                    "play": "S:emote_play",
+                    "positive": "S:emote_positive",
+                    "requiem_1": "S:emote_requiem_1",
+                    "requiem_2": "S:emote_requiem_2",
+                    "requiem_3": "S:emote_requiem_3",
+                    "requiem_4": "S:emote_requiem_4",
+                    "requiem_5": "S:emote_requiem_5"
+                },
+                "faction": "S:guardian",
+                "grabPos": [
+                    "I:38",
+                    "I:36"
+                ],
+                "hidden": {
+                    "emotes": [
+                        "S:requiem_3",
+                        "S:requiem_4",
+                        "S:requiem_5",
+                        "S:positive"
+                    ]
+                },
+                "mapAnimation": "S:units/commanders/elodie/map_elodie",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/elodie/portrait_elodie_medium.png",
+                "name": "S:character_elodie_name",
+                "shouts": {
+                    "elodie_amifree": "S:elodie/elodieShoutAmIFree",
+                    "elodie_anecessarymove": "S:elodie/elodieShoutANecessaryMove",
+                    "elodie_enteroblivion": "S:elodie/elodieShoutEnterOblivion",
+                    "elodie_farewell": "S:elodie/elodieShoutFarewell",
+                    "elodie_fatesworsethandeath": "S:elodie/elodieShoutFatesWorseThanDeath",
+                    "elodie_greetings": "S:elodie/elodieShoutGreetings",
+                    "elodie_hearmysong": "S:elodie/elodieShoutHearMySong",
+                    "elodie_hit1": "S:elodie/elodieShoutHit1",
+                    "elodie_hit2": "S:elodie/elodieShoutHit2",
+                    "elodie_hit3": "S:elodie/elodieShoutHit3",
+                    "elodie_hit4": "S:elodie/elodieShoutHit4",
+                    "elodie_hmm": "S:elodie/elodieShoutHmm",
+                    "elodie_hmph": "S:elodie/elodieShoutHmph",
+                    "elodie_iamsorry": "S:elodie/elodieShoutIAmSorry",
+                    "elodie_icannotallowthis": "S:elodie/elodieShoutICannotAllowThis",
+                    "elodie_iclaimyourheart": "S:elodie/elodieShoutIClaimYourHeart",
+                    "elodie_idowhatimust": "S:elodie/elodieShoutIDoWhatIMust",
+                    "elodie_introduction": "S:elodie/elodieShoutIntroduction",
+                    "elodie_ishallplayyouasong": "S:elodie/elodieShoutShallIPlayYouASong",
+                    "elodie_isitover": "S:elodie/elodieShoutIsItOver",
+                    "elodie_isthereanotherway": "S:elodie/elodieShoutIsThereAnotherWay",
+                    "elodie_itisnotso": "S:elodie/elodieShoutItIsNotSo",
+                    "elodie_itmustbethisway": "S:elodie/elodieShoutItMustBeThisWay",
+                    "elodie_laugh1": "S:elodie/elodieShoutLaugh1",
+                    "elodie_laugh2": "S:elodie/elodieShoutLaugh2",
+                    "elodie_liar": "S:elodie/elodieShoutLiar",
+                    "elodie_myduty": "S:elodie/elodieShoutMyDuty",
+                    "elodie_no": "S:elodie/elodieShoutNo",
+                    "elodie_nodesperate": "S:elodie/elodieShoutNoDesperate",
+                    "elodie_requiem": "S:elodie/elodieShoutRequiem",
+                    "elodie_sigh": "S:elodie/elodieShoutSigh",
+                    "elodie_silencefalls": "S:elodie/elodieShoutSilenceFalls",
+                    "elodie_thankyou": "S:elodie/elodieShoutThankYou",
+                    "elodie_thedarkness": "S:elodie/elodieShoutTheDarkness",
+                    "elodie_thisismyburden": "S:elodie/elodieShoutThisIsMyBurden",
+                    "elodie_thisisyourswansong": "S:elodie/elodieShoutThisIsYourSwanSong",
+                    "elodie_verywell": "S:elodie/elodieShoutVeryWell",
+                    "elodie_what": "S:elodie/elodieShoutWhat",
+                    "elodie_yes": "S:elodie/elodieShoutYes",
+                    "elodie_yourheartisweak": "S:elodie/elodieShoutYourHeartIsWeak",
+                    "elodie_youwontstopme": "S:elodie/elodieShoutYouWontStopMe"
+                },
+                "skinColour": "S:typeIV",
+                "smallPortrait": "S:units/commanders/elodie/portrait_elodie_small.png",
+                "sounds": {
+                    "attack": "S:elodie/elodieAttack",
+                    "attackCommander": "S:elodie/elodieCommanderKillAttack",
+                    "attackEffect": "S:elodie/elodieAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:elodie/elodieCapture",
+                    "death": "S:elodie/elodieDie",
+                    "deathMap": "S:elodie/elodieDieGhost",
+                    "deathMapNoBattle": "S:elodie/elodieDieNoBattle",
+                    "firstHit": "S:elodie/elodieHit",
+                    "groove": "S:elodie/elodieGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:balloonEntry",
+                    "runMap": "S:balloonEntryMap"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:elodieCello",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

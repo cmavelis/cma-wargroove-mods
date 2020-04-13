@@ -1,0 +1,320 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "cost": "I:100",
+                "damageMultiplier": "I:1",
+                "id": "S:soldier",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_soldier",
+                "passiveMultiplier": "F:1.5",
+                "tags": [
+                    "S:soldier",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:capture",
+                    "S:load"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:sword"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeRuns": [
+                    {
+                        "id": "S:run_crown"
+                    },
+                    {
+                        "id": "S:run_ragged"
+                    },
+                    {
+                        "id": "S:run_2"
+                    }
+                ],
+                "attacks": [
+                    {
+                        "hitDelay": [
+                            "F:0.45",
+                            "F:0.8"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_soldier_cherrystone_river",
+                "class": "S:soldier",
+                "emotes": {
+                    "crown_surprise": "S:emote_crown_surprise",
+                    "cushion": "S:emote_cushion",
+                    "dance": "S:emote_dance",
+                    "idle": "S:idle",
+                    "idle_crown": "S:emote_idle_crown",
+                    "idle_crown_ragged": "S:emote_idle_crown_ragged",
+                    "idle_crownbearer": "S:idle_crownbearer",
+                    "idle_cushion": "S:emote_idle_cushion",
+                    "telescope": "S:emote_telescope"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:13",
+                    "I:14"
+                ],
+                "hidden": {
+                    "alternativeRuns": [
+                        "S:run_crown",
+                        "S:run_ragged",
+                        "S:run_cushion",
+                        "S:run_2"
+                    ],
+                    "emotes": [
+                        "S:cushion",
+                        "S:idle_crownbearer",
+                        "S:idle_crown",
+                        "S:idle_crown_ragged",
+                        "S:idle_cushion",
+                        "S:crown_surprise",
+                        "S:dance"
+                    ],
+                    "shouts": [
+                        "S:soldier_shout3",
+                        "S:soldier_shout5",
+                        "S:soldier_shout6",
+                        "S:soldier_shout9"
+                    ]
+                },
+                "mapAnimation": "S:units/soldier/cherrystone/map_soldier_cherrystone",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/soldier/cherrystone/portrait_soldier_cherrystone_medium.png",
+                "name": "S:unit_name_soldier_cherrystone",
+                "shouts": {
+                    "crownbearer_panting": "S:cutscene/crownbearerPanting",
+                    "crownbearer_yell": "S:cutscene/crownbearerYell",
+                    "soldier_hit1": "S:soldierHitRed1",
+                    "soldier_hit2": "S:soldierHitRed2",
+                    "soldier_hit3": "S:soldierHitRed3",
+                    "soldier_hit4": "S:soldierHitRed4",
+                    "soldier_hit5": "S:soldierHitRed5",
+                    "soldier_shout1": "S:soldierShoutRed1",
+                    "soldier_shout2": "S:soldierShoutRed2",
+                    "soldier_shout3": "S:soldierShoutRed3",
+                    "soldier_shout4": "S:soldierShoutRed4",
+                    "soldier_shout5": "S:soldierShoutRed5",
+                    "soldier_shout6": "S:soldierShoutRed6",
+                    "soldier_shout7": "S:soldierShoutRed7",
+                    "soldier_shout8": "S:soldierShoutRed8",
+                    "soldier_shout9": "S:soldierShoutRed9"
+                },
+                "smallPortrait": "S:units/soldier/cherrystone/portrait_soldier_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "captureShout": "S:soldierPreAttackRed",
+                    "death": "S:soldierDieRed",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryHeavyEntry",
+                    "runMap": "S:infantryHeavyMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": [
+                            "F:0.25",
+                            "F:0.75"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/soldier/felheim/battle_soldier_felheim",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_soldier_felheim_river",
+                "class": "S:soldier",
+                "emotes": {
+                    "idle": "S:idle",
+                    "negative": "S:emote_negative",
+                    "surprise": "S:emote_surprise"
+                },
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:18",
+                    "I:10"
+                ],
+                "mapAnimation": "S:units/soldier/felheim/map_soldier_felheim",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/soldier/felheim/portrait_soldier_felheim_medium.png",
+                "name": "S:unit_name_soldier_felheim",
+                "shouts": {
+                    "soldier_blue_shout1": "S:soldierShoutBlue1",
+                    "soldier_blue_shout2": "S:soldierShoutBlue2"
+                },
+                "smallPortrait": "S:units/soldier/felheim/portrait_soldier_felheim_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackBlue",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackBlue",
+                    "captureShout": "S:soldierPreAttackBlue",
+                    "death": "S:soldierDieBlue",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitBone",
+                    "hitMap": "S:hitBone",
+                    "run": "S:infantrySkeletonEntry",
+                    "runMap": "S:infantrySkeletonMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": [
+                            "F:0.85"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/soldier/heavensong/battle_soldier_heavensong",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_soldier_heavensong_river",
+                "class": "S:soldier",
+                "emotes": {
+                    "dead": "S:emote_dead",
+                    "idle": "S:idle",
+                    "surprise": "S:emote_surprise"
+                },
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:12",
+                    "I:10"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_yellow_shout2",
+                        "S:soldier_yellow_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/soldier/heavensong/map_soldier_heavensong",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/soldier/heavensong/portrait_soldier_heavensong_medium.png",
+                "name": "S:unit_name_soldier_heavensong",
+                "shouts": {
+                    "soldier_yellow_hit1": "S:soldierHitYellow1",
+                    "soldier_yellow_hit2": "S:soldierHitYellow2",
+                    "soldier_yellow_hit3": "S:soldierHitYellow3",
+                    "soldier_yellow_hit4": "S:soldierHitYellow4",
+                    "soldier_yellow_shout1": "S:soldierShoutYellow1",
+                    "soldier_yellow_shout2": "S:soldierShoutYellow2",
+                    "soldier_yellow_shout3": "S:soldierShoutYellow3",
+                    "soldier_yellow_shout4": "S:soldierShoutYellow4",
+                    "soldier_yellow_shout5": "S:soldierShoutYellow5"
+                },
+                "smallPortrait": "S:units/soldier/heavensong/portrait_soldier_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackYellow",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackYellow",
+                    "captureShout": "S:soldierPreAttackYellow",
+                    "death": "S:soldierDieYellow",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryHeavyEntry",
+                    "runMap": "S:infantryHeavyMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": [
+                            "F:0.5",
+                            "F:0.85"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/soldier/floran/battle_soldier_floran",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_soldier_floran_river",
+                "class": "S:soldier",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:18",
+                    "I:18"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_green_shout2",
+                        "S:soldier_green_shout4",
+                        "S:soldier_green_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/soldier/floran/map_soldier_floran",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/soldier/floran/portrait_soldier_floran_medium.png",
+                "name": "S:unit_name_soldier_floran",
+                "shouts": {
+                    "soldier_green_hit1": "S:soldierHitGreen1",
+                    "soldier_green_hit2": "S:soldierHitGreen2",
+                    "soldier_green_hit3": "S:soldierHitGreen3",
+                    "soldier_green_shout1": "S:soldierShoutGreen1",
+                    "soldier_green_shout2": "S:soldierShoutGreen2",
+                    "soldier_green_shout3": "S:soldierShoutGreen3",
+                    "soldier_green_shout4": "S:soldierShoutGreen4",
+                    "soldier_green_shout5": "S:soldierShoutGreen5",
+                    "soldier_green_shout6": "S:soldierShoutGreen6"
+                },
+                "smallPortrait": "S:units/soldier/floran/portrait_soldier_floran_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackGreen",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackGreen",
+                    "captureShout": "S:soldierPreAttackGreen",
+                    "death": "S:soldierDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:sword",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:0.65",
+                    "ballista": "F:0.35",
+                    "commander": "F:0.1",
+                    "dog": "F:0.45",
+                    "giant": "F:0.05",
+                    "knight": "F:0.15",
+                    "mage": "F:0.55",
+                    "merman": "F:0.55",
+                    "rifleman": "F:0.65",
+                    "soldier": "F:0.55",
+                    "spearman": "F:0.35",
+                    "structure": "F:0.35",
+                    "thief": "F:0.95",
+                    "trebuchet": "F:0.3",
+                    "villager": "F:0.55",
+                    "wagon": "F:0.35"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,294 @@
+{
+    "root": {
+        "arcadeMaps": [
+            {
+                "levels": [
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:2P_PVP_41.map"
+            },
+            {
+                "levels": [
+                    "I:2",
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:2P_PVP_42.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:2P_PVP_naval1.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:2P_PVP_naval2.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2"
+                ],
+                "map": "S:AbiPVPtest1.map"
+            },
+            {
+                "levels": [
+                    "I:2",
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:AbiPVPtest10.map"
+            },
+            {
+                "levels": [
+                    "I:2",
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:AbiPVPtest2.map"
+            },
+            {
+                "levels": [
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:AbiPVPtest3.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2"
+                ],
+                "map": "S:AbiPVPtest4.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2"
+                ],
+                "map": "S:AbiPVPtest6.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:AbiPVPtest7.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:AbiPVPtest8.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:AbiPVPtest9.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2"
+                ],
+                "map": "S:Doris2P_PVP_1.map"
+            },
+            {
+                "levels": [
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:Doris2P_PVP_2.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:Doris2P_PVP_3.map"
+            },
+            {
+                "levels": [
+                    "I:2",
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:Doris2P_PVP_4.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:Doris2P_PVP_5.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2",
+                    "I:3"
+                ],
+                "map": "S:Doris2P_PVP_6.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2",
+                    "I:3"
+                ],
+                "map": "S:Doris2P_PVP_7.map"
+            },
+            {
+                "levels": [
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:Doris2P_PVP_8.map"
+            },
+            {
+                "levels": [
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:DorisPVPtest1.map"
+            },
+            {
+                "levels": [
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:DorisPVPtest2.map"
+            },
+            {
+                "levels": [
+                    "I:2",
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:DorisPVPtest3.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:DorisPVPtest4.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2"
+                ],
+                "map": "S:DorisPVPtest6.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2",
+                    "I:3"
+                ],
+                "map": "S:FinnPVPtest.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2",
+                    "I:3"
+                ],
+                "map": "S:FinnPVPtest3.map"
+            },
+            {
+                "levels": [
+                    "I:2",
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:HarrietPVPtest1.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2",
+                    "I:3"
+                ],
+                "map": "S:sk_dlc_2p_burdock_beck.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:sk_dlc_2p_highland_hills.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:sk_dlc_2p_ivy_island.map"
+            },
+            {
+                "levels": [
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:sk_dlc_2p_lake_lament.map"
+            },
+            {
+                "levels": [
+                    "I:4",
+                    "I:5"
+                ],
+                "map": "S:sk_dlc_2p_merryheath.map"
+            },
+            {
+                "levels": [
+                    "I:2",
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:sk_dlc_2p_ringping.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2",
+                    "I:3"
+                ],
+                "map": "S:sk_dlc_2p_silver_vale.map"
+            },
+            {
+                "levels": [
+                    "I:2",
+                    "I:3",
+                    "I:4"
+                ],
+                "map": "S:sk_dlc_2p_ten_tone_island.map"
+            },
+            {
+                "levels": [
+                    "I:1",
+                    "I:2",
+                    "I:3"
+                ],
+                "map": "S:sk_dlc_2p_thistle_down.map"
+            }
+        ]
+    }
+}

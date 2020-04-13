@@ -1,0 +1,87 @@
+{
+    "root": {
+        "gizmos": [
+            {
+                "animation": "S:gizmo/lever",
+                "id": "S:lever"
+            },
+            {
+                "animation": "S:gizmo/chest1",
+                "id": "S:chest"
+            },
+            {
+                "animation": "S:gizmo/brazier",
+                "id": "S:brazier"
+            },
+            {
+                "animation": "S:gizmo/bowl_torch",
+                "id": "S:bowl_torch"
+            },
+            {
+                "animation": "S:gizmo/drawbridge_left",
+                "id": "S:drawbridge_left",
+                "onState": {
+                    "terrainOverride": "S:bridge"
+                }
+            },
+            {
+                "animation": "S:gizmo/drawbridge_right",
+                "id": "S:drawbridge_right",
+                "onState": {
+                    "terrainOverride": "S:bridge"
+                }
+            },
+            {
+                "animation": "S:gizmo/drawbridge_top",
+                "id": "S:drawbridge_top",
+                "onState": {
+                    "terrainOverride": "S:bridge"
+                }
+            },
+            {
+                "animation": "S:gizmo/drawbridge_down",
+                "id": "S:drawbridge_down",
+                "onState": {
+                    "terrainOverride": "S:bridge"
+                }
+            },
+            {
+                "animation": "S:gizmo/pressure_plate",
+                "id": "S:pressure_plate"
+            },
+            {
+                "animation": {
+                    "desert": "S:gizmo/broken_wall_desert",
+                    "grass": "S:gizmo/broken_wall",
+                    "ice": "S:gizmo/broken_wall_snow",
+                    "volcano": "S:gizmo/broken_wall_volcano"
+                },
+                "id": "S:broken_wall",
+                "offState": {
+                    "terrainOverride": "S:wall"
+                }
+            },
+            {
+                "animation": {
+                    "desert": "S:gizmo/broken_wall_vertical_desert",
+                    "grass": "S:gizmo/broken_wall_vertical",
+                    "ice": "S:gizmo/broken_wall_vertical_snow",
+                    "volcano": "S:gizmo/broken_wall_vertical_volcano"
+                },
+                "id": "S:broken_wall_vertical",
+                "offState": {
+                    "terrainOverride": "S:wall"
+                }
+            },
+            {
+                "animation": {
+                    "desert": "S:gizmo/portal_desert",
+                    "grass": "S:gizmo/portal",
+                    "ice": "S:gizmo/portal_snow",
+                    "volcano": "S:gizmo/portal_volcano"
+                },
+                "id": "S:portal"
+            }
+        ]
+    }
+}

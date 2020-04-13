@@ -1,0 +1,55 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "appearsInLists": "S:false",
+                "battleUnitCount": "I:1",
+                "buffId": "S:crystal",
+                "classIcon": "S:unit_icons_summon",
+                "damageMultiplier": "F:1.0",
+                "deathVerbId": "S:death_smoke_producer",
+                "hasDeathAnimation": "S:false",
+                "hasTurn": "S:false",
+                "id": "S:smoke_producer",
+                "isHidden": "S:true",
+                "isRecruitable": "S:false",
+                "isSpawnable": "S:false",
+                "moveRange": "I:0",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_smoke_producer",
+                "passiveMultiplier": "F:1.25",
+                "regeneration": "I:-100",
+                "sightRange": "I:5",
+                "tags": [
+                    "S:summon"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "battleAnimation": "S:units/commanders/emeric/battle_crystal",
+                "class": "S:smoke_producer",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:13",
+                    "I:14"
+                ],
+                "mapAnimation": "S:units/commanders/emeric/crystal",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/emeric/portrait_crystal_medium.png",
+                "name": "S:unit_class_name_smoke_producer",
+                "runsIn": "S:false",
+                "smallPortrait": "S:units/balloon/heavensong/portrait_balloon_heavensong_small.png",
+                "sounds": {
+                    "death": "S:emeric/emericCrystalDie",
+                    "deathMap": "S:unitDie",
+                    "deathMapNoBattle": "S:emeric/emericCrystalDie",
+                    "hit": "S:hitStone",
+                    "hitMap": "S:hitStone"
+                }
+            }
+        ]
+    }
+}

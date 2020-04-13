@@ -1,0 +1,264 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.6",
+                "battleUnitCount": "I:1",
+                "cost": "I:1000",
+                "damageMultiplier": "I:1",
+                "id": "S:trebuchet",
+                "moveRange": "I:6",
+                "movement": "S:wheels",
+                "name": "S:unit_class_name_trebuchet",
+                "passiveMultiplier": "F:1.5",
+                "tags": [
+                    "S:trebuchet",
+                    "S:type.ground.heavy"
+                ],
+                "verbs": [
+                    "S:load"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:trebuchetSling"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attackOffset": [
+                    "I:50",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_trebuchet_attack",
+                        "effectDelay": "F:1.8",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:2.0",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/trebuchet/cherrystone/battle_trebuchet_cherrystone",
+                "battlePosOffset": [
+                    "I:-21",
+                    "I:0"
+                ],
+                "class": "S:trebuchet",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:16",
+                    "I:17"
+                ],
+                "mapAnimation": "S:units/trebuchet/cherrystone/map_trebuchet_cherrystone",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/trebuchet/cherrystone/portrait_trebuchet_cherrystone_medium.png",
+                "name": "S:unit_name_trebuchet_cherrystone",
+                "smallPortrait": "S:units/trebuchet/cherrystone/portrait_trebuchet_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:trebuchetAttack",
+                    "attackEffect": "S:trebuchetAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "death": "S:trebuchetDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:trebuchetEntry",
+                    "runMap": "S:trebuchetMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            },
+            {
+                "attackOffset": [
+                    "I:50",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_trebuchet_attack",
+                        "effectDelay": "F:1.8",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:2.0",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/trebuchet/felheim/battle_trebuchet_felheim",
+                "battlePosOffset": [
+                    "I:-21",
+                    "I:0"
+                ],
+                "class": "S:trebuchet",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:16",
+                    "I:17"
+                ],
+                "mapAnimation": "S:units/trebuchet/felheim/map_trebuchet_felheim",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/trebuchet/felheim/portrait_trebuchet_felheim_medium.png",
+                "name": "S:unit_name_trebuchet_felheim",
+                "smallPortrait": "S:units/trebuchet/felheim/portrait_trebuchet_felheim_small.png",
+                "sounds": {
+                    "attack": "S:trebuchetAttack",
+                    "attackEffect": "S:trebuchetAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "death": "S:trebuchetDieBlue",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:trebuchetEntryBlue",
+                    "runMap": "S:trebuchetMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            },
+            {
+                "attackOffset": [
+                    "I:50",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_trebuchet_attack",
+                        "effectDelay": "F:1.8",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:2.0",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/trebuchet/heavensong/battle_trebuchet_heavensong",
+                "battlePosOffset": [
+                    "I:-21",
+                    "I:0"
+                ],
+                "class": "S:trebuchet",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:16",
+                    "I:17"
+                ],
+                "mapAnimation": "S:units/trebuchet/heavensong/map_trebuchet_heavensong",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/trebuchet/heavensong/portrait_trebuchet_heavensong_medium.png",
+                "name": "S:unit_name_trebuchet_heavensong",
+                "smallPortrait": "S:units/trebuchet/heavensong/portrait_trebuchet_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:trebuchetAttack",
+                    "attackEffect": "S:trebuchetAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "death": "S:trebuchetDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:trebuchetEntry",
+                    "runMap": "S:trebuchetMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            },
+            {
+                "attackOffset": [
+                    "I:50",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_trebuchet_floran_attack",
+                        "effectDelay": "F:1.8",
+                        "hitDelay": "F:2.0",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/trebuchet/floran/battle_trebuchet_floran",
+                "battlePosOffset": [
+                    "I:-21",
+                    "I:0"
+                ],
+                "class": "S:trebuchet",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:16",
+                    "I:17"
+                ],
+                "mapAnimation": "S:units/trebuchet/floran/map_trebuchet_floran",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/trebuchet/floran/portrait_trebuchet_floran_medium.png",
+                "name": "S:unit_name_trebuchet_floran",
+                "smallPortrait": "S:units/trebuchet/floran/portrait_trebuchet_floran_small.png",
+                "sounds": {
+                    "attack": "S:trebuchetAttack",
+                    "attackEffect": "S:trebuchetAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "death": "S:trebuchetDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:trebuchetEntryGreen",
+                    "runMap": "S:trebuchetMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1",
+                    "water": "I:1"
+                },
+                "canMoveAndAttack": "S:false",
+                "id": "S:trebuchetSling",
+                "rangeMax": "I:5",
+                "rangeMin": "I:2",
+                "tagDamage": {
+                    "archer": "F:1.2",
+                    "ballista": "F:0.85",
+                    "commander": "F:0.25",
+                    "dog": "F:1.1",
+                    "giant": "F:0.55",
+                    "harpoonship": "F:0.65",
+                    "knight": "F:0.8",
+                    "mage": "F:0.9",
+                    "merman": "I:1",
+                    "rifleman": "F:1.1",
+                    "soldier": "I:1",
+                    "spearman": "F:0.8",
+                    "structure": "F:0.85",
+                    "thief": "I:1",
+                    "travelboat": "F:0.8",
+                    "trebuchet": "F:0.8",
+                    "turtle": "F:0.45",
+                    "villager": "I:1",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.75"
+                }
+            }
+        ]
+    }
+}

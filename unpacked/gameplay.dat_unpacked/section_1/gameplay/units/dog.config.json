@@ -1,0 +1,213 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "cost": "I:150",
+                "damageMultiplier": "I:1",
+                "id": "S:dog",
+                "moveRange": "I:5",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_dog",
+                "passiveMultiplier": "F:1.5",
+                "runsAway": "S:true",
+                "scout": "S:true",
+                "sightRange": "I:4",
+                "tags": [
+                    "S:dog",
+                    "S:type.ground.light",
+                    "S:animal"
+                ],
+                "verbs": [
+                    "S:load"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:bite"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "hitDelay": "F:0.3",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/dog/cherrystone/battle_dog_cherrystone",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_dog_cherrystone_river",
+                "class": "S:dog",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:15",
+                    "I:23"
+                ],
+                "mapAnimation": "S:units/dog/cherrystone/map_dog_cherrystone",
+                "mapSpeed": "F:5.0",
+                "mediumPortrait": "S:units/dog/cherrystone/portrait_dog_cherrystone_medium.png",
+                "name": "S:unit_name_dog_cherrystone",
+                "shouts": {
+                    "caesar_bark1": "S:dogShoutBark",
+                    "dog_shout1": "S:dogShoutGrowl"
+                },
+                "smallPortrait": "S:units/dog/cherrystone/portrait_dog_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:dogAttack",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:dogPreAttack",
+                    "death": "S:dogDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:dogEntry",
+                    "runMap": "S:dogMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": "F:0.3",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/dog/felheim/battle_dog_felheim",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_dog_felheim_river",
+                "class": "S:dog",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:15",
+                    "I:23"
+                ],
+                "mapAnimation": "S:units/dog/felheim/map_dog_felheim",
+                "mapSpeed": "F:5.0",
+                "mediumPortrait": "S:units/dog/felheim/portrait_dog_felheim_medium.png",
+                "name": "S:unit_name_dog_felheim",
+                "shouts": {
+                    "caesar_bark1": "S:dogShoutBark",
+                    "dog_shout1": "S:dogShoutGrowl"
+                },
+                "smallPortrait": "S:units/dog/felheim/portrait_dog_felheim_small.png",
+                "sounds": {
+                    "attack": "S:dogAttack",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:dogPreAttack",
+                    "death": "S:dogDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:dogEntry",
+                    "runMap": "S:dogMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": "F:0.3",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/dog/heavensong/battle_dog_heavensong",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_dog_heavensong_river",
+                "class": "S:dog",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:15",
+                    "I:23"
+                ],
+                "mapAnimation": "S:units/dog/heavensong/map_dog_heavensong",
+                "mapSpeed": "F:5.0",
+                "mediumPortrait": "S:units/dog/heavensong/portrait_dog_heavensong_medium.png",
+                "name": "S:unit_name_dog_heavensong",
+                "shouts": {
+                    "caesar_bark1": "S:dogShoutBark",
+                    "dog_shout1": "S:dogShoutGrowl"
+                },
+                "smallPortrait": "S:units/dog/heavensong/portrait_dog_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:dogAttack",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:dogPreAttack",
+                    "death": "S:dogDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:dogEntry",
+                    "runMap": "S:dogMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": "F:0.8",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/dog/floran/battle_dog_floran",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_dog_floran_river",
+                "class": "S:dog",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:16",
+                    "I:22"
+                ],
+                "mapAnimation": "S:units/dog/floran/map_dog_floran",
+                "mapSpeed": "F:5.0",
+                "mediumPortrait": "S:units/dog/floran/portrait_dog_floran_medium.png",
+                "name": "S:unit_name_dog_floran",
+                "shouts": {
+                    "caesar_bark1": "S:dogShoutBarkGreen",
+                    "dog_shout1": "S:dogShoutGrowl"
+                },
+                "smallPortrait": "S:units/dog/floran/portrait_dog_floran_small.png",
+                "sounds": {
+                    "attack": "S:dogAttackGreen",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:dogPreAttack",
+                    "death": "S:dogDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:dogEntry",
+                    "runMap": "S:dogMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:bite",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:0.75",
+                    "ballista": "F:0.4",
+                    "commander": "F:0.15",
+                    "dog": "F:0.65",
+                    "dragon": "I:100",
+                    "giant": "F:0.05",
+                    "knight": "F:0.1",
+                    "mage": "F:0.55",
+                    "merman": "F:0.75",
+                    "rifleman": "F:1.1",
+                    "soldier": "F:0.75",
+                    "spearman": "F:0.45",
+                    "structure": "F:0.2",
+                    "thief": "F:0.85",
+                    "trebuchet": "F:0.35",
+                    "villager": "F:0.75",
+                    "wagon": "F:0.3"
+                }
+            }
+        ]
+    }
+}

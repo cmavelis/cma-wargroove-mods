@@ -1,0 +1,173 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:teleport_beam",
+                "id": "S:commander_nuru",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:nuruAttack"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeAttackSounds": {
+                    "no_voice": "S:nuru/nuruAttackNoVoice"
+                },
+                "attacks": [
+                    {
+                        "hitDelay": "F:2.05",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:false"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/nuru/battle_nuru",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_nuru_river",
+                "class": "S:commander_nuru",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "bow": "S:emote_bow",
+                    "dance": "S:emote_dance",
+                    "hypno": "S:emote_hypno",
+                    "idle": "S:idle",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_negative",
+                    "positive": "S:emote_positive",
+                    "surprise": "S:emote_surprise"
+                },
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:31",
+                    "I:25"
+                ],
+                "mapAnimation": "S:units/commanders/nuru/map_nuru",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/nuru/portrait_nuru_medium.png",
+                "name": "S:character_nuru_name",
+                "shouts": {
+                    "nuru_attack1": "S:nuru/nuruShoutAttack1",
+                    "nuru_attack2": "S:nuru/nuruShoutAttack2",
+                    "nuru_attack3": "S:nuru/nuruShoutAttack3",
+                    "nuru_attack4": "S:nuru/nuruShoutAttack4",
+                    "nuru_bigfight": "S:nuru/nuruShoutBigFight",
+                    "nuru_cantwait": "S:nuru/nuruShoutCantWait",
+                    "nuru_diversion": "S:nuru/nuruShoutJustADiversion",
+                    "nuru_fanfavourite": "S:nuru/nuruShoutFanFavourite",
+                    "nuru_floranneversurrender": "S:nuru/nuruShoutFloranNeverSurrender",
+                    "nuru_foughtbigger": "S:nuru/nuruShoutFoughtBigger",
+                    "nuru_getusedtothis": "S:nuru/nuruShoutCouldGetUsedToThis",
+                    "nuru_ha": "S:nuru/nuruShoutHa",
+                    "nuru_hereicome": "S:nuru/nuruShoutHereICome",
+                    "nuru_hey": "S:nuru/nuruShoutHey",
+                    "nuru_heyesther": "S:nuru/nuruShoutHeyEsther",
+                    "nuru_hit1": "S:nuru/nuruShoutHit1",
+                    "nuru_hit2": "S:nuru/nuruShoutHit2",
+                    "nuru_hit3": "S:nuru/nuruShoutHit3",
+                    "nuru_hit4": "S:nuru/nuruShoutHit4",
+                    "nuru_hit5": "S:nuru/nuruShoutHit5",
+                    "nuru_hitexaggerated": "S:nuru/nuruShoutHitExaggerated",
+                    "nuru_introduction": "S:nuru/nuruShoutIntroduction",
+                    "nuru_laugh": "S:nuru/nuruShoutLaugh",
+                    "nuru_likeyou": "S:nuru/nuruShoutLikeYouAlready",
+                    "nuru_littlehelp": "S:nuru/nuruShoutLittleHelp",
+                    "nuru_makingamistake": "S:nuru/nuruShoutMakingAMistake",
+                    "nuru_missioncomplete": "S:nuru/nuruShoutMissionComplete",
+                    "nuru_myfight": "S:nuru/nuruShoutThisIsMyFight",
+                    "nuru_nah": "S:nuru/nuruShoutNah",
+                    "nuru_needbackup": "S:nuru/nuruShoutNeedBackup",
+                    "nuru_neverlostbefore": "S:nuru/nuruShoutNeverLostBefore",
+                    "nuru_notfromroundhere": "S:nuru/nuruShoutNotFromRoundHere",
+                    "nuru_oops": "S:nuru/nuruShoutOops",
+                    "nuru_reinforcements": "S:nuru/nuruShoutCallingReinforcements",
+                    "nuru_seeya": "S:nuru/nuruShoutSeeya",
+                    "nuru_sidequest": "S:nuru/nuruShoutSideQuest",
+                    "nuru_sigh": "S:nuru/nuruShoutSigh",
+                    "nuru_stillchampion": "S:nuru/nuruShoutStillChampion",
+                    "nuru_stillundefeated": "S:nuru/nuruShoutStillUndefeated",
+                    "nuru_surprise": "S:nuru/nuruShoutSurprise",
+                    "nuru_takethis": "S:nuru/nuruShoutIllTakeThis",
+                    "nuru_terreneprotectorate": "S:nuru/nuruShoutTerreneProtectorate",
+                    "nuru_thanks": "S:nuru/nuruShoutThanks",
+                    "nuru_what": "S:nuru/nuruShoutWhat",
+                    "nuru_yeah": "S:nuru/nuruShoutYeah",
+                    "nuru_yoink": "S:nuru/nuruShoutYoink",
+                    "nuru_yougotlucky": "S:nuru/nuruShoutYouGotLucky"
+                },
+                "smallPortrait": "S:units/commanders/nuru/portrait_nuru_small.png",
+                "sounds": {
+                    "attack": "S:nuru/nuruAttack",
+                    "attackCommanderShout": "S:nuru/nuruCommanderKillShout",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:nuru/nuruAttackShout",
+                    "captureShout": "S:nuru/nuruShoutIllTakeThis",
+                    "death": "S:nuru/nuruDie",
+                    "deathMap": "S:nuru/nuruDieGhost",
+                    "deathMapNoBattle": "S:nuru/nuruDieNoBattle",
+                    "firstHit": "S:nuru/nuruHit",
+                    "groove": "S:nuru/nuruGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightMapEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:nuruAttack",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

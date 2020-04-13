@@ -1,0 +1,438 @@
+{
+    "root": {
+        "verbs": [
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_attack.png",
+                "id": "S:attack",
+                "isBasicAttack": "S:true",
+                "name": "S:ui_unit_verbs_attack",
+                "scriptName": "S:verbs/attack",
+                "targetColour": "S:attack_target",
+                "targetOutlineColour": "S:attack_target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_shoot.png",
+                "id": "S:attack_rifleman",
+                "isBasicAttack": "S:true",
+                "name": "S:ui_unit_verbs_attack",
+                "scriptName": "S:verbs/attack_rifleman",
+                "targetColour": "S:attack_target",
+                "targetOutlineColour": "S:attack_target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_capture.png",
+                "id": "S:capture",
+                "name": "S:ui_unit_verbs_capture",
+                "scriptName": "S:verbs/capture",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_load.png",
+                "id": "S:load",
+                "name": "S:ui_unit_verbs_load",
+                "scriptName": "S:verbs/load",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/unit_action_icon_drop.png",
+                "id": "S:unload",
+                "name": "S:ui_unit_verbs_unload",
+                "preExecute": "S:true",
+                "scriptName": "S:verbs/unload",
+                "targetColour": "S:target",
+                "targetDisplayColour": "S:attack_target",
+                "targetDisplayOutlineColour": "S:attack_target_outline",
+                "targetOutlineColour": "S:target_outline"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_deposit.png",
+                "id": "S:deposit",
+                "name": "S:ui_unit_verbs_deposit",
+                "scriptName": "S:verbs/deposit",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/unit_action_icon_supply.png",
+                "id": "S:merge",
+                "name": "S:ui_unit_verbs_supply",
+                "scriptName": "S:verbs/merge"
+            },
+            {
+                "icon": "S:ui/icons/unit_action_icon_cancel.png",
+                "id": "S:recruit",
+                "name": "S:ui_unit_verbs_recruit",
+                "scriptName": "S:verbs/recruit",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_bomb.png",
+                "id": "S:explode",
+                "name": "S:ui_unit_verbs_explode",
+                "scriptName": "S:verbs/explode",
+                "splashOutlineColour": "S:attack_target_outline"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_bomb.png",
+                "id": "S:death_explode",
+                "name": "S:ui_unit_verbs_explode",
+                "scriptName": "S:verbs/death_explode",
+                "splashOutlineColour": "S:attack_target_outline"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_steal.png",
+                "id": "S:steal",
+                "name": "S:ui_unit_verbs_steal",
+                "scriptName": "S:verbs/steal_normal",
+                "targetColour": "S:attack_target",
+                "targetOutlineColour": "S:attack_target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_steal.png",
+                "id": "S:heist",
+                "name": "S:ui_unit_verbs_heist",
+                "scriptName": "S:verbs/steal_heist",
+                "targetColour": "S:attack_target",
+                "targetOutlineColour": "S:attack_target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/unit_action_icon_reload.png",
+                "id": "S:reload",
+                "name": "S:ui_unit_verbs_reload",
+                "scriptName": "S:verbs/reload"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_steal.png",
+                "id": "S:bypass_gate",
+                "name": "S:ui_unit_verbs_bypass_gate",
+                "scriptName": "S:verbs/bypass_gate",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "hasResourceCost": "S:true",
+                "icon": "S:ui/icons/unit_action_icon_capture.png",
+                "id": "S:reinforce",
+                "name": "S:ui_unit_verbs_reinforce",
+                "scriptName": "S:verbs/reinforce"
+            },
+            {
+                "icon": "S:ui/icons/unit_action_icon_reposition.png",
+                "id": "S:reposition_vine",
+                "name": "S:ui_unit_verbs_reposition_vine",
+                "scriptName": "S:verbs/reposition_vine",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/unit_action_icon_wait.png",
+                "id": "S:wait",
+                "name": "S:ui_unit_verbs_wait",
+                "scriptName": "S:verbs/wait"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_heal.png",
+                "id": "S:groove_heal_aura",
+                "name": "S:groove_name_heal_aura",
+                "scriptName": "S:verbs/groove_heal_aura",
+                "splashOutlineColour": "S:heal_outline",
+                "splashRadius": "I:3",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_dead.png",
+                "id": "S:groove_raise_dead",
+                "name": "S:groove_name_raise_dead",
+                "scriptName": "S:verbs/groove_raise_dead",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_inspire.png",
+                "id": "S:groove_second_wind",
+                "name": "S:groove_name_second_wind",
+                "scriptName": "S:verbs/groove_second_wind",
+                "splashOutlineColour": "S:target_outline",
+                "splashRadius": "I:1",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_shield.png",
+                "id": "S:groove_splash_jump",
+                "name": "S:groove_name_splash_jump",
+                "scriptName": "S:verbs/groove_splash_jump",
+                "splashOutlineColour": "S:attack_target_outline",
+                "splashRadius": "I:3",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_vine.png",
+                "id": "S:groove_vine_wall",
+                "name": "S:groove_name_vine_wall",
+                "preExecute": "S:true",
+                "scriptName": "S:verbs/groove_vine_wall",
+                "targetColour": "S:target",
+                "targetDisplayColour": "S:attack_target",
+                "targetDisplayOutlineColour": "S:attack_target_outline",
+                "targetOutlineColour": "S:target_outline"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_vampiric.png",
+                "id": "S:groove_vampiric_touch",
+                "name": "S:groove_name_vampiric_touch",
+                "scriptName": "S:verbs/groove_vampiric_touch",
+                "targetColour": "S:attack_target",
+                "targetOutlineColour": "S:attack_target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_diplomacy.png",
+                "id": "S:groove_diplomacy",
+                "name": "S:groove_name_diplomacy",
+                "scriptName": "S:verbs/groove_diplomacy",
+                "targetColour": "S:attack_target",
+                "targetOutlineColour": "S:attack_target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_sadistic.png",
+                "id": "S:groove_sadistic_rush",
+                "name": "S:groove_name_sadistic_rush",
+                "scriptName": "S:verbs/groove_sadistic_rush",
+                "targetColour": "S:attack_target",
+                "targetOutlineColour": "S:attack_target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_teleport.png",
+                "id": "S:groove_teleport_beam",
+                "name": "S:groove_name_teleport_beam",
+                "preExecute": "S:true",
+                "scriptName": "S:verbs/groove_teleport_beam",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_bomb.png",
+                "id": "S:groove_drone_bombs",
+                "name": "S:groove_name_drone_bombs",
+                "preExecute": "S:true",
+                "scriptName": "S:verbs/groove_drone_bombs",
+                "targetColour": "S:target",
+                "targetDisplayColour": "S:attack_target",
+                "targetDisplayOutlineColour": "S:attack_target_outline",
+                "targetOutlineColour": "S:target_outline"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_crystals.png",
+                "id": "S:groove_cherrystone_defence",
+                "name": "S:groove_name_cherrystone_defence",
+                "scriptName": "S:verbs/groove_cherrystone_defence",
+                "splashOutlineColour": "S:target_outline",
+                "splashRadius": "I:3",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_dash.png",
+                "id": "S:groove_dash",
+                "name": "S:groove_name_dash",
+                "preExecute": "S:true",
+                "scriptName": "S:verbs/groove_dash",
+                "targetColour": "S:target",
+                "targetDisplayColour": "S:attack_target",
+                "targetDisplayOutlineColour": "S:attack_target_outline",
+                "targetOutlineColour": "S:target_outline"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_diplomacy.png",
+                "id": "S:groove_tornado",
+                "name": "S:groove_name_tornado",
+                "preExecute": "S:true",
+                "scriptName": "S:verbs/groove_tornado",
+                "targetColour": "S:target",
+                "targetDisplayColour": "S:target",
+                "targetDisplayOutlineColour": "S:target_outline",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_convert.png",
+                "id": "S:groove_convert",
+                "name": "S:groove_name_convert",
+                "scriptName": "S:verbs/groove_convert",
+                "targetColour": "S:attack_target",
+                "targetOutlineColour": "S:attack_target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_ruin.png",
+                "id": "S:groove_drain_aura",
+                "name": "S:groove_name_drain_aura",
+                "scriptName": "S:verbs/groove_drain_aura",
+                "splashOutlineColour": "S:target_outline",
+                "splashRadius": "I:3",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_fish.png",
+                "id": "S:groove_fish",
+                "name": "S:groove_name_fish",
+                "preExecute": "S:true",
+                "scriptName": "S:verbs/groove_fish",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "directTarget": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_hammer.png",
+                "id": "S:groove_golf",
+                "name": "S:groove_name_golf",
+                "preExecute": "S:true",
+                "scriptName": "S:verbs/groove_golf",
+                "targetColour": "S:target",
+                "targetDisplayColour": "S:target",
+                "targetDisplayOutlineColour": "S:target_outline",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_smoke.png",
+                "id": "S:groove_smoke_screen",
+                "name": "S:groove_name_smoke_screen",
+                "scriptName": "S:verbs/groove_smoke_screen",
+                "splashOutlineColour": "S:heal_outline",
+                "splashRadius": "I:2",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_bomb.png",
+                "id": "S:death_smoke_producer",
+                "name": "S:ui_unit_verbs_death_smoke_producer",
+                "scriptName": "S:verbs/death_smoke_producer",
+                "splashOutlineColour": "S:attack_target_outline"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_yin.png",
+                "id": "S:groove_area_damage",
+                "name": "S:groove_name_area_damage",
+                "scriptName": "S:verbs/groove_area_damage",
+                "splashOutlineColour": "S:attack_target_outline",
+                "splashRadius": "I:3",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_yin.png",
+                "id": "S:death_area_damage",
+                "name": "S:ui_unit_verbs_area_heal",
+                "scriptName": "S:verbs/death_area_damage",
+                "splashOutlineColour": "S:attack_target_outline"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_yang.png",
+                "id": "S:groove_area_heal",
+                "name": "S:groove_name_area_heal",
+                "scriptName": "S:verbs/groove_area_heal",
+                "splashOutlineColour": "S:heal_outline",
+                "splashRadius": "I:3",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/unit_action_icon_bomb.png",
+                "id": "S:death_area_heal",
+                "name": "S:ui_unit_verbs_area_heal",
+                "scriptName": "S:verbs/death_area_heal",
+                "splashOutlineColour": "S:attack_target_outline"
+            },
+            {
+                "hasResourceCost": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_heal2.png",
+                "id": "S:spell_heal",
+                "name": "S:ui_unit_verbs_spell_heal",
+                "scriptName": "S:verbs/spell_heal",
+                "splashOutlineColour": "S:heal_outline",
+                "splashRadius": "I:1",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "hasResourceCost": "S:true",
+                "icon": "S:ui/icons/grooves/unit_action_icon_hex.png",
+                "id": "S:spell_hex",
+                "name": "S:ui_unit_verbs_spell_hex",
+                "scriptName": "S:verbs/spell_hex",
+                "splashOutlineColour": "S:attack_target_outline",
+                "splashRadius": "I:4",
+                "targetColour": "S:target",
+                "targetOutlineColour": "S:target_outline",
+                "targetted": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/unit_action_icon_cancel.png",
+                "id": "S:ambushed",
+                "name": "S:ui_unit_verbs_ambushed",
+                "scriptName": "S:verbs/ambushed",
+                "universal": "S:true"
+            },
+            {
+                "icon": "S:ui/icons/grooves/ui_unit_verbs_deposit.png",
+                "id": "S:death_give_gold",
+                "name": "S:ui_unit_verbs_death_give_gold",
+                "scriptName": "S:verbs/death_give_gold"
+            },
+            {
+                "executable": "S:false",
+                "icon": "S:ui/icons/unit_action_icon_cancel.png",
+                "id": "S:cancel",
+                "name": "S:ui_unit_verbs_cancel",
+                "scriptName": "S:verbs/cancel",
+                "universal": "S:true"
+            }
+        ]
+    }
+}

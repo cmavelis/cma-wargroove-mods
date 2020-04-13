@@ -1,0 +1,95 @@
+{
+    "root": {
+        "worldMaps": [
+            {
+                "boatAnimationSuffix": "S:_brown",
+                "fishAnimations": [
+                    "S:world/world_map_paper_fish_size01",
+                    "S:world/world_map_paper_fish_size02",
+                    "S:world/world_map_paper_fish_size03"
+                ],
+                "fishes": [
+                    {
+                        "pos": [
+                            "I:455",
+                            "I:415"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:615",
+                            "I:65"
+                        ],
+                        "radius": "I:30"
+                    },
+                    {
+                        "pos": [
+                            "I:121",
+                            "I:121"
+                        ],
+                        "radius": "I:30"
+                    }
+                ],
+                "icon": "S:ui/campaign/map_icon7.png",
+                "id": "S:paper_aurania",
+                "images": [
+                    {
+                        "image": "S:world/maps/paper_aurania/world_map.png",
+                        "layer": "S:background",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "image": "S:world/maps/paper_aurania/world_map_objects.png",
+                        "layer": "S:ground_decorations",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "layer": "S:ground_decorations",
+                        "localisedImage": "S:paper_aurania_world_map_labels",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "effect": "S:water",
+                        "image": "S:world/maps/paper_aurania/world_map_water.png",
+                        "layer": "S:background_tiles_water",
+                        "mask": "S:world/maps/paper_aurania/world_map_water_ramp.png",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "animation": "S:world/maps/paper_aurania/world_map_smoke",
+                        "layer": "S:sky_effects",
+                        "pos": [
+                            "I:363",
+                            "I:311"
+                        ]
+                    }
+                ],
+                "name": "S:world_map_paper_aurania_name",
+                "size": [
+                    "I:689",
+                    "I:500"
+                ],
+                "sound": [
+                    {
+                        "event": "S:environmental/barAmbience"
+                    }
+                ],
+                "waterColour": "S:#4f3509",
+                "waterMask": "S:masks/paper_aurania_water_mask.png"
+            }
+        ]
+    }
+}

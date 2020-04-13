@@ -1,0 +1,1722 @@
+{
+    "root": {
+        "codex": [
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_road.png"
+                },
+                "id": "S:terrain_road_grass",
+                "name": "S:terrain_name_road",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_road_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_road_grass_description_text",
+                        "title": "S:terrain_name_road_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_road_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_road_strategy_text",
+                        "title": "S:terrain_name_road_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_road_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:road",
+                        "text": "S:codex_terrain_road_stats_text",
+                        "title": "S:terrain_name_road_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_road_ice.png"
+                },
+                "id": "S:terrain_road_ice",
+                "name": "S:terrain_name_road",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_road_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_road_ice_description_text",
+                        "title": "S:terrain_name_road_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_road_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_road_strategy_text",
+                        "title": "S:terrain_name_road_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_road_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:road",
+                        "text": "S:codex_terrain_road_stats_text",
+                        "title": "S:terrain_name_road_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_road_desert.png"
+                },
+                "id": "S:terrain_road_desert",
+                "name": "S:terrain_name_road",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_road_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_road_desert_description_text",
+                        "title": "S:terrain_name_road_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_road_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_road_strategy_text",
+                        "title": "S:terrain_name_road_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_road_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:road",
+                        "text": "S:codex_terrain_road_stats_text",
+                        "title": "S:terrain_name_road_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_road_volcanic.png"
+                },
+                "id": "S:terrain_road_volcanic",
+                "name": "S:terrain_name_road",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_road_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_road_volcanic_description_text",
+                        "title": "S:terrain_name_road_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_road_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_road_strategy_text",
+                        "title": "S:terrain_name_road_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_road_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:road",
+                        "text": "S:codex_terrain_road_stats_text",
+                        "title": "S:terrain_name_road_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_plains.png"
+                },
+                "id": "S:terrain_plains_grass",
+                "name": "S:terrain_name_plains",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_field_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_plains_grass_description_text",
+                        "title": "S:terrain_name_field_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_field_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_plains_strategy_text",
+                        "title": "S:terrain_name_field_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_field_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:plains",
+                        "text": "S:codex_terrain_plains_stats_text",
+                        "title": "S:terrain_name_field_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_plains_ice.png"
+                },
+                "id": "S:terrain_plains_ice",
+                "name": "S:terrain_name_plains",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_field_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_plains_ice_description_text",
+                        "title": "S:terrain_name_field_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_field_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_plains_strategy_text",
+                        "title": "S:terrain_name_field_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_field_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:plains",
+                        "text": "S:codex_terrain_plains_stats_text",
+                        "title": "S:terrain_name_field_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_plains_desert.png"
+                },
+                "id": "S:terrain_plains_desert",
+                "name": "S:terrain_name_plains",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_field_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_plains_desert_description_text",
+                        "title": "S:terrain_name_field_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_field_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_plains_strategy_text",
+                        "title": "S:terrain_name_field_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_field_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:plains",
+                        "text": "S:codex_terrain_plains_stats_text",
+                        "title": "S:terrain_name_field_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_plains_volcanic.png"
+                },
+                "id": "S:terrain_plains_volcanic",
+                "name": "S:terrain_name_plains",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_field_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_plains_volcanic_description_text",
+                        "title": "S:terrain_name_plains_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_field_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_plains_strategy_text",
+                        "title": "S:terrain_name_field_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_field_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:plains",
+                        "text": "S:codex_terrain_plains_stats_text",
+                        "title": "S:terrain_name_field_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_forest.png"
+                },
+                "id": "S:terrain_forest_grass",
+                "name": "S:terrain_name_forest",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_forest_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_forest_grass_description_text",
+                        "title": "S:terrain_name_forest_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_forest_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_forest_strategy_text",
+                        "title": "S:terrain_name_forest_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_forest_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:forest",
+                        "text": "S:codex_terrain_forest_stats_text",
+                        "title": "S:terrain_name_forest_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_forest_ice.png"
+                },
+                "id": "S:terrain_forest_ice",
+                "name": "S:terrain_name_forest",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_forest_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_forest_ice_description_text",
+                        "title": "S:terrain_name_forest_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_forest_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_forest_strategy_text",
+                        "title": "S:terrain_name_forest_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_forest_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:forest",
+                        "text": "S:codex_terrain_forest_stats_text",
+                        "title": "S:terrain_name_forest_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_forest_desert.png"
+                },
+                "id": "S:terrain_forest_desert",
+                "name": "S:terrain_name_forest",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_forest_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_forest_desert_description_text",
+                        "title": "S:terrain_name_forest_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_forest_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_forest_strategy_text",
+                        "title": "S:terrain_name_forest_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_forest_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:forest",
+                        "text": "S:codex_terrain_forest_stats_text",
+                        "title": "S:terrain_name_forest_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_forest_volcanic.png"
+                },
+                "id": "S:terrain_forest_volcanic",
+                "name": "S:terrain_name_forest",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_forest_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_forest_volcanic_description_text",
+                        "title": "S:terrain_name_forest_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_forest_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_forest_strategy_text",
+                        "title": "S:terrain_name_forest_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_forest_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:forest",
+                        "text": "S:codex_terrain_forest_stats_text",
+                        "title": "S:terrain_name_forest_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_mountain.png"
+                },
+                "id": "S:terrain_mountain_grass",
+                "name": "S:terrain_name_mountain",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_mountain_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_mountain_grass_description_text",
+                        "title": "S:terrain_name_mountain_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_mountain_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_mountain_strategy_text",
+                        "title": "S:terrain_name_mountain_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_mountain_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:mountain",
+                        "text": "S:codex_terrain_mountain_stats_text",
+                        "title": "S:terrain_name_mountain_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_mountain_ice.png"
+                },
+                "id": "S:terrain_mountain_ice",
+                "name": "S:terrain_name_mountain",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_mountain_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_mountain_ice_description_text",
+                        "title": "S:terrain_name_mountain_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_mountain_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_mountain_strategy_text",
+                        "title": "S:terrain_name_mountain_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_mountain_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:mountain",
+                        "text": "S:codex_terrain_mountain_stats_text",
+                        "title": "S:terrain_name_mountain_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_mountain_desert.png"
+                },
+                "id": "S:terrain_mountain_desert",
+                "name": "S:terrain_name_mountain",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_mountain_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_mountain_desert_description_text",
+                        "title": "S:terrain_name_mountain_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_mountain_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_mountain_strategy_text",
+                        "title": "S:terrain_name_mountain_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_mountain_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:mountain",
+                        "text": "S:codex_terrain_mountain_stats_text",
+                        "title": "S:terrain_name_mountain_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_mountain_volcanic.png"
+                },
+                "id": "S:terrain_mountain_volcanic",
+                "name": "S:terrain_name_mountain",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_mountain_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_mountain_volcanic_description_text",
+                        "title": "S:terrain_name_mountain_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_mountain_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_mountain_strategy_text",
+                        "title": "S:terrain_name_mountain_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_mountain_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:mountain",
+                        "text": "S:codex_terrain_mountain_stats_text",
+                        "title": "S:terrain_name_mountain_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_river.png"
+                },
+                "id": "S:terrain_river_grass",
+                "name": "S:terrain_name_river",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_river_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_river_grass_description_text",
+                        "title": "S:terrain_name_river_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_river_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_river_strategy_text",
+                        "title": "S:terrain_name_river_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_river_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:river",
+                        "text": "S:codex_terrain_river_stats_text",
+                        "title": "S:terrain_name_river_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_river_ice.png"
+                },
+                "id": "S:terrain_river_ice",
+                "name": "S:terrain_name_river",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_river_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_river_ice_description_text",
+                        "title": "S:terrain_name_river_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_river_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_river_strategy_text",
+                        "title": "S:terrain_name_river_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_river_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:river",
+                        "text": "S:codex_terrain_river_stats_text",
+                        "title": "S:terrain_name_river_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_river_desert.png"
+                },
+                "id": "S:terrain_river_desert",
+                "name": "S:terrain_name_river",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_river_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_river_desert_description_text",
+                        "title": "S:terrain_name_river_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_river_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_river_strategy_text",
+                        "title": "S:terrain_name_river_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_river_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:river",
+                        "text": "S:codex_terrain_river_stats_text",
+                        "title": "S:terrain_name_river_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_sea_volcanic.png"
+                },
+                "id": "S:terrain_river_volcanic",
+                "name": "S:terrain_name_river",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_river_volcanic_description_text",
+                        "title": "S:terrain_name_river_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:terrain_name_shallowlava_strategy_text",
+                        "title": "S:terrain_name_shallowlava_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:river",
+                        "text": "S:codex_terrain_shallowlava_stats_text",
+                        "title": "S:codex_terrain_shallowlava_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_bridge.png"
+                },
+                "id": "S:terrain_bridge_grass",
+                "name": "S:terrain_name_bridge",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_bridge_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_bridge_grass_description_text",
+                        "title": "S:terrain_name_bridge_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_bridge_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_bridge_strategy_text",
+                        "title": "S:terrain_name_bridge_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_bridge_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:bridge",
+                        "text": "S:codex_terrain_bridge_stats_text",
+                        "title": "S:terrain_name_bridge_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_bridge_ice.png"
+                },
+                "id": "S:terrain_bridge_ice",
+                "name": "S:terrain_name_bridge",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_bridge_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_bridge_ice_description_text",
+                        "title": "S:terrain_name_bridge_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_bridge_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_bridge_strategy_text",
+                        "title": "S:terrain_name_bridge_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_bridge_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:bridge",
+                        "text": "S:codex_terrain_bridge_stats_text",
+                        "title": "S:terrain_name_bridge_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_bridge_desert.png"
+                },
+                "id": "S:terrain_bridge_desert",
+                "name": "S:terrain_name_bridge",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_bridge_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_bridge_desert_description_text",
+                        "title": "S:terrain_name_bridge_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_bridge_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_bridge_strategy_text",
+                        "title": "S:terrain_name_bridge_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_bridge_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:bridge",
+                        "text": "S:codex_terrain_bridge_stats_text",
+                        "title": "S:terrain_name_bridge_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_bridge_volcanic.png"
+                },
+                "id": "S:terrain_bridge_volcanic",
+                "name": "S:terrain_name_bridge",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_bridge_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_bridge_volcanic_description_text",
+                        "title": "S:terrain_name_bridge_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_bridge_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_bridge_strategy_text",
+                        "title": "S:terrain_name_bridge_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_bridge_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:bridge",
+                        "text": "S:codex_terrain_bridge_stats_text",
+                        "title": "S:terrain_name_bridge_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_beach.png"
+                },
+                "id": "S:terrain_beach_grass",
+                "name": "S:terrain_name_beach",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_beach_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_beach_grass_description_text",
+                        "title": "S:terrain_name_beach_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_beach_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_beach_strategy_text",
+                        "title": "S:terrain_name_beach_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_beach_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:beach",
+                        "text": "S:codex_terrain_beach_stats_text",
+                        "title": "S:terrain_name_beach_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_beach_ice.png"
+                },
+                "id": "S:terrain_beach_ice",
+                "name": "S:terrain_name_beach",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_beach_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_beach_ice_description_text",
+                        "title": "S:terrain_name_beach_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_beach_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_beach_strategy_text",
+                        "title": "S:terrain_name_beach_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_beach_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:beach",
+                        "text": "S:codex_terrain_beach_stats_text",
+                        "title": "S:terrain_name_beach_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_beach_desert.png"
+                },
+                "id": "S:terrain_beach_desert",
+                "name": "S:terrain_name_beach",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_beach_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_beach_desert_description_text",
+                        "title": "S:terrain_name_beach_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_beach_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_beach_strategy_text",
+                        "title": "S:terrain_name_beach_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_beach_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:beach",
+                        "text": "S:codex_terrain_beach_stats_text",
+                        "title": "S:terrain_name_beach_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_beach_volcanic.png"
+                },
+                "id": "S:terrain_beach_volcanic",
+                "name": "S:terrain_name_beach",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_beach_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_beach_volcanic_description_text",
+                        "title": "S:terrain_name_beach_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_beach_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_beach_strategy_text",
+                        "title": "S:terrain_name_beach_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_beach_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:beach",
+                        "text": "S:codex_terrain_beach_stats_text",
+                        "title": "S:terrain_name_beach_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_sea.png"
+                },
+                "id": "S:terrain_sea_grass",
+                "name": "S:terrain_name_sea",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_sea_grass_description_text",
+                        "title": "S:terrain_name_ocean_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_sea_strategy_text",
+                        "title": "S:terrain_name_ocean_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:sea",
+                        "text": "S:codex_terrain_sea_stats_text",
+                        "title": "S:terrain_name_ocean_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_sea.png"
+                },
+                "id": "S:terrain_sea_ice",
+                "name": "S:terrain_name_sea",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_sea_ice_description_text",
+                        "title": "S:terrain_name_ocean_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_sea_strategy_text",
+                        "title": "S:terrain_name_ocean_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:sea",
+                        "text": "S:codex_terrain_sea_stats_text",
+                        "title": "S:terrain_name_ocean_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_sea.png"
+                },
+                "id": "S:terrain_sea_desert",
+                "name": "S:terrain_name_sea",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_sea_desert_description_text",
+                        "title": "S:terrain_name_ocean_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_sea_strategy_text",
+                        "title": "S:terrain_name_ocean_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:sea",
+                        "text": "S:codex_terrain_sea_stats_text",
+                        "title": "S:terrain_name_ocean_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_sea_volcanic.png"
+                },
+                "id": "S:terrain_sea_volcanic",
+                "name": "S:terrain_name_sea",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_sea_volcanic_description_text",
+                        "title": "S:terrain_name_sea_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:terrain_name_lava_strategy_text",
+                        "title": "S:terrain_name_lava_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:sea",
+                        "text": "S:codex_terrain_lava_stats_text",
+                        "title": "S:codex_terrain_lava_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_deepsea.png"
+                },
+                "id": "S:terrain_deepsea_grass",
+                "name": "S:terrain_name_ocean",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_deepsea_grass_description_text",
+                        "title": "S:terrain_name_deepsea_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_deepsea_strategy_text",
+                        "title": "S:terrain_name_deepsea_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:ocean",
+                        "text": "S:codex_terrain_deepsea_stats_text",
+                        "title": "S:terrain_name_deepsea_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_deepsea.png"
+                },
+                "id": "S:terrain_deepsea_ice",
+                "name": "S:terrain_name_ocean",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_deepsea_ice_description_text",
+                        "title": "S:terrain_name_deepsea_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_deepsea_strategy_text",
+                        "title": "S:terrain_name_deepsea_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:sea",
+                        "text": "S:codex_terrain_deepsea_stats_text",
+                        "title": "S:terrain_name_deepsea_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_deepsea.png"
+                },
+                "id": "S:terrain_deepsea_desert",
+                "name": "S:terrain_name_ocean",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_deepsea_desert_description_text",
+                        "title": "S:terrain_name_deepsea_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_deepsea_strategy_text",
+                        "title": "S:terrain_name_deepsea_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_ocean_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:sea",
+                        "text": "S:codex_terrain_deepsea_stats_text",
+                        "title": "S:terrain_name_deepsea_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_sea_volcanic.png"
+                },
+                "id": "S:terrain_deepsea_volcanic",
+                "name": "S:terrain_name_ocean",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_deepsea_volcanic_description_text",
+                        "title": "S:terrain_name_deepsea_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:terrain_name_deeplava_strategy_text",
+                        "title": "S:terrain_name_deeplava_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:sea",
+                        "text": "S:codex_terrain_deeplava_stats_text",
+                        "title": "S:codex_terrain_deeplava_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_reef.png"
+                },
+                "id": "S:terrain_reef_grass",
+                "name": "S:terrain_name_reef",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_reef_grass_description_text",
+                        "title": "S:terrain_name_reef_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_reef_strategy_text",
+                        "title": "S:terrain_name_reef_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:reef",
+                        "text": "S:codex_terrain_reef_stats_text",
+                        "title": "S:terrain_name_reef_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_reef.png"
+                },
+                "id": "S:terrain_reef_ice",
+                "name": "S:terrain_name_reef",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_reef_ice_description_text",
+                        "title": "S:terrain_name_reef_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_reef_strategy_text",
+                        "title": "S:terrain_name_reef_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:reef",
+                        "text": "S:codex_terrain_reef_stats_text",
+                        "title": "S:terrain_name_reef_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_reef.png"
+                },
+                "id": "S:terrain_reef_desert",
+                "name": "S:terrain_name_reef",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_reef_desert_description_text",
+                        "title": "S:terrain_name_reef_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_reef_strategy_text",
+                        "title": "S:terrain_name_reef_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_reef_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:reef",
+                        "text": "S:codex_terrain_reef_stats_text",
+                        "title": "S:terrain_name_reef_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_sea_volcanic.png"
+                },
+                "id": "S:terrain_reef_volcanic",
+                "name": "S:terrain_name_reef",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_reef_volcanic_description_text",
+                        "title": "S:terrain_name_reef_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:terrain_name_coolinglava_strategy_text",
+                        "title": "S:terrain_name_coolinglava_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_sea_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:sea",
+                        "text": "S:codex_terrain_coolinglava_stats_text",
+                        "title": "S:codex_terrain_coolinglava_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_wall.png"
+                },
+                "id": "S:terrain_wall_grass",
+                "name": "S:terrain_name_wall",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_wall_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_wall_grass_description_text",
+                        "title": "S:terrain_name_wall_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_wall_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_wall_strategy_text",
+                        "title": "S:terrain_name_wall_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_wall_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:wall",
+                        "text": "S:codex_terrain_wall_stats_text",
+                        "title": "S:terrain_name_wall_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_wall_ice.png"
+                },
+                "id": "S:terrain_wall_ice",
+                "name": "S:terrain_name_wall",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_wall_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_wall_ice_description_text",
+                        "title": "S:terrain_name_wall_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_wall_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_wall_strategy_text",
+                        "title": "S:terrain_name_wall_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_wall_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:wall",
+                        "text": "S:codex_terrain_wall_stats_text",
+                        "title": "S:terrain_name_wall_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_wall_desert.png"
+                },
+                "id": "S:terrain_wall_desert",
+                "name": "S:terrain_name_wall",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_wall_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_wall_desert_description_text",
+                        "title": "S:terrain_name_wall_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_wall_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_wall_strategy_text",
+                        "title": "S:terrain_name_wall_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_wall_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:wall",
+                        "text": "S:codex_terrain_wall_stats_text",
+                        "title": "S:terrain_name_wall_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_wall_volcanic.png"
+                },
+                "id": "S:terrain_wall_volcanic",
+                "name": "S:terrain_name_wall",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_wall_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_wall_volcanic_description_text",
+                        "title": "S:terrain_name_wall_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_wall_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_wall_strategy_text",
+                        "title": "S:terrain_name_wall_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_wall_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:wall",
+                        "text": "S:codex_terrain_wall_stats_text",
+                        "title": "S:terrain_name_wall_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_cobblestone.png"
+                },
+                "id": "S:terrain_cobblestone_grass",
+                "name": "S:terrain_name_cobblestone",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_cobblestone_grass_description_text",
+                        "title": "S:terrain_name_cobblestone_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_cobblestone_strategy_text",
+                        "title": "S:terrain_name_cobblestone_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:cobblestone",
+                        "text": "S:codex_terrain_cobblestone_stats_text",
+                        "title": "S:terrain_name_cobblestone_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_cobblestone_ice.png"
+                },
+                "id": "S:terrain_cobblestone_ice",
+                "name": "S:terrain_name_cobblestone",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_cobblestone_ice_description_text",
+                        "title": "S:terrain_name_cobblestone_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_cobblestone_strategy_text",
+                        "title": "S:terrain_name_cobblestone_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:cobblestone",
+                        "text": "S:codex_terrain_cobblestone_stats_text",
+                        "title": "S:terrain_name_cobblestone_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_cobblestone_desert.png"
+                },
+                "id": "S:terrain_cobblestone_desert",
+                "name": "S:terrain_name_cobblestone",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_cobblestone_desert_description_text",
+                        "title": "S:terrain_name_cobblestone_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_cobblestone_strategy_text",
+                        "title": "S:terrain_name_cobblestone_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_flagstone_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:cobblestone",
+                        "text": "S:codex_terrain_cobblestone_stats_text",
+                        "title": "S:terrain_name_cobblestone_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_cobblestone_volcanic.png"
+                },
+                "id": "S:terrain_cobblestone_volcanic",
+                "name": "S:terrain_name_cobblestone",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_flagstone_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_cobblestone_volcanic_description_text",
+                        "title": "S:terrain_name_cobblestone_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_flagstone_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_cobblestone_strategy_text",
+                        "title": "S:terrain_name_cobblestone_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_flagstone_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:cobblestone",
+                        "text": "S:codex_terrain_cobblestone_stats_text",
+                        "title": "S:terrain_name_cobblestone_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:grass",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_carpet.png"
+                },
+                "id": "S:terrain_carpet_grass",
+                "name": "S:terrain_name_carpet",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_interior_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_carpet_grass_description_text",
+                        "title": "S:terrain_name_carpet_grass"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_interior_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_carpet_strategy_text",
+                        "title": "S:terrain_name_carpet_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_interior_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:carpet",
+                        "text": "S:codex_terrain_carpet_stats_text",
+                        "title": "S:terrain_name_carpet_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:ice",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_carpet_ice.png"
+                },
+                "id": "S:terrain_carpet_ice",
+                "name": "S:terrain_name_carpet",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_interior_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_carpet_ice_description_text",
+                        "title": "S:terrain_name_carpet_ice"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_interior_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_carpet_strategy_text",
+                        "title": "S:terrain_name_carpet_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_interior_ice.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:carpet",
+                        "text": "S:codex_terrain_carpet_stats_text",
+                        "title": "S:terrain_name_carpet_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:desert",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_carpet_desert.png"
+                },
+                "id": "S:terrain_carpet_desert",
+                "name": "S:terrain_name_carpet",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_interior_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_carpet_desert_description_text",
+                        "title": "S:terrain_name_carpet_desert"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_interior_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_carpet_strategy_text",
+                        "title": "S:terrain_name_carpet_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/background_interior_desert.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:carpet",
+                        "text": "S:codex_terrain_carpet_stats_text",
+                        "title": "S:terrain_name_carpet_stats"
+                    }
+                ]
+            },
+            {
+                "biome": "S:volcano",
+                "category": "S:terrain",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_terrain_carpet_volcanic.png"
+                },
+                "id": "S:terrain_carpet_volcanic",
+                "name": "S:terrain_name_carpet",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_interior_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:codex_terrain_carpet_volcanic_description_text",
+                        "title": "S:terrain_name_carpet_volcanic"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_interior_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_terrain_carpet_strategy_text",
+                        "title": "S:terrain_name_carpet_strategy"
+                    },
+                    {
+                        "image": "S:ui/codex/content/dlc1/background_interior_volcanic.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:terrain_stats",
+                        "terrainType": "S:carpet",
+                        "text": "S:codex_terrain_carpet_stats_text",
+                        "title": "S:terrain_name_carpet_stats"
+                    }
+                ]
+            }
+        ]
+    }
+}

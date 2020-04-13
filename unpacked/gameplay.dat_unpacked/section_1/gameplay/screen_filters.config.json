@@ -1,0 +1,26 @@
+{
+    "root": {
+        "screenFilters": [
+            {
+                "id": "S:standard",
+                "mapShader": "S:Wargroove/ScreenFilterStandard",
+                "name": "S:screen_filter_standard"
+            },
+            {
+                "id": "S:night",
+                "mapShader": "S:Wargroove/ScreenFilterNight",
+                "name": "S:screen_filter_night"
+            },
+            {
+                "id": "S:dream",
+                "mapShader": "S:Wargroove/ScreenFilterDream",
+                "name": "S:screen_filter_dream"
+            },
+            {
+                "id": "S:past",
+                "mapShader": "S:Wargroove/ScreenFilterPast",
+                "name": "S:screen_filter_past"
+            }
+        ]
+    }
+}

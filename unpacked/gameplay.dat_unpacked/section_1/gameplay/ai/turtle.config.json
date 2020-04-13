@@ -1,0 +1,53 @@
+{
+    "root": {
+        "aiProfiles": [
+            {
+                "additionalDoomPenalty": "F:1000.0",
+                "attackBias": "F:1.5",
+                "attackLookAhead": "I:0",
+                "attackThreshold": {
+                    "commander": "F:0.25",
+                    "hq": "F:0.25"
+                },
+                "baseDoomPenalty": "F:100.0",
+                "braveryBonus": "F:0.0",
+                "captureBias": "F:0.7",
+                "captureLookAhead": "I:0",
+                "depositValue": {
+                    "hq": "F:1.0",
+                    "structure": "F:1.0"
+                },
+                "id": "S:turtle",
+                "lookAheadBias": "F:0.5",
+                "moveBias": "F:0.3",
+                "name": "S:ai_profile_turtle",
+                "recklessness": "F:0.0",
+                "recruitBonus": {
+                    "thief": "F:0.1"
+                },
+                "recruitLimit": {
+                    "thief": "I:1",
+                    "witch": "I:3"
+                },
+                "stealValue": {
+                    "hq": "F:0.6",
+                    "structure": "F:0.3"
+                },
+                "strategicValue": {
+                    "commander": {
+                        "ally": "F:0.5",
+                        "samePlayer": "F:2.0"
+                    },
+                    "hq": {
+                        "ally": "F:0.5",
+                        "samePlayer": "F:1.5"
+                    },
+                    "structure": {
+                        "neutral": "F:0.3",
+                        "samePlayer": "F:0.5"
+                    }
+                }
+            }
+        ]
+    }
+}

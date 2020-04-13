@@ -1,0 +1,183 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:raise_dead",
+                "id": "S:commander_valder",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:valderSpell"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeAttackSounds": {
+                    "no_voice": "S:valder/valderAttackNoVoice"
+                },
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_valder_attack",
+                        "effectDelay": "F:1.8",
+                        "hitDelay": "F:1.85",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/valder/battle_valder",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_valder_river",
+                "class": "S:commander_valder",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "bow": "S:emote_bow",
+                    "dance": "S:emote_dance",
+                    "hypno": "S:emote_hypno",
+                    "idle": "S:idle",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_negative",
+                    "surprise": "S:emote_surprise"
+                },
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:20",
+                    "I:26"
+                ],
+                "hidden": {
+                    "alternativeRuns": [
+                        "S:angry_run"
+                    ],
+                    "shouts": [
+                        "S:valder_pain3"
+                    ]
+                },
+                "mapAnimation": "S:units/commanders/valder/map_valder",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/valder/portrait_valder_medium.png",
+                "name": "S:character_valder_name",
+                "shouts": {
+                    "valder_behold_the_gauntlet": "S:valder/valderBeholdTheGauntlet",
+                    "valder_by_my_hand": "S:valder/valderByMyHand",
+                    "valder_claim_this_power": "S:valder/valderClaimThisPower",
+                    "valder_dead_outnumber": "S:valder/valderDeadOutnumber",
+                    "valder_defeat": "S:valder/valderNotTheEnd",
+                    "valder_felheim_rises": "S:valder/valderFelheimRises",
+                    "valder_fooled": "S:valder/valderFooled",
+                    "valder_goodbye": "S:valder/valderGoodbye",
+                    "valder_hello": "S:valder/valderHello",
+                    "valder_hmm": "S:valder/valderHmm",
+                    "valder_hmph": "S:valder/valderHmph",
+                    "valder_how_did_you": "S:valder/valderHowDidYou",
+                    "valder_interesting": "S:valder/valderInteresting",
+                    "valder_introduction": "S:valder/valderIntroduction",
+                    "valder_laugh": "S:valder/valderLaugh",
+                    "valder_no": "S:valder/valderNo",
+                    "valder_no_escape": "S:valder/valderNoEscape",
+                    "valder_nothing_personal": "S:valder/valderNothingPersonal",
+                    "valder_oops": "S:valder/valderOops",
+                    "valder_our_dominion": "S:valder/valderOurDominion",
+                    "valder_pain1": "S:valder/valderPain1",
+                    "valder_pain2": "S:valder/valderPain2",
+                    "valder_pain3": "S:valder/valderPain3",
+                    "valder_pain4": "S:valder/valderPain4",
+                    "valder_perish": "S:valder/valderPerish",
+                    "valder_ragna": "S:valder/valderRagna",
+                    "valder_ragna_angry": "S:valder/valderRagnaAngry",
+                    "valder_remember": "S:valder/valderRemember",
+                    "valder_retribution": "S:valder/valderRetribution",
+                    "valder_return_to_dust": "S:valder/valderReturnToDust",
+                    "valder_rise": "S:valder/valderRise",
+                    "valder_sigh": "S:valder/valderSigh",
+                    "valder_sigrid": "S:valder/valderSigrid",
+                    "valder_surprise": "S:valder/valderSurprise",
+                    "valder_thanks": "S:valder/valderThanks",
+                    "valder_this_fight": "S:valder/valderThisFight",
+                    "valder_traitor": "S:valder/valderTraitor",
+                    "valder_very_well": "S:valder/valderVeryWell",
+                    "valder_victory": "S:valder/valderVictory",
+                    "valder_what": "S:valder/valderWhat",
+                    "valder_what_darkness": "S:valder/valderWhatDarkness",
+                    "valder_will_not_fail": "S:valder/valderWillNotFail",
+                    "valder_yes": "S:valder/valderYes",
+                    "valder_you_fought_well": "S:valder/valderYouFoughtWell",
+                    "valder_you_must_end_this": "S:valder/valderYouMustEndThis",
+                    "valder_your_kingdom": "S:valder/valderYourKingdom"
+                },
+                "skinColour": "S:typeIV",
+                "smallPortrait": "S:units/commanders/valder/portrait_valder_small.png",
+                "sounds": {
+                    "attack": "S:valder/valderAttack",
+                    "attackCommander": "S:valder/valderCommanderKillAttack",
+                    "attackEffect": "S:valder/valderAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:valder/valderCapture",
+                    "death": "S:valder/valderDie",
+                    "deathMap": "S:valder/valderDieGhost",
+                    "deathMapNoBattle": "S:valder/valderDieNoBattle",
+                    "firstHit": "S:valder/valderHit",
+                    "groove": "S:valder/valderGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightMapEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:valderSpell",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

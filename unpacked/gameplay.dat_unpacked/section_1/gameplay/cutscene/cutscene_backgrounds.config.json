@@ -1,0 +1,383 @@
+{
+    "root": {
+        "cutscene_backgrounds": [
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_plains",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_plains_foreground",
+                "id": "S:grass_plain",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_mountain",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_mountain_foreground",
+                "id": "S:grass_mountain",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_sky",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_sky_foreground",
+                "hidden": "S:true",
+                "id": "S:grass_sky",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_road",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_road_foreground",
+                "id": "S:grass_road",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_bridge",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_bridge_foreground",
+                "id": "S:grass_bridge",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:24"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_forest",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_forest_foreground",
+                "id": "S:grass_forest",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_beach",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_beach_foreground",
+                "id": "S:grass_beach",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_river",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_river_foreground",
+                "hidden": "S:true",
+                "id": "S:grass_river",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_plains",
+                "foreground": "S:snow_battlescreen_extendedbackgrounds_plains_foreground",
+                "id": "S:snow_plain",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_mountain",
+                "foreground": "S:snow_battlescreen_extendedbackgrounds_mountain_foreground",
+                "id": "S:snow_mountain",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_road",
+                "foreground": "S:snow_battlescreen_extendedbackgrounds_road_foreground",
+                "id": "S:snow_road",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_bridge",
+                "foreground": "S:snow_battlescreen_extendedbackgrounds_bridge_foreground",
+                "id": "S:snow_bridge",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_forest",
+                "foreground": "S:snow_battlescreen_extendedbackgrounds_forest_foreground",
+                "id": "S:snow_forest",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_beach",
+                "foreground": "S:snow_battlescreen_extendedbackgrounds_beach_foreground",
+                "id": "S:snow_beach",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_river",
+                "foreground": "S:snow_battlescreen_extendedbackgrounds_river_foreground",
+                "hidden": "S:true",
+                "id": "S:snow_river",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_forest_edited",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_forest_foreground",
+                "hidden": "S:true",
+                "id": "S:forest_edited",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_plains",
+                "foreground": "S:sand_battlescreen_extendedbackgrounds_plains_foreground",
+                "id": "S:sand_plain",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_mountain",
+                "foreground": "S:sand_battlescreen_extendedbackgrounds_mountain_foreground",
+                "id": "S:sand_mountain",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_road",
+                "foreground": "S:sand_battlescreen_extendedbackgrounds_road_foreground",
+                "id": "S:sand_road",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_bridge",
+                "foreground": "S:sand_battlescreen_extendedbackgrounds_bridge_foreground",
+                "id": "S:sand_bridge",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_forest",
+                "foreground": "S:sand_battlescreen_extendedbackgrounds_forest_foreground",
+                "id": "S:sand_forest",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_beach",
+                "foreground": "S:sand_battlescreen_extendedbackgrounds_beach_foreground",
+                "id": "S:sand_beach",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_river",
+                "foreground": "S:sand_battlescreen_extendedbackgrounds_river_foreground",
+                "hidden": "S:true",
+                "id": "S:sand_river",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_boat_felheim",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_boat_felheim_foreground",
+                "hidden": "S:true",
+                "id": "S:boat_felheim",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:32"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_boat_felheimcherry",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_boat_felheimcherry_foreground",
+                "hidden": "S:true",
+                "id": "S:boat_felheimcherry",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:32"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_boat_felheimcherry2",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_boat_felheimcherry2_foreground",
+                "hidden": "S:true",
+                "id": "S:boat_felheimcherry2",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:32"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_boat_cherry",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_boat_cherry_foreground",
+                "hidden": "S:true",
+                "id": "S:boat_cherry",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:32"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_boat_cherry_snow",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_boat_cherry_snow_foreground",
+                "hidden": "S:true",
+                "id": "S:boat_cherry_snow",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:32"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_boat_cherry2",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_boat_cherry2_foreground",
+                "hidden": "S:true",
+                "id": "S:boat_cherry2",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:35"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_boat_outlaw",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_boat_outlaw_foreground",
+                "hidden": "S:true",
+                "id": "S:boat_outlaw",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:35"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_boat_cherry3",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_boat_cherry3_foreground",
+                "hidden": "S:true",
+                "id": "S:boat_cherry3",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                "tileHeight": "I:35"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_indoor",
+                "id": "S:indoor",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_indoor2",
+                "id": "S:indoor2",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_indoor_study",
+                "id": "S:indoor_study",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_indoor",
+                "id": "S:sand_indoor",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_indoor",
+                "id": "S:snow_indoor",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_throne_room",
+                "id": "S:snow_throne_room",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_flagstone",
+                "id": "S:flagstone",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_flagstone",
+                "id": "S:sand_flagstone",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:snow_battlescreen_extendedbackgrounds_flagstone",
+                "id": "S:snow_flagstone",
+                "spritesheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_ocean",
+                "hidden": "S:true",
+                "id": "S:ocean",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_caveentrance",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_caveentrance_foreground",
+                "hidden": "S:true",
+                "id": "S:caveentrance",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_caveentrance_closed",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_caveentrance_foreground",
+                "hidden": "S:true",
+                "id": "S:caveentrance_closed",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:story_battlescreen_black",
+                "id": "S:black",
+                "spritesheet": "S:backgrounds/story_battlescreen"
+            },
+            {
+                "background": "S:story_battlescreen_white",
+                "id": "S:white",
+                "spritesheet": "S:backgrounds/story_battlescreen"
+            },
+            {
+                "background": "S:story_battlescreen_town",
+                "foreground": "S:story_battlescreen_town_foreground",
+                "id": "S:town",
+                "spritesheet": "S:backgrounds/story_battlescreen"
+            },
+            {
+                "background": "S:story_battlescreen_sunset",
+                "foreground": "S:story_battlescreen_sunset_foreground",
+                "id": "S:sunset",
+                "spritesheet": "S:backgrounds/story_battlescreen"
+            },
+            {
+                "background": "S:story_battlescreen_sunset_castle",
+                "foreground": "S:story_battlescreen_sunset_foreground",
+                "hidden": "S:true",
+                "id": "S:sunset_castle",
+                "spritesheet": "S:backgrounds/story_battlescreen"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_road_tower",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_road_foreground",
+                "hidden": "S:true",
+                "id": "S:grass_road_tower",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_road_tower2",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_road_tower2_foreground",
+                "hidden": "S:true",
+                "id": "S:grass_road_tower2",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:volcano_battlescreen_extendedbackgrounds_bridge",
+                "foreground": "S:volcano_battlescreen_extendedbackgrounds_bridge_foreground",
+                "id": "S:volcano_bridge",
+                "name": "S:terrain_name_bridge_volcanic",
+                "spritesheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:volcano_battlescreen_extendedbackgrounds_beach",
+                "foreground": "S:volcano_battlescreen_extendedbackgrounds_beach_foreground",
+                "id": "S:beach_volcanic",
+                "name": "S:terrain_name_beach_volcanic",
+                "spritesheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:volcano_battlescreen_extendedbackgrounds_plains",
+                "foreground": "S:volcano_battlescreen_extendedbackgrounds_plains_foreground",
+                "id": "S:volcano_plain",
+                "spritesheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:volcano_battlescreen_extendedbackgrounds_interior_carpet",
+                "id": "S:volcano_interior_carpet",
+                "spritesheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:volcano_battlescreen_extendedbackgrounds_interior",
+                "id": "S:volcano_interior",
+                "spritesheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:volcano_battlescreen_extendedbackgrounds_road",
+                "foreground": "S:volcano_battlescreen_extendedbackgrounds_road_foreground",
+                "id": "S:volcano_road",
+                "spritesheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:volcano_battlescreen_extendedbackgrounds_mountain",
+                "foreground": "S:volcano_battlescreen_extendedbackgrounds_mountain_foreground",
+                "id": "S:volcano_mountain",
+                "spritesheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:volcano_battlescreen_extendedbackgrounds_forest",
+                "foreground": "S:volcano_battlescreen_extendedbackgrounds_forest_foreground",
+                "id": "S:volcano_forest",
+                "spritesheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:grass_battlescreen_extendedbackgrounds_tavern",
+                "foreground": "S:grass_battlescreen_extendedbackgrounds_tavern_foreground",
+                "id": "S:tavern",
+                "spritesheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds"
+            },
+            {
+                "background": "S:sand_battlescreen_extendedbackgrounds_forest_edited",
+                "foreground": "S:sand_battlescreen_extendedbackgrounds_forest_foreground",
+                "hidden": "S:true",
+                "id": "S:sand_forest_edited",
+                "spritesheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds"
+            }
+        ]
+    }
+}

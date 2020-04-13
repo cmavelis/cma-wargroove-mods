@@ -1,0 +1,264 @@
+{
+    "root": {
+        "location_highlights": [
+            {
+                "id": "S:none"
+            },
+            {
+                "id": "S:ground_pulse_only",
+                "layers": [
+                    {
+                        "alphaPulse": "S:true",
+                        "animation": "S:world/locations/ground_pulse",
+                        "layer": "S:ground",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "id": "S:arrow",
+                "layers": [
+                    {
+                        "animation": "S:world/locations/arrow",
+                        "layer": "S:above",
+                        "offset": [
+                            "I:0",
+                            "I:-21"
+                        ],
+                        "placement": "S:center"
+                    },
+                    {
+                        "alphaPulse": "S:true",
+                        "animation": "S:world/locations/ground_pulse",
+                        "layer": "S:ground",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "id": "S:arrow_low",
+                "layers": [
+                    {
+                        "animation": "S:world/locations/arrow",
+                        "layer": "S:above",
+                        "offset": [
+                            "I:0",
+                            "I:-2"
+                        ],
+                        "placement": "S:center"
+                    },
+                    {
+                        "alphaPulse": "S:true",
+                        "animation": "S:world/locations/ground_pulse",
+                        "layer": "S:ground",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "id": "S:flag2",
+                "layers": [
+                    {
+                        "animation": "S:world/locations/flag_2",
+                        "layer": "S:units",
+                        "offset": [
+                            "I:-2",
+                            "I:-7"
+                        ],
+                        "placement": "S:center",
+                        "shadow": "S:shadows_extralarge"
+                    },
+                    {
+                        "alphaPulse": "S:true",
+                        "animation": "S:world/locations/ground_pulse",
+                        "layer": "S:ground",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "id": "S:flag",
+                "layers": [
+                    {
+                        "animation": "S:world/locations/flag_1",
+                        "layer": "S:units",
+                        "offset": [
+                            "I:-2",
+                            "I:-7"
+                        ],
+                        "placement": "S:center",
+                        "shadow": "S:shadows_extralarge"
+                    },
+                    {
+                        "alphaPulse": "S:true",
+                        "animation": "S:world/locations/ground_pulse",
+                        "layer": "S:ground",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "id": "S:flag3",
+                "layers": [
+                    {
+                        "animation": "S:world/locations/flag_3",
+                        "layer": "S:units",
+                        "offset": [
+                            "I:-2",
+                            "I:-7"
+                        ],
+                        "placement": "S:center",
+                        "shadow": "S:shadows_extralarge"
+                    },
+                    {
+                        "alphaPulse": "S:true",
+                        "animation": "S:world/locations/ground_pulse",
+                        "layer": "S:ground",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "id": "S:flag4",
+                "layers": [
+                    {
+                        "animation": "S:world/locations/flag_4",
+                        "layer": "S:units",
+                        "offset": [
+                            "I:-2",
+                            "I:-7"
+                        ],
+                        "placement": "S:center",
+                        "shadow": "S:shadows_extralarge"
+                    },
+                    {
+                        "alphaPulse": "S:true",
+                        "animation": "S:world/locations/ground_pulse",
+                        "layer": "S:ground",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:btn_primary",
+                "layers": [
+                    {
+                        "button": "S:primary",
+                        "layer": "S:above",
+                        "offset": [
+                            "I:0",
+                            "I:0"
+                        ],
+                        "placement": "S:center"
+                    },
+                    {
+                        "alphaPulse": "S:false",
+                        "animation": "S:world/locations/tutorial_cross",
+                        "layer": "S:underArrow",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:btn_primary_low",
+                "layers": [
+                    {
+                        "button": "S:primary",
+                        "layer": "S:above",
+                        "offset": [
+                            "I:0",
+                            "I:0"
+                        ],
+                        "placement": "S:center"
+                    },
+                    {
+                        "alphaPulse": "S:false",
+                        "animation": "S:world/locations/tutorial_cross",
+                        "layer": "S:underArrow",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:btn_cancel",
+                "layers": [
+                    {
+                        "button": "S:cancel",
+                        "layer": "S:above",
+                        "offset": [
+                            "I:0",
+                            "I:0"
+                        ],
+                        "placement": "S:center"
+                    },
+                    {
+                        "alphaPulse": "S:false",
+                        "animation": "S:world/locations/tutorial_cross",
+                        "layer": "S:underArrow",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:btn_primary_below",
+                "layers": [
+                    {
+                        "button": "S:primary_below",
+                        "layer": "S:above",
+                        "offset": [
+                            "I:0",
+                            "I:0"
+                        ],
+                        "placement": "S:center"
+                    },
+                    {
+                        "alphaPulse": "S:false",
+                        "animation": "S:world/locations/tutorial_cross",
+                        "layer": "S:underArrow",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:btn_cancel_below",
+                "layers": [
+                    {
+                        "button": "S:cancel_below",
+                        "layer": "S:above",
+                        "offset": [
+                            "I:0",
+                            "I:0"
+                        ],
+                        "placement": "S:center"
+                    },
+                    {
+                        "alphaPulse": "S:false",
+                        "animation": "S:world/locations/tutorial_cross",
+                        "layer": "S:underArrow",
+                        "placement": "S:all"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:btn_overview",
+                "layers": [
+                    {
+                        "button": "S:btn_overview",
+                        "layer": "S:above",
+                        "offset": [
+                            "I:0",
+                            "I:0"
+                        ],
+                        "placement": "S:center"
+                    }
+                ]
+            }
+        ]
+    }
+}

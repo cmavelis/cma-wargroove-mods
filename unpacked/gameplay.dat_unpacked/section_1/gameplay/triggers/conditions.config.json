@@ -1,0 +1,305 @@
+{
+    "root": {
+        "triggerConditions": [
+            {
+                "id": "S:start_of_turn"
+            },
+            {
+                "id": "S:end_of_turn"
+            },
+            {
+                "id": "S:end_of_unit_turn"
+            },
+            {
+                "id": "S:check_map_flag",
+                "parameters": [
+                    {
+                        "type": "S:map_flag"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "id": "S:check_campaign_flag",
+                "parameters": [
+                    {
+                        "type": "S:campaign_flag"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ],
+                "scope": "S:campaign"
+            },
+            {
+                "id": "S:check_party_member",
+                "parameters": [
+                    {
+                        "type": "S:character"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ],
+                "scope": "S:campaign"
+            },
+            {
+                "id": "S:check_map_counter",
+                "parameters": [
+                    {
+                        "type": "S:counter"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:current_turn_number",
+                "parameters": [
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:check_funds",
+                "parameters": [
+                    {
+                        "type": "S:player_star"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:unit_presence",
+                "parameters": [
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    },
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:player_turn",
+                "parameters": [
+                    {
+                        "type": "S:player"
+                    }
+                ]
+            },
+            {
+                "id": "S:number_of_opponents",
+                "parameters": [
+                    {
+                        "type": "S:player"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:unit_lost",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player"
+                    },
+                    {
+                        "type": "S:location_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:unit_killed",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_star"
+                    },
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:unit_health",
+                "parameters": [
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    },
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:unit_groove",
+                "parameters": [
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    },
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:unit_visible",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:player_victorious",
+                "parameters": [
+                    {
+                        "type": "S:player"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:number_of_stars_map",
+                "parameters": [
+                    {
+                        "type": "S:integer"
+                    }
+                ],
+                "scope": "S:map"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:number_of_stars_campaign",
+                "parameters": [
+                    {
+                        "type": "S:integer"
+                    }
+                ],
+                "scope": "S:campaign"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:number_of_stars_after_victory",
+                "parameters": [
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:check_gizmo_state",
+                "parameters": [
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:integer"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "id": "S:counter_compare",
+                "parameters": [
+                    {
+                        "type": "S:counter"
+                    },
+                    {
+                        "type": "S:operator"
+                    },
+                    {
+                        "type": "S:counter"
+                    }
+                ]
+            }
+        ]
+    }
+}

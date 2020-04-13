@@ -1,0 +1,330 @@
+{
+    "root": {
+        "codex": [
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:piano_tuna",
+                "name": "S:fish_name_piano_tuna",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_2.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_piano_tuna",
+                        "title": "S:fish_name_piano_tuna_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_piano_tuna"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:ginger_guppy",
+                "name": "S:fish_name_ginger_guppy",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_3.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_ginger_guppy",
+                        "title": "S:fish_name_ginger_guppy_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_ginger_guppy"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:jerkfish",
+                "name": "S:fish_name_jerkfish",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_4.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_jerkfish",
+                        "title": "S:fish_name_jerkfish_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_jerkfish"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:salty_bass",
+                "name": "S:fish_name_salty_bass",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_5.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_salty_bass",
+                        "title": "S:fish_name_salty_bass_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_salty_bass"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:pinchmaster",
+                "name": "S:fish_name_pinchmaster",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_6.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_pinchmaster",
+                        "title": "S:fish_name_pinchmaster_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_pinchmaster"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:fruitfrog",
+                "name": "S:fish_name_fruitfrog",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_7.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_fruitfrog",
+                        "title": "S:fish_name_fruitfrog_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_fruitfrog"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:lemon_loach",
+                "name": "S:fish_name_lemon_loach",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_8.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_lemon_loach",
+                        "title": "S:fish_name_lemon_loach_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_lemon_loach"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:storm_jelly",
+                "name": "S:fish_name_storm_jelly",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_9.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_storm_jelly",
+                        "title": "S:fish_name_storm_jelly_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_storm_jelly"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:lime_sole",
+                "name": "S:fish_name_lime_sole",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_14.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_lime_sole",
+                        "title": "S:fish_name_lime_sole_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_lime_sole"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:eclectic_eel",
+                "name": "S:fish_name_eclectic_eel",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_10.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_eclectic_eel",
+                        "title": "S:fish_name_eclectic_eel_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_eclectic_eel"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:dreadfish",
+                "name": "S:fish_name_dreadfish",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_11.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_dreadfish",
+                        "title": "S:fish_name_dreadfish_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_dreadfish"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:snuffish",
+                "name": "S:fish_name_snuffish",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_15.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_snuffish",
+                        "title": "S:fish_name_snuffish_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_snuffish"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:toy_koi",
+                "name": "S:fish_name_toy_koi",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_12.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_toy_koi",
+                        "title": "S:fish_name_toy_koi_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_toy_koi"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:clockwork_fish",
+                "name": "S:fish_name_clockwork_fish",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_13.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_clockwork_fish",
+                        "title": "S:fish_name_clockwork_fish_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_clockwork_fish"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:red_flapper",
+                "name": "S:fish_name_red_flapper",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_16.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_red_flapper",
+                        "title": "S:fish_name_red_flapper_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_red_flapper"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:fish_boot",
+                "name": "S:fish_name_boot",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_1.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_boot",
+                        "title": "S:fish_name_boot_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_boot"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:chucklefish",
+                "name": "S:fish_name_chucklefish",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_17.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_chucklefish",
+                        "title": "S:fish_name_chucklefish_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_chucklefish"
+            },
+            {
+                "category": "S:fish",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_fish.png"
+                },
+                "id": "S:starfish",
+                "name": "S:fish_name_starfish",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/fish/fish_18.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:description",
+                        "text": "S:fish_description_starfish",
+                        "title": "S:fish_name_starfish_title"
+                    }
+                ],
+                "unlock": "S:codex_entry_fish_starfish"
+            }
+        ]
+    }
+}

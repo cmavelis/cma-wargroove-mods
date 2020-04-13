@@ -1,0 +1,67 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:3.0",
+                "battleUnitCount": "I:1",
+                "canBeReinforced": "S:false",
+                "canReinforce": "S:false",
+                "cargoSpace": "I:1",
+                "cost": "I:500",
+                "damageMultiplier": "F:0.5",
+                "garrisonUnit": "S:",
+                "hostileNeutral": "S:true",
+                "id": "S:gate",
+                "isLineOfSightBlocker": "S:true",
+                "isStructure": "S:true",
+                "movement": "S:indoor_building",
+                "name": "S:structure_name_gate",
+                "tags": [
+                    "S:structure"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "class": "S:gate",
+                "faction": "S:neutral",
+                "grabPos": [
+                    "I:15",
+                    "I:12"
+                ],
+                "hasBattleScreen": "S:false",
+                "mapAnimation": [
+                    "S:structures/gate",
+                    "S:structures/gate_2"
+                ],
+                "mediumPortrait": "S:portraits/medium/gate.png",
+                "name": "S:structure_name_gate",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "deathMap": "S:strongholdDieRed",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitStone"
+                },
+                "structureImage": {
+                    "farBackground": "S:gate_background_full_background_2",
+                    "foreground": "S:gate_background_full_background_2",
+                    "keeperPosition": [
+                        "I:54",
+                        "I:75"
+                    ],
+                    "leftBannerOffset": [
+                        "I:0",
+                        "I:0"
+                    ],
+                    "nearBackground": "S:gate_background_full_background_2",
+                    "rightBannerOffset": [
+                        "I:0",
+                        "I:0"
+                    ],
+                    "spriteSheet": "S:backgrounds/gate/gate_background_full"
+                }
+            }
+        ]
+    }
+}

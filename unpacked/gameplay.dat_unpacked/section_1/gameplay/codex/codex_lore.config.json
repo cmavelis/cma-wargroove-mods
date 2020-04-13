@@ -1,0 +1,291 @@
+{
+    "root": {
+        "codex": [
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_aurania",
+                "name": "S:codex_lore_aurania",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/lore_aurania.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_aurania_text",
+                        "title": "S:codex_lore_aurania_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_aurenia"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_cherrystone",
+                "name": "S:codex_lore_cherrystone",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/lore_cherrystone.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_cherrystone_text",
+                        "title": "S:codex_lore_cherrystone_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_felheim",
+                "name": "S:codex_lore_felheim",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/lore_felheim.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_felheim_text",
+                        "title": "S:codex_lore_felheim_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_felheim"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_heavensong",
+                "name": "S:codex_lore_heavensong",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/lore_heaven.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_heavensong_text",
+                        "title": "S:codex_lore_heavensong_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_heavensong"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_floran",
+                "name": "S:codex_lore_floran",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/lore_floran.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_floran_text",
+                        "title": "S:codex_lore_floran_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_floran"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_lostleagues",
+                "name": "S:codex_lore_lostleagues",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/lore_lostleagues.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_lostleagues_text",
+                        "title": "S:codex_lore_lostleagues_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_lostleagues"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_cacophony",
+                "name": "S:codex_lore_cacophony",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/background_road_grass.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_cacophony_text",
+                        "title": "S:codex_lore_cacophony_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_cacophony"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_magictech",
+                "name": "S:codex_lore_magictech",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_emeric_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_magictech_text",
+                        "title": "S:codex_lore_magictech_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_magictech"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_cherryblade",
+                "name": "S:codex_lore_cherryblade",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_mercia_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_cherryblade_text",
+                        "title": "S:codex_lore_cherryblade_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_cherryblade"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_fellgauntlet",
+                "name": "S:codex_lore_fellgauntlet",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_valder_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_fellgauntlet_text",
+                        "title": "S:codex_lore_fellgauntlet_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_fellgauntlet"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_requiem",
+                "name": "S:codex_lore_requiem",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_elodie_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_requiem_text",
+                        "title": "S:codex_lore_requiem_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_requiem"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_vampires",
+                "name": "S:codex_lore_vampires",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/commander_sigrid_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_vampires_text",
+                        "title": "S:codex_lore_vampires_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_vampires"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_outlaws",
+                "name": "S:codex_lore_outlaws",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/lore_outlaw.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_outlaws_text",
+                        "title": "S:codex_lore_outlaws_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_outlaws"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_chiefbyballot",
+                "name": "S:codex_lore_chiefbyballot",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_wulfar_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_chiefbyballot_text",
+                        "title": "S:codex_lore_chiefbyballot_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_enid",
+                "name": "S:codex_lore_enid",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/lore_enid.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_enid_text",
+                        "title": "S:codex_lore_enid_title"
+                    }
+                ],
+                "unlock": "S:codex_lore_enid"
+            },
+            {
+                "category": "S:lore",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_lore_book.png"
+                },
+                "id": "S:lore_fumomancy",
+                "name": "S:codex_lore_fumomancy",
+                "pages": [
+                    {
+                        "image": "S:ui/codex/content/dlc1/commander_vesper_portrait.png",
+                        "layoutType": "S:image",
+                        "pageType": "S:page",
+                        "text": "S:codex_lore_fumomancy_text",
+                        "title": "S:codex_lore_fumomancy_title"
+                    }
+                ]
+            }
+        ]
+    }
+}

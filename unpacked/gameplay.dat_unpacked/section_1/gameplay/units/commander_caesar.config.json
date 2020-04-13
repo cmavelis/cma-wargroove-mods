@@ -1,0 +1,218 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:second_wind",
+                "id": "S:commander_caesar",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:caesarBite"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeRuns": [
+                    {
+                        "id": "S:run_sniff"
+                    }
+                ],
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": [
+                            "F:1.0",
+                            "F:1.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": [
+                            "S:attack",
+                            "S:attack2",
+                            "S:attack3"
+                        ],
+                        "attackSound": [
+                            "S:attack1",
+                            "S:attack2",
+                            "S:attack3"
+                        ],
+                        "effect": "S:fx/bs_caesar_attack",
+                        "effectDelay": "F:0.7",
+                        "hitDelay": [
+                            "F:0.9",
+                            "F:1.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:secondary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackAnimationSequence": [
+                            "S:cutscene_attack"
+                        ],
+                        "attackSound": "S:cutsceneAttack",
+                        "cutsceneOnly": "S:true",
+                        "effect": "S:fx/bs_caesar_attack",
+                        "effectDelay": "F:0.7",
+                        "hitDelay": [
+                            "F:0.9",
+                            "F:1.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:cutscene",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/caesar/battle_caesar",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_caesar_river",
+                "class": "S:commander_caesar",
+                "cutsceneHit": "S:hit_foot",
+                "cutsceneIdle": "S:capture_idle",
+                "cutscenePreIdle": "S:",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "dance": "S:emote_dance",
+                    "darkcaesar": "S:emote_darkcaesar",
+                    "howl": "S:emote_howl",
+                    "hypno": "S:emote_hypno",
+                    "idle": "S:capture_idle",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_negative",
+                    "positive": "S:emote_positive",
+                    "sleep": "S:emote_sleep",
+                    "sniff": "S:emote_sniff",
+                    "surprise": "S:emote_surprise",
+                    "unhappy": "S:emote_unhappy"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:27",
+                    "I:27"
+                ],
+                "hidden": {
+                    "alternativeRuns": [
+                        "S:angry_run"
+                    ],
+                    "shouts": [
+                        "S:caesar_bark2",
+                        "S:caesar_bark4",
+                        "S:caesar_bark5",
+                        "S:caesar_bark6",
+                        "S:caesar_hit2",
+                        "S:caesar_hit3"
+                    ]
+                },
+                "mapAnimation": "S:units/commanders/caesar/map_caesar",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/caesar/portrait_caesar_medium.png",
+                "menuIdleSequence": "S:capture_idle",
+                "name": "S:character_caesar_name",
+                "shouts": {
+                    "caesar_bark1": "S:caesar/caesarShoutBark1",
+                    "caesar_bark2": "S:caesar/caesarShoutBark2",
+                    "caesar_bark3": "S:caesar/caesarShoutBark3",
+                    "caesar_bark4": "S:caesar/caesarShoutBark4",
+                    "caesar_bark5": "S:caesar/caesarShoutBark5",
+                    "caesar_bark6": "S:caesar/caesarShoutBark6",
+                    "caesar_barktwice": "S:caesar/caesarShoutBarkTwice",
+                    "caesar_excited": "S:caesar/caesarShoutExcited",
+                    "caesar_growl": "S:caesar/caesarShoutGrowl",
+                    "caesar_grumble": "S:caesar/caesarShoutGrumble",
+                    "caesar_hit1": "S:caesar/caesarShoutHit1",
+                    "caesar_hit2": "S:caesar/caesarShoutHit2",
+                    "caesar_hit3": "S:caesar/caesarShoutHit3",
+                    "caesar_hit4": "S:caesar/caesarShoutHit4",
+                    "caesar_howl": "S:caesar/caesarShoutHowl",
+                    "caesar_panting": "S:caesar/caesarShoutPanting",
+                    "caesar_whimper": "S:caesar/caesarShoutWhimper"
+                },
+                "skinColour": "S:typeV",
+                "smallPortrait": "S:units/commanders/caesar/portrait_caesar_small.png",
+                "sounds": {
+                    "attack1": "S:caesar/caesarAttack1",
+                    "attack2": "S:caesar/caesarAttack2",
+                    "attack3": "S:caesar/caesarAttack3",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:caesar/caesarShoutExcited",
+                    "counter": "S:caesar/caesarCounterAttack",
+                    "cutsceneAttack": "S:caesar/caesarAttackBarking",
+                    "death": "S:caesar/caesarDie",
+                    "deathMap": "S:caesar/caesarDieGhost",
+                    "deathMapNoBattle": "S:caesar/caesarDieNoBattle",
+                    "firstHit": "S:caesar/caesarHit",
+                    "groove": "S:caesar/caesarGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "preIdle": "S:caesar/caesarPreIdle",
+                    "run": "S:dogEntry",
+                    "runMap": "S:dogEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:caesarBite",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:dual_bombs",
+                "hiddenFromCutsceneEditior": "S:true",
+                "id": "S:commander_twins",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:twinsAttack"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attackOffset": [
+                    "I:30",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackCommanderSound": "S:counter",
+                        "attackSound": "S:counter",
+                        "effectDelay": "F:0.8",
+                        "hitDelay": "F:0.8",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:closeRange",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "effect": "S:fx/bs_tnt_attack_single",
+                        "effectDelay": "F:3.4",
+                        "hitDelay": [
+                            "F:3.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/twins/battle_twins",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_twins_river",
+                "battlePosOffset": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "class": "S:commander_twins",
+                "cutsceneHasAttack": "S:false",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "brave": "S:emote_aiming",
+                    "crying": "S:emote_sad",
+                    "dance": "S:emote_dance",
+                    "idle": "S:idle",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_angry",
+                    "positive": "S:emote_positive",
+                    "surprise": "S:emote_surprise"
+                },
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:47",
+                    "I:47"
+                ],
+                "hitSparkOffset": [
+                    "I:30",
+                    "I:0"
+                ],
+                "mapAnimation": "S:units/commanders/twins/map_twins",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/twins/portrait_twins_medium.png",
+                "name": "S:character_twins_name",
+                "shouts": {
+                    "twins_da": "S:twins/twinsShoutDa",
+                    "twins_hit": "S:twins/twinsShoutHit",
+                    "twins_laugh": "S:twins/twinsShoutLaugh",
+                    "twins_wondertwinpowers": "S:twins/twinsShoutWonderTwinPowers"
+                },
+                "skinColour": "S:typeVI",
+                "smallPortrait": "S:units/commanders/twins/portrait_twins_small.png",
+                "sounds": {
+                    "attack": "S:twins/twinsAttack",
+                    "attackCommander": "S:twins/twinsCommanderKillAttack",
+                    "attackEffect": "S:twins/twinsAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:twins/twinsCapture",
+                    "counter": "S:twins/twinsCounterAttack",
+                    "death": "S:twins/twinsDie",
+                    "deathMap": "S:twins/twinsDieGhost",
+                    "deathMapNoBattle": "S:twins/twinsDieNoBattle",
+                    "firstHit": "S:twins/twinsHit",
+                    "hit": "S:twins/twinsShieldHit",
+                    "hitEnd": "S:twins/twinsShieldEnd",
+                    "hitLeadup": "S:twins/twinsShieldUp",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightMapEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:twinsAttack",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

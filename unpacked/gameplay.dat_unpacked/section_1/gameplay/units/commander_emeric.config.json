@@ -1,0 +1,220 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:cherrystone_defence",
+                "id": "S:commander_emeric",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:emericSpell"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeAttackSounds": {
+                    "no_voice": "S:emeric/emericAttackNoVoice"
+                },
+                "alternativeRuns": [
+                    {
+                        "id": "S:run_river",
+                        "sound": "S:infantryLightRiverMapEntry"
+                    }
+                ],
+                "attacks": [
+                    {
+                        "effectDelay": "F:2.95",
+                        "hitDelay": "F:3.0",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:closeRange",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "effect": "S:fx/bs_emeric_attack",
+                        "effectDelay": "F:2.95",
+                        "hitDelay": "F:3.0",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/emeric/battle_emeric",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_emeric_river",
+                "class": "S:commander_emeric",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "casting": "S:emote_casting",
+                    "dance": "S:emote_dance",
+                    "hypno": "S:emote_hypno",
+                    "idle": "S:idle",
+                    "idle_river": "S:idle_river",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_negative",
+                    "negative_river": "S:emote_negative_river",
+                    "positive": "S:emote_positive",
+                    "positive_river": "S:emote_positive_river",
+                    "surprise": "S:emote_surprise",
+                    "surprise_river": "S:emote_surprise_river",
+                    "thinking": "S:emote_thinking",
+                    "thinking_river": "S:emote_thinking_river"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:40",
+                    "I:28"
+                ],
+                "hidden": {
+                    "alternativeRuns": [
+                        "S:run_river"
+                    ],
+                    "emotes": [
+                        "S:idle_river",
+                        "S:positive_river",
+                        "S:negative_river",
+                        "S:thinking_river",
+                        "S:surprise_river"
+                    ],
+                    "shouts": [
+                        "S:emeric_attack2",
+                        "S:emeric_hit3",
+                        "S:emeric_ghostlaugh"
+                    ]
+                },
+                "mapAnimation": "S:units/commanders/emeric/map_emeric",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/emeric/portrait_emeric_medium.png",
+                "name": "S:character_emeric_name",
+                "shouts": {
+                    "emeric_attack1": "S:emeric/emericShoutAttack1",
+                    "emeric_attack2": "S:emeric/emericShoutAttack2",
+                    "emeric_attack3": "S:emeric/emericShoutAttack3",
+                    "emeric_attack4": "S:emeric/emericShoutAttack4",
+                    "emeric_cherrystonesdefend": "S:emeric/emericShoutCherrystonesDefendUs",
+                    "emeric_dothetrick": "S:emeric/emericShoutThisShouldDoTheTrick",
+                    "emeric_educatedchoice": "S:emeric/emericShoutEducatedChoice",
+                    "emeric_farewell": "S:emeric/emericShoutFarewell",
+                    "emeric_ghostlaugh": "S:emeric/emericShoutGhostLaugh",
+                    "emeric_gravemistake": "S:emeric/emericShoutGraveMistake",
+                    "emeric_greetings": "S:emeric/emericShoutGreetings",
+                    "emeric_haveaspell1": "S:emeric/emericShoutIHaveASpell1",
+                    "emeric_haveaspell2": "S:emeric/emericShoutIHaveASpell2",
+                    "emeric_hit1": "S:emeric/emericShoutHit1",
+                    "emeric_hit2": "S:emeric/emericShoutHit2",
+                    "emeric_hit3": "S:emeric/emericShoutHit3",
+                    "emeric_hit4": "S:emeric/emericShoutHit4",
+                    "emeric_hit5": "S:emeric/emericShoutHit5",
+                    "emeric_hmm1": "S:emeric/emericShoutHmm1",
+                    "emeric_hmm2": "S:emeric/emericShoutHmm2",
+                    "emeric_hmm3": "S:emeric/emericShoutHmm3",
+                    "emeric_hmph": "S:emeric/emericShoutHmph",
+                    "emeric_iagree": "S:emeric/emericShoutIAgree",
+                    "emeric_imsorry": "S:emeric/emericShoutImSorry",
+                    "emeric_interesting": "S:emeric/emericShoutInteresting",
+                    "emeric_itisntsafe": "S:emeric/emericShoutItIsntSafe",
+                    "emeric_iwasfoolish": "S:emeric/emericShoutIWasFoolish",
+                    "emeric_laugh1": "S:emeric/emericShoutLaugh1",
+                    "emeric_laugh2": "S:emeric/emericShoutLaugh2",
+                    "emeric_lightningblast": "S:emeric/emericShoutLightningBlast",
+                    "emeric_mercival1": "S:emeric/emericShoutMercival",
+                    "emeric_mercival2": "S:emeric/emericShoutMercivalDistressed",
+                    "emeric_myqueen1": "S:emeric/emericShoutMyQueenDistressed",
+                    "emeric_myqueen2": "S:emeric/emericShoutMyQueenProud",
+                    "emeric_myqueen3": "S:emeric/emericShoutMyQueenSerious",
+                    "emeric_myqueen4": "S:emeric/emericShoutMyQueenSurprised",
+                    "emeric_no": "S:emeric/emericShoutNo",
+                    "emeric_nodoubt": "S:emeric/emericShoutNoDoubt",
+                    "emeric_oops": "S:emeric/emericShoutOops",
+                    "emeric_outmatched": "S:emeric/emericShoutSimplyOutmatched",
+                    "emeric_proudofyou": "S:emeric/emericShoutImProudOfYou",
+                    "emeric_shouldbeadvantageous": "S:emeric/emericShoutThisShouldBeAdvantageous",
+                    "emeric_shouldprotectus": "S:emeric/emericShoutThisShouldProtectUs",
+                    "emeric_sigh": "S:emeric/emericShoutSigh",
+                    "emeric_soproudofyou": "S:emeric/emericShoutImSoProudOfYou",
+                    "emeric_tacticaladvantage": "S:emeric/emericShoutTacticalAdvantage",
+                    "emeric_thankyou": "S:emeric/emericShoutThankYou",
+                    "emeric_theresnotime": "S:emeric/emericShoutThereIsNoTime",
+                    "emeric_verywell": "S:emeric/emericShoutVeryWell",
+                    "emeric_wellearned": "S:emeric/emericShoutVictoryWellEarned",
+                    "emeric_what": "S:emeric/emericShoutWhat",
+                    "emeric_wisedecision": "S:emeric/emericShoutWiseDecision",
+                    "emeric_yes1": "S:emeric/emericShoutYes1",
+                    "emeric_yes2": "S:emeric/emericShoutYes2",
+                    "emeric_yourhighness": "S:emeric/emericShoutYourHighness",
+                    "emeric_youshallnotpass": "S:emeric/emericShoutYouShallNotPass"
+                },
+                "skinColour": "S:typeVI",
+                "smallPortrait": "S:units/commanders/emeric/portrait_emeric_small.png",
+                "sounds": {
+                    "attack": "S:emeric/emericAttack",
+                    "attackCommander": "S:emeric/emericCommanderKillAttack",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:emeric/emericCapture",
+                    "death": "S:emeric/emericDie",
+                    "deathMap": "S:emeric/emericDieGhost",
+                    "deathMapNoBattle": "S:emeric/emericDieNoBattle",
+                    "firstHit": "S:emeric/emericHit",
+                    "groove": "S:emeric/emericGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightMapEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:emericSpell",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

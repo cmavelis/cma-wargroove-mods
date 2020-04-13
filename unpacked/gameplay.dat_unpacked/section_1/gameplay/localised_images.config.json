@@ -1,0 +1,67 @@
+{
+    "root": {
+        "localisedImages": [
+            {
+                "default": "S:ui/main_menu/logo.png",
+                "id": "S:wargroove_logo",
+                "languages": {
+                    "zh-Hans": "S:ui/main_menu/logo_zh-Hans.png",
+                    "zh-Hant": "S:ui/main_menu/logo_zh-Hant.png"
+                }
+            },
+            {
+                "default": "S:ui/main_menu/logo_dlc1.png",
+                "id": "S:wargroove_logo_dlc1",
+                "languages": {
+                    "zh-Hans": "S:ui/main_menu/logo_zh-Hans.png",
+                    "zh-Hant": "S:ui/main_menu/logo_zh-Hant.png"
+                }
+            },
+            {
+                "default": "S:ui/end_of_match/victory_defeat/victory.png",
+                "id": "S:victory",
+                "languages": {
+                    "de-DE": "S:ui/end_of_match/victory_defeat/victory_de-DE.png",
+                    "es-ES": "S:ui/end_of_match/victory_defeat/victory_es-ES.png",
+                    "fr-FR": "S:ui/end_of_match/victory_defeat/victory_fr-FR.png",
+                    "it-IT": "S:ui/end_of_match/victory_defeat/victory_it-IT.png",
+                    "pt-BR": "S:ui/end_of_match/victory_defeat/victory_pt-BR.png",
+                    "ru-RU": "S:ui/end_of_match/victory_defeat/victory_ru-RU.png",
+                    "zh-Hans": "S:ui/end_of_match/victory_defeat/victory_zh-Hans.png",
+                    "zh-Hant": "S:ui/end_of_match/victory_defeat/victory_zh-Hant.png"
+                }
+            },
+            {
+                "default": "S:ui/end_of_match/victory_defeat/defeat.png",
+                "id": "S:defeat",
+                "languages": {
+                    "de-DE": "S:ui/end_of_match/victory_defeat/defeat_de-DE.png",
+                    "es-ES": "S:ui/end_of_match/victory_defeat/defeat_es-ES.png",
+                    "fr-FR": "S:ui/end_of_match/victory_defeat/defeat_fr-FR.png",
+                    "it-IT": "S:ui/end_of_match/victory_defeat/defeat_it-IT.png",
+                    "pt-BR": "S:ui/end_of_match/victory_defeat/defeat_pt-BR.png",
+                    "ru-RU": "S:ui/end_of_match/victory_defeat/defeat_ru-RU.png",
+                    "zh-Hans": "S:ui/end_of_match/victory_defeat/defeat_zh-Hans.png",
+                    "zh-Hant": "S:ui/end_of_match/victory_defeat/defeat_zh-Hant.png"
+                }
+            },
+            {
+                "animated": "S:true",
+                "default": "S:world/maps/paper_aurania/world_map_labels",
+                "id": "S:paper_aurania_world_map_labels",
+                "languages": {
+                    "de-DE": "S:world/maps/paper_aurania/world_map_labels_de-DE",
+                    "es-ES": "S:world/maps/paper_aurania/world_map_labels_es-ES",
+                    "fr-FR": "S:world/maps/paper_aurania/world_map_labels_fr-FR",
+                    "it-IT": "S:world/maps/paper_aurania/world_map_labels_it-IT",
+                    "ja-JP": "S:world/maps/paper_aurania/world_map_labels_ja-JP",
+                    "ko-KR": "S:world/maps/paper_aurania/world_map_labels_ko-KR",
+                    "pt-BR": "S:world/maps/paper_aurania/world_map_labels_pt-BR",
+                    "ru-RU": "S:world/maps/paper_aurania/world_map_labels_ru-RU",
+                    "zh-Hans": "S:world/maps/paper_aurania/world_map_labels_zh-Hans",
+                    "zh-Hant": "S:world/maps/paper_aurania/world_map_labels_zh-Hant"
+                }
+            }
+        ]
+    }
+}

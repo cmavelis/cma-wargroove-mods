@@ -1,0 +1,289 @@
+{
+    "root": {
+        "grooves": [
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:100",
+                "description": "S:groove_description_heal_aura",
+                "id": "S:heal_aura",
+                "maxCharge": "I:100",
+                "name": "S:groove_name_heal_aura",
+                "verb": "S:groove_heal_aura"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:50",
+                "description": "S:groove_description_raise_dead",
+                "id": "S:raise_dead",
+                "maxCharge": "I:50",
+                "name": "S:groove_name_raise_dead",
+                "verb": "S:groove_raise_dead"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:200",
+                "description": "S:groove_description_splash_jump",
+                "id": "S:splash_jump",
+                "maxCharge": "I:200",
+                "name": "S:groove_name_splash_jump",
+                "verb": "S:groove_splash_jump"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:150",
+                "description": "S:groove_description_second_wind",
+                "id": "S:second_wind",
+                "maxCharge": "I:150",
+                "name": "S:groove_name_second_wind",
+                "verb": "S:groove_second_wind"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:150",
+                "description": "S:groove_description_vine_wall",
+                "id": "S:vine_wall",
+                "maxCharge": "I:150",
+                "name": "S:groove_name_vine_wall",
+                "verb": "S:groove_vine_wall"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:150",
+                "description": "S:groove_description_vampiric_touch",
+                "id": "S:vampiric_touch",
+                "maxCharge": "I:150",
+                "name": "S:groove_name_vampiric_touch",
+                "verb": "S:groove_vampiric_touch"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:100",
+                "description": "S:groove_description_diplomacy",
+                "id": "S:diplomacy",
+                "maxCharge": "I:100",
+                "name": "S:groove_name_diplomacy",
+                "verb": "S:groove_diplomacy"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:200",
+                "description": "S:groove_description_sadistic_rush",
+                "id": "S:sadistic_rush",
+                "maxCharge": "I:200",
+                "name": "S:groove_name_sadistic_rush",
+                "verb": "S:groove_sadistic_rush"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:100",
+                "description": "S:groove_description_teleport_beam",
+                "id": "S:teleport_beam",
+                "maxCharge": "I:100",
+                "name": "S:groove_name_teleport_beam",
+                "verb": "S:groove_teleport_beam"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:200",
+                "description": "S:groove_description_drone_bombs",
+                "id": "S:drone_bombs",
+                "maxCharge": "I:200",
+                "name": "S:groove_name_drone_bombs",
+                "verb": "S:groove_drone_bombs"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:100",
+                "description": "S:groove_description_cherrystone_defence",
+                "id": "S:cherrystone_defence",
+                "maxCharge": "I:100",
+                "name": "S:groove_name_cherrystone_defence",
+                "verb": "S:groove_cherrystone_defence"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:100",
+                "description": "S:groove_description_dash",
+                "id": "S:dash",
+                "maxCharge": "I:100",
+                "name": "S:groove_name_dash",
+                "verb": "S:groove_dash"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:200",
+                "description": "S:groove_description_tornado",
+                "id": "S:tornado",
+                "maxCharge": "I:200",
+                "name": "S:groove_name_tornado",
+                "verb": "S:groove_tornado"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:200",
+                "description": "S:groove_description_convert",
+                "id": "S:convert",
+                "maxCharge": "I:200",
+                "name": "S:groove_name_convert",
+                "verb": "S:groove_convert"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:200",
+                "description": "S:groove_description_drain_aura",
+                "id": "S:drain_aura",
+                "maxCharge": "I:200",
+                "name": "S:groove_name_drain_aura",
+                "verb": "S:groove_drain_aura"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:150",
+                "description": "S:groove_description_fish",
+                "id": "S:fish",
+                "maxCharge": "I:150",
+                "name": "S:groove_name_fish",
+                "verb": "S:groove_fish"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:100",
+                "description": "S:groove_description_golf",
+                "id": "S:golf",
+                "maxCharge": "I:100",
+                "name": "S:groove_name_golf",
+                "verb": "S:groove_golf"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:200",
+                "description": "S:groove_description_smoke_screen",
+                "id": "S:smoke_screen",
+                "maxCharge": "I:200",
+                "name": "S:groove_name_smoke_screen",
+                "verb": "S:groove_smoke_screen"
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:150",
+                "description": "S:groove_description_dual_bombs",
+                "id": "S:dual_bombs",
+                "maxCharge": "I:150",
+                "name": "S:groove_name_dual_bombs",
+                "verb": [
+                    "S:groove_area_heal",
+                    "S:groove_area_damage"
+                ]
+            },
+            {
+                "chargeBy": {
+                    "attack": "I:20",
+                    "counter": "I:10",
+                    "endOfTurn": "I:10",
+                    "kill": "I:30"
+                },
+                "chargePerUse": "I:200",
+                "description": "S:groove_description_smoke_screen",
+                "id": "S:shadow_sisters",
+                "maxCharge": "I:200",
+                "name": "S:groove_name_shadow_sisters",
+                "verb": "S:groove_smoke_screen"
+            }
+        ]
+    }
+}

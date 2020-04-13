@@ -1,0 +1,76 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "appearsInLists": "S:false",
+                "battleUnitCount": "I:1",
+                "classIcon": "S:unit_icons_summon",
+                "cost": "I:10",
+                "grooveId": "S:smoke_screen",
+                "id": "S:shadow_vesper",
+                "isHidden": "S:true",
+                "isRecruitable": "S:false",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_shadow_sister",
+                "tags": [
+                    "S:type.ground.light",
+                    "S:summon"
+                ],
+                "verbs": [
+                    "S:load"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:vesperWhip"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:attack",
+                        "effectDelay": "F:0.6",
+                        "hitDelay": "F:0.6",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:closeRange",
+                        "samePanel": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/vesper/battle_shadow_vesper",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_mercia_river",
+                "class": "S:shadow_vesper",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:47",
+                    "I:47"
+                ],
+                "mapAnimation": "S:units/commanders/vesper/map_shadow_vesper",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/vesper/portrait_shadow_vesper_medium.png",
+                "name": "S:unit_class_name_shadow_sister",
+                "skinColour": "S:typeVI",
+                "smallPortrait": "S:units/commanders/vesper/portrait_vesper_small.png",
+                "sounds": {
+                    "attack": "S:vesper/shadowVesperAttack",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:vesper/shadowVesperAttackShout",
+                    "death": "S:vesper/shadowVesperDie",
+                    "deathMap": "S:vesper/vesperDieGhost",
+                    "groove": "S:vesper/vesperGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:vesper/shadowVesperEntry",
+                    "runMap": "S:vesper/shadowVesperEntry"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ]
+    }
+}

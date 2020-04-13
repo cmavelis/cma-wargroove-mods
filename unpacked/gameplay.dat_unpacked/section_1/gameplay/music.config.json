@@ -1,0 +1,517 @@
+{
+    "root": {
+        "music": [
+            {
+                "id": "S:no_change",
+                "name": "S:music_name_no_change"
+            },
+            {
+                "audioEvent": "S:music/mute",
+                "id": "S:none",
+                "name": "S:music_name_none"
+            },
+            {
+                "audioEvent": "S:music/victory_only",
+                "availableOnMap": "S:false",
+                "id": "S:victory",
+                "name": "S:music_name_victory"
+            },
+            {
+                "audioEvent": "S:music/defeat_only",
+                "availableOnMap": "S:false",
+                "id": "S:defeat",
+                "name": "S:music_name_defeat"
+            },
+            {
+                "audioEvent": "S:music/requiem",
+                "cutsceneUnlock": "S:gallery_elodie",
+                "id": "S:requiem",
+                "name": "S:music_name_requiem"
+            },
+            {
+                "audioEvent": "S:music/newlife",
+                "cutsceneUnlock": "S:gallery_elodie",
+                "id": "S:newlife",
+                "name": "S:music_name_newlife"
+            },
+            {
+                "audioEvent": "S:music/main_theme",
+                "availableOnMap": "S:false",
+                "id": "S:main_theme",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_main_theme"
+            },
+            {
+                "audioEvent": "S:music/mercia",
+                "cutsceneUnlock": "S:arcade_mercia",
+                "id": "S:mercia",
+                "jukebox": {
+                    "animation": "S:units/commanders/mercia/battle_mercia",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_mercia",
+                "unlock": "S:jukebox_mercia"
+            },
+            {
+                "audioEvent": "S:music/emeric",
+                "cutsceneUnlock": "S:arcade_emeric",
+                "id": "S:emeric",
+                "jukebox": {
+                    "animation": "S:units/commanders/emeric/battle_emeric",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeVI"
+                },
+                "name": "S:music_name_emeric",
+                "unlock": "S:jukebox_emeric"
+            },
+            {
+                "audioEvent": "S:music/caesar",
+                "cutsceneUnlock": "S:arcade_caesar",
+                "id": "S:caesar",
+                "jukebox": {
+                    "animation": "S:units/commanders/caesar/battle_caesar",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_caesar",
+                "unlock": "S:jukebox_caesar"
+            },
+            {
+                "audioEvent": "S:music/valder",
+                "cutsceneUnlock": "S:arcade_valder",
+                "id": "S:valder",
+                "jukebox": {
+                    "animation": "S:units/commanders/valder/battle_valder",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:blue",
+                    "skinColour": "S:typeIV"
+                },
+                "name": "S:music_name_valder",
+                "unlock": "S:jukebox_valder"
+            },
+            {
+                "audioEvent": "S:music/ragna",
+                "cutsceneUnlock": "S:arcade_ragna",
+                "id": "S:ragna",
+                "jukebox": {
+                    "animation": "S:units/commanders/ragna/battle_ragna",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:blue",
+                    "skinColour": "S:typeI"
+                },
+                "name": "S:music_name_ragna",
+                "unlock": "S:jukebox_ragna"
+            },
+            {
+                "audioEvent": "S:music/sigrid",
+                "cutsceneUnlock": "S:arcade_sigrid",
+                "id": "S:sigrid",
+                "jukebox": {
+                    "animation": "S:units/commanders/sigrid/battle_sigrid",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:blue",
+                    "skinColour": "S:typeI"
+                },
+                "name": "S:music_name_sigrid",
+                "unlock": "S:jukebox_sigrid"
+            },
+            {
+                "audioEvent": "S:music/greenfinger",
+                "cutsceneUnlock": "S:arcade_greenfinger",
+                "id": "S:greenfinger",
+                "jukebox": {
+                    "animation": "S:units/commanders/greenfinger/battle_greenfinger",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:green",
+                    "skinColour": "S:green"
+                },
+                "name": "S:music_name_greenfinger",
+                "unlock": "S:jukebox_greenfinger"
+            },
+            {
+                "audioEvent": "S:music/nuru",
+                "cutsceneUnlock": "S:arcade_nuru",
+                "id": "S:nuru",
+                "jukebox": {
+                    "animation": "S:units/commanders/nuru/battle_nuru",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:green",
+                    "skinColour": "S:green"
+                },
+                "name": "S:music_name_nuru",
+                "unlock": "S:jukebox_nuru"
+            },
+            {
+                "audioEvent": "S:music/sedge",
+                "cutsceneUnlock": "S:arcade_sedge",
+                "id": "S:sedge",
+                "jukebox": {
+                    "animation": "S:units/commanders/sedge/battle_sedge",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:green",
+                    "skinColour": "S:green"
+                },
+                "name": "S:music_name_sedge",
+                "unlock": "S:jukebox_sedge"
+            },
+            {
+                "audioEvent": "S:music/tenri",
+                "cutsceneUnlock": "S:arcade_tenri",
+                "id": "S:tenri",
+                "jukebox": {
+                    "animation": "S:units/commanders/tenri/battle_tenri",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:yellow",
+                    "skinColour": "S:typeIII"
+                },
+                "name": "S:music_name_tenri",
+                "unlock": "S:jukebox_tenri"
+            },
+            {
+                "audioEvent": "S:music/ryota",
+                "cutsceneUnlock": "S:arcade_ryota",
+                "id": "S:ryota",
+                "jukebox": {
+                    "animation": "S:units/commanders/ryota/battle_ryota",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:yellow",
+                    "skinColour": "S:typeIII"
+                },
+                "name": "S:music_name_ryota",
+                "unlock": "S:jukebox_ryota"
+            },
+            {
+                "audioEvent": "S:music/koji",
+                "cutsceneUnlock": "S:arcade_koji",
+                "id": "S:koji",
+                "jukebox": {
+                    "animation": "S:units/commanders/koji/battle_koji",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:yellow",
+                    "skinColour": "S:typeIII"
+                },
+                "name": "S:music_name_koji",
+                "unlock": "S:jukebox_koji"
+            },
+            {
+                "audioEvent": "S:music/elodie",
+                "cutsceneUnlock": "S:arcade_elodie",
+                "id": "S:elodie",
+                "jukebox": {
+                    "animation": "S:units/commanders/elodie/battle_elodie",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:purple",
+                    "skinColour": "S:typeIV"
+                },
+                "name": "S:music_name_elodie",
+                "unlock": "S:jukebox_elodie"
+            },
+            {
+                "audioEvent": "S:music/darkmercia",
+                "cutsceneUnlock": "S:arcade_darkmercia",
+                "id": "S:darkmercia",
+                "jukebox": {
+                    "animation": "S:units/commanders/darkmercia/battle_darkmercia",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:purple",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_darkmercia",
+                "unlock": "S:jukebox_darkmercia"
+            },
+            {
+                "audioEvent": "S:music/mercival",
+                "cutsceneUnlock": "S:arcade_mercival",
+                "id": "S:mercival",
+                "jukebox": {
+                    "animation": "S:units/commanders/mercival/battle_mercival",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_mercival",
+                "unlock": "S:jukebox_mercival"
+            },
+            {
+                "audioEvent": "S:music/hostile",
+                "id": "S:hostile",
+                "jukebox": {
+                    "animation": "S:units/archer/cherrystone/battle_archer_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:black",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_hostile"
+            },
+            {
+                "audioEvent": "S:music/intro",
+                "availableOnMap": "S:false",
+                "id": "S:intro",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_intro"
+            },
+            {
+                "audioEvent": "S:music/campaign",
+                "id": "S:campaign",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_campaign"
+            },
+            {
+                "audioEvent": "S:music/editor",
+                "id": "S:map_editor",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_map_editor"
+            },
+            {
+                "audioEvent": "S:music/results",
+                "id": "S:results",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_results"
+            },
+            {
+                "audioEvent": "S:music/adventurous",
+                "id": "S:adventurous",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_adventurous"
+            },
+            {
+                "audioEvent": "S:music/ominous",
+                "id": "S:ominous",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_ominous"
+            },
+            {
+                "audioEvent": "S:music/happy",
+                "id": "S:happy",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_happy"
+            },
+            {
+                "audioEvent": "S:music/sad",
+                "id": "S:sad",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_sad"
+            },
+            {
+                "audioEvent": "S:music/wulfar",
+                "cutsceneUnlock": "S:arcade_wulfar",
+                "id": "S:wulfar",
+                "jukebox": {
+                    "animation": "S:units/commanders/wulfar/battle_wulfar",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:black",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_wulfar",
+                "unlock": "S:jukebox_wulfar"
+            },
+            {
+                "audioEvent": "S:music/twins",
+                "cutsceneUnlock": "S:arcade_twins",
+                "id": "S:twins",
+                "jukebox": {
+                    "animation": "S:units/commanders/twins/battle_twins",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:black",
+                    "skinColour": "S:typeVI"
+                },
+                "name": "S:music_name_twins",
+                "unlock": "S:jukebox_twins"
+            },
+            {
+                "audioEvent": "S:music/vesper",
+                "cutsceneUnlock": "S:arcade_vesper",
+                "id": "S:vesper",
+                "jukebox": {
+                    "animation": "S:units/commanders/vesper/battle_vesper",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:black",
+                    "skinColour": "S:typeVI"
+                },
+                "name": "S:music_name_vesper",
+                "unlock": "S:jukebox_vesper"
+            },
+            {
+                "audioEvent": "S:music/theplan",
+                "id": "S:theplan",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_theplan"
+            },
+            {
+                "audioEvent": "S:music/tavern",
+                "id": "S:tavern",
+                "jukebox": {
+                    "animation": "S:units/soldier/cherrystone/battle_soldier_cherrystone",
+                    "animationSequence": "S:emote_dance",
+                    "playerColour": "S:red",
+                    "skinColour": "S:typeII"
+                },
+                "name": "S:music_name_tavern"
+            },
+            {
+                "id": "S:no_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_none"
+            },
+            {
+                "audioEvent": "S:environmental/desertAmbience",
+                "id": "S:desert_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_desert_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/desertRiverAmbience",
+                "hidden": "S:true",
+                "id": "S:desert_river_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_desert_river_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/fieldAmbience",
+                "id": "S:field_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_field_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/fieldRiverAmbience",
+                "hidden": "S:true",
+                "id": "S:field_river_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_field_river_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/forestAmbience",
+                "id": "S:forest_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_forest_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/mountainAmbience",
+                "id": "S:mountain_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_mountain_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/oceanAmbience",
+                "id": "S:ocean_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_ocean_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/snowAmbience",
+                "id": "S:snow_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_snow_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/snowRiverAmbience",
+                "hidden": "S:true",
+                "id": "S:snow_river_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_snow_river_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/tundraAmbience",
+                "id": "S:tundra_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_tundra_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/volcanoAmbience",
+                "id": "S:volcano_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_volcano_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/barAmbience",
+                "id": "S:tavern_ambience",
+                "isAmbience": "S:true",
+                "name": "S:music_name_tavern_ambience"
+            },
+            {
+                "audioEvent": "S:environmental/weatherBlizzard",
+                "id": "S:weather_blizzard",
+                "isAmbience": "S:true",
+                "name": "S:music_name_weather_blizzard"
+            },
+            {
+                "audioEvent": "S:environmental/weatherRain",
+                "id": "S:weather_rain",
+                "isAmbience": "S:true",
+                "name": "S:music_name_weather_rain"
+            },
+            {
+                "audioEvent": "S:environmental/weatherSandstorm",
+                "id": "S:weather_sandstorm",
+                "isAmbience": "S:true",
+                "name": "S:music_name_weather_sandstorm"
+            },
+            {
+                "audioEvent": "S:environmental/weatherStorm",
+                "id": "S:weather_storm",
+                "isAmbience": "S:true",
+                "name": "S:music_name_weather_storm"
+            },
+            {
+                "audioEvent": "S:environmental/weatherWindy",
+                "id": "S:weather_windy",
+                "isAmbience": "S:true",
+                "name": "S:music_name_weather_windy"
+            }
+        ]
+    }
+}

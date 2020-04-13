@@ -1,0 +1,822 @@
+{
+    "root": {
+        "triggerActions": [
+            {
+                "id": "S:set_map_flag",
+                "parameters": [
+                    {
+                        "type": "S:map_flag"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "id": "S:toggle_map_flag",
+                "parameters": [
+                    {
+                        "type": "S:map_flag"
+                    }
+                ]
+            },
+            {
+                "id": "S:set_campaign_flag",
+                "parameters": [
+                    {
+                        "type": "S:campaign_flag"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ],
+                "scope": "S:campaign"
+            },
+            {
+                "id": "S:set_party_member",
+                "parameters": [
+                    {
+                        "type": "S:character"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ],
+                "scope": "S:campaign"
+            },
+            {
+                "id": "S:add_campaign_cutscene",
+                "parameters": [
+                    {
+                        "type": "S:cutscene"
+                    }
+                ]
+            },
+            {
+                "id": "S:modify_counter",
+                "parameters": [
+                    {
+                        "type": "S:counter"
+                    },
+                    {
+                        "type": "S:operation"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:spawn_unit",
+                "parameters": [
+                    {
+                        "type": "S:unit_class"
+                    },
+                    {
+                        "type": "S:location"
+                    },
+                    {
+                        "type": "S:player_neutral"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "id": "S:remove_units",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:modify_gold",
+                "parameters": [
+                    {
+                        "type": "S:player_star"
+                    },
+                    {
+                        "type": "S:operation"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:modify_health",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:operation"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:modify_groove",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:operation"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:set_unit_spent",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "id": "S:play_cutscene",
+                "parameters": [
+                    {
+                        "type": "S:cutscene"
+                    }
+                ]
+            },
+            {
+                "id": "S:set_location_highlight",
+                "parameters": [
+                    {
+                        "type": "S:location_real"
+                    },
+                    {
+                        "type": "S:location_highlight"
+                    },
+                    {
+                        "type": "S:player_colour_star"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:set_conditional_location_highlight",
+                "parameters": [
+                    {
+                        "type": "S:location_real"
+                    },
+                    {
+                        "type": "S:location_highlight"
+                    },
+                    {
+                        "type": "S:player_colour_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    },
+                    {
+                        "type": "S:highlight_condition"
+                    }
+                ]
+            },
+            {
+                "id": "S:victory",
+                "parameters": [
+                    {
+                        "type": "S:player"
+                    }
+                ]
+            },
+            {
+                "id": "S:eliminate",
+                "parameters": [
+                    {
+                        "type": "S:player"
+                    }
+                ]
+            },
+            {
+                "id": "S:convert",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_neutral"
+                    }
+                ]
+            },
+            {
+                "id": "S:change_unit_type",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:unit_class"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:reveal_fow",
+                "parameters": [
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:change_team",
+                "parameters": [
+                    {
+                        "type": "S:player"
+                    },
+                    {
+                        "type": "S:team"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:message",
+                "parameters": [
+                    {
+                        "type": "S:string"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:dialogue_box",
+                "parameters": [
+                    {
+                        "type": "S:character_expression"
+                    },
+                    {
+                        "type": "S:character_non_playable"
+                    },
+                    {
+                        "type": "S:string"
+                    },
+                    {
+                        "type": "S:string"
+                    }
+                ]
+            },
+            {
+                "id": "S:dialogue_box_simple",
+                "parameters": [
+                    {
+                        "type": "S:character_expression"
+                    },
+                    {
+                        "type": "S:character_non_playable"
+                    },
+                    {
+                        "type": "S:string"
+                    }
+                ]
+            },
+            {
+                "id": "S:wait",
+                "parameters": [
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:centre_camera",
+                "parameters": [
+                    {
+                        "type": "S:location"
+                    }
+                ]
+            },
+            {
+                "id": "S:ai_set_profile",
+                "parameters": [
+                    {
+                        "type": "S:player"
+                    },
+                    {
+                        "type": "S:ai_profile"
+                    }
+                ]
+            },
+            {
+                "id": "S:set_weather",
+                "parameters": [
+                    {
+                        "type": "S:weather"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:ai_set_restriction",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:ai_restriction"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:force_action",
+                "parameters": [
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:action"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    },
+                    {
+                        "type": "S:character_expression"
+                    },
+                    {
+                        "type": "S:character"
+                    },
+                    {
+                        "type": "S:string"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:force_open_ui_tutorial",
+                "parameters": [
+                    {
+                        "type": "S:tutorial_ui_script"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:character_expression"
+                    },
+                    {
+                        "type": "S:character"
+                    },
+                    {
+                        "type": "S:string"
+                    },
+                    {
+                        "type": "S:map_flag_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:add_ui_tutorial",
+                "parameters": [
+                    {
+                        "type": "S:tutorial_ui_script"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:map_flag_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:queue_force_action",
+                "parameters": [
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:action"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    },
+                    {
+                        "type": "S:character_expression"
+                    },
+                    {
+                        "type": "S:character"
+                    },
+                    {
+                        "type": "S:string"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:queue_force_open_ui_tutorial",
+                "parameters": [
+                    {
+                        "type": "S:tutorial_ui_script"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:character_expression"
+                    },
+                    {
+                        "type": "S:character"
+                    },
+                    {
+                        "type": "S:string"
+                    },
+                    {
+                        "type": "S:map_flag_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:play_credits",
+                "parameters": [
+                    {
+                        "type": "S:credits_type"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:set_match_seed",
+                "parameters": [
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:update_fog_of_war"
+            },
+            {
+                "id": "S:change_objective",
+                "parameters": [
+                    {
+                        "type": "S:string"
+                    }
+                ]
+            },
+            {
+                "id": "S:show_objective"
+            },
+            {
+                "id": "S:move_location_to_unit",
+                "parameters": [
+                    {
+                        "type": "S:location_real"
+                    },
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:move_location_to_location",
+                "parameters": [
+                    {
+                        "type": "S:location_real"
+                    },
+                    {
+                        "type": "S:location"
+                    }
+                ]
+            },
+            {
+                "id": "S:set_map_music",
+                "parameters": [
+                    {
+                        "type": "S:music"
+                    }
+                ]
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:play_groove_cutscene",
+                "parameters": [
+                    {
+                        "type": "S:character_non_playable"
+                    }
+                ]
+            },
+            {
+                "id": "S:play_sound_effect",
+                "parameters": [
+                    {
+                        "type": "S:sound_effect"
+                    },
+                    {
+                        "type": "S:location_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:set_gizmo_state",
+                "parameters": [
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "id": "S:toggle_gizmo_state",
+                "parameters": [
+                    {
+                        "type": "S:location_star"
+                    }
+                ]
+            },
+            {
+                "id": "S:set_damage_taken",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:counter_arithmetics",
+                "parameters": [
+                    {
+                        "type": "S:counter"
+                    },
+                    {
+                        "type": "S:counter"
+                    },
+                    {
+                        "type": "S:arithmetic_operation"
+                    },
+                    {
+                        "type": "S:counter"
+                    }
+                ]
+            },
+            {
+                "id": "S:counter_random",
+                "parameters": [
+                    {
+                        "type": "S:counter"
+                    },
+                    {
+                        "type": "S:integer"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:location_copy",
+                "parameters": [
+                    {
+                        "type": "S:location_real"
+                    },
+                    {
+                        "type": "S:location"
+                    }
+                ]
+            },
+            {
+                "id": "S:location_boolean_operation",
+                "parameters": [
+                    {
+                        "type": "S:location_real"
+                    },
+                    {
+                        "type": "S:boolean_operation"
+                    },
+                    {
+                        "type": "S:location"
+                    },
+                    {
+                        "type": "S:location"
+                    }
+                ]
+            },
+            {
+                "id": "S:location_move",
+                "parameters": [
+                    {
+                        "type": "S:location_real"
+                    },
+                    {
+                        "type": "S:integer"
+                    },
+                    {
+                        "type": "S:integer"
+                    }
+                ]
+            },
+            {
+                "id": "S:unit_teleport",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:location"
+                    },
+                    {
+                        "type": "S:boolean"
+                    }
+                ]
+            },
+            {
+                "id": "S:count_units",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:counter"
+                    }
+                ]
+            },
+            {
+                "id": "S:transfer_health",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:transfer_type"
+                    },
+                    {
+                        "type": "S:counter"
+                    }
+                ]
+            },
+            {
+                "id": "S:transfer_groove",
+                "parameters": [
+                    {
+                        "type": "S:unit_class_star"
+                    },
+                    {
+                        "type": "S:player_neutral_star"
+                    },
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:transfer_type"
+                    },
+                    {
+                        "type": "S:counter"
+                    }
+                ]
+            },
+            {
+                "id": "S:transfer_gold",
+                "parameters": [
+                    {
+                        "type": "S:player_star"
+                    },
+                    {
+                        "type": "S:transfer_type"
+                    },
+                    {
+                        "type": "S:counter"
+                    }
+                ]
+            },
+            {
+                "id": "S:transfer_gizmo_state",
+                "parameters": [
+                    {
+                        "type": "S:location_star"
+                    },
+                    {
+                        "type": "S:transfer_type"
+                    },
+                    {
+                        "type": "S:map_flag"
+                    }
+                ]
+            }
+        ]
+    }
+}

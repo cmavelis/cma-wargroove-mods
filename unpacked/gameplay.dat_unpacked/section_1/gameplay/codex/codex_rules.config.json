@@ -1,0 +1,278 @@
+{
+    "root": {
+        "codex": [
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_win_conditions",
+                "name": "S:codex_rules_win_conditions",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_win",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_win_conditions_text",
+                        "title": "S:codex_rules_win_conditions_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_movement",
+                "name": "S:codex_rules_movement",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_movement",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_movement_text",
+                        "title": "S:codex_rules_movement_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_attacking",
+                "name": "S:codex_rules_attacking",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_attack",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_attacking_text",
+                        "title": "S:codex_rules_attacking_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_counter",
+                "name": "S:codex_rules_counter",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_counterattack",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_counter_text",
+                        "title": "S:codex_rules_counter_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_groove",
+                "name": "S:codex_rules_groove",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/commander_merciagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_groove_text",
+                        "title": "S:codex_rules_groove_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_terraindefence",
+                "name": "S:codex_rules_terraindefence",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_terraindefence",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_terraindefence_text",
+                        "title": "S:codex_rules_terraindefence_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_capture",
+                "name": "S:codex_rules_capture",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_capture",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_capture_text",
+                        "title": "S:codex_rules_capture_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_income",
+                "name": "S:codex_rules_income",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_income",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_income_text",
+                        "title": "S:codex_rules_income_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_recruitment",
+                "name": "S:codex_rules_recruitment",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_recruit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_recruitment_text",
+                        "title": "S:codex_rules_recruitment_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_reinforcement",
+                "name": "S:codex_rules_reinforcement",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_reinforce",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_reinforcement_text",
+                        "title": "S:codex_rules_reinforcement_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_crits",
+                "name": "S:codex_rules_crits",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_crit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_crits_text",
+                        "title": "S:codex_rules_crits_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_transport",
+                "name": "S:codex_rules_transport",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_transport",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_transport_text",
+                        "title": "S:codex_rules_transport_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_commanders",
+                "name": "S:codex_rules_commanders",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/commander_merciagroove",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_commanders_text",
+                        "title": "S:codex_rules_commanders_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_strongholds",
+                "name": "S:codex_rules_strongholds",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_stronghold",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_strongholds_text",
+                        "title": "S:codex_rules_strongholds_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_fogofwar",
+                "name": "S:codex_rules_fogofwar",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_fogofwar",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_fogofwar_text",
+                        "title": "S:codex_rules_fogofwar_title"
+                    }
+                ]
+            },
+            {
+                "category": "S:rules",
+                "icon": {
+                    "image": "S:ui/codex/icons/icon_rules_question.png"
+                },
+                "id": "S:rules_weather",
+                "name": "S:codex_rules_weather",
+                "pages": [
+                    {
+                        "animation": "S:ui/codex/content/rules_weather",
+                        "layoutType": "S:animation",
+                        "pageType": "S:page",
+                        "text": "S:codex_rules_weather_text",
+                        "title": "S:codex_rules_weather_title"
+                    }
+                ]
+            }
+        ]
+    }
+}

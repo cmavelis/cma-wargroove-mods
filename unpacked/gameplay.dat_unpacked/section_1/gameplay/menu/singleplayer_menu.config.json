@@ -1,0 +1,105 @@
+{
+    "root": {
+        "menuBackgrounds": [
+            {
+                "animations": [
+                    {
+                        "animation": "S:backgrounds/titlescreen/singleplayer/characters",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-250",
+                            "I:-20"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/singleplayer/ship_large",
+                        "layer": "S:background",
+                        "movement": [
+                            "I:-23",
+                            "I:0"
+                        ],
+                        "position": [
+                            "I:220",
+                            "I:-55"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/singleplayer/ship_small",
+                        "layer": "S:background",
+                        "movement": [
+                            "I:-18",
+                            "I:0"
+                        ],
+                        "position": [
+                            "I:-100",
+                            "I:-60"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/singleplayer/waterwaggle",
+                        "layer": "S:background",
+                        "position": [
+                            "I:-224",
+                            "I:98"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/singleplayer/waterwaggle",
+                        "layer": "S:background",
+                        "position": [
+                            "I:59",
+                            "I:98"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/singleplayer/sun",
+                        "layer": "S:farBackground",
+                        "position": [
+                            "I:125",
+                            "I:-120"
+                        ]
+                    },
+                    {
+                        "animation": "S:units/merman/cherrystone/battle_merman_cherrystone",
+                        "facing": "S:left",
+                        "factionSkin": "S:cherrystone",
+                        "layer": "S:foreground",
+                        "playerColour": "S:red",
+                        "position": [
+                            "I:500",
+                            "I:40"
+                        ],
+                        "randomWander": {
+                            "idle": "S:idle",
+                            "postActionIdleTime": [
+                                "I:2",
+                                "I:3"
+                            ],
+                            "preActionIdleTime": [
+                                "I:2",
+                                "I:6"
+                            ],
+                            "randomSpots": [
+                                [
+                                    "I:500",
+                                    "I:40"
+                                ],
+                                [
+                                    "I:275",
+                                    "I:40"
+                                ]
+                            ],
+                            "run": "S:run",
+                            "speed": "I:50"
+                        },
+                        "unitSkin": "S:merman"
+                    }
+                ],
+                "background": "S:backgrounds/titlescreen/singleplayer/background.png",
+                "clouds": "S:backgrounds/titlescreen/singleplayer/cloudstrip.png",
+                "foreground": "S:backgrounds/titlescreen/singleplayer/foreground.png",
+                "id": "S:singleplayer_menu"
+            }
+        ]
+    }
+}

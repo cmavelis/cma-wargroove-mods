@@ -1,0 +1,246 @@
+{
+    "root": {
+        "cutscene_props": [
+            {
+                "id": "S:desk",
+                "path": "S:backgrounds/props/desk"
+            },
+            {
+                "id": "S:flag_red_1",
+                "path": "S:backgrounds/props/flag_red_1"
+            },
+            {
+                "id": "S:flag_blue_1",
+                "path": "S:backgrounds/props/flag_blue_1"
+            },
+            {
+                "id": "S:flag_green_1",
+                "path": "S:backgrounds/props/flag_green_1"
+            },
+            {
+                "id": "S:flag_yellow_1",
+                "path": "S:backgrounds/props/flag_yellow_1"
+            },
+            {
+                "id": "S:flag_purple_1",
+                "path": "S:backgrounds/props/flag_purple_1"
+            },
+            {
+                "id": "S:flag_black_1",
+                "path": "S:backgrounds/props/flag_black_1"
+            },
+            {
+                "id": "S:cherrystone_banner1",
+                "path": "S:backgrounds/props/cherrystone_banner1"
+            },
+            {
+                "id": "S:felheim_banner1",
+                "path": "S:backgrounds/props/felheim_banner1"
+            },
+            {
+                "id": "S:heavensong_banner1",
+                "path": "S:backgrounds/props/heavensong_banner1"
+            },
+            {
+                "id": "S:floran_banner1",
+                "path": "S:backgrounds/props/floran_banner1"
+            },
+            {
+                "id": "S:outlaw_banner1",
+                "path": "S:backgrounds/props/outlaw_banner1"
+            },
+            {
+                "id": "S:princess_statue",
+                "path": "S:backgrounds/props/princess_statue"
+            },
+            {
+                "id": "S:princess_statue2",
+                "path": "S:backgrounds/props/princess_statue2"
+            },
+            {
+                "id": "S:ruins",
+                "path": "S:backgrounds/props/ruins"
+            },
+            {
+                "id": "S:gravestone",
+                "path": "S:backgrounds/props/gravestone"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:ragnawarship_sail",
+                "path": "S:backgrounds/props/ragnawarship_sail"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cherryship_sail",
+                "path": "S:backgrounds/props/cherryship_sail"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:felheimship_sail",
+                "path": "S:backgrounds/props/felheimship_sail"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:felheimship_sail",
+                "path": "S:backgrounds/props/felheimship_sail"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:outlawship_sail",
+                "path": "S:backgrounds/props/outlawship_sail"
+            },
+            {
+                "id": "S:felheim_throne",
+                "path": "S:backgrounds/props/felheim_throne"
+            },
+            {
+                "id": "S:felheim_chandelier",
+                "path": "S:backgrounds/props/felheim_chandelier"
+            },
+            {
+                "id": "S:red_ribbons",
+                "path": "S:backgrounds/props/red_ribbons"
+            },
+            {
+                "id": "S:cherry_candelabra",
+                "path": "S:backgrounds/props/cherry_candelabra"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_bush",
+                "path": "S:backgrounds/props/cutscene_bush"
+            },
+            {
+                "id": "S:dummy",
+                "path": "S:backgrounds/props/dummy"
+            },
+            {
+                "id": "S:swordrack",
+                "path": "S:backgrounds/props/swordrack"
+            },
+            {
+                "id": "S:anvil",
+                "path": "S:backgrounds/props/anvil"
+            },
+            {
+                "id": "S:stone1",
+                "path": "S:backgrounds/props/stone1"
+            },
+            {
+                "id": "S:pillar1",
+                "path": "S:backgrounds/props/pillar1"
+            },
+            {
+                "id": "S:signpost1",
+                "path": "S:backgrounds/props/signpost1"
+            },
+            {
+                "id": "S:signpost2",
+                "path": "S:backgrounds/props/signpost2"
+            },
+            {
+                "id": "S:spear1",
+                "path": "S:backgrounds/props/spear1"
+            },
+            {
+                "id": "S:campfire1",
+                "path": "S:backgrounds/props/campfire1"
+            },
+            {
+                "id": "S:campfire2",
+                "path": "S:backgrounds/props/campfire2"
+            },
+            {
+                "id": "S:campfire3",
+                "path": "S:backgrounds/props/campfire3"
+            },
+            {
+                "id": "S:swordstone1",
+                "path": "S:backgrounds/props/swordstone1"
+            },
+            {
+                "id": "S:swordstone2",
+                "path": "S:backgrounds/props/swordstone2"
+            },
+            {
+                "id": "S:marblebust",
+                "path": "S:backgrounds/props/marblebust"
+            },
+            {
+                "id": "S:barrel1",
+                "path": "S:backgrounds/props/barrel1"
+            },
+            {
+                "id": "S:fence1",
+                "path": "S:backgrounds/props/fence1"
+            },
+            {
+                "id": "S:woodcutteraxe",
+                "path": "S:backgrounds/props/woodcutteraxe"
+            },
+            {
+                "id": "S:rope1",
+                "path": "S:backgrounds/props/rope1"
+            },
+            {
+                "id": "S:lifebuoy",
+                "path": "S:backgrounds/props/lifebuoy"
+            },
+            {
+                "id": "S:skullpike",
+                "path": "S:backgrounds/props/skullpike"
+            },
+            {
+                "id": "S:crate1",
+                "path": "S:backgrounds/props/crate1"
+            },
+            {
+                "id": "S:flowers1",
+                "path": "S:backgrounds/props/flowers1"
+            },
+            {
+                "id": "S:bush1",
+                "path": "S:backgrounds/props/bush1"
+            },
+            {
+                "id": "S:snowman1",
+                "path": "S:backgrounds/props/snowman1"
+            },
+            {
+                "id": "S:snowman2",
+                "path": "S:backgrounds/props/snowman2"
+            },
+            {
+                "id": "S:desertbones1",
+                "path": "S:backgrounds/props/desertbones1"
+            },
+            {
+                "id": "S:desertbones2",
+                "path": "S:backgrounds/props/desertbones2"
+            },
+            {
+                "id": "S:cactus_small",
+                "path": "S:backgrounds/props/cactus_small"
+            },
+            {
+                "id": "S:treasure_pile",
+                "path": "S:backgrounds/props/treasure_pile"
+            },
+            {
+                "id": "S:golden_throne",
+                "path": "S:backgrounds/props/golden_throne"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cactus_trio",
+                "path": "S:backgrounds/props/cactus_trio"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:tavernfire",
+                "path": "S:backgrounds/props/tavernfire"
+            }
+        ]
+    }
+}

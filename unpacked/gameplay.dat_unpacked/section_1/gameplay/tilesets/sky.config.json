@@ -1,0 +1,34 @@
+{
+    "root": {
+        "tilesets": [
+            {
+                "biomes": [
+                    {
+                        "battleBackgroundSprite": "S:battlescreen_extendedbackgrounds_sky",
+                        "battleBackgroundSpriteForeground": "S:battlescreen_extendedbackgrounds_sky_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/battlescreen_extendedbackgrounds",
+                        "iconSprite": "S:terrain_icons_sky",
+                        "iconSpriteSheet": "S:ui",
+                        "types": [
+                            "S:grass",
+                            "S:desert",
+                            "S:ice"
+                        ]
+                    },
+                    {
+                        "battleBackgroundSprite": "S:volcano_battlescreen_extendedbackgrounds_sky",
+                        "battleBackgroundSpriteForeground": "S:volcano_battlescreen_extendedbackgrounds_sky_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds",
+                        "iconSprite": "S:terrain_icons_sky",
+                        "iconSpriteSheet": "S:ui",
+                        "types": [
+                            "S:volcano"
+                        ]
+                    }
+                ],
+                "id": "S:sky",
+                "primaryConnect": []
+            }
+        ]
+    }
+}

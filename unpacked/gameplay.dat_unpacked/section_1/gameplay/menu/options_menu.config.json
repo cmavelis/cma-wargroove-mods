@@ -1,0 +1,129 @@
+{
+    "root": {
+        "menuBackgrounds": [
+            {
+                "animations": [
+                    {
+                        "animation": "S:backgrounds/titlescreen/options/rays",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-280",
+                            "I:-175"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/options/nurusleep",
+                        "layer": "S:background",
+                        "position": [
+                            "I:-272",
+                            "I:5"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/options/deer",
+                        "layer": "S:background",
+                        "position": [
+                            "I:200",
+                            "I:80"
+                        ],
+                        "randomWander": {
+                            "action": "S:graze",
+                            "idle": "S:idle",
+                            "postActionIdleTime": [
+                                "I:4",
+                                "I:7"
+                            ],
+                            "preActionIdleTime": [
+                                "I:2",
+                                "I:3"
+                            ],
+                            "randomSpots": [
+                                [
+                                    "I:175",
+                                    "I:110"
+                                ],
+                                [
+                                    "I:-195",
+                                    "I:105"
+                                ],
+                                [
+                                    "I:-155",
+                                    "I:125"
+                                ],
+                                [
+                                    "I:65",
+                                    "I:65"
+                                ],
+                                [
+                                    "I:175",
+                                    "I:110"
+                                ]
+                            ],
+                            "run": "S:run",
+                            "speed": "I:40"
+                        }
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/options/bunny",
+                        "layer": "S:background",
+                        "position": [
+                            "I:-200",
+                            "I:120"
+                        ],
+                        "randomWander": {
+                            "action": "S:graze",
+                            "idle": "S:idle",
+                            "postActionIdleTime": [
+                                "I:1",
+                                "I:2"
+                            ],
+                            "preActionIdleTime": [
+                                "F:0.5",
+                                "I:1"
+                            ],
+                            "randomSpots": [
+                                [
+                                    "I:-215",
+                                    "I:60"
+                                ],
+                                [
+                                    "I:-190",
+                                    "I:90"
+                                ],
+                                [
+                                    "I:30",
+                                    "I:30"
+                                ],
+                                [
+                                    "I:145",
+                                    "I:10"
+                                ],
+                                [
+                                    "I:150",
+                                    "I:75"
+                                ],
+                                [
+                                    "I:85",
+                                    "I:120"
+                                ],
+                                [
+                                    "I:-75",
+                                    "I:115"
+                                ],
+                                [
+                                    "I:220",
+                                    "I:70"
+                                ]
+                            ],
+                            "run": "S:run",
+                            "speed": "I:50"
+                        }
+                    }
+                ],
+                "background": "S:backgrounds/titlescreen/options/background.png",
+                "front": "S:backgrounds/titlescreen/options/foreground.png",
+                "id": "S:options_menu"
+            }
+        ]
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "root": {
+        "worldMaps": [
+            {
+                "fishAnimations": [
+                    "S:world/world_map_fish_size01",
+                    "S:world/world_map_fish_size02",
+                    "S:world/world_map_fish_size03"
+                ],
+                "fishes": [
+                    {
+                        "pos": [
+                            "I:64",
+                            "I:64"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:792",
+                            "I:66"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:68",
+                            "I:454"
+                        ],
+                        "radius": "I:60"
+                    }
+                ],
+                "icon": "S:ui/campaign/map_icon4.png",
+                "id": "S:solitudus",
+                "images": [
+                    {
+                        "image": "S:world/maps/solitudus/desert_map.png",
+                        "layer": "S:background",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "image": "S:world/maps/solitudus/desert_map_pillars.png",
+                        "layer": "S:ground_decorations",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "effect": "S:water",
+                        "image": "S:world/maps/solitudus/desert_map_water.png",
+                        "layer": "S:background_tiles_water",
+                        "mask": "S:world/maps/solitudus/desert_map_water_ramp.png",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    }
+                ],
+                "name": "S:world_map_solitudus_name",
+                "size": [
+                    "I:874",
+                    "I:524"
+                ],
+                "sound": [
+                    {
+                        "event": "S:environmental/oceanAmbienceWorld"
+                    },
+                    {
+                        "event": "S:environmental/desertAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:250",
+                                    "I:310"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:430",
+                                    "I:225"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:550",
+                                    "I:360"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:735",
+                                    "I:420"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/forestAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:250",
+                                "pos": [
+                                    "I:655",
+                                    "I:180"
+                                ],
+                                "refDistance": "I:25"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/mountainAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:250",
+                                "pos": [
+                                    "I:505",
+                                    "I:380"
+                                ],
+                                "refDistance": "I:25"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/riverAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:410",
+                                    "I:330"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:420",
+                                    "I:245"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:450",
+                                    "I:170"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:435",
+                                    "I:90"
+                                ],
+                                "refDistance": "I:15"
+                            }
+                        ]
+                    }
+                ],
+                "waterMask": "S:masks/solitudus_water_mask.png"
+            }
+        ]
+    }
+}

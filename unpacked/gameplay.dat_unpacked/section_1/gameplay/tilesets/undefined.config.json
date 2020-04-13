@@ -1,0 +1,20 @@
+{
+    "root": {
+        "tilesets": [
+            {
+                "biomes": [
+                    {
+                        "types": [
+                            "S:grass",
+                            "S:desert",
+                            "S:ice",
+                            "S:volcano"
+                        ]
+                    }
+                ],
+                "id": "S:undefined",
+                "primaryConnect": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "root": {
+        "cutscene_vfx": [
+            {
+                "id": "S:cutscene_stab_attack",
+                "path": "S:fx/cutscene/cutscene_stab_attack"
+            },
+            {
+                "id": "S:cutscene_critical_attack",
+                "path": "S:fx/cutscene/cutscene_critical_attack"
+            },
+            {
+                "id": "S:cutscene_magic_charge",
+                "path": "S:fx/cutscene/cutscene_magic_charge"
+            },
+            {
+                "id": "S:magic_flare",
+                "path": "S:fx/cutscene/magic_flare"
+            },
+            {
+                "id": "S:fire",
+                "path": "S:fx/cutscene/fire"
+            },
+            {
+                "id": "S:cutscene_water_splash",
+                "path": "S:fx/cutscene/cutscene_water_splash"
+            },
+            {
+                "id": "S:electric_shock",
+                "path": "S:fx/cutscene/electric_shock"
+            },
+            {
+                "id": "S:chain_spell",
+                "path": "S:fx/cutscene/chain_spell"
+            },
+            {
+                "id": "S:cutscene_magic_explosion",
+                "path": "S:fx/cutscene/cutscene_magic_explosion"
+            },
+            {
+                "id": "S:cutscene_sigrid_attack",
+                "path": "S:fx/cutscene/cutscene_sigrid_attack"
+            },
+            {
+                "id": "S:explosion",
+                "path": "S:fx/cutscene/explosion"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_teleport_fx",
+                "path": "S:fx/cutscene/cutscene_teleport_fx"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_bluebird",
+                "path": "S:fx/cutscene/cutscene_bluebird"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_door_open",
+                "path": "S:fx/cutscene/cutscene_door_open"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_ragna_sink",
+                "path": "S:fx/cutscene/cutscene_ragna_sink"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_crown_falls",
+                "path": "S:fx/cutscene/cutscene_crown_falls"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_four_orbs",
+                "path": "S:fx/cutscene/cutscene_four_orbs"
+            }
+        ]
+    }
+}

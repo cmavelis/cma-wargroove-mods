@@ -1,0 +1,53 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "canBeReinforced": "S:false",
+                "classIcon": "S:unit_icons_summon",
+                "cost": "I:25",
+                "damageMultiplier": "I:1",
+                "id": "S:vine",
+                "isHidden": "S:true",
+                "isRecruitable": "S:false",
+                "moveRange": "I:0",
+                "name": "S:unit_class_name_vine",
+                "regeneration": "I:-20",
+                "tags": [
+                    "S:structure",
+                    "S:summon"
+                ],
+                "verbs": [
+                    "S:reposition_vine"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "battleAnimation": "S:units/commanders/greenfinger/battle_vine",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_vine_river",
+                "class": "S:vine",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:13",
+                    "I:14"
+                ],
+                "mapAnimation": "S:units/commanders/greenfinger/vine",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/greenfinger/portrait_vine_medium.png",
+                "name": "S:unit_class_name_vine",
+                "runsIn": "S:false",
+                "smallPortrait": "S:units/commanders/greenfinger/portrait_vine_small.png",
+                "sounds": {
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ]
+    }
+}

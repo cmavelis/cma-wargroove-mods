@@ -1,0 +1,94 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "appearsInLists": "S:false",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:shadow_sisters",
+                "id": "S:commander_vesper_boss",
+                "isCommander": "S:true",
+                "isHidden": "S:true",
+                "isRecruitable": "S:false",
+                "isSpawnable": "S:false",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:vesperWhip"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackCommanderSound": "S:counter",
+                        "attackSound": "S:counter",
+                        "effectDelay": "F:0.6",
+                        "hitDelay": "F:0.6",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:closeRange",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "effect": "S:fx/bs_vesper_attack",
+                        "effectDelay": "F:2.2",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:2.5",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/vesper/battle_vesper",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_vesper_river",
+                "class": "S:commander_vesper_boss",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:47",
+                    "I:47"
+                ],
+                "mapAnimation": "S:units/commanders/vesper/map_vesper",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/vesper/portrait_vesper_medium.png",
+                "name": "S:character_vesper_boss_name",
+                "skinColour": "S:typeVI",
+                "smallPortrait": "S:units/commanders/vesper/portrait_vesper_small.png",
+                "sounds": {
+                    "attack": "S:vesper/vesperAttack",
+                    "attackCommanderShout": "S:vesper/vesperCommanderKillShout",
+                    "attackEffect": "S:vesper/vesperAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:vesper/vesperCapture",
+                    "counter": "S:vesper/vesperCounterAttack",
+                    "death": "S:vesper/vesperDie",
+                    "deathMap": "S:vesper/vesperDieGhost",
+                    "deathMapNoBattle": "S:vesper/vesperDieNoBattle",
+                    "firstHit": "S:vesper/vesperHit",
+                    "groove": "S:vesper/vesperGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightMapEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ]
+    }
+}

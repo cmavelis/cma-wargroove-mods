@@ -1,0 +1,56 @@
+{
+    "root": {
+        "location_highlight_buttons": [
+            {
+                "id": "S:primary",
+                "inputButtons": {
+                    "mouse": "S:world/locations/btn_mouse_left",
+                    "playstation": "S:world/locations/btn_ps_x",
+                    "switch_full": "S:world/locations/btn_xbox_a",
+                    "switch_joycon": "S:world/locations/btn_switch_right",
+                    "xbox": "S:world/locations/btn_xbox_a"
+                }
+            },
+            {
+                "id": "S:cancel",
+                "inputButtons": {
+                    "mouse": "S:world/locations/btn_mouse_right",
+                    "playstation": "S:world/locations/btn_ps_o",
+                    "switch_full": "S:world/locations/btn_xbox_b",
+                    "switch_joycon": "S:world/locations/btn_switch_down",
+                    "xbox": "S:world/locations/btn_xbox_b"
+                }
+            },
+            {
+                "id": "S:primary_below",
+                "inputButtons": {
+                    "mouse": "S:world/locations/btn_mouse_left_below",
+                    "playstation": "S:world/locations/btn_ps_x_below",
+                    "switch_full": "S:world/locations/btn_xbox_a_below",
+                    "switch_joycon": "S:world/locations/btn_switch_right_below",
+                    "xbox": "S:world/locations/btn_xbox_a_below"
+                }
+            },
+            {
+                "id": "S:cancel_below",
+                "inputButtons": {
+                    "mouse": "S:world/locations/btn_mouse_right_below",
+                    "playstation": "S:world/locations/btn_ps_o_below",
+                    "switch_full": "S:world/locations/btn_xbox_b_below",
+                    "switch_joycon": "S:world/locations/btn_switch_down_below",
+                    "xbox": "S:world/locations/btn_xbox_b_below"
+                }
+            },
+            {
+                "id": "S:btn_overview",
+                "inputButtons": {
+                    "mouse": "S:world/locations/btn_pc_tab",
+                    "playstation": "S:world/locations/btn_ps_triangle",
+                    "switch_full": "S:world/locations/btn_switch_x",
+                    "switch_joycon": "S:world/locations/btn_switch_up",
+                    "xbox": "S:world/locations/btn_xbox_y"
+                }
+            }
+        ]
+    }
+}

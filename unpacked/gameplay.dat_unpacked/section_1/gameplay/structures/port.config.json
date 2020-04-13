@@ -1,0 +1,70 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:4.0",
+                "battleUnitCount": "I:1",
+                "canBeCaptured": "S:true",
+                "canBeReinforced": "S:false",
+                "canReinforce": "S:true",
+                "cost": "I:500",
+                "damageMultiplier": "I:1",
+                "id": "S:port",
+                "income": "I:0",
+                "isNeutraliseable": "S:true",
+                "isStructure": "S:true",
+                "movement": "S:sea_building",
+                "name": "S:structure_name_port",
+                "recruitTags": [
+                    "S:type.sea",
+                    "S:type.amphibious"
+                ],
+                "regeneration": "I:10",
+                "sightRange": "I:6",
+                "tags": [
+                    "S:structure"
+                ],
+                "verbs": [
+                    "S:recruit"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "class": "S:port",
+                "faction": "S:neutral",
+                "grabPos": [
+                    "I:14",
+                    "I:5"
+                ],
+                "mapAnimation": "S:structures/port",
+                "mediumPortrait": "S:portraits/medium/port.png",
+                "name": "S:structure_name_port",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood"
+                },
+                "structureImage": {
+                    "farBackground": "S:port_background_full_background_2",
+                    "foreground": "S:port_background_full_foreground",
+                    "keeperPosition": [
+                        "I:66",
+                        "I:98"
+                    ],
+                    "leftBannerOffset": [
+                        "I:-6",
+                        "I:2"
+                    ],
+                    "nearBackground": "S:port_background_full_background_1",
+                    "rightBannerOffset": [
+                        "I:-7",
+                        "I:0"
+                    ],
+                    "spriteSheet": "S:backgrounds/port/port_background_full"
+                }
+            }
+        ]
+    }
+}

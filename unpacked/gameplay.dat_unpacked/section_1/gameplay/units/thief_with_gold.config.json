@@ -1,0 +1,213 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:2.5",
+                "appearsInLists": "S:false",
+                "battleUnitCount": "I:1",
+                "codexClass": "S:thief",
+                "cost": "I:400",
+                "damageMultiplier": "I:1",
+                "deathVerbId": "S:death_give_gold",
+                "id": "S:thief_with_gold",
+                "inPalette": "S:false",
+                "isRecruitable": "S:false",
+                "moveRange": "I:3",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_thief_with_gold",
+                "sightRange": "I:5",
+                "tags": [
+                    "S:thief",
+                    "S:type.ground.hideout"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:deposit",
+                    "S:bypass_gate"
+                ],
+                "weapons": []
+            }
+        ],
+        "units": [
+            {
+                "battleAnimation": "S:units/thief/cherrystone/battle_thief_gold_cherrystone",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_thief_river",
+                "class": "S:thief_with_gold",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:13",
+                    "I:14"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_shout3",
+                        "S:soldier_shout5",
+                        "S:soldier_shout6",
+                        "S:soldier_shout9"
+                    ]
+                },
+                "mapAnimation": "S:units/thief/cherrystone/map_thief_gold_cherrystone",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/thief/cherrystone/portrait_thief_cherrystone_medium.png",
+                "name": "S:unit_name_thief_with_gold_cherrystone",
+                "shouts": {
+                    "soldier_hit1": "S:soldierHitRed1",
+                    "soldier_hit2": "S:soldierHitRed2",
+                    "soldier_hit3": "S:soldierHitRed3",
+                    "soldier_hit4": "S:soldierHitRed4",
+                    "soldier_hit5": "S:soldierHitRed5",
+                    "soldier_shout1": "S:soldierShoutRed1",
+                    "soldier_shout2": "S:soldierShoutRed2",
+                    "soldier_shout3": "S:soldierShoutRed3",
+                    "soldier_shout4": "S:soldierShoutRed4",
+                    "soldier_shout5": "S:soldierShoutRed5",
+                    "soldier_shout6": "S:soldierShoutRed6",
+                    "soldier_shout7": "S:soldierShoutRed7",
+                    "soldier_shout8": "S:soldierShoutRed8",
+                    "soldier_shout9": "S:soldierShoutRed9"
+                },
+                "smallPortrait": "S:units/thief/cherrystone/portrait_thief_cherrystone_small.png",
+                "sounds": {
+                    "death": "S:thiefLoadedDieRed",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:thiefLoadedMapEntry",
+                    "runMap": "S:thiefLoadedMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            },
+            {
+                "battleAnimation": "S:units/thief/felheim/battle_thief_gold_felheim",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_thief_river",
+                "class": "S:thief_with_gold",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:13",
+                    "I:14"
+                ],
+                "mapAnimation": "S:units/thief/felheim/map_thief_gold_felheim",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/thief/felheim/portrait_thief_felheim_medium.png",
+                "name": "S:unit_name_thief_with_gold_felheim",
+                "shouts": {
+                    "soldier_blue_shout1": "S:soldierShoutBlue1",
+                    "soldier_blue_shout2": "S:soldierShoutBlue2"
+                },
+                "smallPortrait": "S:units/thief/felheim/portrait_thief_felheim_small.png",
+                "sounds": {
+                    "death": "S:thiefLoadedDieBlue",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:thiefLoadedMapEntry",
+                    "runMap": "S:thiefLoadedMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            },
+            {
+                "battleAnimation": "S:units/thief/heavensong/battle_thief_gold_heavensong",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_thief_river",
+                "class": "S:thief_with_gold",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:13",
+                    "I:14"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_yellow_shout2",
+                        "S:soldier_yellow_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/thief/heavensong/map_thief_gold_heavensong",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/thief/heavensong/portrait_thief_heavensong_medium.png",
+                "name": "S:unit_name_thief_with_gold_heavensong",
+                "shouts": {
+                    "soldier_yellow_hit1": "S:soldierHitYellow1",
+                    "soldier_yellow_hit2": "S:soldierHitYellow2",
+                    "soldier_yellow_hit3": "S:soldierHitYellow3",
+                    "soldier_yellow_hit4": "S:soldierHitYellow4",
+                    "soldier_yellow_shout1": "S:soldierShoutYellow1",
+                    "soldier_yellow_shout2": "S:soldierShoutYellow2",
+                    "soldier_yellow_shout3": "S:soldierShoutYellow3",
+                    "soldier_yellow_shout4": "S:soldierShoutYellow4",
+                    "soldier_yellow_shout5": "S:soldierShoutYellow5"
+                },
+                "smallPortrait": "S:units/thief/heavensong/portrait_thief_heavensong_small.png",
+                "sounds": {
+                    "death": "S:thiefLoadedDieYellow",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:thiefLoadedMapEntry",
+                    "runMap": "S:thiefLoadedMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            },
+            {
+                "battleAnimation": "S:units/thief/floran/battle_thief_gold_floran",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_thief_river",
+                "class": "S:thief_with_gold",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "idle": "S:idle"
+                },
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:13",
+                    "I:14"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_green_shout2",
+                        "S:soldier_green_shout4",
+                        "S:soldier_green_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/thief/floran/map_thief_gold_floran",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/thief/floran/portrait_thief_floran_medium.png",
+                "name": "S:unit_name_thief_with_gold_floran",
+                "shouts": {
+                    "soldier_green_hit1": "S:soldierHitGreen1",
+                    "soldier_green_hit2": "S:soldierHitGreen2",
+                    "soldier_green_hit3": "S:soldierHitGreen3",
+                    "soldier_green_shout1": "S:soldierShoutGreen1",
+                    "soldier_green_shout2": "S:soldierShoutGreen2",
+                    "soldier_green_shout3": "S:soldierShoutGreen3",
+                    "soldier_green_shout4": "S:soldierShoutGreen4",
+                    "soldier_green_shout5": "S:soldierShoutGreen5",
+                    "soldier_green_shout6": "S:soldierShoutGreen6"
+                },
+                "smallPortrait": "S:units/thief/floran/portrait_thief_floran_small.png",
+                "sounds": {
+                    "death": "S:thiefLoadedDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:thiefLoadedMapEntry",
+                    "runMap": "S:thiefLoadedMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ]
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "root": {
+        "factions": [
+            {
+                "altColour": "S:green",
+                "bannerBackground": "S:backgrounds/banners/banner_cherrystone_BG",
+                "bannerForeground": "S:backgrounds/banners/banner_cherrystone_FG",
+                "id": "S:cherrystone",
+                "name": "S:faction_name_cherrystone",
+                "rivalFaction": "S:felheim",
+                "skinColours": [
+                    "S:typeII",
+                    "S:typeIII",
+                    "S:typeIV",
+                    "S:typeV",
+                    "S:typeVI"
+                ],
+                "stdColour": "S:red"
+            },
+            {
+                "altColour": "S:red",
+                "bannerBackground": "S:backgrounds/banners/banner_felheim_BG",
+                "bannerForeground": "S:backgrounds/banners/banner_felheim_FG",
+                "id": "S:felheim",
+                "name": "S:faction_name_felheim",
+                "rivalFaction": "S:cherrystone",
+                "skinColours": [
+                    "S:typeI"
+                ],
+                "stdColour": "S:blue"
+            },
+            {
+                "altColour": "S:blue",
+                "bannerBackground": "S:backgrounds/banners/banner_floran_BG",
+                "bannerForeground": "S:backgrounds/banners/banner_floran_FG",
+                "id": "S:floran",
+                "name": "S:faction_name_floran",
+                "rivalFaction": "S:heavensong",
+                "skinColours": [
+                    "S:green"
+                ],
+                "stdColour": "S:green"
+            },
+            {
+                "altColour": "S:purple",
+                "bannerBackground": "S:backgrounds/banners/banner_heavensong_BG",
+                "bannerForeground": "S:backgrounds/banners/banner_heavensong_FG",
+                "id": "S:heavensong",
+                "name": "S:faction_name_heavensong",
+                "rivalFaction": "S:floran",
+                "skinColours": [
+                    "S:typeII",
+                    "S:typeIII",
+                    "S:typeIV",
+                    "S:typeV",
+                    "S:typeVI"
+                ],
+                "stdColour": "S:yellow"
+            },
+            {
+                "altColour": "S:neutral",
+                "hasCodex": "S:false",
+                "id": "S:neutral",
+                "name": "S:faction_name_neutral",
+                "skinColours": [
+                    "S:typeII",
+                    "S:typeIII",
+                    "S:typeIV",
+                    "S:typeV",
+                    "S:typeVI"
+                ],
+                "stdColour": "S:neutral"
+            },
+            {
+                "altColour": "S:cyan",
+                "bannerBackground": "S:backgrounds/banners/banner_outlaw_BG",
+                "bannerForeground": "S:backgrounds/banners/banner_outlaw_FG",
+                "hasCodex": "S:false",
+                "id": "S:outlaw",
+                "name": "S:faction_name_outlaw",
+                "skinColours": [
+                    "S:typeII",
+                    "S:typeIII",
+                    "S:typeIV",
+                    "S:typeV",
+                    "S:typeVI"
+                ],
+                "stdColour": "S:black"
+            },
+            {
+                "altColour": "S:yellow",
+                "hasCodex": "S:false",
+                "id": "S:guardian",
+                "name": "S:faction_name_guardian",
+                "skinColours": [
+                    "S:typeI"
+                ],
+                "stdColour": "S:purple"
+            }
+        ]
+    }
+}

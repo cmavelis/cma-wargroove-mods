@@ -1,0 +1,328 @@
+{
+    "root": {
+        "mapIcons": [
+            {
+                "id": "S:village",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-2"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-4"
+                ],
+                "spriteMain": "S:village_main",
+                "spriteSide": "S:village_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:snowforest",
+                "palettePivot": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-4"
+                ],
+                "spriteMain": "S:snowforest_main",
+                "spriteSide": "S:snowforest_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:farm",
+                "palettePivot": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-4"
+                ],
+                "spriteMain": "S:farm_main",
+                "spriteSide": "S:farm_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:castle",
+                "palettePivot": [
+                    "I:-2",
+                    "I:1"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-2"
+                ],
+                "spriteMain": "S:castle_main",
+                "spriteSide": "S:castle_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:forest",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-2"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-4"
+                ],
+                "spriteMain": "S:forest_main",
+                "spriteSide": "S:forest_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:sea",
+                "palettePivot": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-4"
+                ],
+                "spriteMain": "S:sea_main",
+                "spriteSide": "S:sea_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:mountain",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-1"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-5"
+                ],
+                "spriteMain": "S:mountain_main",
+                "spriteSide": "S:mountain_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:desertforest",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-2"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-4"
+                ],
+                "spriteMain": "S:desertforest_main",
+                "spriteSide": "S:desertforest_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:bones",
+                "palettePivot": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-2"
+                ],
+                "spriteMain": "S:bones_main",
+                "spriteSide": "S:bones_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:camp",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-2"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-4"
+                ],
+                "spriteMain": "S:camp_main",
+                "spriteSide": "S:camp_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:henge",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-1"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-3"
+                ],
+                "spriteMain": "S:henge_main",
+                "spriteSide": "S:henge_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:heaven_castle",
+                "palettePivot": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-3"
+                ],
+                "spriteMain": "S:heaven_castle",
+                "spriteSide": "S:heaven_castle_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:cherry_castle",
+                "palettePivot": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-3"
+                ],
+                "spriteMain": "S:cherry_castle",
+                "spriteSide": "S:cherry_castle_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:floran_castle",
+                "palettePivot": [
+                    "I:-1",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-2"
+                ],
+                "spriteMain": "S:floran_castle",
+                "spriteSide": "S:floran_castle_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:felheim_castle",
+                "palettePivot": [
+                    "I:-2",
+                    "I:2"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-1"
+                ],
+                "spriteMain": "S:felheim_castle",
+                "spriteSide": "S:felheim_castle_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:cherrystone",
+                "palettePivot": [
+                    "I:-1",
+                    "I:2"
+                ],
+                "sidePalettePivot": [
+                    "I:-5",
+                    "I:-1"
+                ],
+                "spriteMain": "S:cherrystone_main",
+                "spriteSide": "S:cherrystone_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:felheim",
+                "palettePivot": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-2"
+                ],
+                "spriteMain": "S:felheim_main",
+                "spriteSide": "S:felheim_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:floran",
+                "palettePivot": [
+                    "I:0",
+                    "I:1"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-1"
+                ],
+                "spriteMain": "S:floran_main",
+                "spriteSide": "S:floran_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:heavensong",
+                "palettePivot": [
+                    "I:-2",
+                    "I:0"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-2"
+                ],
+                "spriteMain": "S:heavensong_main",
+                "spriteSide": "S:heavensong_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:bandit",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-2"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-1"
+                ],
+                "spriteMain": "S:bandit_main",
+                "spriteSide": "S:bandit_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:goldmountain",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-2"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-1"
+                ],
+                "spriteMain": "S:goldmountain_main",
+                "spriteSide": "S:goldmountain_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:woodforest",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-1"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-1"
+                ],
+                "spriteMain": "S:woodforest_main",
+                "spriteSide": "S:woodforest_side",
+                "spritesheet": "S:world_map"
+            },
+            {
+                "id": "S:silverdesert",
+                "palettePivot": [
+                    "I:-2",
+                    "I:-2"
+                ],
+                "sidePalettePivot": [
+                    "I:-4",
+                    "I:-1"
+                ],
+                "spriteMain": "S:silverdesert_main",
+                "spriteSide": "S:silverdesert_side",
+                "spritesheet": "S:world_map"
+            }
+        ]
+    }
+}

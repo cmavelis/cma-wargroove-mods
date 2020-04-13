@@ -1,0 +1,69 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:4.0",
+                "battleUnitCount": "I:1",
+                "canBeCaptured": "S:true",
+                "canBeReinforced": "S:false",
+                "canReinforce": "S:true",
+                "cost": "I:500",
+                "damageMultiplier": "I:1",
+                "id": "S:tower",
+                "income": "I:0",
+                "isNeutraliseable": "S:true",
+                "isStructure": "S:true",
+                "movement": "S:land_building",
+                "name": "S:structure_name_tower",
+                "recruitTags": [
+                    "S:type.air"
+                ],
+                "regeneration": "I:10",
+                "sightRange": "I:7",
+                "tags": [
+                    "S:structure"
+                ],
+                "verbs": [
+                    "S:recruit"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "class": "S:tower",
+                "faction": "S:neutral",
+                "grabPos": [
+                    "I:14",
+                    "I:4"
+                ],
+                "mapAnimation": "S:structures/tower",
+                "mediumPortrait": "S:portraits/medium/tower.png",
+                "name": "S:structure_name_tower",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitStone"
+                },
+                "structureImage": {
+                    "farBackground": "S:tower_background_full_background_2",
+                    "foreground": "S:tower_background_full_foreground",
+                    "keeperPosition": [
+                        "I:72",
+                        "I:75"
+                    ],
+                    "leftBannerOffset": [
+                        "I:0",
+                        "I:0"
+                    ],
+                    "nearBackground": "S:tower_background_full_background_1",
+                    "rightBannerOffset": [
+                        "I:0",
+                        "I:0"
+                    ],
+                    "spriteSheet": "S:backgrounds/tower/tower_background_full"
+                }
+            }
+        ]
+    }
+}

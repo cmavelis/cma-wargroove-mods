@@ -1,0 +1,14 @@
+{
+    "root": {
+        "menuBackgrounds": [
+            {
+                "background": "S:ui/background/menu_background_ground",
+                "clouds": "S:ui/background/menu_background_clouds",
+                "cloudsInBack": "S:true",
+                "id": "S:main_menu",
+                "sky": "S:ui/background/menu_background_sky",
+                "unitSpawn": "S:true"
+            }
+        ]
+    }
+}

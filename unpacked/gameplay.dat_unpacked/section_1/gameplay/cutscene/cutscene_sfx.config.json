@@ -1,0 +1,439 @@
+{
+    "root": {
+        "cutscene_sfx": [
+            {
+                "id": "S:jump",
+                "path": "S:cutscene/jump"
+            },
+            {
+                "id": "S:land",
+                "path": "S:cutscene/land"
+            },
+            {
+                "id": "S:rope_twist",
+                "path": "S:cutscene/ropeTwist"
+            },
+            {
+                "id": "S:thud",
+                "path": "S:cutscene/thud"
+            },
+            {
+                "id": "S:bump",
+                "path": "S:cutscene/bump"
+            },
+            {
+                "id": "S:coins",
+                "path": "S:cutscene/coins"
+            },
+            {
+                "id": "S:giant_step",
+                "path": "S:cutscene/giantStep"
+            },
+            {
+                "id": "S:cloth_movement",
+                "path": "S:cutscene/clothMovement1"
+            },
+            {
+                "id": "S:cloth_movement2",
+                "path": "S:cutscene/clothMovement2"
+            },
+            {
+                "id": "S:rumble",
+                "path": "S:cutscene/rumble"
+            },
+            {
+                "id": "S:stab",
+                "path": "S:cutscene/stab"
+            },
+            {
+                "id": "S:punch",
+                "path": "S:cutscene/punch"
+            },
+            {
+                "id": "S:heavy_blunt",
+                "path": "S:cutscene/heavyBlunt"
+            },
+            {
+                "id": "S:heavy_stab",
+                "path": "S:cutscene/heavyStab"
+            },
+            {
+                "id": "S:heavy_weapon_strike",
+                "path": "S:cutscene/heavyWeaponStrike"
+            },
+            {
+                "id": "S:hit_stone",
+                "path": "S:cutscene/hitStoneSingle"
+            },
+            {
+                "id": "S:hit_wood",
+                "path": "S:cutscene/hitWoodSingle"
+            },
+            {
+                "id": "S:metal_hit",
+                "path": "S:cutscene/hitMetalSingle"
+            },
+            {
+                "id": "S:shield_block",
+                "path": "S:cutscene/shieldBlock"
+            },
+            {
+                "id": "S:sword_clash",
+                "path": "S:swordClash"
+            },
+            {
+                "id": "S:sword_draw",
+                "path": "S:cutscene/swordDraw"
+            },
+            {
+                "id": "S:sword_drop",
+                "path": "S:cutscene/swordDrop"
+            },
+            {
+                "id": "S:sword_sheath",
+                "path": "S:cutscene/swordSheath"
+            },
+            {
+                "id": "S:sword_strike",
+                "path": "S:cutscene/swordStrike"
+            },
+            {
+                "id": "S:sword_swing",
+                "path": "S:cutscene/swordSwing"
+            },
+            {
+                "id": "S:staff_swing",
+                "path": "S:cutscene/staffSwing"
+            },
+            {
+                "id": "S:thrown_object",
+                "path": "S:cutscene/throwObject"
+            },
+            {
+                "id": "S:shield_holster",
+                "path": "S:cutscene/shieldHolster"
+            },
+            {
+                "id": "S:switch",
+                "path": "S:switch"
+            },
+            {
+                "id": "S:gunshot",
+                "path": "S:cutscene/gunshot"
+            },
+            {
+                "id": "S:witch_attack",
+                "path": "S:cutscene/spellBlast1"
+            },
+            {
+                "id": "S:mage_attack",
+                "path": "S:cutscene/spellBlast2"
+            },
+            {
+                "id": "S:magic_power_down",
+                "path": "S:cutscene/spellPowerDown"
+            },
+            {
+                "id": "S:magic_power_up",
+                "path": "S:cutscene/spellPowerUp"
+            },
+            {
+                "id": "S:magic_shimmer",
+                "path": "S:cutscene/spellShimmer"
+            },
+            {
+                "id": "S:spell_channel",
+                "path": "S:cutscene/spellChannel"
+            },
+            {
+                "id": "S:thunder1",
+                "path": "S:cutscene/thunder1"
+            },
+            {
+                "id": "S:thunder2",
+                "path": "S:cutscene/thunder2"
+            },
+            {
+                "id": "S:thunder3",
+                "path": "S:cutscene/thunder3"
+            },
+            {
+                "id": "S:cutscene_light_burst",
+                "path": "S:cutscene/lightBurst"
+            },
+            {
+                "id": "S:flame",
+                "path": "S:cutscene/flame"
+            },
+            {
+                "id": "S:flame_ignite",
+                "path": "S:cutscene/fireIgnite"
+            },
+            {
+                "id": "S:flame_dowse",
+                "path": "S:cutscene/firePuff"
+            },
+            {
+                "id": "S:smoke_bomb",
+                "path": "S:cutscene/smokeBomb"
+            },
+            {
+                "id": "S:explosion_big",
+                "path": "S:cutscene/explosionBig"
+            },
+            {
+                "id": "S:explosion_small",
+                "path": "S:cutscene/explosionSmall"
+            },
+            {
+                "id": "S:glass_shatter",
+                "path": "S:cutscene/glassShatter"
+            },
+            {
+                "id": "S:gate_die",
+                "path": "S:cutscene/gateDie"
+            },
+            {
+                "id": "S:female_scream1",
+                "path": "S:cutscene/villagerScreamFemale1"
+            },
+            {
+                "id": "S:female_scream2",
+                "path": "S:cutscene/villagerScreamFemale2"
+            },
+            {
+                "id": "S:male_scream1",
+                "path": "S:cutscene/villagerScreamMale1"
+            },
+            {
+                "id": "S:male_scream2",
+                "path": "S:cutscene/villagerScreamMale2"
+            },
+            {
+                "id": "S:surprised",
+                "path": "S:cutscene/surprised"
+            },
+            {
+                "id": "S:skelly_teeth",
+                "path": "S:soldierShoutBlue1"
+            },
+            {
+                "id": "S:crowd_applause",
+                "path": "S:cutscene/crowdApplause"
+            },
+            {
+                "id": "S:crowd_boo",
+                "path": "S:cutscene/crowdBoo"
+            },
+            {
+                "id": "S:crowd_laugh",
+                "path": "S:cutscene/crowdLaugh"
+            },
+            {
+                "id": "S:dragon_roar1",
+                "path": "S:cutscene/dragonRoar1"
+            },
+            {
+                "id": "S:dragon_roar2",
+                "path": "S:cutscene/dragonRoar2"
+            },
+            {
+                "id": "S:twang",
+                "path": "S:cutscene/twang"
+            },
+            {
+                "id": "S:twirl",
+                "path": "S:cutscene/twirl"
+            },
+            {
+                "id": "S:water_splash",
+                "path": "S:cutscene/waterSplash"
+            },
+            {
+                "id": "S:wave_crash",
+                "path": "S:cutscene/waveCrash"
+            },
+            {
+                "id": "S:honk",
+                "path": "S:cutscene/honk"
+            },
+            {
+                "id": "S:punchline",
+                "path": "S:cutscene/punchline"
+            },
+            {
+                "id": "S:slider",
+                "path": "S:cutscene/slideWhistle"
+            },
+            {
+                "id": "S:splat",
+                "path": "S:cutscene/splat"
+            },
+            {
+                "id": "S:scratch",
+                "path": "S:cutscene/recordScratch"
+            },
+            {
+                "id": "S:dramatic_drum1",
+                "path": "S:cutscene/dramaticDrum1"
+            },
+            {
+                "id": "S:dramatic_drum2",
+                "path": "S:cutscene/dramaticDrum2"
+            },
+            {
+                "id": "S:smash_stone",
+                "path": "S:strongholdDieRed"
+            },
+            {
+                "id": "S:stone_door_open",
+                "path": "S:cutscene/stoneDoorOpen"
+            },
+            {
+                "id": "S:stone_door_close",
+                "path": "S:cutscene/stoneDoorClose"
+            },
+            {
+                "id": "S:pressure_plate_triggered",
+                "path": "S:cutscene/stoneScrape1"
+            },
+            {
+                "id": "S:pressure_plate_released",
+                "path": "S:cutscene/stoneScrape2"
+            },
+            {
+                "id": "S:drawbridge_raise",
+                "path": "S:cutscene/drawbridgeRaise"
+            },
+            {
+                "id": "S:drawbridge_lower",
+                "path": "S:cutscene/drawbridgeDrop"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:spell_binding",
+                "path": "S:cutscene/spellBinding"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_ancient_door_open",
+                "path": "S:cutscene/ancientDoorOpen"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_requiem_break",
+                "path": "S:cutscene/requiemBreak"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_requiem_explode",
+                "path": "S:cutscene/requiemExplode"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_requiem_sheath",
+                "path": "S:cutscene/requiemSheath"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_sigrid_disappear",
+                "path": "S:cutscene/sigridDisappear"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:cutscene_crown_fall",
+                "path": "S:cutscene/crownFall"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:ship_die",
+                "path": "S:cutscene/shipDie"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:huge_giant_step",
+                "path": "S:cutscene/hugeGiantStep"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:teleport",
+                "path": "S:cutscene/teleportOut"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:teleport_in",
+                "path": "S:cutscene/teleportIn"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:bird_fly1",
+                "path": "S:cutscene/birdFly1"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:bird_fly2",
+                "path": "S:cutscene/birdFly2"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:bird_song1",
+                "path": "S:cutscene/birdSong1"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:bird_song2",
+                "path": "S:cutscene/birdSong2"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:treasure_stolen",
+                "path": "S:cutscene/treasureStolen"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:rustling_bushes",
+                "path": "S:cutscene/bushRustle"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:family_leaving_bushes",
+                "path": "S:cutscene/familyLeavingBushes"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:family_leaving_cactus",
+                "path": "S:cutscene/familyLeavingCactii"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:wulfar_carries_kids",
+                "path": "S:cutscene/familyCarry"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:rope_unfurl",
+                "path": "S:cutscene/ropeThrow"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:rope_slide",
+                "path": "S:cutscene/ropeSlide"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:floran_ambush",
+                "path": "S:cutscene/floranAmbush"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:meow",
+                "path": "S:cutscene/catMeow"
+            },
+            {
+                "hidden": "S:true",
+                "id": "S:purr",
+                "path": "S:cutscene/catPurr"
+            }
+        ]
+    }
+}

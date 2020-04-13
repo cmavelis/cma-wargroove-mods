@@ -1,0 +1,683 @@
+{
+    "root": {
+        "commanders": [
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/mercia_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollMercia",
+                "faction": "S:cherrystone",
+                "factionIndex": "I:0",
+                "id": "S:mercia",
+                "name": "S:character_mercia_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_mercia.png",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/mercia_portrait_determined.png",
+                    "happy": "S:portraits/commanders/small/mercia_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/mercia_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/mercia_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:7"
+                ],
+                "selectionSound": "S:mercia/merciaShoutWontLetYouDown",
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/mercia",
+                "title": "S:character_mercia_title",
+                "unitClassId": "S:commander_mercia"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/emeric_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollEmeric",
+                "faction": "S:cherrystone",
+                "factionIndex": "I:1",
+                "id": "S:emeric",
+                "name": "S:character_emeric_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_emeric.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/emeric_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/emeric_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/emeric_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:-25"
+                ],
+                "selectionSound": "S:emeric/emericShoutEducatedChoice",
+                "skinColour": "S:typeVI",
+                "themeSong": "S:music/emeric",
+                "title": "S:character_emeric_title",
+                "unitClassId": "S:commander_emeric"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/caesar_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollCaesar",
+                "faction": "S:cherrystone",
+                "factionIndex": "I:2",
+                "id": "S:caesar",
+                "name": "S:character_caesar_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_caesar.png",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/caesar_portrait_extra.png",
+                    "happy": "S:portraits/commanders/small/caesar_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/caesar_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/caesar_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:-5",
+                    "I:5"
+                ],
+                "selectionSound": "S:caesar/caesarSelect",
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/caesar",
+                "title": "S:character_caesar_title",
+                "unitClassId": "S:commander_caesar"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/valder_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollValder",
+                "faction": "S:felheim",
+                "factionIndex": "I:0",
+                "id": "S:valder",
+                "name": "S:character_valder_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_valder.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/valder_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/valder_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/valder_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:-26"
+                ],
+                "selectionSound": "S:valder/valderFelheimRises",
+                "skinColour": "S:typeIV",
+                "themeSong": "S:music/valder",
+                "title": "S:character_valder_title",
+                "unitClassId": "S:commander_valder"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/ragna_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollRagna",
+                "faction": "S:felheim",
+                "factionIndex": "I:1",
+                "id": "S:ragna",
+                "name": "S:character_ragna_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_ragna.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/ragna_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/ragna_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/ragna_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:2"
+                ],
+                "selectionSound": "S:ragna/ragnaShoutThisSucks",
+                "skinColour": "S:typeI",
+                "themeSong": "S:music/ragna",
+                "title": "S:character_ragna_title",
+                "unitClassId": "S:commander_ragna"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/sigrid_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollSigrid",
+                "faction": "S:felheim",
+                "factionIndex": "I:2",
+                "id": "S:sigrid",
+                "name": "S:character_sigrid_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_sigrid.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/sigrid_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/sigrid_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/sigrid_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:11"
+                ],
+                "selectionSound": "S:sigrid/sigridShoutCalmMortalsDieEasily",
+                "skinColour": "S:typeI",
+                "themeSong": "S:music/sigrid",
+                "title": "S:character_sigrid_title",
+                "unitClassId": "S:commander_sigrid"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/tenri_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollTenri",
+                "faction": "S:heavensong",
+                "factionIndex": "I:0",
+                "id": "S:tenri",
+                "name": "S:character_tenri_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_tenri.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/tenri_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/tenri_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/tenri_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:-15"
+                ],
+                "selectionSound": "S:tenri/tenriShoutImNotHereToPlay",
+                "skinColour": "S:typeIII",
+                "themeSong": "S:music/tenri",
+                "title": "S:character_tenri_title",
+                "unitClassId": "S:commander_tenri"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/koji_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollKoji",
+                "faction": "S:heavensong",
+                "factionIndex": "I:2",
+                "id": "S:koji",
+                "name": "S:character_koji_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_koji.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/koji_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/koji_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/koji_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:30",
+                    "I:5"
+                ],
+                "selectionSound": "S:koji/kojiShoutThisWillBeAwesome",
+                "skinColour": "S:typeIII",
+                "themeSong": "S:music/koji",
+                "title": "S:character_koji_title",
+                "unitClassId": "S:commander_koji"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/ryota_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollRyota",
+                "faction": "S:heavensong",
+                "factionIndex": "I:1",
+                "id": "S:ryota",
+                "name": "S:character_ryota_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_ryota.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/ryota_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/ryota_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/ryota_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:-5"
+                ],
+                "selectionSound": "S:ryota/ryotaShoutIWillNotBeDefeated",
+                "skinColour": "S:typeIII",
+                "themeSong": "S:music/ryota",
+                "title": "S:character_ryota_title",
+                "unitClassId": "S:commander_ryota"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/greenfinger_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollGreenfinger",
+                "faction": "S:floran",
+                "factionIndex": "I:0",
+                "id": "S:greenfinger",
+                "name": "S:character_greenfinger_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_greenfinger.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/greenfinger_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/greenfinger_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/greenfinger_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:-25"
+                ],
+                "selectionSound": "S:greenfinger/greenfingerShoutOfCourse",
+                "skinColour": "S:green",
+                "themeSong": "S:music/greenfinger",
+                "title": "S:character_greenfinger_title",
+                "unitClassId": "S:commander_greenfinger"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/nuru_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollNuru",
+                "faction": "S:floran",
+                "factionIndex": "I:1",
+                "id": "S:nuru",
+                "name": "S:character_nuru_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_nuru.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/nuru_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/nuru_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/nuru_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:-25",
+                    "I:-40"
+                ],
+                "selectionSound": "S:nuru/nuruShoutBigFight",
+                "skinColour": "S:green",
+                "themeSong": "S:music/nuru",
+                "title": "S:character_nuru_title",
+                "unitClassId": "S:commander_nuru"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/sedge_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollSedge",
+                "faction": "S:floran",
+                "factionIndex": "I:2",
+                "id": "S:sedge",
+                "name": "S:character_sedge_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_sedge.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/sedge_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/sedge_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/sedge_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:15",
+                    "I:0"
+                ],
+                "selectionSound": "S:sedge/sedgeShoutTheHuntBegins",
+                "skinColour": "S:green",
+                "themeSong": "S:music/sedge",
+                "title": "S:character_sedge_title",
+                "unitClassId": "S:commander_sedge"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/elodie_portrait",
+                "deathFade": "S:false",
+                "deathTime": "I:5",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollElodie",
+                "faction": "S:guardian",
+                "factionIndex": "I:0",
+                "id": "S:elodie",
+                "name": "S:character_elodie_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_elodie.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/elodie_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/elodie_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/elodie_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:-10",
+                    "I:-40"
+                ],
+                "selectionSound": "S:elodie/elodieShoutShallIPlayYouASong",
+                "skinColour": "S:typeIV",
+                "themeSong": "S:music/elodie",
+                "title": "S:character_elodie_title",
+                "unitClassId": "S:commander_elodie",
+                "unlock": "S:character_elodie"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/darkmercia_portrait",
+                "deathFade": "S:false",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollDarkMercia",
+                "faction": "S:guardian",
+                "factionIndex": "I:1",
+                "id": "S:darkmercia",
+                "name": "S:character_darkmercia_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_darkmercia.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/darkmercia_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/darkmercia_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/darkmercia_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:-45"
+                ],
+                "selectionSound": "S:darkmercia/darkmerciaShoutDarknessFalls",
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/darkmercia",
+                "title": "S:character_darkmercia_title",
+                "unitClassId": "S:commander_darkmercia",
+                "unlock": "S:character_darkmercia"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/mercival_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollMercival",
+                "faction": "S:cherrystone",
+                "factionIndex": "I:3",
+                "id": "S:mercival",
+                "name": "S:character_mercival_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_mercival.png",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/mercival_portrait_ghost.png",
+                    "happy": "S:portraits/commanders/small/mercival_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/mercival_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/mercival_portrait_sad.png"
+                },
+                "selectionSound": "S:mercival/mercivalShoutIAmWithYou",
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/mercival",
+                "title": "S:character_mercival_title",
+                "unitClassId": "S:commander_mercival",
+                "unlock": "S:character_mercival"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/wulfar_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollWulfar",
+                "faction": "S:outlaw",
+                "factionIndex": "I:0",
+                "id": "S:wulfar",
+                "name": "S:character_wulfar_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_outlaw.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/wulfar_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/wulfar_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/wulfar_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:-45"
+                ],
+                "selectionSound": "S:wulfar/wulfarShoutUpForTheTask",
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/wulfar",
+                "title": "S:character_wulfar_title",
+                "unitClassId": "S:commander_wulfar"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/vesper_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollVesper",
+                "faction": "S:outlaw",
+                "factionIndex": "I:2",
+                "id": "S:vesper",
+                "lockedInDemo": "S:true",
+                "name": "S:character_vesper_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_outlaw.png",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/vesper_portrait_angry.png",
+                    "happy": "S:portraits/commanders/small/vesper_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/vesper_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/vesper_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:10",
+                    "I:5"
+                ],
+                "selectionSound": "S:vesper/vesperShoutNoSmokeWithoutFire",
+                "skinColour": "S:typeVI",
+                "themeSong": "S:music/vesper",
+                "title": "S:character_vesper_title",
+                "unitClassId": "S:commander_vesper"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/twins_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollTwins",
+                "faction": "S:outlaw",
+                "factionIndex": "I:1",
+                "id": "S:twins",
+                "name": "S:character_twins_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_outlaw.png",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/twins_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/twins_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/twins_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:15",
+                    "I:0"
+                ],
+                "selectionSound": "S:twins/twinsSelect",
+                "skinColour": "S:typeVI",
+                "themeSong": "S:music/twins",
+                "title": "S:character_twins_title",
+                "unitClassId": "S:commander_twins"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/orla_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollOrla",
+                "faction": "S:outlaw",
+                "hideInMapEditor": "S:true",
+                "id": "S:orla",
+                "name": "S:character_orla_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_outlaw.png",
+                "playable": "S:false",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/orla_portrait_extra.png",
+                    "happy": "S:portraits/commanders/small/orla_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/orla_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/orla_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:15",
+                    "I:0"
+                ],
+                "selectionSound": "S:mercia/merciaShoutWontLetYouDown",
+                "skinColour": "S:typeVI",
+                "themeSong": "S:music/twins",
+                "title": "S:character_orla_title",
+                "unitClassId": "S:commander_orla"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/errol_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollTwins",
+                "faction": "S:outlaw",
+                "hideInMapEditor": "S:true",
+                "id": "S:errol",
+                "name": "S:character_errol_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_outlaw.png",
+                "playable": "S:false",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/errol_portrait_scared.png",
+                    "happy": "S:portraits/commanders/small/errol_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/errol_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/errol_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:15",
+                    "I:0"
+                ],
+                "selectionSound": "S:mercia/merciaShoutWontLetYouDown",
+                "skinColour": "S:typeVI",
+                "themeSong": "S:music/twins",
+                "title": "S:character_errol_title",
+                "unitClassId": "S:commander_errol"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/cherrystone_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:cherrystone",
+                "id": "S:generic_cherrystone",
+                "name": "S:character_generic_cherrystone_name",
+                "playable": "S:false",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/cherrystone_portrait_small.png",
+                    "happy": "S:portraits/commanders/small/cherrystone_portrait_small.png",
+                    "neutral": "S:portraits/commanders/small/cherrystone_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/cherrystone_portrait_small.png"
+                },
+                "skinColour": "S:typeIV",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/felheim_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:felheim",
+                "id": "S:generic_felheim",
+                "name": "S:character_generic_felheim_name",
+                "playable": "S:false",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/felheim_portrait_small.png",
+                    "neutral": "S:portraits/commanders/small/felheim_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/felheim_portrait_small.png"
+                },
+                "skinColour": "S:typeI",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/floran_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:floran",
+                "id": "S:generic_floran",
+                "name": "S:character_generic_floran_name",
+                "playable": "S:false",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/floran_portrait_small.png",
+                    "neutral": "S:portraits/commanders/small/floran_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/floran_portrait_small.png"
+                },
+                "skinColour": "S:green",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/heavensong_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:heavensong",
+                "id": "S:generic_heavensong",
+                "name": "S:character_generic_heavensong_name",
+                "playable": "S:false",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/heavensong_portrait_small.png",
+                    "neutral": "S:portraits/commanders/small/heavensong_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/heavensong_portrait_small.png"
+                },
+                "skinColour": "S:typeIII",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/outlaw_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:outlaw",
+                "id": "S:generic_outlaw",
+                "name": "S:character_generic_outlaw_name",
+                "playable": "S:false",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/outlaw_portrait_small.png",
+                    "neutral": "S:portraits/commanders/small/outlaw_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/outlaw_portrait_small.png"
+                },
+                "portraitOffset": [
+                    "I:0",
+                    "I:20"
+                ],
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/cherrystone_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:cherrystone",
+                "hidden": "S:true",
+                "id": "S:generic_soldier",
+                "name": "S:character_generic_soldier_name",
+                "playable": "S:false",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/soldier_portrait_extra.png",
+                    "happy": "S:portraits/commanders/small/soldier_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/soldier_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/soldier_portrait_sad.png"
+                },
+                "skinColour": "S:typeVI",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/cherrystone_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:heavensong",
+                "hidden": "S:true",
+                "id": "S:generic_soldier2",
+                "name": "S:character_generic_soldier2_name",
+                "playable": "S:false",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/floran_soldier_portrait.png",
+                    "happy": "S:portraits/commanders/small/soldier2_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/soldier2_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/felheim_soldier_portrait.png"
+                },
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/cherrystone_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:cherrystone",
+                "hidden": "S:true",
+                "id": "S:generic_soldier3",
+                "name": "S:character_generic_soldier3_name",
+                "playable": "S:false",
+                "portrait": {
+                    "happy": "S:portraits/commanders/small/merfolk_portrait.png",
+                    "neutral": "S:portraits/commanders/small/mage_portrait.png",
+                    "sad": "S:portraits/commanders/small/thief_portrait.png"
+                },
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/cherrystone_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScroll",
+                "faction": "S:cherrystone",
+                "hidden": "S:true",
+                "id": "S:generic_villager",
+                "name": "S:unit_class_name_villager",
+                "playable": "S:false",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/villager_felheim_portrait.png",
+                    "happy": "S:portraits/commanders/small/villager_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/villager_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/villager_portrait_sad.png"
+                },
+                "skinColour": "S:typeII",
+                "themeSong": "S:music/hostile",
+                "unitClassId": "S:knight"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/vesper_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollVesper",
+                "faction": "S:outlaw",
+                "factionIndex": "I:2",
+                "hidden": "S:true",
+                "id": "S:vesper_boss",
+                "name": "S:character_vesper_boss_name",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_outlaw.png",
+                "playable": "S:false",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/vesper_portrait_angry.png",
+                    "happy": "S:portraits/commanders/small/vesper_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/vesper_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/vesper_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:-10",
+                    "I:-40"
+                ],
+                "selectionSound": "S:vesper/vesperShoutNoSmokeWithoutFire",
+                "skinColour": "S:typeVI",
+                "themeSong": "S:music/vesper",
+                "unitClassId": "S:commander_vesper_boss"
+            },
+            {
+                "cutscenePortrait": "S:portraits/commanders/big/vesper_portrait",
+                "dialogueBoxVoice": "S:ui/dialogue/textScrollVesper",
+                "faction": "S:outlaw",
+                "factionIndex": "I:2",
+                "hidden": "S:true",
+                "id": "S:shadow_vesper",
+                "name": "S:unit_class_name_shadow_sister",
+                "namePlate": "S:ui/character_select/charlabel/charlabel_outlaw.png",
+                "playable": "S:false",
+                "portrait": {
+                    "extra": "S:portraits/commanders/small/vesper_portrait_angry.png",
+                    "happy": "S:portraits/commanders/small/vesper_portrait_happy.png",
+                    "neutral": "S:portraits/commanders/small/vesper_portrait_small.png",
+                    "sad": "S:portraits/commanders/small/vesper_portrait_sad.png"
+                },
+                "portraitOffset": [
+                    "I:-10",
+                    "I:-40"
+                ],
+                "selectionSound": "S:vesper/vesperShoutNoSmokeWithoutFire",
+                "skinColour": "S:typeVI",
+                "themeSong": "S:music/vesper",
+                "unitClassId": "S:shadow_vesper"
+            }
+        ]
+    }
+}

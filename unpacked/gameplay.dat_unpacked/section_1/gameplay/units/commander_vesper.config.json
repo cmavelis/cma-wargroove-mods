@@ -1,0 +1,234 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:smoke_screen",
+                "id": "S:commander_vesper",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:vesperWhip"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackCommanderSound": "S:counter",
+                        "attackSound": "S:counter",
+                        "effectDelay": "F:0.6",
+                        "hitDelay": "F:0.6",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:closeRange",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "effect": "S:fx/bs_vesper_attack",
+                        "effectDelay": "F:2.2",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": "F:2.5",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/vesper/battle_vesper",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_vesper_river",
+                "class": "S:commander_vesper",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "appear": "S:emote_appear",
+                    "appeared": "S:emote_appeared",
+                    "dance": "S:emote_dance",
+                    "hurt": "S:emote_sad",
+                    "idle": "S:idle",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_angry",
+                    "positive": "S:emote_positive",
+                    "seated": "S:emote_seated",
+                    "surprise": "S:emote_surprise",
+                    "vanish": "S:emote_vanish"
+                },
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:47",
+                    "I:47"
+                ],
+                "hidden": {
+                    "emotes": [
+                        "S:seated"
+                    ]
+                },
+                "mapAnimation": "S:units/commanders/vesper/map_vesper",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/vesper/portrait_vesper_medium.png",
+                "name": "S:character_vesper_name",
+                "shouts": {
+                    "vesper_aurevoir": "S:vesper/vesperShoutAuRevoir",
+                    "vesper_beautifullyappointed": "S:vesper/vesperShoutBeautifullyAppointed",
+                    "vesper_bonnechance": "S:vesper/vesperShoutBonneChance",
+                    "vesper_caesar": "S:vesper/vesperShoutCaesar",
+                    "vesper_canefaitrien": "S:vesper/vesperShoutCaNeFaitRien",
+                    "vesper_cestlaguerre": "S:vesper/vesperShoutCestLaGuerre",
+                    "vesper_commanderryota": "S:vesper/vesperShoutCommanderRyota",
+                    "vesper_dog": "S:vesper/vesperShoutDog",
+                    "vesper_empresstenri": "S:vesper/vesperShoutEmpressTenri",
+                    "vesper_enid": "S:vesper/vesperShoutEnid",
+                    "vesper_errol": "S:vesper/vesperShoutErrol",
+                    "vesper_errorandawful": "S:vesper/vesperShoutErrorAndAwful",
+                    "vesper_felllord": "S:vesper/vesperShoutFellLord",
+                    "vesper_floran": "S:vesper/vesperShoutFloran",
+                    "vesper_flymypretty": "S:vesper/vesperShoutFlyMyPretty",
+                    "vesper_greenfingerzawan": "S:vesper/vesperShoutGreenfingerZawan",
+                    "vesper_hardlysurprising": "S:vesper/vesperShoutHardlySurprising",
+                    "vesper_hellowulfar": "S:vesper/vesperShoutHelloWulfar",
+                    "vesper_hit1": "S:vesper/vesperShoutHit1",
+                    "vesper_hit2": "S:vesper/vesperShoutHit2",
+                    "vesper_hit3": "S:vesper/vesperShoutHit3",
+                    "vesper_hit4": "S:vesper/vesperShoutHit4",
+                    "vesper_hit5": "S:vesper/vesperShoutHit5",
+                    "vesper_hm": "S:vesper/vesperShoutHm",
+                    "vesper_hmm1": "S:vesper/vesperShoutHmm1",
+                    "vesper_hmm2": "S:vesper/vesperShoutHmm2",
+                    "vesper_hmm3": "S:vesper/vesperShoutHmm3",
+                    "vesper_hmph": "S:vesper/vesperShoutHmph",
+                    "vesper_howdareyou": "S:vesper/vesperShoutHowDareYou",
+                    "vesper_howdelightful": "S:vesper/vesperShoutHowDelightful",
+                    "vesper_huh": "S:vesper/vesperShoutHuh",
+                    "vesper_icastalongshadow": "S:vesper/vesperShoutICastALongShadow",
+                    "vesper_illjustbeonmywaynow": "S:vesper/vesperShoutIllJustBeOnMyWayNow",
+                    "vesper_illwinthisgame": "S:vesper/vesperShoutIllWinThisGame",
+                    "vesper_introduction": "S:vesper/vesperShoutIntroduction",
+                    "vesper_itsvesperdarling": "S:vesper/vesperShoutItsVesperDarling",
+                    "vesper_iwantriches": "S:vesper/vesperShoutIWantRiches",
+                    "vesper_justajoke": "S:vesper/vesperShoutJustAJoke",
+                    "vesper_justhereforthegold": "S:vesper/vesperShoutJustHereForTheGold",
+                    "vesper_justwhatineeded": "S:vesper/vesperShoutJustWhatINeeded",
+                    "vesper_laugh1": "S:vesper/vesperShoutLaugh1",
+                    "vesper_laugh2": "S:vesper/vesperShoutLaugh2",
+                    "vesper_laugh3": "S:vesper/vesperShoutLaugh3",
+                    "vesper_laugh4": "S:vesper/vesperShoutLaugh4",
+                    "vesper_laugh5": "S:vesper/vesperShoutLaugh5",
+                    "vesper_nestcepas": "S:vesper/vesperShoutNestcePas",
+                    "vesper_no1": "S:vesper/vesperShoutNo1",
+                    "vesper_no2": "S:vesper/vesperShoutNo2",
+                    "vesper_noangry": "S:vesper/vesperShoutNoAngry",
+                    "vesper_nosmokewithoutfire": "S:vesper/vesperShoutNoSmokeWithoutFire",
+                    "vesper_noupset": "S:vesper/vesperShoutNoUpset",
+                    "vesper_nuru": "S:vesper/vesperShoutNuru",
+                    "vesper_oopsie": "S:vesper/vesperShoutOopsie",
+                    "vesper_orla": "S:vesper/vesperShoutOrla",
+                    "vesper_pluscachange": "S:vesper/vesperShoutPlusCaChange",
+                    "vesper_princekoji": "S:vesper/vesperShoutPrinceKoji",
+                    "vesper_queenmercia": "S:vesper/vesperShoutQueenMercia",
+                    "vesper_queldommage": "S:vesper/vesperShoutQuelDommage",
+                    "vesper_quitethecoupdetheatre": "S:vesper/vesperShoutQuiteTheCoupDeTheatre",
+                    "vesper_ragna": "S:vesper/vesperShoutRagna",
+                    "vesper_sedge": "S:vesper/vesperShoutSedge",
+                    "vesper_shesclearlyamoron": "S:vesper/vesperShoutShesClearlyAMoron",
+                    "vesper_shh": "S:vesper/vesperShoutShh",
+                    "vesper_shush": "S:vesper/vesperShoutShush",
+                    "vesper_sicem": "S:vesper/vesperShoutSicEm",
+                    "vesper_sigh": "S:vesper/vesperShoutSigh",
+                    "vesper_sighannoyed": "S:vesper/vesperShoutSighAnnoyed",
+                    "vesper_sigrid": "S:vesper/vesperShoutSigrid",
+                    "vesper_siremeric": "S:vesper/vesperShoutSirEmeric",
+                    "vesper_smokeandshadows": "S:vesper/vesperShoutSmokeAndShadows",
+                    "vesper_sosad": "S:vesper/vesperShoutSoSad",
+                    "vesper_thankyou": "S:vesper/vesperShoutThankYou",
+                    "vesper_theloot": "S:vesper/vesperShoutTheLoot",
+                    "vesper_thishasbeenentertaining": "S:vesper/vesperShoutThisHasBeenEntertaining",
+                    "vesper_turnthatfrown": "S:vesper/vesperShoutTurnThatFrown",
+                    "vesper_valder": "S:vesper/vesperShoutValder",
+                    "vesper_vampire": "S:vesper/vesperShoutVampire",
+                    "vesper_watchthis": "S:vesper/vesperShoutWatchThis",
+                    "vesper_welcometothedarkness": "S:vesper/vesperShoutWelcomeToTheDarkness",
+                    "vesper_welldoneme": "S:vesper/vesperShoutWellDoneMe",
+                    "vesper_what": "S:vesper/vesperShoutWhat",
+                    "vesper_whatsalittleturpitude": "S:vesper/vesperShoutWhatsALittleTurpitude",
+                    "vesper_wonderful": "S:vesper/vesperShoutWonderful",
+                    "vesper_wulfar": "S:vesper/vesperShoutWulfar",
+                    "vesper_yes1": "S:vesper/vesperShoutYes1",
+                    "vesper_yes2": "S:vesper/vesperShoutYes2",
+                    "vesper_youwillchoke": "S:vesper/vesperShoutYouWillChoke"
+                },
+                "skinColour": "S:typeVI",
+                "smallPortrait": "S:units/commanders/vesper/portrait_vesper_small.png",
+                "sounds": {
+                    "attack": "S:vesper/vesperAttack",
+                    "attackCommander": "S:vesper/vesperCommanderKillAttack",
+                    "attackEffect": "S:vesper/vesperAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:vesper/vesperCapture",
+                    "counter": "S:vesper/vesperCounterAttack",
+                    "death": "S:vesper/vesperDie",
+                    "deathMap": "S:vesper/vesperDieGhost",
+                    "deathMapNoBattle": "S:vesper/vesperDieNoBattle",
+                    "firstHit": "S:vesper/vesperHit",
+                    "groove": "S:vesper/vesperGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightMapEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                },
+                "stayAfterDeath": "S:true"
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:vesperWhip",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

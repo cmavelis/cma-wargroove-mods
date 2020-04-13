@@ -1,0 +1,426 @@
+{
+    "root": {
+        "worldMaps": [
+            {
+                "fishAnimations": [
+                    "S:world/world_map_fish_size01",
+                    "S:world/world_map_fish_size02",
+                    "S:world/world_map_fish_size03"
+                ],
+                "fishes": [
+                    {
+                        "pos": [
+                            "I:297",
+                            "I:54"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:252",
+                            "I:64"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:150",
+                            "I:336"
+                        ],
+                        "radius": "I:45"
+                    },
+                    {
+                        "pos": [
+                            "I:103",
+                            "I:603"
+                        ],
+                        "radius": "I:45"
+                    },
+                    {
+                        "pos": [
+                            "I:309",
+                            "I:756"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:610",
+                            "I:810"
+                        ],
+                        "radius": "I:30"
+                    },
+                    {
+                        "pos": [
+                            "I:925",
+                            "I:672"
+                        ],
+                        "radius": "I:75"
+                    },
+                    {
+                        "pos": [
+                            "I:630",
+                            "I:453"
+                        ],
+                        "radius": "I:30"
+                    },
+                    {
+                        "pos": [
+                            "I:870",
+                            "I:396"
+                        ],
+                        "radius": "I:45"
+                    },
+                    {
+                        "pos": [
+                            "I:1182",
+                            "I:640"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:1350",
+                            "I:321"
+                        ],
+                        "radius": "I:45"
+                    },
+                    {
+                        "pos": [
+                            "I:1285",
+                            "I:123"
+                        ],
+                        "radius": "I:45"
+                    },
+                    {
+                        "pos": [
+                            "I:1027",
+                            "I:0"
+                        ],
+                        "radius": "I:30"
+                    },
+                    {
+                        "pos": [
+                            "I:790",
+                            "I:0"
+                        ],
+                        "radius": "I:30"
+                    }
+                ],
+                "icon": "S:ui/campaign/map_icon1.png",
+                "id": "S:aurania",
+                "images": [
+                    {
+                        "image": "S:world/maps/aurania/world_map.png",
+                        "layer": "S:background",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "image": "S:world/maps/aurania/world_map_pillars.png",
+                        "layer": "S:ground_decorations",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "effect": "S:water",
+                        "image": "S:world/maps/aurania/world_map_water.png",
+                        "layer": "S:background_tiles_water",
+                        "mask": "S:world/maps/aurania/world_map_water_ramp.png",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "animation": "S:world/maps/aurania/world_map_smoke",
+                        "layer": "S:sky_effects",
+                        "pos": [
+                            "I:762",
+                            "I:535"
+                        ]
+                    }
+                ],
+                "name": "S:world_map_aurania_name",
+                "size": [
+                    "I:1440",
+                    "I:810"
+                ],
+                "sound": [
+                    {
+                        "event": "S:environmental/oceanAmbienceWorld"
+                    },
+                    {
+                        "event": "S:environmental/fieldAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:290",
+                                    "I:390"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:440",
+                                    "I:490"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:600",
+                                    "I:150"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:770",
+                                    "I:260"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:810",
+                                    "I:140"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:880",
+                                    "I:260"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:990",
+                                    "I:410"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:1000",
+                                    "I:520"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/forestAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:200",
+                                "pos": [
+                                    "I:460",
+                                    "I:320"
+                                ],
+                                "refDistance": "I:20"
+                            },
+                            {
+                                "maxDistance": "I:200",
+                                "pos": [
+                                    "I:600",
+                                    "I:280"
+                                ],
+                                "refDistance": "I:20"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/tundraAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:200",
+                                "pos": [
+                                    "I:224",
+                                    "I:600"
+                                ],
+                                "refDistance": "I:20"
+                            },
+                            {
+                                "maxDistance": "I:250",
+                                "pos": [
+                                    "I:516",
+                                    "I:660"
+                                ],
+                                "refDistance": "I:25"
+                            },
+                            {
+                                "maxDistance": "I:100",
+                                "pos": [
+                                    "I:700",
+                                    "I:732"
+                                ],
+                                "refDistance": "I:10"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/mountainAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:700",
+                                    "I:140"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:250",
+                                "pos": [
+                                    "I:1110",
+                                    "I:440"
+                                ],
+                                "refDistance": "I:25"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/desertAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:1050",
+                                    "I:160"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:1140",
+                                    "I:265"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/swampAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:200",
+                                "pos": [
+                                    "I:850",
+                                    "I:140"
+                                ],
+                                "refDistance": "I:20"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/volcanoAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:760",
+                                    "I:540"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/riverAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:275",
+                                    "I:540"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:315",
+                                    "I:450"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:340",
+                                    "I:370"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:350",
+                                    "I:285"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:435",
+                                    "I:250"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:512",
+                                    "I:208"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:560",
+                                    "I:290"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:555",
+                                    "I:365"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:630",
+                                    "I:350"
+                                ],
+                                "refDistance": "I:15"
+                            }
+                        ]
+                    }
+                ],
+                "waterMask": "S:masks/aurania_water_mask.png"
+            }
+        ]
+    }
+}

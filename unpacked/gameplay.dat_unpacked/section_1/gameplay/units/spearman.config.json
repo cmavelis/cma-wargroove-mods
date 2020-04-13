@@ -1,0 +1,260 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "cost": "I:250",
+                "damageMultiplier": "I:1",
+                "id": "S:spearman",
+                "moveRange": "I:3",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_spearman",
+                "passiveMultiplier": "F:1.5",
+                "tags": [
+                    "S:spearman",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:capture",
+                    "S:load"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:spear"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "hitDelay": "F:0.4",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/spearman/cherrystone/battle_spearman_cherrystone",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_spearman_cherrystone_river",
+                "class": "S:spearman",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:18",
+                    "I:12"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_shout3",
+                        "S:soldier_shout5",
+                        "S:soldier_shout6",
+                        "S:soldier_shout9"
+                    ]
+                },
+                "mapAnimation": "S:units/spearman/cherrystone/map_spearman_cherrystone",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/spearman/cherrystone/portrait_spearman_cherrystone_medium.png",
+                "name": "S:unit_name_spearman_cherrystone",
+                "shouts": {
+                    "soldier_hit1": "S:soldierHitRed1",
+                    "soldier_hit2": "S:soldierHitRed2",
+                    "soldier_hit3": "S:soldierHitRed3",
+                    "soldier_hit4": "S:soldierHitRed4",
+                    "soldier_hit5": "S:soldierHitRed5",
+                    "soldier_shout1": "S:soldierShoutRed1",
+                    "soldier_shout2": "S:soldierShoutRed2",
+                    "soldier_shout3": "S:soldierShoutRed3",
+                    "soldier_shout4": "S:soldierShoutRed4",
+                    "soldier_shout5": "S:soldierShoutRed5",
+                    "soldier_shout6": "S:soldierShoutRed6",
+                    "soldier_shout7": "S:soldierShoutRed7",
+                    "soldier_shout8": "S:soldierShoutRed8",
+                    "soldier_shout9": "S:soldierShoutRed9"
+                },
+                "smallPortrait": "S:units/spearman/cherrystone/portrait_spearman_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "captureShout": "S:soldierPreAttackRed",
+                    "death": "S:soldierDieRed",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryHeavyEntry",
+                    "runMap": "S:infantryHeavyMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": "F:0.4",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/spearman/felheim/battle_spearman_felheim",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_spearman_felheim_river",
+                "class": "S:spearman",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:19",
+                    "I:12"
+                ],
+                "mapAnimation": "S:units/spearman/felheim/map_spearman_felheim",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/spearman/felheim/portrait_spearman_felheim_medium.png",
+                "name": "S:unit_name_spearman_felheim",
+                "shouts": {
+                    "soldier_blue_shout1": "S:soldierShoutBlue1",
+                    "soldier_blue_shout2": "S:soldierShoutBlue2"
+                },
+                "smallPortrait": "S:units/spearman/felheim/portrait_spearman_felheim_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackBlue",
+                    "captureShout": "S:soldierPreAttackBlue",
+                    "death": "S:soldierDieBlue",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitBone",
+                    "hitMap": "S:hitBone",
+                    "run": "S:infantrySkeletonEntry",
+                    "runMap": "S:infantrySkeletonMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": "F:0.5",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/spearman/heavensong/battle_spearman_heavensong",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_spearman_heavensong_river",
+                "class": "S:spearman",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:18",
+                    "I:11"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_yellow_shout2",
+                        "S:soldier_yellow_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/spearman/heavensong/map_spearman_heavensong",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/spearman/heavensong/portrait_spearman_heavensong_medium.png",
+                "name": "S:unit_name_spearman_heavensong",
+                "shouts": {
+                    "soldier_yellow_hit1": "S:soldierHitYellow1",
+                    "soldier_yellow_hit2": "S:soldierHitYellow2",
+                    "soldier_yellow_hit3": "S:soldierHitYellow3",
+                    "soldier_yellow_hit4": "S:soldierHitYellow4",
+                    "soldier_yellow_shout1": "S:soldierShoutYellow1",
+                    "soldier_yellow_shout2": "S:soldierShoutYellow2",
+                    "soldier_yellow_shout3": "S:soldierShoutYellow3",
+                    "soldier_yellow_shout4": "S:soldierShoutYellow4",
+                    "soldier_yellow_shout5": "S:soldierShoutYellow5"
+                },
+                "smallPortrait": "S:units/spearman/heavensong/portrait_spearman_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:soldierAttackRed",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackYellow",
+                    "captureShout": "S:soldierPreAttackYellow",
+                    "death": "S:soldierDieYellow",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryHeavyEntry",
+                    "runMap": "S:infantryHeavyMapEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "hitDelay": "F:0.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/spearman/floran/battle_spearman_floran",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_spearman_floran_river",
+                "class": "S:spearman",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:21",
+                    "I:14"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_green_shout2",
+                        "S:soldier_green_shout4",
+                        "S:soldier_green_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/spearman/floran/map_spearman_floran",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/spearman/floran/portrait_spearman_floran_medium.png",
+                "name": "S:unit_name_spearman_floran",
+                "shouts": {
+                    "soldier_green_hit1": "S:soldierHitGreen1",
+                    "soldier_green_hit2": "S:soldierHitGreen2",
+                    "soldier_green_hit3": "S:soldierHitGreen3",
+                    "soldier_green_shout1": "S:soldierShoutGreen1",
+                    "soldier_green_shout2": "S:soldierShoutGreen2",
+                    "soldier_green_shout3": "S:soldierShoutGreen3",
+                    "soldier_green_shout4": "S:soldierShoutGreen4",
+                    "soldier_green_shout5": "S:soldierShoutGreen5",
+                    "soldier_green_shout6": "S:soldierShoutGreen6"
+                },
+                "smallPortrait": "S:units/spearman/floran/portrait_spearman_floran_small.png",
+                "sounds": {
+                    "attack": "S:spearmanAttackGreen",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackGreen",
+                    "captureShout": "S:soldierPreAttackGreen",
+                    "death": "S:soldierDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryLightEntry",
+                    "runMap": "S:infantryLightMapEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:spear",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:0.7",
+                    "ballista": "F:0.55",
+                    "commander": "F:0.15",
+                    "dog": "F:0.8",
+                    "giant": "F:0.1",
+                    "knight": "F:0.7",
+                    "mage": "F:0.65",
+                    "merman": "F:0.75",
+                    "rifleman": "F:0.85",
+                    "soldier": "F:0.75",
+                    "spearman": "F:0.55",
+                    "structure": "F:0.5",
+                    "thief": "F:0.75",
+                    "trebuchet": "F:0.5",
+                    "villager": "F:0.75",
+                    "wagon": "F:0.45"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:8.0",
+                "battleUnitCount": "I:1",
+                "cost": "I:500",
+                "grooveId": "S:dash",
+                "id": "S:commander_ryota",
+                "isCommander": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_commander",
+                "regeneration": "I:5",
+                "tags": [
+                    "S:commander",
+                    "S:type.ground.light"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:ryotaAttack"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeAttackSounds": {
+                    "no_voice": "S:ryota/ryotaAttackNoVoice"
+                },
+                "attacks": [
+                    {
+                        "hitDelay": "F:1.55",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary"
+                    }
+                ],
+                "battleAnimation": "S:units/commanders/ryota/battle_ryota",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_ryota_river",
+                "class": "S:commander_ryota",
+                "deathMoveMax": "I:0",
+                "deathMoveMin": "I:0",
+                "emotes": {
+                    "blush": "S:emote_blush",
+                    "dance": "S:emote_dance",
+                    "idle": "S:idle",
+                    "laugh": "S:emote_laugh",
+                    "negative": "S:emote_negative",
+                    "positive": "S:emote_positive",
+                    "surprise": "S:emote_surprise"
+                },
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:28",
+                    "I:27"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:ryota_attack4",
+                        "S:ryota_hit4",
+                        "S:ryota_hit5"
+                    ]
+                },
+                "mapAnimation": "S:units/commanders/ryota/map_ryota",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/commanders/ryota/portrait_ryota_medium.png",
+                "name": "S:character_ryota_name",
+                "shouts": {
+                    "ryota_attack1": "S:ryota/ryotaShoutAttack1",
+                    "ryota_attack2": "S:ryota/ryotaShoutAttack2",
+                    "ryota_attack3": "S:ryota/ryotaShoutAttack3",
+                    "ryota_attack4": "S:ryota/ryotaShoutAttack4",
+                    "ryota_attack5": "S:ryota/ryotaShoutAttack5",
+                    "ryota_attack6": "S:ryota/ryotaShoutAttack6",
+                    "ryota_attack7": "S:ryota/ryotaShoutAttack7",
+                    "ryota_attack8": "S:ryota/ryotaShoutAttack8",
+                    "ryota_drawyourfinalbreath": "S:ryota/ryotaShoutDrawYourFinalBreath",
+                    "ryota_empress": "S:ryota/ryotaShoutEmpress",
+                    "ryota_farewell": "S:ryota/ryotaShoutFarewell",
+                    "ryota_goodriddance": "S:ryota/ryotaShoutGoodRiddance",
+                    "ryota_greetings": "S:ryota/ryotaShoutGreetings",
+                    "ryota_hit1": "S:ryota/ryotaShoutHit1",
+                    "ryota_hit2": "S:ryota/ryotaShoutHit2",
+                    "ryota_hit3": "S:ryota/ryotaShoutHit3",
+                    "ryota_hit4": "S:ryota/ryotaShoutHit4",
+                    "ryota_hit5": "S:ryota/ryotaShoutHit5",
+                    "ryota_hmph1": "S:ryota/ryotaShoutHmph1",
+                    "ryota_hmph2": "S:ryota/ryotaShoutHmph2",
+                    "ryota_howunexpected": "S:ryota/ryotaShoutHowUnexpected",
+                    "ryota_ihavefailed": "S:ryota/ryotaShoutIHaveFailed",
+                    "ryota_illcutyoudown": "S:ryota/ryotaShoutIllCutYouDown",
+                    "ryota_ishalldefendyou": "S:ryota/ryotaShoutIShallDefendYou",
+                    "ryota_ishallfightuntilifall": "S:ryota/ryotaShoutIShallFightUntilIFall",
+                    "ryota_ishalltakethis": "S:ryota/ryotaShoutIShallTakeThis",
+                    "ryota_iwillnotbedefeated": "S:ryota/ryotaShoutIWillNotBeDefeated",
+                    "ryota_laugh1": "S:ryota/ryotaShoutLaugh1",
+                    "ryota_laugh2": "S:ryota/ryotaShoutLaugh2",
+                    "ryota_myempress": "S:ryota/ryotaShoutMyEmpress",
+                    "ryota_no": "S:ryota/ryotaShoutNo",
+                    "ryota_oops": "S:ryota/ryotaShoutOops",
+                    "ryota_pleaseforgiveme": "S:ryota/ryotaShoutPleaseForgiveMe",
+                    "ryota_sedge": "S:ryota/ryotaShoutSedge",
+                    "ryota_sigh": "S:ryota/ryotaShoutSigh",
+                    "ryota_somedayimaybeworthy": "S:ryota/ryotaShoutSomeDayIMayBeWorthy",
+                    "ryota_stepback": "S:ryota/ryotaShoutStepBack",
+                    "ryota_thankyou": "S:ryota/ryotaShoutThankYou",
+                    "ryota_thebeautifulqueenmercia": "S:ryota/ryotaShoutTheBeautifulQueenMercia",
+                    "ryota_theywontseemecoming": "S:ryota/ryotaShoutTheyWontSeeMeComing",
+                    "ryota_victorydrawscloser": "S:ryota/ryotaShoutVictoryDrawsCloser",
+                    "ryota_what": "S:ryota/ryotaShoutWhat",
+                    "ryota_willnotbedefeated": "S:ryota/ryotaShoutWillNotBeDefeated",
+                    "ryota_yes": "S:ryota/ryotaShoutYes",
+                    "ryota_you": "S:ryota/ryotaShoutYou",
+                    "ryota_youarealreadydead": "S:ryota/ryotaShoutYouAreAlreadyDead",
+                    "ryota_youhavebeencareless": "S:ryota/ryotaShoutYouHaveBeenCareless",
+                    "ryota_youllneverseemecoming": "S:ryota/ryotaShoutYoullNeverSeeMeComing",
+                    "ryota_youreamonster": "S:ryota/ryotaShoutYoureAMonster",
+                    "ryota_yourecornered": "S:ryota/ryotaShoutYoureCornered"
+                },
+                "skinColour": "S:typeIII",
+                "smallPortrait": "S:units/commanders/ryota/portrait_ryota_small.png",
+                "sounds": {
+                    "attack": "S:ryota/ryotaAttack",
+                    "attackCommanderShout": "S:ryota/ryotaCommanderKillShout",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:ryota/ryotaAttackShout",
+                    "captureShout": "S:ryota/ryotaCapture",
+                    "death": "S:ryota/ryotaDie",
+                    "deathMap": "S:ryota/ryotaDieGhost",
+                    "deathMapNoBattle": "S:ryota/ryotaDieNoBattle",
+                    "firstHit": "S:ryota/ryotaHit",
+                    "groove": "S:ryota/ryotaGrooveIntro",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:ryota/ryotaEntry",
+                    "runMap": "S:ryota/ryotaEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:ryotaAttack",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.3",
+                    "ballista": "F:0.6",
+                    "balloon": "F:0.55",
+                    "commander": "F:0.4",
+                    "dog": "F:1.15",
+                    "dragon": "F:0.35",
+                    "giant": "F:0.4",
+                    "harpoonship": "F:0.45",
+                    "harpy": "F:0.9",
+                    "knight": "F:0.55",
+                    "mage": "F:0.8",
+                    "merman": "F:0.95",
+                    "rifleman": "F:1.05",
+                    "soldier": "F:1.15",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.7",
+                    "thief": "F:0.95",
+                    "travelboat": "F:0.6",
+                    "trebuchet": "F:0.55",
+                    "turtle": "F:0.55",
+                    "villager": "F:0.95",
+                    "wagon": "F:0.7",
+                    "warship": "F:0.55",
+                    "witch": "F:0.7"
+                }
+            }
+        ]
+    }
+}

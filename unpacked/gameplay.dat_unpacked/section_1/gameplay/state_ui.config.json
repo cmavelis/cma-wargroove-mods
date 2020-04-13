@@ -1,0 +1,18 @@
+{
+    "root": {
+        "stateUIs": [
+            {
+                "icon": "S:ui/main_game_ui/bullet_full.png",
+                "iconEmpty": "S:ui/main_game_ui/bullet_empty.png",
+                "id": "S:ammo",
+                "maxCount": "I:3",
+                "type": "S:count"
+            },
+            {
+                "icon": "S:ui/icons/coin.png",
+                "id": "S:gold",
+                "type": "S:text"
+            }
+        ]
+    }
+}

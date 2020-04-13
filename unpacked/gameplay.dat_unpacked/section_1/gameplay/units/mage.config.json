@@ -1,0 +1,555 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "cost": "I:400",
+                "damageMultiplier": "I:1",
+                "id": "S:mage",
+                "moveRange": "I:5",
+                "movement": "S:walking",
+                "name": "S:unit_class_name_mage",
+                "passiveMultiplier": "F:1.5",
+                "tags": [
+                    "S:mage",
+                    "S:type.ground.light",
+                    "S:spellcaster"
+                ],
+                "verbs": [
+                    "S:load",
+                    "S:capture",
+                    "S:spell_heal"
+                ],
+                "weapons": [
+                    {
+                        "ammo": "I:5",
+                        "id": "S:lightning"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_4",
+                        "effectDelay": "F:1.0",
+                        "hitDelay": [
+                            "F:1.0",
+                            "F:1.3",
+                            "F:1.6",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourMages",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_3",
+                        "effectDelay": "F:1.0",
+                        "hitDelay": [
+                            "F:1.0",
+                            "F:1.3",
+                            "F:1.6"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeMages",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_2",
+                        "effectDelay": "F:1.0",
+                        "hitDelay": [
+                            "F:1.0",
+                            "F:1.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoMages",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_1",
+                        "effectDelay": "F:1.0",
+                        "hitDelay": [
+                            "F:1.0"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneMage",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/mage/cherrystone/battle_mage_cherrystone",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_mage_cherrystone_river",
+                "class": "S:mage",
+                "emotes": {
+                    "idle": "S:idle",
+                    "summon": "S:emote_summon"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:15",
+                    "I:12"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_shout3",
+                        "S:soldier_shout5",
+                        "S:soldier_shout6",
+                        "S:soldier_shout9"
+                    ]
+                },
+                "mapAnimation": "S:units/mage/cherrystone/map_mage_cherrystone",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/mage/cherrystone/portrait_mage_cherrystone_medium.png",
+                "name": "S:unit_name_mage_cherrystone",
+                "shouts": {
+                    "crownbearer_panting": "S:cutscene/crownbearerPanting",
+                    "crownbearer_yell": "S:cutscene/crownbearerYell",
+                    "soldier_hit1": "S:soldierHitRed1",
+                    "soldier_hit2": "S:soldierHitRed2",
+                    "soldier_hit3": "S:soldierHitRed3",
+                    "soldier_hit4": "S:soldierHitRed4",
+                    "soldier_hit5": "S:soldierHitRed5",
+                    "soldier_shout1": "S:soldierShoutRed1",
+                    "soldier_shout2": "S:soldierShoutRed2",
+                    "soldier_shout3": "S:soldierShoutRed3",
+                    "soldier_shout4": "S:soldierShoutRed4",
+                    "soldier_shout5": "S:soldierShoutRed5",
+                    "soldier_shout6": "S:soldierShoutRed6",
+                    "soldier_shout7": "S:soldierShoutRed7",
+                    "soldier_shout8": "S:soldierShoutRed8",
+                    "soldier_shout9": "S:soldierShoutRed9"
+                },
+                "smallPortrait": "S:units/mage/cherrystone/portrait_mage_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:mageAttackRed",
+                    "attackEffect": "S:mageAttackEffect",
+                    "attackEffect1": "S:mageAttackEffect1",
+                    "attackEffect2": "S:mageAttackEffect2",
+                    "attackEffect3": "S:mageAttackEffect3",
+                    "attackEffect4": "S:mageAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackRed",
+                    "death": "S:soldierDieRed",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryMediumEntry2",
+                    "runMap": "S:infantryMediumMapEntry2"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_4",
+                        "effectDelay": "F:1.0",
+                        "hitDelay": [
+                            "F:1.0",
+                            "F:1.3",
+                            "F:1.6",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourMages",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_3",
+                        "effectDelay": "F:1.0",
+                        "hitDelay": [
+                            "F:1.0",
+                            "F:1.3",
+                            "F:1.6"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeMages",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_2",
+                        "effectDelay": "F:1.0",
+                        "hitDelay": [
+                            "F:1.0",
+                            "F:1.3"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoMages",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_1",
+                        "effectDelay": "F:1.0",
+                        "hitDelay": [
+                            "F:1.0"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneMage",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/mage/felheim/battle_mage_felheim",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_mage_felheim_river",
+                "class": "S:mage",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:15",
+                    "I:12"
+                ],
+                "mapAnimation": "S:units/mage/felheim/map_mage_felheim",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/mage/felheim/portrait_mage_felheim_medium.png",
+                "name": "S:unit_name_mage_felheim",
+                "shouts": {
+                    "soldier_blue_shout1": "S:soldierShoutBlue1",
+                    "soldier_blue_shout2": "S:soldierShoutBlue2",
+                    "undead_shout1": "S:undeadShout1",
+                    "undead_shout2": "S:undeadShout2"
+                },
+                "smallPortrait": "S:units/mage/felheim/portrait_mage_felheim_small.png",
+                "sounds": {
+                    "attack": "S:mageAttackBlue",
+                    "attackEffect": "S:mageAttackEffect",
+                    "attackEffect1": "S:mageAttackEffect1",
+                    "attackEffect2": "S:mageAttackEffect2",
+                    "attackEffect3": "S:mageAttackEffect3",
+                    "attackEffect4": "S:mageAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:mageAttackVoiceBlue",
+                    "death": "S:undeadDieCrumble",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryMediumEntry2",
+                    "runMap": "S:infantryMediumMapEntry2"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_4",
+                        "effectDelay": "F:2.5",
+                        "hitDelay": [
+                            "F:2.5",
+                            "F:2.8",
+                            "F:3.1",
+                            "F:3.4"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourMages",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_3",
+                        "effectDelay": "F:2.5",
+                        "hitDelay": [
+                            "F:2.5",
+                            "F:2.8",
+                            "F:3.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeMages",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_2",
+                        "effectDelay": "F:2.5",
+                        "hitDelay": [
+                            "F:2.5",
+                            "F:2.8"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoMages",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_1",
+                        "effectDelay": "F:2.5",
+                        "hitDelay": [
+                            "F:2.5"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneMage",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/mage/heavensong/battle_mage_heavensong",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_mage_heavensong_river",
+                "class": "S:mage",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:15",
+                    "I:12"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_yellow_shout2",
+                        "S:soldier_yellow_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/mage/heavensong/map_mage_heavensong",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/mage/heavensong/portrait_mage_heavensong_medium.png",
+                "name": "S:unit_name_mage_heavensong",
+                "shouts": {
+                    "soldier_yellow_hit1": "S:soldierHitYellow1",
+                    "soldier_yellow_hit2": "S:soldierHitYellow2",
+                    "soldier_yellow_hit3": "S:soldierHitYellow3",
+                    "soldier_yellow_hit4": "S:soldierHitYellow4",
+                    "soldier_yellow_shout1": "S:soldierShoutYellow1",
+                    "soldier_yellow_shout2": "S:soldierShoutYellow2",
+                    "soldier_yellow_shout3": "S:soldierShoutYellow3",
+                    "soldier_yellow_shout4": "S:soldierShoutYellow4",
+                    "soldier_yellow_shout5": "S:soldierShoutYellow5"
+                },
+                "smallPortrait": "S:units/mage/heavensong/portrait_mage_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:mageAttackYellow",
+                    "attackEffect": "S:mageAttackEffect",
+                    "attackEffect1": "S:mageAttackEffect1",
+                    "attackEffect2": "S:mageAttackEffect2",
+                    "attackEffect3": "S:mageAttackEffect3",
+                    "attackEffect4": "S:mageAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackYellow",
+                    "death": "S:soldierDieYellow",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryMediumEntry2",
+                    "runMap": "S:infantryMediumMapEntry2"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_4",
+                        "effectDelay": "F:0.9",
+                        "hitDelay": [
+                            "F:0.9",
+                            "F:1.2",
+                            "F:1.5",
+                            "F:1.8"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourMages",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_3",
+                        "effectDelay": "F:0.9",
+                        "hitDelay": [
+                            "F:0.9",
+                            "F:1.2",
+                            "F:1.5"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeMages",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_2",
+                        "effectDelay": "F:0.9",
+                        "hitDelay": [
+                            "F:0.9",
+                            "F:1.2"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoMages",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "cutscenePivot": [
+                            "I:-50",
+                            "I:175"
+                        ],
+                        "effect": "S:fx/bs_mage_attack_1",
+                        "effectDelay": "F:0.9",
+                        "hitDelay": [
+                            "F:0.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneMage",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/mage/floran/battle_mage_floran",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_mage_floran_river",
+                "class": "S:mage",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:15",
+                    "I:12"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_green_shout2",
+                        "S:soldier_green_shout4",
+                        "S:soldier_green_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/mage/floran/map_mage_floran",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/mage/floran/portrait_mage_floran_medium.png",
+                "name": "S:unit_name_mage_floran",
+                "shouts": {
+                    "soldier_green_hit1": "S:soldierHitGreen1",
+                    "soldier_green_hit2": "S:soldierHitGreen2",
+                    "soldier_green_hit3": "S:soldierHitGreen3",
+                    "soldier_green_shout1": "S:soldierShoutGreen1",
+                    "soldier_green_shout2": "S:soldierShoutGreen2",
+                    "soldier_green_shout3": "S:soldierShoutGreen3",
+                    "soldier_green_shout4": "S:soldierShoutGreen4",
+                    "soldier_green_shout5": "S:soldierShoutGreen5",
+                    "soldier_green_shout6": "S:soldierShoutGreen6"
+                },
+                "smallPortrait": "S:units/mage/floran/portrait_mage_floran_small.png",
+                "sounds": {
+                    "attack": "S:mageAttackGreen",
+                    "attackEffect": "S:mageAttackEffect",
+                    "attackEffect1": "S:mageAttackEffect1",
+                    "attackEffect2": "S:mageAttackEffect2",
+                    "attackEffect3": "S:mageAttackEffect3",
+                    "attackEffect4": "S:mageAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackGreen",
+                    "death": "S:soldierDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryMediumEntry2",
+                    "runMap": "S:infantryMediumMapEntry2"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "air": "I:1",
+                    "land": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:lightning",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:0.85",
+                    "ballista": "F:0.3",
+                    "balloon": "F:1.0",
+                    "commander": "F:0.2",
+                    "dog": "F:0.8",
+                    "dragon": "F:0.8",
+                    "giant": "F:0.2",
+                    "harpy": "F:1.4",
+                    "knight": "F:0.3",
+                    "mage": "F:0.35",
+                    "merman": "F:0.55",
+                    "rifleman": "F:0.95",
+                    "soldier": "F:0.85",
+                    "spearman": "F:0.75",
+                    "structure": "F:0.35",
+                    "thief": "F:0.85",
+                    "travelboat": "F:0.2",
+                    "trebuchet": "F:0.45",
+                    "turtle": "F:0.2",
+                    "villager": "F:1.0",
+                    "wagon": "F:0.55",
+                    "warship": "F:0.15",
+                    "witch": "F:1.3"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,260 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:1",
+                "cargoSpace": "I:2",
+                "cost": "I:550",
+                "damageMultiplier": "I:1",
+                "id": "S:harpoonship",
+                "isHiddenInCutsceneEditor": "S:true",
+                "moveRange": "I:4",
+                "movement": "S:sailing",
+                "name": "S:unit_class_name_harpoonship",
+                "passiveMultiplier": "F:1.5",
+                "sightRange": "I:6",
+                "tags": [
+                    "S:harpoonship",
+                    "S:type.sea"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:harpoonshipCannon"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_harpoon_cherrystone_attack",
+                        "effectDelay": "F:1.8",
+                        "hitDelay": "F:1.9",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/harpoonship/cherrystone/battle_harpoonship_cherrystone",
+                "class": "S:harpoonship",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:10",
+                    "I:9"
+                ],
+                "mapAnimation": "S:units/harpoonship/cherrystone/map_harpoonship_cherrystone",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpoonship/cherrystone/portrait_harpoonship_cherrystone_medium.png",
+                "name": "S:unit_name_harpoonship_cherrystone",
+                "smallPortrait": "S:units/harpoonship/cherrystone/portrait_harpoonship_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:harpoonAttack",
+                    "attackEffect": "S:ballistaAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_harpoon_felheim_attack",
+                        "effectDelay": "F:1.8",
+                        "hitDelay": "F:1.9",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/harpoonship/felheim/battle_harpoonship_felheim",
+                "class": "S:harpoonship",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:10",
+                    "I:9"
+                ],
+                "mapAnimation": "S:units/harpoonship/felheim/map_harpoonship_felheim",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpoonship/felheim/portrait_harpoonship_felheim_medium.png",
+                "name": "S:unit_name_harpoonship_felheim",
+                "smallPortrait": "S:units/harpoonship/felheim/portrait_harpoonship_felheim_small.png",
+                "sounds": {
+                    "attack": "S:harpoonAttack",
+                    "attackEffect": "S:ballistaAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_harpoon_heavensong_attack",
+                        "effectDelay": "F:1.8",
+                        "hitDelay": "F:1.9",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/harpoonship/heavensong/battle_harpoonship_heavensong",
+                "class": "S:harpoonship",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:10",
+                    "I:9"
+                ],
+                "mapAnimation": "S:units/harpoonship/heavensong/map_harpoonship_heavensong",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpoonship/heavensong/portrait_harpoonship_heavensong_medium.png",
+                "name": "S:unit_name_harpoonship_heavensong",
+                "smallPortrait": "S:units/harpoonship/heavensong/portrait_harpoonship_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:harpoonAttackYellow",
+                    "attackEffect": "S:ballistaAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_harpoon_floran_attack",
+                        "effectDelay": "F:1.8",
+                        "hitDelay": "F:1.9",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/harpoonship/floran/battle_harpoonship_floran",
+                "class": "S:harpoonship",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:10",
+                    "I:9"
+                ],
+                "mapAnimation": "S:units/harpoonship/floran/map_harpoonship_floran",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpoonship/floran/portrait_harpoonship_floran_medium.png",
+                "name": "S:unit_name_harpoonship_floran",
+                "smallPortrait": "S:units/harpoonship/floran/portrait_harpoonship_floran_small.png",
+                "sounds": {
+                    "attack": "S:harpoonAttackGreen",
+                    "attackEffect": "S:ballistaAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_harpoon_cherrystone_attack",
+                        "effectDelay": "F:1.8",
+                        "hitDelay": "F:1.9",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "postAttackAnimationSequence": "S:post_attack_idle",
+                        "postAttackDeathSequence": "S:post_attack_death",
+                        "postAttackHitSequence": "S:post_attack_hit",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/harpoonship/outlaw/battle_harpoonship_outlaw",
+                "class": "S:harpoonship",
+                "deathMoveMax": "I:80",
+                "deathMoveMin": "I:80",
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:10",
+                    "I:9"
+                ],
+                "mapAnimation": "S:units/harpoonship/outlaw/map_harpoonship_outlaw",
+                "mapSpeed": "F:6.0",
+                "mediumPortrait": "S:units/harpoonship/outlaw/portrait_harpoonship_outlaw_medium.png",
+                "name": "S:unit_name_harpoonship_cherrystone",
+                "smallPortrait": "S:units/harpoonship/outlaw/portrait_harpoonship_outlaw_small.png",
+                "sounds": {
+                    "attack": "S:harpoonAttack",
+                    "attackEffect": "S:ballistaAttackEffect",
+                    "attackMap": "S:unitAttack",
+                    "attackShout": "S:soldierPreAttackRed",
+                    "death": "S:shipDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:waterBoatEntry",
+                    "runMap": "S:waterBoatEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "air": "I:1",
+                    "water": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:harpoonshipCannon",
+                "rangeMax": "I:6",
+                "rangeMin": "I:3",
+                "tagDamage": {
+                    "balloon": "F:0.8",
+                    "dragon": "F:0.7",
+                    "harpoonship": "F:0.3",
+                    "harpy": "F:1.3",
+                    "merman": "F:0.3",
+                    "structure": "F:0.3",
+                    "travelboat": "F:0.45",
+                    "turtle": "F:0.75",
+                    "warship": "F:0.15",
+                    "witch": "F:0.8"
+                }
+            }
+        ]
+    }
+}

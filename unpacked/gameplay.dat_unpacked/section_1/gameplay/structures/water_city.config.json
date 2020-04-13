@@ -1,0 +1,67 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:3.0",
+                "battleUnitCount": "I:1",
+                "canBeCaptured": "S:true",
+                "canBeReinforced": "S:false",
+                "canReinforce": "S:true",
+                "cost": "I:500",
+                "damageMultiplier": "I:1",
+                "id": "S:water_city",
+                "income": "I:100",
+                "isNeutraliseable": "S:true",
+                "isStructure": "S:true",
+                "movement": "S:sea_building",
+                "name": "S:structure_name_water_city",
+                "regeneration": "I:10",
+                "sightRange": "I:6",
+                "tags": [
+                    "S:structure"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "class": "S:water_city",
+                "faction": "S:neutral",
+                "grabPos": [
+                    "I:14",
+                    "I:13"
+                ],
+                "mapAnimation": [
+                    "S:structures/watercities",
+                    "S:structures/watercities2",
+                    "S:structures/watercities3"
+                ],
+                "mediumPortrait": "S:portraits/medium/water_city.png",
+                "name": "S:structure_name_water_city",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood"
+                },
+                "structureImage": {
+                    "farBackground": "S:watercity_background_full_background_2",
+                    "foreground": "S:watercity_background_full_foreground",
+                    "keeperPosition": [
+                        "I:78",
+                        "I:95"
+                    ],
+                    "leftBannerOffset": [
+                        "I:-6",
+                        "I:2"
+                    ],
+                    "nearBackground": "S:watercity_background_full_background_1",
+                    "rightBannerOffset": [
+                        "I:0",
+                        "I:2"
+                    ],
+                    "spriteSheet": "S:backgrounds/watercity/watercity_background_full"
+                }
+            }
+        ]
+    }
+}

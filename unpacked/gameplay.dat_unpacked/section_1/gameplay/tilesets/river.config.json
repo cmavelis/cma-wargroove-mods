@@ -1,0 +1,447 @@
+{
+    "root": {
+        "tilesets": [
+            {
+                "biomes": [
+                    {
+                        "battleBackgroundSprite": "S:grass_battlescreen_extendedbackgrounds_river",
+                        "battleBackgroundSpriteForeground": "S:grass_battlescreen_extendedbackgrounds_river_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#286ab1",
+                        "iconSprite": "S:terrain_icons_River",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:70",
+                        "portraitSprite": "S:terrain_portraits_ocean",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:river_tileset_000",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:grass"
+                        ],
+                        "waterSpriteBase": "S:river_tileset_001"
+                    },
+                    {
+                        "battleBackgroundSprite": "S:snow_battlescreen_extendedbackgrounds_river",
+                        "battleBackgroundSpriteForeground": "S:snow_battlescreen_extendedbackgrounds_river_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#1659a8",
+                        "iconSprite": "S:terrain_icons_River",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:70",
+                        "portraitSprite": "S:terrain_portraits_snow_river",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:river_tileset_000",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:ice"
+                        ],
+                        "waterSpriteBase": "S:river_tileset_001"
+                    },
+                    {
+                        "battleBackgroundSprite": "S:sand_battlescreen_extendedbackgrounds_river",
+                        "battleBackgroundSpriteForeground": "S:sand_battlescreen_extendedbackgrounds_river_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#1659a8",
+                        "iconSprite": "S:terrain_icons_River",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:70",
+                        "portraitSprite": "S:terrain_portraits_sand_river",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:river_tileset_000",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:desert"
+                        ],
+                        "waterSpriteBase": "S:river_tileset_001"
+                    },
+                    {
+                        "battleBackgroundSprite": "S:volcano_battlescreen_extendedbackgrounds_lava",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#76231c",
+                        "iconSprite": "S:terrain_icons_River",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:70",
+                        "portraitSprite": "S:terrain_portraits_sand_river",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:river_tileset_000",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:volcano"
+                        ],
+                        "waterSpriteBase": "S:river_tileset_001"
+                    }
+                ],
+                "decayTo": "S:plains",
+                "id": "S:river",
+                "primaryConnect": [
+                    "S:undefined",
+                    "S:river",
+                    "S:bridge"
+                ],
+                "tiles": [
+                    {
+                        "adj": "S:e se s",
+                        "x": "I:0",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:e se s sw w",
+                        "x": "I:1",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:s sw w",
+                        "x": "I:2",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:n ne e se s",
+                        "x": "I:3",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:n nw w sw s",
+                        "x": "I:4",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:5",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:n ne e se s",
+                        "x": "I:0",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n ne e se s sw w nw",
+                        "default": "S:true",
+                        "x": "I:1",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n nw w sw s",
+                        "x": "I:2",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n ne e se s",
+                        "x": "I:3",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n nw w sw s",
+                        "x": "I:4",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:5",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n ne e",
+                        "x": "I:0",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:w nw n ne e",
+                        "x": "I:1",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:w nw n",
+                        "x": "I:2",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:n ne e se s",
+                        "x": "I:3",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:n nw w sw s",
+                        "x": "I:4",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:5",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:e se s sw w",
+                        "x": "I:0",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:e se s sw w",
+                        "x": "I:1",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:e se s sw w",
+                        "x": "I:2",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:e se s sw w",
+                        "x": "I:3",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:e se s sw w",
+                        "x": "I:4",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:w e",
+                        "x": "I:5",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:w e",
+                        "x": "I:6",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:w e",
+                        "x": "I:7",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:w e",
+                        "x": "I:8",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:w e",
+                        "x": "I:9",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:w nw n ne e",
+                        "x": "I:0",
+                        "y": "I:4"
+                    },
+                    {
+                        "adj": "S:w nw n ne e",
+                        "x": "I:1",
+                        "y": "I:4"
+                    },
+                    {
+                        "adj": "S:w nw n ne e",
+                        "x": "I:2",
+                        "y": "I:4"
+                    },
+                    {
+                        "adj": "S:w nw n ne e",
+                        "x": "I:3",
+                        "y": "I:4"
+                    },
+                    {
+                        "adj": "S:w nw n ne e",
+                        "x": "I:4",
+                        "y": "I:4"
+                    },
+                    {
+                        "adj": "S:s",
+                        "x": "I:0",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:e",
+                        "x": "I:1",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:e w",
+                        "x": "I:2",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:w",
+                        "x": "I:3",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:s w n",
+                        "x": "I:4",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:n e s w ne se",
+                        "x": "I:5",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:n e s w nw sw",
+                        "x": "I:6",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:n e s w ne se",
+                        "x": "I:7",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:w s se e",
+                        "x": "I:8",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:w sw s e",
+                        "x": "I:9",
+                        "y": "I:5"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:0",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:w s",
+                        "x": "I:1",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:s e",
+                        "x": "I:2",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:w s e",
+                        "x": "I:3",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:n e s w",
+                        "x": "I:4",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:n e s w se",
+                        "x": "I:5",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:n e s w sw",
+                        "x": "I:6",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:n e s w nw",
+                        "x": "I:7",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:n e s w ne",
+                        "x": "I:8",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:s w nw n ne e",
+                        "x": "I:9",
+                        "y": "I:6"
+                    },
+                    {
+                        "adj": "S:n",
+                        "x": "I:0",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:n e",
+                        "x": "I:1",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:n w",
+                        "x": "I:2",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:n e s",
+                        "x": "I:3",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:w n e",
+                        "x": "I:4",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:n e s w se sw",
+                        "x": "I:5",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:n e s se",
+                        "x": "I:6",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:n e w nw",
+                        "x": "I:7",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:n e w ne",
+                        "x": "I:8",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:n ne e s sw w",
+                        "x": "I:9",
+                        "y": "I:7"
+                    },
+                    {
+                        "adj": "S:",
+                        "x": "I:0",
+                        "y": "I:8"
+                    },
+                    {
+                        "adj": "S:n e s w ne nw sw",
+                        "x": "I:1",
+                        "y": "I:8"
+                    },
+                    {
+                        "adj": "S:n e s w ne nw se",
+                        "x": "I:2",
+                        "y": "I:8"
+                    },
+                    {
+                        "adj": "S:n nw w s",
+                        "x": "I:5",
+                        "y": "I:8"
+                    },
+                    {
+                        "adj": "S:n ne e s",
+                        "x": "I:6",
+                        "y": "I:8"
+                    },
+                    {
+                        "adj": "S:n e se s w nw",
+                        "x": "I:9",
+                        "y": "I:8"
+                    },
+                    {
+                        "adj": "S:n e s w nw sw se",
+                        "x": "I:1",
+                        "y": "I:9"
+                    },
+                    {
+                        "adj": "S:n e s w ne se sw",
+                        "x": "I:2",
+                        "y": "I:9"
+                    },
+                    {
+                        "adj": "S:n w sw s",
+                        "x": "I:5",
+                        "y": "I:9"
+                    }
+                ]
+            }
+        ]
+    }
+}

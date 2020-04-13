@@ -1,0 +1,234 @@
+{
+    "root": {
+        "tilesets": [
+            {
+                "biomes": [
+                    {
+                        "battleBackgroundSprite": "S:grass_battlescreen_extendedbackgrounds_bridge",
+                        "battleBackgroundSpriteForeground": "S:grass_battlescreen_extendedbackgrounds_bridge_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/grass_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#2a2542",
+                        "foregroundBaseLine": "I:18",
+                        "foregroundSpriteBase": "S:bridge_tileset_001",
+                        "iconSprite": "S:terrain_icons_Bridge",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:75",
+                        "portraitSprite": "S:terrain_portraits_bridge",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:bridge_tileset_000",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:grass"
+                        ],
+                        "waterSpriteBase": "S:bridge_tileset_002"
+                    },
+                    {
+                        "battleBackgroundSprite": "S:snow_battlescreen_extendedbackgrounds_bridge",
+                        "battleBackgroundSpriteForeground": "S:snow_battlescreen_extendedbackgrounds_bridge_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/snow_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#2a2542",
+                        "foregroundBaseLine": "I:18",
+                        "foregroundSpriteBase": "S:snow_bridge_tileset_001",
+                        "iconSprite": "S:terrain_icons_Bridge",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:75",
+                        "portraitSprite": "S:terrain_portraits_snow_bridge",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:snow_bridge_tileset_000",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:ice"
+                        ],
+                        "waterSpriteBase": "S:snow_bridge_tileset_002"
+                    },
+                    {
+                        "battleBackgroundSprite": "S:sand_battlescreen_extendedbackgrounds_bridge",
+                        "battleBackgroundSpriteForeground": "S:sand_battlescreen_extendedbackgrounds_bridge_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/sand_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#2a2542",
+                        "foregroundBaseLine": "I:18",
+                        "foregroundSpriteBase": "S:sand_bridge_tileset_001",
+                        "iconSprite": "S:terrain_icons_Bridge",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:75",
+                        "portraitSprite": "S:terrain_portraits_sand_bridge",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:sand_bridge_tileset_000",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:desert"
+                        ],
+                        "waterSpriteBase": "S:sand_bridge_tileset_002"
+                    },
+                    {
+                        "battleBackgroundSprite": "S:volcano_battlescreen_extendedbackgrounds_bridge",
+                        "battleBackgroundSpriteForeground": "S:volcano_battlescreen_extendedbackgrounds_bridge_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/volcano_battlescreen_extendedbackgrounds",
+                        "fillColour": "S:#2a2542",
+                        "foregroundBaseLine": "I:18",
+                        "foregroundSpriteBase": "S:volcanic_bridge_tileset_001",
+                        "iconSprite": "S:terrain_icons_Bridge",
+                        "iconSpriteSheet": "S:ui",
+                        "infoScreenOffset": "I:75",
+                        "portraitSprite": "S:terrain_portraits_volcanic_bridge",
+                        "portraitSpriteSheet": "S:terrain/terrain_portraits",
+                        "spriteBase": "S:volcanic_bridge_tileset_000",
+                        "spriteSheet": "S:tilesets",
+                        "types": [
+                            "S:volcano"
+                        ],
+                        "waterSpriteBase": "S:volcanic_bridge_tileset_002"
+                    }
+                ],
+                "decayTo": "S::below",
+                "id": "S:bridge",
+                "primaryConnect": [
+                    "S:undefined",
+                    "S:bridge"
+                ],
+                "secondaryConnect": [
+                    "S:plains",
+                    "S:forest",
+                    "S:mountain",
+                    "S:road",
+                    "S:wall",
+                    "S:cobblestone",
+                    "S:carpet"
+                ],
+                "tiles": [
+                    {
+                        "adj": "S:!w !e",
+                        "x": "I:0",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:!w e",
+                        "x": "I:1",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:!w",
+                        "x": "I:1",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:w e",
+                        "x": "I:2",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:w",
+                        "x": "I:2",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:e",
+                        "x": "I:2",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:w !e",
+                        "x": "I:3",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:!e",
+                        "x": "I:3",
+                        "y": "I:0"
+                    },
+                    {
+                        "adj": "S:!n s",
+                        "x": "I:0",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:!n",
+                        "x": "I:0",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:!n !s",
+                        "x": "I:1",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:w s e",
+                        "x": "I:2",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:s e",
+                        "x": "I:3",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:w s",
+                        "x": "I:4",
+                        "y": "I:1"
+                    },
+                    {
+                        "adj": "S:n s",
+                        "x": "I:0",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:n",
+                        "x": "I:0",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:s",
+                        "x": "I:0",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:n e s",
+                        "x": "I:1",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:w n e",
+                        "x": "I:2",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:n e",
+                        "x": "I:3",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:w n",
+                        "x": "I:4",
+                        "y": "I:2"
+                    },
+                    {
+                        "adj": "S:n !s",
+                        "x": "I:0",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:!s",
+                        "x": "I:0",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:n w s",
+                        "x": "I:1",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:n e s w",
+                        "x": "I:2",
+                        "y": "I:3"
+                    },
+                    {
+                        "adj": "S:",
+                        "default": "S:true",
+                        "x": "I:3",
+                        "y": "I:3"
+                    }
+                ]
+            }
+        ]
+    }
+}

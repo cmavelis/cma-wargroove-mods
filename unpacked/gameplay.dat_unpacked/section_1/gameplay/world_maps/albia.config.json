@@ -1,0 +1,234 @@
+{
+    "root": {
+        "worldMaps": [
+            {
+                "fishAnimations": [
+                    "S:world/world_map_fish_size01",
+                    "S:world/world_map_fish_size02",
+                    "S:world/world_map_fish_size03"
+                ],
+                "fishes": [
+                    {
+                        "pos": [
+                            "I:72",
+                            "I:30"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:850",
+                            "I:252"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:670",
+                            "I:341"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:765",
+                            "I:535"
+                        ],
+                        "radius": "I:60"
+                    }
+                ],
+                "icon": "S:ui/campaign/map_icon2.png",
+                "id": "S:albia",
+                "images": [
+                    {
+                        "image": "S:world/maps/albia/world_map_albia.png",
+                        "layer": "S:background",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "image": "S:world/maps/albia/world_map_albia_pillars.png",
+                        "layer": "S:ground_decorations",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "effect": "S:water",
+                        "image": "S:world/maps/albia/world_map_albia_water.png",
+                        "layer": "S:background_tiles_water",
+                        "mask": "S:world/maps/albia/world_map_albia_water_ramp.png",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    }
+                ],
+                "name": "S:world_map_albia_name",
+                "size": [
+                    "I:928",
+                    "I:563"
+                ],
+                "sound": [
+                    {
+                        "event": "S:environmental/oceanAmbienceWorld"
+                    },
+                    {
+                        "event": "S:environmental/fieldAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:350",
+                                    "I:335"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:400",
+                                    "I:110"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:495",
+                                    "I:210"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/forestAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:250",
+                                "pos": [
+                                    "I:230",
+                                    "I:230"
+                                ],
+                                "refDistance": "I:25"
+                            },
+                            {
+                                "maxDistance": "I:250",
+                                "pos": [
+                                    "I:235",
+                                    "I:470"
+                                ],
+                                "refDistance": "I:25"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/mountainAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:410",
+                                    "I:345"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:555",
+                                    "I:115"
+                                ],
+                                "refDistance": "I:15"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/tundraAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:250",
+                                "pos": [
+                                    "I:430",
+                                    "I:490"
+                                ],
+                                "refDistance": "I:25"
+                            },
+                            {
+                                "maxDistance": "I:250",
+                                "pos": [
+                                    "I:570",
+                                    "I:465"
+                                ],
+                                "refDistance": "I:20"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/desertAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:700",
+                                    "I:75"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:850",
+                                    "I:70"
+                                ],
+                                "refDistance": "I:15"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/riverAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:240",
+                                    "I:110"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:350",
+                                    "I:130"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:385",
+                                    "I:200"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:440",
+                                    "I:280"
+                                ],
+                                "refDistance": "I:15"
+                            }
+                        ]
+                    }
+                ],
+                "waterMask": "S:masks/albia_water_mask.png"
+            }
+        ]
+    }
+}

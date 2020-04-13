@@ -1,0 +1,238 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:5.0",
+                "battleUnitCount": "I:1",
+                "canBeReinforced": "S:false",
+                "canReinforce": "S:false",
+                "cost": "I:3000",
+                "damageMultiplier": "F:0.5",
+                "id": "S:hq",
+                "income": "I:100",
+                "isHQ": "S:true",
+                "isStructure": "S:true",
+                "movement": "S:land_building",
+                "name": "S:structure_name_hq",
+                "regeneration": "I:10",
+                "sightRange": "I:7",
+                "tags": [
+                    "S:structure"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "class": "S:hq",
+                "faction": "S:neutral",
+                "grabPos": [
+                    "I:29",
+                    "I:10"
+                ],
+                "mapAnimation": "S:structures/hq_cherrystone",
+                "mediumPortrait": "S:portraits/medium/red_hq.png",
+                "name": "S:structure_name_hq",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "deathMap": "S:strongholdDieRed",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitStone"
+                },
+                "structureImage": {
+                    "bannerForeground": "S:backgrounds/cherrystonehq/cherrystonehq_banner_foreground",
+                    "farBackground": "S:cherrystonehq_background_full_background_2",
+                    "foreground": "S:cherrystonehq_background_full_foreground",
+                    "hasBanners": "S:false",
+                    "keeperPosition": [
+                        "I:66",
+                        "I:69"
+                    ],
+                    "nearBackground": "S:cherrystonehq_background_full_background_1",
+                    "spriteSheet": "S:backgrounds/cherrystonehq/cherrystonehq_background_full"
+                }
+            },
+            {
+                "class": "S:hq",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:29",
+                    "I:10"
+                ],
+                "mapAnimation": "S:structures/hq_cherrystone",
+                "mediumPortrait": "S:portraits/medium/red_hq.png",
+                "name": "S:structure_name_hq",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "deathMap": "S:strongholdDieRed",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitStone"
+                },
+                "structureImage": {
+                    "bannerForeground": "S:backgrounds/cherrystonehq/cherrystonehq_banner_foreground",
+                    "farBackground": "S:cherrystonehq_background_full_background_2",
+                    "foreground": "S:cherrystonehq_background_full_foreground",
+                    "hasBanners": "S:false",
+                    "keeperPosition": [
+                        "I:66",
+                        "I:69"
+                    ],
+                    "nearBackground": "S:cherrystonehq_background_full_background_1",
+                    "spriteSheet": "S:backgrounds/cherrystonehq/cherrystonehq_background_full"
+                }
+            },
+            {
+                "class": "S:hq",
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:16",
+                    "I:9"
+                ],
+                "mapAnimation": "S:structures/hq_felheim",
+                "mediumPortrait": "S:portraits/medium/blue_hq.png",
+                "name": "S:structure_name_hq",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "deathMap": "S:strongholdDieBlue",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood"
+                },
+                "structureImage": {
+                    "bannerBackground": "S:backgrounds/fellheimhq/fellheimhq_banner_background",
+                    "bannerForeground": "S:backgrounds/fellheimhq/fellheimhq_banner_foreground",
+                    "farBackground": "S:fellheimhq_background_full_background_2",
+                    "foreground": "S:fellheimhq_background_full_foreground",
+                    "hasBanners": "S:false",
+                    "keeperPosition": [
+                        "I:44",
+                        "I:59"
+                    ],
+                    "nearBackground": "S:fellheimhq_background_full_background_1",
+                    "spriteSheet": "S:backgrounds/fellheimhq/fellheimhq_background_full"
+                }
+            },
+            {
+                "class": "S:hq",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:21",
+                    "I:7"
+                ],
+                "mapAnimation": "S:structures/hq_heavensong",
+                "mediumPortrait": "S:portraits/medium/yellow_hq.png",
+                "name": "S:structure_name_hq",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "deathMap": "S:strongholdDieYellow",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood"
+                },
+                "structureImage": {
+                    "bannerBackground": "S:backgrounds/heavensonghq/heavensonghq_banner_background",
+                    "farBackground": "S:heavensonghq_background_full_background_2",
+                    "foreground": "S:heavensonghq_background_full_foreground",
+                    "hasBanners": "S:false",
+                    "keeperPosition": [
+                        "I:62",
+                        "I:58"
+                    ],
+                    "nearBackground": "S:heavensonghq_background_full_background_1",
+                    "spriteSheet": "S:backgrounds/heavensonghq/heavensonghq_background_full"
+                }
+            },
+            {
+                "class": "S:hq",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:17",
+                    "I:5"
+                ],
+                "mapAnimation": "S:structures/hq_floran",
+                "mediumPortrait": "S:portraits/medium/green_hq.png",
+                "name": "S:structure_name_hq",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "deathMap": "S:strongholdDieGreen",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood"
+                },
+                "structureImage": {
+                    "bannerForeground": "S:backgrounds/floranhq/floranhq_banner_foreground",
+                    "farBackground": "S:floranhq_background_full_background_2",
+                    "foreground": "S:floranhq_background_full_foreground",
+                    "hasBanners": "S:false",
+                    "keeperPosition": [
+                        "I:71",
+                        "I:80"
+                    ],
+                    "nearBackground": "S:floranhq_background_full_background_1",
+                    "spriteSheet": "S:backgrounds/floranhq/floranhq_background_full"
+                }
+            },
+            {
+                "class": "S:hq",
+                "faction": "S:guardian",
+                "grabPos": [
+                    "I:29",
+                    "I:10"
+                ],
+                "mapAnimation": "S:structures/hq_cherrystone",
+                "mediumPortrait": "S:portraits/medium/red_hq.png",
+                "name": "S:structure_name_hq",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "deathMap": "S:strongholdDieRed",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitStone"
+                },
+                "structureImage": {
+                    "bannerForeground": "S:backgrounds/cherrystonehq/cherrystonehq_banner_foreground",
+                    "farBackground": "S:cherrystonehq_background_full_background_2",
+                    "foreground": "S:cherrystonehq_background_full_foreground",
+                    "hasBanners": "S:false",
+                    "keeperPosition": [
+                        "I:66",
+                        "I:69"
+                    ],
+                    "nearBackground": "S:cherrystonehq_background_full_background_1",
+                    "spriteSheet": "S:backgrounds/cherrystonehq/cherrystonehq_background_full"
+                }
+            },
+            {
+                "class": "S:hq",
+                "faction": "S:outlaw",
+                "grabPos": [
+                    "I:29",
+                    "I:10"
+                ],
+                "mapAnimation": "S:structures/hq_outlaw",
+                "mediumPortrait": "S:portraits/medium/black_hq.png",
+                "name": "S:structure_name_hq",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "deathMap": "S:strongholdDieRed",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitStone"
+                },
+                "structureImage": {
+                    "bannerForeground": "S:backgrounds/outlawhq/outlawhq_banner_foreground",
+                    "farBackground": "S:outlawhq_background_full_background_2",
+                    "foreground": "S:outlawhq_background_full_foreground",
+                    "hasBanners": "S:false",
+                    "keeperPosition": [
+                        "I:66",
+                        "I:69"
+                    ],
+                    "nearBackground": "S:outlawhq_background_full_background_1",
+                    "spriteSheet": "S:backgrounds/outlawhq/outlawhq_background_full"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "root": {
+        "biomes": [
+            {
+                "id": "S:grass",
+                "name": "S:biome_name_grass",
+                "severeWeather": "S:rain"
+            },
+            {
+                "id": "S:desert",
+                "name": "S:biome_name_desert",
+                "severeWeather": "S:sandstorm"
+            },
+            {
+                "id": "S:ice",
+                "name": "S:biome_name_ice",
+                "severeWeather": "S:snow"
+            },
+            {
+                "canChange": "S:false",
+                "id": "S:volcano",
+                "name": "S:biome_name_volcano",
+                "severeWeather": "S:ash",
+                "splashEffect": "S:fx/unit_splash_lava",
+                "waterPalette": "S:palettes/water_colours_lava.png",
+                "waterTexture": "S:terrain/water/lava_texture.png"
+            }
+        ]
+    }
+}

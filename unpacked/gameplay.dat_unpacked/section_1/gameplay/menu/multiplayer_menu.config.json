@@ -1,0 +1,171 @@
+{
+    "root": {
+        "menuBackgrounds": [
+            {
+                "animations": [
+                    {
+                        "animation": "S:backgrounds/titlescreen/multiplayer/chimneypuff",
+                        "layer": "S:back",
+                        "position": [
+                            "I:200",
+                            "I:-180"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/goldshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:300",
+                            "I:-135"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/goldshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:100",
+                            "I:-155"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/goldshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-100",
+                            "I:-170"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:0",
+                            "I:-140"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:50",
+                            "I:-180"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-35",
+                            "I:-110"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-200",
+                            "I:-180"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/multiplayer/applesign",
+                        "layer": "S:background",
+                        "position": [
+                            "I:-126",
+                            "I:-43"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/multiplayer/windowlight",
+                        "layer": "S:background",
+                        "position": [
+                            "I:179",
+                            "I:-40"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/multiplayer/groundlight",
+                        "layer": "S:background",
+                        "position": [
+                            "I:222",
+                            "I:27"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/multiplayer/chimneypuff",
+                        "layer": "S:background",
+                        "position": [
+                            "I:205",
+                            "I:-180"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/multiplayer/hooded",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-200",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/multiplayer/fox",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-400",
+                            "I:65"
+                        ],
+                        "randomWander": {
+                            "action": "S:action",
+                            "idle": "S:idle",
+                            "postActionIdleTime": [
+                                "I:1",
+                                "I:2"
+                            ],
+                            "preActionIdleTime": [
+                                "F:0.5",
+                                "I:1"
+                            ],
+                            "randomSpots": [
+                                [
+                                    "I:-200",
+                                    "I:60"
+                                ],
+                                [
+                                    "I:-150",
+                                    "I:60"
+                                ],
+                                [
+                                    "I:-135",
+                                    "I:50"
+                                ],
+                                [
+                                    "I:200",
+                                    "I:70"
+                                ],
+                                [
+                                    "I:175",
+                                    "I:50"
+                                ],
+                                [
+                                    "I:350",
+                                    "I:50"
+                                ],
+                                [
+                                    "I:-400",
+                                    "I:65"
+                                ]
+                            ],
+                            "run": "S:run",
+                            "speed": "I:35"
+                        }
+                    }
+                ],
+                "background": "S:backgrounds/titlescreen/multiplayer/background.png",
+                "clouds": "S:backgrounds/titlescreen/multiplayer/cloudstrip.png",
+                "cloudsInBack": "S:true",
+                "foreground": "S:backgrounds/titlescreen/multiplayer/foreground.png",
+                "id": "S:multiplayer_menu"
+            }
+        ]
+    }
+}

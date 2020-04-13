@@ -1,0 +1,249 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:1",
+                "canSeeOverTerrain": "S:true",
+                "cost": "I:1250",
+                "damageMultiplier": "I:1",
+                "id": "S:dragon",
+                "moveRange": "I:8",
+                "movement": "S:flying",
+                "name": "S:unit_class_name_dragon",
+                "passiveMultiplier": "I:2",
+                "sightRange": "I:6",
+                "tags": [
+                    "S:dragon",
+                    "S:type.air"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:fireBreath"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "alternativeRuns": [
+                    {
+                        "id": "S:run_norider"
+                    }
+                ],
+                "attackOffset": [
+                    "I:10",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_dragon_attack",
+                        "effectDelay": "F:0.9",
+                        "hitDelay": "F:1.5",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/dragon/cherrystone/battle_dragon_cherrystone",
+                "class": "S:dragon",
+                "cutsceneStartOffset": [
+                    "I:75",
+                    "I:0"
+                ],
+                "emotes": {
+                    "idle": "S:idle",
+                    "idle_norider": "S:idle_norider"
+                },
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:24",
+                    "I:13"
+                ],
+                "mapAnimation": "S:units/dragon/cherrystone/map_dragon_cherrystone",
+                "mapSpeed": "F:8.0",
+                "mediumPortrait": "S:units/dragon/cherrystone/portrait_dragon_cherrystone_medium.png",
+                "name": "S:unit_name_dragon_cherrystone",
+                "smallPortrait": "S:units/dragon/cherrystone/portrait_dragon_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:dragonAttack",
+                    "attackEffect": "S:dragonBreathFireEffect",
+                    "attackMap": "S:unitAttack",
+                    "death": "S:dragonDie",
+                    "deathMap": "S:unitDie",
+                    "firstHit": "S:dragonHit",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:dragonEntry",
+                    "runMap": "S:dragonEntry"
+                }
+            },
+            {
+                "attackOffset": [
+                    "I:10",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_dragon_attack",
+                        "effectDelay": "F:0.9",
+                        "hitDelay": "F:1.5",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/dragon/felheim/battle_dragon_felheim",
+                "class": "S:dragon",
+                "cutsceneStartOffset": [
+                    "I:75",
+                    "I:0"
+                ],
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:24",
+                    "I:13"
+                ],
+                "mapAnimation": "S:units/dragon/felheim/map_dragon_felheim",
+                "mapSpeed": "F:8.0",
+                "mediumPortrait": "S:units/dragon/felheim/portrait_dragon_felheim_medium.png",
+                "name": "S:unit_name_dragon_felheim",
+                "smallPortrait": "S:units/dragon/felheim/portrait_dragon_felheim_small.png",
+                "sounds": {
+                    "attack": "S:dragonAttackBlue",
+                    "attackEffect": "S:dragonBreathFireEffect",
+                    "attackMap": "S:unitAttack",
+                    "death": "S:dragonDie",
+                    "deathMap": "S:unitDie",
+                    "firstHit": "S:dragonHitBlue",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:dragonEntry",
+                    "runMap": "S:dragonEntry"
+                }
+            },
+            {
+                "attackOffset": [
+                    "I:10",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_dragon_attack",
+                        "effectDelay": "F:0.9",
+                        "hitDelay": "F:1.5",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/dragon/heavensong/battle_dragon_heavensong",
+                "class": "S:dragon",
+                "cutsceneStartOffset": [
+                    "I:75",
+                    "I:0"
+                ],
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:24",
+                    "I:13"
+                ],
+                "mapAnimation": "S:units/dragon/heavensong/map_dragon_heavensong",
+                "mapSpeed": "F:8.0",
+                "mediumPortrait": "S:units/dragon/heavensong/portrait_dragon_heavensong_medium.png",
+                "name": "S:unit_name_dragon_heavensong",
+                "smallPortrait": "S:units/dragon/heavensong/portrait_dragon_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:dragonAttackYellow",
+                    "attackEffect": "S:dragonBreathFireEffect",
+                    "attackMap": "S:unitAttack",
+                    "death": "S:dragonDieYellow",
+                    "deathMap": "S:unitDie",
+                    "firstHit": "S:",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitWood",
+                    "run": "S:dragonEntry",
+                    "runMap": "S:dragonEntry"
+                }
+            },
+            {
+                "attackOffset": [
+                    "I:10",
+                    "I:0"
+                ],
+                "attacks": [
+                    {
+                        "effect": "S:fx/bs_dragon_attack",
+                        "effectDelay": "F:0.9",
+                        "hitDelay": "F:1.5",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/dragon/floran/battle_dragon_floran",
+                "class": "S:dragon",
+                "cutsceneStartOffset": [
+                    "I:75",
+                    "I:0"
+                ],
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:24",
+                    "I:13"
+                ],
+                "mapAnimation": "S:units/dragon/floran/map_dragon_floran",
+                "mapSpeed": "F:8.0",
+                "mediumPortrait": "S:units/dragon/floran/portrait_dragon_floran_medium.png",
+                "name": "S:unit_name_dragon_floran",
+                "smallPortrait": "S:units/dragon/floran/portrait_dragon_floran_small.png",
+                "sounds": {
+                    "attack": "S:dragonAttack",
+                    "attackEffect": "S:dragonBreathFireEffect",
+                    "attackMap": "S:unitAttack",
+                    "death": "S:dragonDie",
+                    "deathMap": "S:unitDie",
+                    "firstHit": "S:dragonHit",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:dragonEntry",
+                    "runMap": "S:dragonEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1",
+                    "water": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:fireBreath",
+                "rangeMax": "I:1",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:1.4",
+                    "ballista": "F:1.1",
+                    "commander": "F:0.35",
+                    "dog": "F:1.5",
+                    "giant": "F:0.65",
+                    "harpoonship": "F:0.7",
+                    "knight": "I:1",
+                    "mage": "F:0.65",
+                    "merman": "F:1.2",
+                    "rifleman": "F:1.3",
+                    "soldier": "F:1.2",
+                    "spearman": "F:1.2",
+                    "structure": "F:0.65",
+                    "thief": "F:1.2",
+                    "travelboat": "F:1.1",
+                    "trebuchet": "F:1.05",
+                    "turtle": "F:0.75",
+                    "villager": "F:1.2",
+                    "wagon": "F:0.8",
+                    "warship": "F:0.9"
+                }
+            }
+        ]
+    }
+}

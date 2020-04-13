@@ -1,0 +1,24 @@
+{
+    "root": {
+        "tilesets": [
+            {
+                "biomes": [
+                    {
+                        "battleBackgroundSprite": "S:battlescreen_extendedbackgrounds_city",
+                        "battleBackgroundSpriteForeground": "S:battlescreen_extendedbackgrounds_city_foreground",
+                        "battleBackgroundSpriteSheet": "S:backgrounds/battlescreen_extendedbackgrounds",
+                        "mirrorBackground": "S:true",
+                        "types": [
+                            "S:grass",
+                            "S:desert",
+                            "S:ice",
+                            "S:volcano"
+                        ]
+                    }
+                ],
+                "id": "S:city",
+                "primaryConnect": []
+            }
+        ]
+    }
+}

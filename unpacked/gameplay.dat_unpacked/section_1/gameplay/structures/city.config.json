@@ -1,0 +1,68 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:3.0",
+                "battleUnitCount": "I:1",
+                "canBeCaptured": "S:true",
+                "canBeReinforced": "S:false",
+                "canReinforce": "S:true",
+                "cargoSpace": "I:1",
+                "cost": "I:500",
+                "damageMultiplier": "I:1",
+                "id": "S:city",
+                "income": "I:100",
+                "isNeutraliseable": "S:true",
+                "isStructure": "S:true",
+                "movement": "S:land_building",
+                "name": "S:structure_name_city",
+                "regeneration": "I:10",
+                "sightRange": "I:6",
+                "tags": [
+                    "S:structure"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "class": "S:city",
+                "faction": "S:neutral",
+                "grabPos": [
+                    "I:14",
+                    "I:15"
+                ],
+                "mapAnimation": [
+                    "S:structures/cities",
+                    "S:structures/cities2",
+                    "S:structures/cities3"
+                ],
+                "mediumPortrait": "S:portraits/medium/city.png",
+                "name": "S:structure_name_city",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitStone"
+                },
+                "structureImage": {
+                    "farBackground": "S:city_background_full_background_2",
+                    "foreground": "S:city_background_full_foreground",
+                    "keeperPosition": [
+                        "I:78",
+                        "I:95"
+                    ],
+                    "leftBannerOffset": [
+                        "I:-6",
+                        "I:2"
+                    ],
+                    "nearBackground": "S:city_background_full_background_1",
+                    "rightBannerOffset": [
+                        "I:0",
+                        "I:2"
+                    ],
+                    "spriteSheet": "S:backgrounds/city/city_background_full"
+                }
+            }
+        ]
+    }
+}

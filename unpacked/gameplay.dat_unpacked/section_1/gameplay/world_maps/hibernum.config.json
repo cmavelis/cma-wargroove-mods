@@ -1,0 +1,240 @@
+{
+    "root": {
+        "worldMaps": [
+            {
+                "fishAnimations": [
+                    "S:world/world_map_fish_size01",
+                    "S:world/world_map_fish_size02",
+                    "S:world/world_map_fish_size03"
+                ],
+                "fishes": [
+                    {
+                        "pos": [
+                            "I:72",
+                            "I:36"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:815",
+                            "I:490"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:834",
+                            "I:77"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:144",
+                            "I:418"
+                        ],
+                        "radius": "I:60"
+                    }
+                ],
+                "icon": "S:ui/campaign/map_icon3.png",
+                "id": "S:hibernum",
+                "images": [
+                    {
+                        "image": "S:world/maps/hibernum/world_map_hibernum.png",
+                        "layer": "S:background",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "image": "S:world/maps/hibernum/world_map_hibernum_pillars.png",
+                        "layer": "S:ground_decorations",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "effect": "S:water",
+                        "image": "S:world/maps/hibernum/world_map_hibernum_water.png",
+                        "layer": "S:background_tiles_water",
+                        "mask": "S:world/maps/hibernum/world_map_hibernum_water_ramp.png",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    }
+                ],
+                "name": "S:world_map_hibernum_name",
+                "size": [
+                    "I:928",
+                    "I:563"
+                ],
+                "sound": [
+                    {
+                        "event": "S:environmental/oceanAmbienceWorld"
+                    },
+                    {
+                        "event": "S:environmental/forestAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:620",
+                                    "I:25"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/tundraAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:415",
+                                    "I:400"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:625",
+                                    "I:350"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:545",
+                                    "I:130"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:360",
+                                    "I:90"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:270",
+                                    "I:260"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/mountainAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:230",
+                                    "I:35"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:450",
+                                "pos": [
+                                    "I:55",
+                                    "I:175"
+                                ],
+                                "refDistance": "I:45"
+                            },
+                            {
+                                "maxDistance": "I:450",
+                                "pos": [
+                                    "I:80",
+                                    "I:290"
+                                ],
+                                "refDistance": "I:45"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/riverAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:330",
+                                    "I:125"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:425",
+                                    "I:145"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:520",
+                                    "I:120"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:635",
+                                    "I:145"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:710",
+                                    "I:170"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:175",
+                                    "I:320"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:300",
+                                    "I:430"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:565",
+                                    "I:420"
+                                ],
+                                "refDistance": "I:15"
+                            }
+                        ]
+                    }
+                ],
+                "waterMask": "S:masks/hibernum_water_mask.png"
+            }
+        ]
+    }
+}

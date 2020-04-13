@@ -1,0 +1,512 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:1.0",
+                "battleUnitCount": "I:4",
+                "cost": "I:350",
+                "damageMultiplier": "I:1",
+                "id": "S:merman",
+                "moveRange": "I:5",
+                "movement": "S:amphibious",
+                "name": "S:unit_class_name_merman",
+                "passiveMultiplier": "I:2",
+                "tags": [
+                    "S:merman",
+                    "S:type.amphibious"
+                ],
+                "uiEffectivenessMultiplier": "I:2",
+                "verbs": [
+                    "S:capture",
+                    "S:load"
+                ],
+                "weapons": [
+                    {
+                        "id": "S:bident"
+                    }
+                ]
+            }
+        ],
+        "units": [
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "effect": "S:fx/bs_bident_attack_1",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneMermen",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "effect": "S:fx/bs_bident_attack_2",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoMermen",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "effect": "S:fx/bs_bident_attack_3",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeMermen",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "effect": "S:fx/bs_bident_attack_4",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourMermen",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/merman/cherrystone/battle_merman_cherrystone",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_merman_river",
+                "battleAnimationWater": "S:units/merman/cherrystone/battle_merman_swim_cherrystone",
+                "class": "S:merman",
+                "faction": "S:cherrystone",
+                "grabPos": [
+                    "I:18",
+                    "I:24"
+                ],
+                "mapAnimation": "S:units/merman/cherrystone/map_merman_cherrystone",
+                "mapAnimationWater": "S:units/merman/cherrystone/map_merman_swim_cherrystone",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/merman/cherrystone/portrait_merman_cherrystone_medium.png",
+                "name": "S:unit_name_merman_cherrystone",
+                "shouts": {
+                    "merfolk_shout1": "S:merfolkShout1",
+                    "merfolk_shout2": "S:merfolkShout2"
+                },
+                "smallPortrait": "S:units/merman/cherrystone/portrait_merman_cherrystone_small.png",
+                "sounds": {
+                    "attack": "S:merfolkAttack",
+                    "attackEffect1": "S:merfolkAttackEffect1",
+                    "attackEffect2": "S:merfolkAttackEffect2",
+                    "attackEffect3": "S:merfolkAttackEffect3",
+                    "attackEffect4": "S:merfolkAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:merfolkCaptureShout",
+                    "counter": "S:merfolkCounterAttack",
+                    "death": "S:merfolkDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:merfolkEntry",
+                    "runMap": "S:merfolkMapEntry",
+                    "runMapWater": "S:waterMapEntry",
+                    "runWater": "S:waterEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "effect": "S:fx/bs_bident_attack_1",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneMermen",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "effect": "S:fx/bs_bident_attack_2",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoMermen",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "effect": "S:fx/bs_bident_attack_3",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeMermen",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "effect": "S:fx/bs_bident_attack_4",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourMermen",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/merman/felheim/battle_merman_felheim",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_merman_river",
+                "battleAnimationWater": "S:units/merman/felheim/battle_merman_swim_felheim",
+                "class": "S:merman",
+                "emotes": {
+                    "idle": "S:idle",
+                    "mermanpose1": "S:emote_mermanpose1",
+                    "mermanpose2": "S:emote_mermanpose2"
+                },
+                "faction": "S:felheim",
+                "grabPos": [
+                    "I:18",
+                    "I:24"
+                ],
+                "mapAnimation": "S:units/merman/felheim/map_merman_felheim",
+                "mapAnimationWater": "S:units/merman/felheim/map_merman_swim_felheim",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/merman/felheim/portrait_merman_felheim_medium.png",
+                "name": "S:unit_name_merman_felheim",
+                "shouts": {
+                    "merfolk_shout1": "S:merfolkShout1",
+                    "merfolk_shout2": "S:merfolkShout2"
+                },
+                "smallPortrait": "S:units/merman/felheim/portrait_merman_felheim_small.png",
+                "sounds": {
+                    "attack": "S:merfolkAttack",
+                    "attackEffect1": "S:merfolkAttackEffect1",
+                    "attackEffect2": "S:merfolkAttackEffect2",
+                    "attackEffect3": "S:merfolkAttackEffect3",
+                    "attackEffect4": "S:merfolkAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:merfolkCaptureShout",
+                    "counter": "S:merfolkCounterAttack",
+                    "death": "S:merfolkDie",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:merfolkEntry",
+                    "runMap": "S:merfolkMapEntry",
+                    "runMapWater": "S:waterMapEntry",
+                    "runWater": "S:waterEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "effect": "S:fx/bs_bident_attack_1",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneMermen",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "effect": "S:fx/bs_bident_attack_2",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoMermen",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "effect": "S:fx/bs_bident_attack_3",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeMermen",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "effect": "S:fx/bs_bident_attack_4",
+                        "effectDelay": "F:1.3",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourMermen",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/merman/heavensong/battle_merman_heavensong",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_merman_river",
+                "battleAnimationWater": "S:units/merman/heavensong/battle_merman_swim_heavensong",
+                "class": "S:merman",
+                "faction": "S:heavensong",
+                "grabPos": [
+                    "I:18",
+                    "I:21"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_yellow_shout2",
+                        "S:soldier_yellow_shout5",
+                        "S:soldier_muffled_talk1",
+                        "S:soldier_muffled_talk2"
+                    ]
+                },
+                "mapAnimation": "S:units/merman/heavensong/map_merman_heavensong",
+                "mapAnimationWater": "S:units/merman/heavensong/map_merman_swim_heavensong",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/merman/heavensong/portrait_merman_heavensong_medium.png",
+                "name": "S:unit_name_merman_heavensong",
+                "shouts": {
+                    "soldier_muffled_talk1": "S:cutscene/soldierMuffledTalk1",
+                    "soldier_muffled_talk2": "S:cutscene/soldierMuffledTalk2",
+                    "soldier_yellow_shout1": "S:soldierShoutYellow1",
+                    "soldier_yellow_shout2": "S:soldierShoutYellow2",
+                    "soldier_yellow_shout3": "S:soldierShoutYellow3",
+                    "soldier_yellow_shout4": "S:soldierShoutYellow4",
+                    "soldier_yellow_shout5": "S:soldierShoutYellow5"
+                },
+                "smallPortrait": "S:units/merman/heavensong/portrait_merman_heavensong_small.png",
+                "sounds": {
+                    "attack": "S:merfolkAttackYellow",
+                    "attackEffect1": "S:merfolkAttackEffect1",
+                    "attackEffect2": "S:merfolkAttackEffect2",
+                    "attackEffect3": "S:merfolkAttackEffect3",
+                    "attackEffect4": "S:merfolkAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackYellow",
+                    "counter": "S:merfolkCounterAttackYellow",
+                    "death": "S:soldierDieYellow",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:infantryMediumEntry2",
+                    "runMap": "S:infantryMediumMapEntry2",
+                    "runMapWater": "S:waterMapEntry",
+                    "runWater": "S:waterEntry"
+                }
+            },
+            {
+                "attacks": [
+                    {
+                        "attackAnimationSequence": "S:counter",
+                        "attackSound": "S:counter",
+                        "hitDelay": "F:0.7",
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:primary",
+                        "samePanel": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect1",
+                        "effect": "S:fx/bs_bident_floran_attack_1",
+                        "effectDelay": "F:1.3",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.5"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:oneMermen",
+                        "numAttackers": "I:1",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect2",
+                        "effect": "S:fx/bs_bident_floran_attack_2",
+                        "effectDelay": "F:1.3",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:twoMermen",
+                        "numAttackers": "I:2",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect3",
+                        "effect": "S:fx/bs_bident_floran_attack_3",
+                        "effectDelay": "F:1.3",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7",
+                            "F:1.9"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:threeMermen",
+                        "numAttackers": "I:3",
+                        "ranged": "S:true"
+                    },
+                    {
+                        "attackEffectSound": "S:attackEffect4",
+                        "effect": "S:fx/bs_bident_floran_attack_4",
+                        "effectDelay": "F:1.3",
+                        "effectPaletteSwaps": "S:true",
+                        "hitDelay": [
+                            "F:1.5",
+                            "F:1.7",
+                            "F:1.9",
+                            "F:2.1"
+                        ],
+                        "hitSpark": "S:fx/bs_stab_attack",
+                        "id": "S:fourMermen",
+                        "numAttackers": "I:4",
+                        "ranged": "S:true"
+                    }
+                ],
+                "battleAnimation": "S:units/merman/floran/battle_merman_floran",
+                "battleAnimationRiver": "S:fx/river_overlay/battle_merman_river",
+                "battleAnimationWater": "S:units/merman/floran/battle_merman_swim_floran",
+                "class": "S:merman",
+                "faction": "S:floran",
+                "grabPos": [
+                    "I:18",
+                    "I:22"
+                ],
+                "hidden": {
+                    "shouts": [
+                        "S:soldier_green_shout2",
+                        "S:soldier_green_shout4",
+                        "S:soldier_green_shout5"
+                    ]
+                },
+                "mapAnimation": "S:units/merman/floran/map_merman_floran",
+                "mapAnimationWater": "S:units/merman/floran/map_merman_swim_floran",
+                "mapSpeed": "F:4.0",
+                "mediumPortrait": "S:units/merman/floran/portrait_merman_floran_medium.png",
+                "name": "S:unit_name_merman_floran",
+                "shouts": {
+                    "soldier_green_shout1": "S:soldierShoutGreen1",
+                    "soldier_green_shout2": "S:soldierShoutGreen2",
+                    "soldier_green_shout3": "S:soldierShoutGreen3",
+                    "soldier_green_shout4": "S:soldierShoutGreen4",
+                    "soldier_green_shout5": "S:soldierShoutGreen5",
+                    "soldier_green_shout6": "S:soldierShoutGreen6"
+                },
+                "smallPortrait": "S:units/merman/floran/portrait_merman_floran_small.png",
+                "sounds": {
+                    "attack": "S:merfolkAttackGreen",
+                    "attackEffect1": "S:merfolkAttackEffect1",
+                    "attackEffect2": "S:merfolkAttackEffect2",
+                    "attackEffect3": "S:merfolkAttackEffect3",
+                    "attackEffect4": "S:merfolkAttackEffect4",
+                    "attackMap": "S:unitAttack",
+                    "captureShout": "S:soldierPreAttackGreen",
+                    "counter": "S:merfolkCounterAttackGreen",
+                    "death": "S:soldierDieGreen",
+                    "deathMap": "S:unitDie",
+                    "hit": "S:hitOrganic",
+                    "hitMap": "S:hitOrganic",
+                    "run": "S:merfolkEntry",
+                    "runMap": "S:merfolkMapEntry",
+                    "runMapWater": "S:waterMapEntry",
+                    "runWater": "S:waterEntry"
+                }
+            }
+        ],
+        "weapons": [
+            {
+                "baseDamage": {
+                    "land": "I:1",
+                    "water": "I:1"
+                },
+                "canMoveAndAttack": "S:true",
+                "id": "S:bident",
+                "rangeMax": "I:2",
+                "rangeMin": "I:1",
+                "tagDamage": {
+                    "archer": "F:0.35",
+                    "ballista": "F:0.25",
+                    "commander": "F:0.1",
+                    "dog": "F:0.45",
+                    "giant": "F:0.05",
+                    "harpoonship": "F:0.3",
+                    "knight": "F:0.15",
+                    "mage": "F:0.45",
+                    "merman": "F:0.25",
+                    "rifleman": "F:0.45",
+                    "soldier": "F:0.35",
+                    "spearman": "F:0.25",
+                    "structure": "F:0.15",
+                    "thief": "F:0.35",
+                    "travelboat": "F:0.1",
+                    "trebuchet": "F:0.2",
+                    "turtle": "F:0.1",
+                    "villager": "F:0.35",
+                    "wagon": "F:0.35",
+                    "warship": "F:0.05"
+                }
+            }
+        ]
+    }
+}

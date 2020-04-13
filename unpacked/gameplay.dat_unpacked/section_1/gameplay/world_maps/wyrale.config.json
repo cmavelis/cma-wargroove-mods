@@ -1,0 +1,227 @@
+{
+    "root": {
+        "worldMaps": [
+            {
+                "fishAnimations": [
+                    "S:world/world_map_fish_size01",
+                    "S:world/world_map_fish_size02",
+                    "S:world/world_map_fish_size03"
+                ],
+                "fishes": [
+                    {
+                        "pos": [
+                            "I:54",
+                            "I:20"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:194",
+                            "I:182"
+                        ],
+                        "radius": "I:60"
+                    },
+                    {
+                        "pos": [
+                            "I:260",
+                            "I:4"
+                        ],
+                        "radius": "I:60"
+                    }
+                ],
+                "icon": "S:ui/campaign/map_icon5.png",
+                "id": "S:wyrale",
+                "images": [
+                    {
+                        "image": "S:world/maps/wyrale/world_map_wyrale.png",
+                        "layer": "S:background",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "image": "S:world/maps/wyrale/world_map_wyrale_pillars.png",
+                        "layer": "S:ground_decorations",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    },
+                    {
+                        "effect": "S:water",
+                        "image": "S:world/maps/wyrale/world_map_wyrale_water.png",
+                        "layer": "S:background_tiles_water",
+                        "mask": "S:world/maps/wyrale/world_map_wyrale_water_ramp.png",
+                        "pos": [
+                            "I:0",
+                            "I:0"
+                        ]
+                    }
+                ],
+                "name": "S:world_map_wyrale_name",
+                "size": [
+                    "I:874",
+                    "I:524"
+                ],
+                "sound": [
+                    {
+                        "event": "S:environmental/oceanAmbienceWorld"
+                    },
+                    {
+                        "event": "S:environmental/mountainAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:500",
+                                "pos": [
+                                    "I:50",
+                                    "I:230"
+                                ],
+                                "refDistance": "I:50"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:530",
+                                    "I:440"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:660",
+                                    "I:170"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:680",
+                                    "I:260"
+                                ],
+                                "refDistance": "I:15"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/tundraAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:400",
+                                "pos": [
+                                    "I:100",
+                                    "I:300"
+                                ],
+                                "refDistance": "I:40"
+                            },
+                            {
+                                "maxDistance": "I:450",
+                                "pos": [
+                                    "I:130",
+                                    "I:440"
+                                ],
+                                "refDistance": "I:45"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/forestAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:425",
+                                    "I:165"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:440",
+                                    "I:310"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/fieldAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:670",
+                                    "I:170"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:765",
+                                    "I:305"
+                                ],
+                                "refDistance": "I:30"
+                            },
+                            {
+                                "maxDistance": "I:300",
+                                "pos": [
+                                    "I:450",
+                                    "I:520"
+                                ],
+                                "refDistance": "I:30"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/desertAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:450",
+                                "pos": [
+                                    "I:760",
+                                    "I:105"
+                                ],
+                                "refDistance": "I:45"
+                            }
+                        ]
+                    },
+                    {
+                        "event": "S:environmental/riverAmbienceWorld",
+                        "sources": [
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:355",
+                                    "I:420"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:455",
+                                    "I:455"
+                                ],
+                                "refDistance": "I:15"
+                            },
+                            {
+                                "maxDistance": "I:150",
+                                "pos": [
+                                    "I:560",
+                                    "I:465"
+                                ],
+                                "refDistance": "I:15"
+                            }
+                        ]
+                    }
+                ],
+                "waterMask": "S:masks/wyrale_water_mask.png"
+            }
+        ]
+    }
+}

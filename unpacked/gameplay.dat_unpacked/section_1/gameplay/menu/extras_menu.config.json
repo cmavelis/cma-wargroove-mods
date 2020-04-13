@@ -1,0 +1,100 @@
+{
+    "root": {
+        "menuBackgrounds": [
+            {
+                "animations": [
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/goldshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-250",
+                            "I:50"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/goldshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-180",
+                            "I:65"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/goldshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-275",
+                            "I:125"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-300",
+                            "I:-40"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/goldshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-120",
+                            "I:160"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/ragnasearch",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:-275",
+                            "I:-40"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/goldshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:275",
+                            "I:125"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:305",
+                            "I:-60"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:260",
+                            "I:-35"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:230",
+                            "I:145"
+                        ]
+                    },
+                    {
+                        "animation": "S:backgrounds/titlescreen/extras/smallshine",
+                        "layer": "S:foreground",
+                        "position": [
+                            "I:236",
+                            "I:44"
+                        ]
+                    }
+                ],
+                "background": "S:backgrounds/titlescreen/extras/treasureroom",
+                "id": "S:extras_menu"
+            }
+        ]
+    }
+}

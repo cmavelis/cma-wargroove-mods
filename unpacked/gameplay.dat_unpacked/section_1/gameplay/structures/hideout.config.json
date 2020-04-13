@@ -1,0 +1,69 @@
+{
+    "root": {
+        "unitClasses": [
+            {
+                "aiPriority": "F:4.0",
+                "battleUnitCount": "I:1",
+                "canBeCaptured": "S:true",
+                "canBeReinforced": "S:false",
+                "canReinforce": "S:true",
+                "cost": "I:500",
+                "damageMultiplier": "I:1",
+                "id": "S:hideout",
+                "income": "I:0",
+                "isNeutraliseable": "S:true",
+                "isStructure": "S:true",
+                "movement": "S:land_building",
+                "name": "S:structure_name_hideout",
+                "recruitTags": [
+                    "S:type.ground.hideout"
+                ],
+                "regeneration": "I:10",
+                "sightRange": "I:6",
+                "tags": [
+                    "S:structure"
+                ],
+                "verbs": [
+                    "S:recruit"
+                ]
+            }
+        ],
+        "units": [
+            {
+                "class": "S:hideout",
+                "faction": "S:neutral",
+                "grabPos": [
+                    "I:14",
+                    "I:7"
+                ],
+                "mapAnimation": "S:structures/hideout",
+                "mediumPortrait": "S:portraits/medium/hideout.png",
+                "name": "S:structure_name_hideout",
+                "smallPortrait": "S:portraits/small/portrait_structure_small.png",
+                "sounds": {
+                    "death": "S:gateDie",
+                    "hit": "S:hitWood",
+                    "hitMap": "S:hitStone"
+                },
+                "structureImage": {
+                    "farBackground": "S:hideout_background_full_background_2",
+                    "foreground": "S:hideout_background_full_foreground",
+                    "keeperPosition": [
+                        "I:74",
+                        "I:85"
+                    ],
+                    "leftBannerOffset": [
+                        "I:-16",
+                        "I:7"
+                    ],
+                    "nearBackground": "S:hideout_background_full_background_1",
+                    "rightBannerOffset": [
+                        "I:-9",
+                        "I:4"
+                    ],
+                    "spriteSheet": "S:backgrounds/hideout/hideout_background_full"
+                }
+            }
+        ]
+    }
+}

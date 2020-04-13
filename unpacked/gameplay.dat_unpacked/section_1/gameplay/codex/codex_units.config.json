@@ -1,0 +1,3878 @@
+{
+    "root": {
+        "codex": [
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/soldier/cherrystone/portrait_soldier_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_soldier_cherrystone",
+                "name": "S:unit_name_soldier_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_soldier_cherrystone_lore_text",
+                        "title": "S:unit_name_soldier_cherrystone",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_soldier_critical_text",
+                        "title": "S:unit_name_soldier_cherrystone",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_soldiercrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_soldier",
+                        "title": "S:unit_name_soldier_cherrystone",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:soldier"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/soldier/felheim/portrait_soldier_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_soldier_felheim",
+                "name": "S:unit_name_soldier_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_soldier_felheim_lore_text",
+                        "title": "S:unit_name_soldier_felheim",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_soldier_critical_text",
+                        "title": "S:unit_name_soldier_felheim",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_soldiercrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_soldier",
+                        "title": "S:unit_name_soldier_felheim",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:soldier"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/soldier/floran/portrait_soldier_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_soldier_floran",
+                "name": "S:unit_name_soldier_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_soldier_floran_lore_text",
+                        "title": "S:unit_name_soldier_floran",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_soldier_critical_text",
+                        "title": "S:unit_name_soldier_floran",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_soldiercrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_soldier",
+                        "title": "S:unit_name_soldier_floran",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:soldier"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/soldier/heavensong/portrait_soldier_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_soldier_heavensong",
+                "name": "S:unit_name_soldier_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_soldier_heavensong_lore_text",
+                        "title": "S:unit_name_soldier_heavensong",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_soldier_critical_text",
+                        "title": "S:unit_name_soldier_heavensong",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_soldiercrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_soldier",
+                        "title": "S:unit_name_soldier_heavensong",
+                        "unitClass": "S:soldier"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:soldier"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/spearman/cherrystone/portrait_spearman_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_spearman_cherrystone",
+                "name": "S:unit_name_spearman_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_spearman_cherrystone_lore_text",
+                        "title": "S:unit_name_spearman_cherrystone",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_spearman_critical_text",
+                        "title": "S:unit_name_spearman_cherrystone",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_spearmancrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_spearman",
+                        "title": "S:unit_name_spearman_cherrystone",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:spearman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/spearman/felheim/portrait_spearman_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_spearman_felheim",
+                "name": "S:unit_name_spearman_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_spearman_felheim_lore_text",
+                        "title": "S:unit_name_spearman_felheim",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_spearman_critical_text",
+                        "title": "S:unit_name_spearman_felheim",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_spearmancrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_spearman",
+                        "title": "S:unit_name_spearman_felheim",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:spearman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/spearman/floran/portrait_spearman_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_spearman_floran",
+                "name": "S:unit_name_spearman_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_spearman_floran_lore_text",
+                        "title": "S:unit_name_spearman_floran",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_spearman_critical_text",
+                        "title": "S:unit_name_spearman_floran",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_spearmancrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_spearman",
+                        "title": "S:unit_name_spearman_floran",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:spearman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/spearman/heavensong/portrait_spearman_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_spearman_heavensong",
+                "name": "S:unit_name_spearman_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_spearman_heavensong_lore_text",
+                        "title": "S:unit_name_spearman_heavensong",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_spearman_critical_text",
+                        "title": "S:unit_name_spearman_heavensong",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_spearmancrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_spearman",
+                        "title": "S:unit_name_spearman_heavensong",
+                        "unitClass": "S:spearman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:spearman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/dog/cherrystone/portrait_dog_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_dog_cherrystone",
+                "name": "S:unit_name_dog_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_dog_cherrystone_lore_text",
+                        "title": "S:unit_name_dog_cherrystone",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_dog_critical_text",
+                        "title": "S:unit_name_dog_cherrystone",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_dogcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_dog",
+                        "title": "S:unit_name_dog_cherrystone",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:dog"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/dog/felheim/portrait_dog_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_dog_felheim",
+                "name": "S:unit_name_dog_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_dog_felheim_lore_text",
+                        "title": "S:unit_name_dog_felheim",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_dog_critical_text",
+                        "title": "S:unit_name_dog_felheim",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_dogcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_dog",
+                        "title": "S:unit_name_dog_felheim",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:dog"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/dog/floran/portrait_dog_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_dog_floran",
+                "name": "S:unit_name_dog_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_dog_floran_lore_text",
+                        "title": "S:unit_name_dog_floran",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_dog_critical_text",
+                        "title": "S:unit_name_dog_floran",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_dogcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_dog",
+                        "title": "S:unit_name_dog_floran",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:dog"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/dog/heavensong/portrait_dog_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_dog_heavensong",
+                "name": "S:unit_name_dog_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_dog_heavensong_lore_text",
+                        "title": "S:unit_name_dog_heavensong",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_dog_critical_text",
+                        "title": "S:unit_name_dog_heavensong",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_dogcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_dog",
+                        "title": "S:unit_name_dog_heavensong",
+                        "unitClass": "S:dog"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:dog"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/wagon/cherrystone/portrait_wagon_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_wagon_cherrystone",
+                "name": "S:unit_name_wagon_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_wagon_cherrystone_lore_text",
+                        "title": "S:unit_name_wagon_cherrystone",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_wagon_critical_text",
+                        "title": "S:unit_name_wagon_cherrystone",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_wagon",
+                        "title": "S:unit_name_wagon_cherrystone",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:wagon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/wagon/felheim/portrait_wagon_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_wagon_felheim",
+                "name": "S:unit_name_wagon_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_wagon_felheim_lore_text",
+                        "title": "S:unit_name_wagon_felheim",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_wagon_critical_text",
+                        "title": "S:unit_name_wagon_felheim",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_wagon",
+                        "title": "S:unit_name_wagon_felheim",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:wagon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/wagon/floran/portrait_wagon_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_wagon_floran",
+                "name": "S:unit_name_wagon_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_wagon_floran_lore_text",
+                        "title": "S:unit_name_wagon_floran",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_wagon_critical_text",
+                        "title": "S:unit_name_wagon_floran",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_wagon",
+                        "title": "S:unit_name_wagon_floran",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:wagon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/wagon/heavensong/portrait_wagon_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_wagon_heavensong",
+                "name": "S:unit_name_wagon_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_wagon_heavensong_lore_text",
+                        "title": "S:unit_name_wagon_heavensong",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_wagon_critical_text",
+                        "title": "S:unit_name_wagon_heavensong",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_wagon",
+                        "title": "S:unit_name_wagon_heavensong",
+                        "unitClass": "S:wagon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:wagon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/archer/cherrystone/portrait_archer_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_archer_cherrystone",
+                "name": "S:unit_name_archer_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_archer_cherrystone_lore_text",
+                        "title": "S:unit_name_archer_cherrystone",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_archer_critical_text",
+                        "title": "S:unit_name_archer_cherrystone",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_archercrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_archer",
+                        "title": "S:unit_name_archer_cherrystone",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:archer"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/archer/felheim/portrait_archer_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_archer_felheim",
+                "name": "S:unit_name_archer_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_archer_felheim_lore_text",
+                        "title": "S:unit_name_archer_felheim",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_archer_critical_text",
+                        "title": "S:unit_name_archer_felheim",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_archercrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_archer",
+                        "title": "S:unit_name_archer_felheim",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:archer"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/archer/floran/portrait_archer_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_archer_floran",
+                "name": "S:unit_name_archer_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_archer_floran_lore_text",
+                        "title": "S:unit_name_archer_floran",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_archer_critical_text",
+                        "title": "S:unit_name_archer_floran",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_archercrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_archer",
+                        "title": "S:unit_name_archer_floran",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:archer"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/archer/heavensong/portrait_archer_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_archer_heavensong",
+                "name": "S:unit_name_archer_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_archer_heavensong_lore_text",
+                        "title": "S:unit_name_archer_heavensong",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_archer_critical_text",
+                        "title": "S:unit_name_archer_heavensong",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_archercrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_archer",
+                        "title": "S:unit_name_archer_heavensong",
+                        "unitClass": "S:archer"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:archer"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/mage/cherrystone/portrait_mage_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_mage_cherrystone",
+                "name": "S:unit_name_mage_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_mage_cherrystone_lore_text",
+                        "title": "S:unit_name_mage_cherrystone",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_mage_critical_text",
+                        "title": "S:unit_name_mage_cherrystone",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_magecrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_mage",
+                        "title": "S:unit_name_mage_cherrystone",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:mage"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/mage/felheim/portrait_mage_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_mage_felheim",
+                "name": "S:unit_name_mage_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_mage_felheim_lore_text",
+                        "title": "S:unit_name_mage_felheim",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_mage_critical_text",
+                        "title": "S:unit_name_mage_felheim",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_magecrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_mage",
+                        "title": "S:unit_name_mage_felheim",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:mage"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/mage/floran/portrait_mage_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_mage_floran",
+                "name": "S:unit_name_mage_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_mage_floran_lore_text",
+                        "title": "S:unit_name_mage_floran",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_mage_critical_text",
+                        "title": "S:unit_name_mage_floran",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_magecrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_mage",
+                        "title": "S:unit_name_mage_floran",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:mage"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/mage/heavensong/portrait_mage_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_mage_heavensong",
+                "name": "S:unit_name_mage_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_mage_heavensong_lore_text",
+                        "title": "S:unit_name_mage_heavensong",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_mage_critical_text",
+                        "title": "S:unit_name_mage_heavensong",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_magecrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_mage",
+                        "title": "S:unit_name_mage_heavensong",
+                        "unitClass": "S:mage"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:mage"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/warship/cherrystone/portrait_warship_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_warship_cherrystone",
+                "name": "S:unit_name_warship_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_warship_cherrystone_lore_text",
+                        "title": "S:unit_name_warship_cherrystone",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_warship_critical_text",
+                        "title": "S:unit_name_warship_cherrystone",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_warshipcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_warship",
+                        "title": "S:unit_name_warship_cherrystone",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:warship"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/warship/felheim/portrait_warship_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_warship_felheim",
+                "name": "S:unit_name_warship_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_warship_felheim_lore_text",
+                        "title": "S:unit_name_warship_felheim",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_warship_critical_text",
+                        "title": "S:unit_name_warship_felheim",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_warshipcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_warship",
+                        "title": "S:unit_name_warship_felheim",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:warship"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/warship/floran/portrait_warship_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_warship_floran",
+                "name": "S:unit_name_warship_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_warship_floran_lore_text",
+                        "title": "S:unit_name_warship_floran",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_warship_critical_text",
+                        "title": "S:unit_name_warship_floran",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_warshipcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_warship",
+                        "title": "S:unit_name_warship_floran",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:warship"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/warship/heavensong/portrait_warship_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_warship_heavensong",
+                "name": "S:unit_name_warship_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_warship_heavensong_lore_text",
+                        "title": "S:unit_name_warship_heavensong",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_warship_critical_text",
+                        "title": "S:unit_name_warship_heavensong",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_warshipcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_warship",
+                        "title": "S:unit_name_warship_heavensong",
+                        "unitClass": "S:warship"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:warship"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/harpoonship/cherrystone/portrait_harpoonship_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_harpoonship_cherrystone",
+                "name": "S:unit_name_harpoonship_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_harpoonship_cherrystone_lore_text",
+                        "title": "S:unit_name_harpoonship_cherrystone",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_harpoonship_critical_text",
+                        "title": "S:unit_name_harpoonship_cherrystone",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_harpoonshipcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_harpoonship",
+                        "title": "S:unit_name_harpoonship_cherrystone",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:harpoonship"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/harpoonship/felheim/portrait_harpoonship_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_harpoonship_felheim",
+                "name": "S:unit_name_harpoonship_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_harpoonship_felheim_lore_text",
+                        "title": "S:unit_name_harpoonship_felheim",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_harpoonship_critical_text",
+                        "title": "S:unit_name_harpoonship_felheim",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_harpoonshipcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_harpoonship",
+                        "title": "S:unit_name_harpoonship_felheim",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:harpoonship"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/harpoonship/floran/portrait_harpoonship_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_harpoonship_floran",
+                "name": "S:unit_name_harpoonship_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_harpoonship_floran_lore_text",
+                        "title": "S:unit_name_harpoonship_floran",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_harpoonship_critical_text",
+                        "title": "S:unit_name_harpoonship_floran",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_harpoonshipcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_harpoonship",
+                        "title": "S:unit_name_harpoonship_floran",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:harpoonship"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/harpoonship/heavensong/portrait_harpoonship_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_harpoonship_heavensong",
+                "name": "S:unit_name_harpoonship_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_harpoonship_heavensong_lore_text",
+                        "title": "S:unit_name_harpoonship_heavensong",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_harpoonship_critical_text",
+                        "title": "S:unit_name_harpoonship_heavensong",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_harpoonshipcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_harpoonship",
+                        "title": "S:unit_name_harpoonship_heavensong",
+                        "unitClass": "S:harpoonship"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:harpoonship"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/dragon/cherrystone/portrait_dragon_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_dragon_cherrystone",
+                "name": "S:unit_name_dragon_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_dragon_cherrystone_lore_text",
+                        "title": "S:unit_name_dragon_cherrystone",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_dragon_critical_text",
+                        "title": "S:unit_name_dragon_cherrystone",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_dragoncrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_dragon",
+                        "title": "S:unit_name_dragon_cherrystone",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:dragon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/dragon/felheim/portrait_dragon_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_dragon_felheim",
+                "name": "S:unit_name_dragon_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_dragon_felheim_lore_text",
+                        "title": "S:unit_name_dragon_felheim",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_dragon_critical_text",
+                        "title": "S:unit_name_dragon_felheim",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_dragoncrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_dragon",
+                        "title": "S:unit_name_dragon_felheim",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:dragon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/dragon/floran/portrait_dragon_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_dragon_floran",
+                "name": "S:unit_name_dragon_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_dragon_floran_lore_text",
+                        "title": "S:unit_name_dragon_floran",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_dragon_critical_text",
+                        "title": "S:unit_name_dragon_floran",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_dragoncrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_dragon",
+                        "title": "S:unit_name_dragon_floran",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:dragon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/dragon/heavensong/portrait_dragon_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_dragon_heavensong",
+                "name": "S:unit_name_dragon_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_dragon_heavensong_lore_text",
+                        "title": "S:unit_name_dragon_heavensong",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_dragon_critical_text",
+                        "title": "S:unit_name_dragon_heavensong",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_dragoncrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_dragon",
+                        "title": "S:unit_name_dragon_heavensong",
+                        "unitClass": "S:dragon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:dragon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/knight/cherrystone/portrait_knight_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_knight_cherrystone",
+                "name": "S:unit_name_knight_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_knight_cherrystone_lore_text",
+                        "title": "S:unit_name_knight_cherrystone",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_knight_critical_text",
+                        "title": "S:unit_name_knight_cherrystone",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_knightcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_knight",
+                        "title": "S:unit_name_knight_cherrystone",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:knight"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/knight/felheim/portrait_knight_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_knight_felheim",
+                "name": "S:unit_name_knight_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_knight_felheim_lore_text",
+                        "title": "S:unit_name_knight_felheim",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_knight_critical_text",
+                        "title": "S:unit_name_knight_felheim",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_knightcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_knight",
+                        "title": "S:unit_name_knight_felheim",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:knight"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/knight/floran/portrait_knight_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_knight_floran",
+                "name": "S:unit_name_knight_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_knight_floran_lore_text",
+                        "title": "S:unit_name_knight_floran",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_knight_critical_text",
+                        "title": "S:unit_name_knight_floran",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_knightcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_knight",
+                        "title": "S:unit_name_knight_floran",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:knight"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/knight/heavensong/portrait_knight_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_knight_heavensong",
+                "name": "S:unit_name_knight_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_knight_heavensong_lore_text",
+                        "title": "S:unit_name_knight_heavensong",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_knight_critical_text",
+                        "title": "S:unit_name_knight_heavensong",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_knightcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_knight",
+                        "title": "S:unit_name_knight_heavensong",
+                        "unitClass": "S:knight"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:knight"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/trebuchet/cherrystone/portrait_trebuchet_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_trebuchet_cherrystone",
+                "name": "S:unit_name_trebuchet_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_trebuchet_cherrystone_lore_text",
+                        "title": "S:unit_name_trebuchet_cherrystone",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_trebuchet_critical_text",
+                        "title": "S:unit_name_trebuchet_cherrystone",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_trebuchetcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_trebuchet",
+                        "title": "S:unit_name_trebuchet_cherrystone",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:trebuchet"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/trebuchet/felheim/portrait_trebuchet_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_trebuchet_felheim",
+                "name": "S:unit_name_trebuchet_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_trebuchet_felheim_lore_text",
+                        "title": "S:unit_name_trebuchet_felheim",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_trebuchet_critical_text",
+                        "title": "S:unit_name_trebuchet_felheim",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_trebuchetcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_trebuchet",
+                        "title": "S:unit_name_trebuchet_felheim",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:trebuchet"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/trebuchet/floran/portrait_trebuchet_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_trebuchet_floran",
+                "name": "S:unit_name_trebuchet_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_trebuchet_floran_lore_text",
+                        "title": "S:unit_name_trebuchet_floran",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_trebuchet_critical_text",
+                        "title": "S:unit_name_trebuchet_floran",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_trebuchetcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_trebuchet",
+                        "title": "S:unit_name_trebuchet_floran",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:trebuchet"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/trebuchet/heavensong/portrait_trebuchet_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_trebuchet_heavensong",
+                "name": "S:unit_name_trebuchet_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_trebuchet_heavensong_lore_text",
+                        "title": "S:unit_name_trebuchet_heavensong",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_trebuchet_critical_text",
+                        "title": "S:unit_name_trebuchet_heavensong",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_trebuchetcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_trebuchet",
+                        "title": "S:unit_name_trebuchet_heavensong",
+                        "unitClass": "S:trebuchet"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:trebuchet"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/merman/cherrystone/portrait_merman_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_merman_cherrystone",
+                "name": "S:unit_name_merman_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_merman_cherrystone_lore_text",
+                        "title": "S:unit_name_merman_cherrystone",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_merman_critical_text",
+                        "title": "S:unit_name_merman_cherrystone",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_mermancrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_merman",
+                        "title": "S:unit_name_merman_cherrystone",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:merman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/merman/felheim/portrait_merman_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_merman_felheim",
+                "name": "S:unit_name_merman_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_merman_felheim_lore_text",
+                        "title": "S:unit_name_merman_felheim",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_merman_critical_text",
+                        "title": "S:unit_name_merman_felheim",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_mermancrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_merman",
+                        "title": "S:unit_name_merman_felheim",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:merman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/merman/floran/portrait_merman_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_merman_floran",
+                "name": "S:unit_name_merman_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_merman_floran_lore_text",
+                        "title": "S:unit_name_merman_floran",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_merman_critical_text",
+                        "title": "S:unit_name_merman_floran",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_mermancrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_merman",
+                        "title": "S:unit_name_merman_floran",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:merman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/merman/heavensong/portrait_merman_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_merman_heavensong",
+                "name": "S:unit_name_merman_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_merman_heavensong_lore_text",
+                        "title": "S:unit_name_merman_heavensong",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_merman_critical_text",
+                        "title": "S:unit_name_merman_heavensong",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_mermancrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_merman",
+                        "title": "S:unit_name_merman_heavensong",
+                        "unitClass": "S:merman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:merman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/turtle/cherrystone/portrait_turtle_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_turtle_cherrystone",
+                "name": "S:unit_name_turtle_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_turtle_cherrystone_lore_text",
+                        "title": "S:unit_name_turtle_cherrystone",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_turtle_critical_text",
+                        "title": "S:unit_name_turtle_cherrystone",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_turtlecrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_turtle",
+                        "title": "S:unit_name_turtle_cherrystone",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:turtle"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/turtle/felheim/portrait_turtle_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_turtle_felheim",
+                "name": "S:unit_name_turtle_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_turtle_felheim_lore_text",
+                        "title": "S:unit_name_turtle_felheim",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_turtle_critical_text",
+                        "title": "S:unit_name_turtle_felheim",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_turtlecrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_turtle",
+                        "title": "S:unit_name_turtle_felheim",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:turtle"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/turtle/floran/portrait_turtle_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_turtle_floran",
+                "name": "S:unit_name_turtle_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_turtle_floran_lore_text",
+                        "title": "S:unit_name_turtle_floran",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_turtle_critical_text",
+                        "title": "S:unit_name_turtle_floran",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_turtlecrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_turtle",
+                        "title": "S:unit_name_turtle_floran",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:turtle"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/turtle/heavensong/portrait_turtle_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_turtle_heavensong",
+                "name": "S:unit_name_turtle_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_turtle_heavensong_lore_text",
+                        "title": "S:unit_name_turtle_heavensong",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_turtle_critical_text",
+                        "title": "S:unit_name_turtle_heavensong",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_turtlecrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_turtle",
+                        "title": "S:unit_name_turtle_heavensong",
+                        "unitClass": "S:turtle"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:turtle"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/witch/cherrystone/portrait_witch_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_witch_cherrystone",
+                "name": "S:unit_name_witch_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_witch_cherrystone_lore_text",
+                        "title": "S:unit_name_witch_cherrystone",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_witch_critical_text",
+                        "title": "S:unit_name_witch_cherrystone",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_witchcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_witch",
+                        "title": "S:unit_name_witch_cherrystone",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:witch"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/witch/felheim/portrait_witch_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_witch_felheim",
+                "name": "S:unit_name_witch_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_witch_felheim_lore_text",
+                        "title": "S:unit_name_witch_felheim",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_witch_critical_text",
+                        "title": "S:unit_name_witch_felheim",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_witchcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_witch",
+                        "title": "S:unit_name_witch_felheim",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:witch"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/witch/floran/portrait_witch_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_witch_floran",
+                "name": "S:unit_name_witch_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_witch_floran_lore_text",
+                        "title": "S:unit_name_witch_floran",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_witch_critical_text",
+                        "title": "S:unit_name_witch_floran",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_witchcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_witch",
+                        "title": "S:unit_name_witch_floran",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:witch"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/witch/heavensong/portrait_witch_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_witch_heavensong",
+                "name": "S:unit_name_witch_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_witch_heavensong_lore_text",
+                        "title": "S:unit_name_witch_heavensong",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_witch_critical_text",
+                        "title": "S:unit_name_witch_heavensong",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_witchcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_witch",
+                        "title": "S:unit_name_witch_heavensong",
+                        "unitClass": "S:witch"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:witch"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/harpy/cherrystone/portrait_harpy_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_harpy_cherrystone",
+                "name": "S:unit_name_harpy_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_harpy_cherrystone_lore_text",
+                        "title": "S:unit_name_harpy_cherrystone",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_harpy_critical_text",
+                        "title": "S:unit_name_harpy_cherrystone",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_harpycrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_harpy",
+                        "title": "S:unit_name_harpy_cherrystone",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:harpy"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/harpy/felheim/portrait_harpy_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_harpy_felheim",
+                "name": "S:unit_name_harpy_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_harpy_felheim_lore_text",
+                        "title": "S:unit_name_harpy_felheim",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_harpy_critical_text",
+                        "title": "S:unit_name_harpy_felheim",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_harpycrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_harpy",
+                        "title": "S:unit_name_harpy_felheim",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:harpy"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/harpy/floran/portrait_harpy_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_harpy_floran",
+                "name": "S:unit_name_harpy_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_harpy_floran_lore_text",
+                        "title": "S:unit_name_harpy_floran",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_harpy_critical_text",
+                        "title": "S:unit_name_harpy_floran",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_harpycrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_harpy",
+                        "title": "S:unit_name_harpy_floran",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:harpy"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/harpy/heavensong/portrait_harpy_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_harpy_heavensong",
+                "name": "S:unit_name_harpy_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_harpy_heavensong_lore_text",
+                        "title": "S:unit_name_harpy_heavensong",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_harpy_critical_text",
+                        "title": "S:unit_name_harpy_heavensong",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_harpycrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_harpy",
+                        "title": "S:unit_name_harpy_heavensong",
+                        "unitClass": "S:harpy"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:harpy"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/balloon/cherrystone/portrait_balloon_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_balloon_cherrystone",
+                "name": "S:unit_name_balloon_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_balloon_cherrystone_lore_text",
+                        "title": "S:unit_name_balloon_cherrystone",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_balloon_critical_text",
+                        "title": "S:unit_name_balloon_cherrystone",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_balloon",
+                        "title": "S:unit_name_balloon_cherrystone",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:balloon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/balloon/felheim/portrait_balloon_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_balloon_felheim",
+                "name": "S:unit_name_balloon_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_balloon_felheim_lore_text",
+                        "title": "S:unit_name_balloon_felheim",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_balloon_critical_text",
+                        "title": "S:unit_name_balloon_felheim",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_balloon",
+                        "title": "S:unit_name_balloon_felheim",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:balloon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/balloon/floran/portrait_balloon_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_balloon_floran",
+                "name": "S:unit_name_balloon_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_balloon_floran_lore_text",
+                        "title": "S:unit_name_balloon_floran",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_balloon_critical_text",
+                        "title": "S:unit_name_balloon_floran",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_balloon",
+                        "title": "S:unit_name_balloon_floran",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:balloon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/balloon/heavensong/portrait_balloon_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_balloon_heavensong",
+                "name": "S:unit_name_balloon_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_balloon_heavensong_lore_text",
+                        "title": "S:unit_name_balloon_heavensong",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_balloon_critical_text",
+                        "title": "S:unit_name_balloon_heavensong",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_balloon",
+                        "title": "S:unit_name_balloon_heavensong",
+                        "unitClass": "S:balloon"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:balloon"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/giant/cherrystone/portrait_giant_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_giant_cherrystone",
+                "name": "S:unit_name_giant_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_giant_cherrystone_lore_text",
+                        "title": "S:unit_name_giant_cherrystone",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_giant_critical_text",
+                        "title": "S:unit_name_giant_cherrystone",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_giantcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_giant",
+                        "title": "S:unit_name_giant_cherrystone",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:giant"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/giant/felheim/portrait_giant_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_giant_felheim",
+                "name": "S:unit_name_giant_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_giant_felheim_lore_text",
+                        "title": "S:unit_name_giant_felheim",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_giant_critical_text",
+                        "title": "S:unit_name_giant_felheim",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_giantcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_giant",
+                        "title": "S:unit_name_giant_felheim",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:giant"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/giant/floran/portrait_giant_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_giant_floran",
+                "name": "S:unit_name_giant_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_giant_floran_lore_text",
+                        "title": "S:unit_name_giant_floran",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_giant_critical_text",
+                        "title": "S:unit_name_giant_floran",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_giantcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_giant",
+                        "title": "S:unit_name_giant_floran",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:giant"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/giant/heavensong/portrait_giant_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_giant_heavensong",
+                "name": "S:unit_name_giant_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_giant_heavensong_lore_text",
+                        "title": "S:unit_name_giant_heavensong",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_giant_critical_text",
+                        "title": "S:unit_name_giant_heavensong",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_giantcrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_giant",
+                        "title": "S:unit_name_giant_heavensong",
+                        "unitClass": "S:giant"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:giant"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/ballista/cherrystone/portrait_ballista_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_ballista_cherrystone",
+                "name": "S:unit_name_ballista_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_ballista_cherrystone_lore_text",
+                        "title": "S:unit_name_ballista_cherrystone",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_ballista_critical_text",
+                        "title": "S:unit_name_ballista_cherrystone",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_ballistacrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_ballista",
+                        "title": "S:unit_name_ballista_cherrystone",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:ballista"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/ballista/felheim/portrait_ballista_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_ballista_felheim",
+                "name": "S:unit_name_ballista_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_ballista_felheim_lore_text",
+                        "title": "S:unit_name_ballista_felheim",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_ballista_critical_text",
+                        "title": "S:unit_name_ballista_felheim",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_ballistacrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_ballista",
+                        "title": "S:unit_name_ballista_felheim",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:ballista"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/ballista/floran/portrait_ballista_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_ballista_floran",
+                "name": "S:unit_name_ballista_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_ballista_floran_lore_text",
+                        "title": "S:unit_name_ballista_floran",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_ballista_critical_text",
+                        "title": "S:unit_name_ballista_floran",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_ballistacrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_ballista",
+                        "title": "S:unit_name_ballista_floran",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:ballista"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/ballista/heavensong/portrait_ballista_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_ballista_heavensong",
+                "name": "S:unit_name_ballista_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_ballista_heavensong_lore_text",
+                        "title": "S:unit_name_ballista_heavensong",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_ballista_critical_text",
+                        "title": "S:unit_name_ballista_heavensong",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "animation": "S:ui/codex/content/unit_ballistacrit",
+                        "layoutType": "S:animation",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_ballista",
+                        "title": "S:unit_name_ballista_heavensong",
+                        "unitClass": "S:ballista"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:ballista"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/travelboat/cherrystone/portrait_travelboat_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_travelboat_cherrystone",
+                "name": "S:unit_name_travelboat_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_travelboat_cherrystone_lore_text",
+                        "title": "S:unit_name_travelboat_cherrystone",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_travelboat_critical_text",
+                        "title": "S:unit_name_travelboat_cherrystone",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_travelboat",
+                        "title": "S:unit_name_travelboat_cherrystone",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:travelboat"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/travelboat/felheim/portrait_travelboat_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_travelboat_felheim",
+                "name": "S:unit_name_travelboat_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_travelboat_felheim_lore_text",
+                        "title": "S:unit_name_travelboat_felheim",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_travelboat_critical_text",
+                        "title": "S:unit_name_travelboat_felheim",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_travelboat",
+                        "title": "S:unit_name_travelboat_felheim",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:travelboat"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/travelboat/floran/portrait_travelboat_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_travelboat_floran",
+                "name": "S:unit_name_travelboat_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_travelboat_floran_lore_text",
+                        "title": "S:unit_name_travelboat_floran",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_travelboat_critical_text",
+                        "title": "S:unit_name_travelboat_floran",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_travelboat",
+                        "title": "S:unit_name_travelboat_floran",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:travelboat"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/travelboat/heavensong/portrait_travelboat_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_travelboat_heavensong",
+                "name": "S:unit_name_travelboat_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_travelboat_heavensong_lore_text",
+                        "title": "S:unit_name_travelboat_heavensong",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_travelboat_critical_text",
+                        "title": "S:unit_name_travelboat_heavensong",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_travelboat",
+                        "title": "S:unit_name_travelboat_heavensong",
+                        "unitClass": "S:travelboat"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:travelboat"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/villager/cherrystone/portrait_villager_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIV"
+                },
+                "id": "S:unit_villager_cherrystone",
+                "name": "S:unit_name_villager_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_villager_cherrystone_lore_text",
+                        "title": "S:unit_name_villager_cherrystone",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_villager_critical_text",
+                        "title": "S:unit_name_villager_cherrystone",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_villager",
+                        "title": "S:unit_name_villager_cherrystone",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:villager"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/villager/felheim/portrait_villager_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeI"
+                },
+                "id": "S:unit_villager_felheim",
+                "name": "S:unit_name_villager_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_villager_felheim_lore_text",
+                        "title": "S:unit_name_villager_felheim",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_villager_critical_text",
+                        "title": "S:unit_name_villager_felheim",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_villager",
+                        "title": "S:unit_name_villager_felheim",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:villager"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/villager/floran/portrait_villager_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_villager_floran",
+                "name": "S:unit_name_villager_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_villager_floran_lore_text",
+                        "title": "S:unit_name_villager_floran",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_villager_critical_text",
+                        "title": "S:unit_name_villager_floran",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_villager",
+                        "title": "S:unit_name_villager_floran",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:villager"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/villager/heavensong/portrait_villager_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_villager_heavensong",
+                "name": "S:unit_name_villager_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_villager_heavensong_lore_text",
+                        "title": "S:unit_name_villager_heavensong",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_villager_critical_text",
+                        "title": "S:unit_name_villager_heavensong",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_villager",
+                        "title": "S:unit_name_villager_heavensong",
+                        "unitClass": "S:villager"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:villager"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/thief/cherrystone/portrait_thief_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_thief_cherrystone",
+                "name": "S:unit_name_thief_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_thief_cherrystone_lore_text",
+                        "title": "S:unit_name_thief_cherrystone",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_thief_critical_text",
+                        "title": "S:unit_name_thief_cherrystone",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_thief",
+                        "title": "S:unit_name_thief_cherrystone",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:thief"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/thief/floran/portrait_thief_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_thief_floran",
+                "name": "S:unit_name_thief_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_thief_floran_lore_text",
+                        "title": "S:unit_name_thief_floran",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_thief_critical_text",
+                        "title": "S:unit_name_thief_floran",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_thief",
+                        "title": "S:unit_name_thief_floran",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:thief"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/thief/felheim/portrait_thief_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_thief_felheim",
+                "name": "S:unit_name_thief_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_thief_felheim_lore_text",
+                        "title": "S:unit_name_thief_felheim",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_thief_critical_text",
+                        "title": "S:unit_name_thief_felheim",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_thief",
+                        "title": "S:unit_name_thief_felheim",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:thief"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/thief/heavensong/portrait_thief_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_thief_heavensong",
+                "name": "S:unit_name_thief_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_thief_heavensong_lore_text",
+                        "title": "S:unit_name_thief_heavensong",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_thief_critical_text",
+                        "title": "S:unit_name_thief_heavensong",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_thief",
+                        "title": "S:unit_name_thief_heavensong",
+                        "unitClass": "S:thief"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:thief"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:cherrystone",
+                "icon": {
+                    "colour": "S:red",
+                    "image": "S:units/rifleman/cherrystone/portrait_rifleman_cherrystone_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_rifleman_cherrystone",
+                "name": "S:unit_name_rifleman_cherrystone",
+                "pages": [
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_rifleman_cherrystone_lore_text",
+                        "title": "S:unit_name_rifleman_cherrystone",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_rifleman_critical_text",
+                        "title": "S:unit_name_rifleman_cherrystone",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "faction": "S:cherrystone",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_rifleman",
+                        "title": "S:unit_name_rifleman_cherrystone",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:rifleman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:floran",
+                "icon": {
+                    "colour": "S:green",
+                    "image": "S:units/rifleman/floran/portrait_rifleman_floran_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:green"
+                },
+                "id": "S:unit_rifleman_floran",
+                "name": "S:unit_name_rifleman_floran",
+                "pages": [
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_rifleman_floran_lore_text",
+                        "title": "S:unit_name_rifleman_floran",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_rifleman_critical_text",
+                        "title": "S:unit_name_rifleman_floran",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "faction": "S:floran",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_rifleman",
+                        "title": "S:unit_name_rifleman_floran",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:rifleman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:felheim",
+                "icon": {
+                    "colour": "S:blue",
+                    "image": "S:units/rifleman/felheim/portrait_rifleman_felheim_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_rifleman_felheim",
+                "name": "S:unit_name_rifleman_felheim",
+                "pages": [
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_rifleman_felheim_lore_text",
+                        "title": "S:unit_name_rifleman_felheim",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_rifleman_critical_text",
+                        "title": "S:unit_name_rifleman_felheim",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "faction": "S:felheim",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_rifleman",
+                        "title": "S:unit_name_rifleman_floran",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:rifleman"
+                    }
+                ]
+            },
+            {
+                "category": "S:units",
+                "faction": "S:heavensong",
+                "icon": {
+                    "colour": "S:yellow",
+                    "image": "S:units/rifleman/heavensong/portrait_rifleman_heavensong_small.png",
+                    "paletteSwap": "S:true",
+                    "skinColour": "S:typeIII"
+                },
+                "id": "S:unit_rifleman_heavensong",
+                "name": "S:unit_name_rifleman_heavensong",
+                "pages": [
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:description",
+                        "text": "S:codex_unit_rifleman_heavensong_lore_text",
+                        "title": "S:unit_name_rifleman_heavensong",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:strategy",
+                        "text": "S:codex_unit_rifleman_critical_text",
+                        "title": "S:unit_name_rifleman_heavensong",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "faction": "S:heavensong",
+                        "layoutType": "S:unit_sprite",
+                        "pageType": "S:stats",
+                        "text": "S:unit_description_rifleman",
+                        "title": "S:unit_name_rifleman_floran",
+                        "unitClass": "S:rifleman"
+                    },
+                    {
+                        "layoutType": "S:no_image",
+                        "pageType": "S:matrix",
+                        "title": "S:ui_codex_damage_matrix",
+                        "unitClass": "S:rifleman"
+                    }
+                ]
+            }
+        ]
+    }
+}

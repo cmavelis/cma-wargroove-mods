@@ -1,0 +1,177 @@
+{
+    "root": {
+        "weather": [
+            {
+                "iconSprite": "S:weather_icons_sunny",
+                "iconSpriteSheet": "S:ui",
+                "id": "S:sunny"
+            },
+            {
+                "ambience": "S:weather_windy",
+                "iconSprite": "S:weather_icons_windy",
+                "iconSpriteSheet": "S:ui",
+                "id": "S:windy",
+                "modifiers": [
+                    {
+                        "operation": "S:Multiply",
+                        "stat": "S:DamageMultiplier",
+                        "tags": [
+                            "S:type.air"
+                        ],
+                        "value": "S:1.2f"
+                    },
+                    {
+                        "operation": "S:Add",
+                        "stat": "S:MoveRange",
+                        "tags": [
+                            "S:type.sea"
+                        ],
+                        "value": "I:2"
+                    },
+                    {
+                        "operation": "S:Add",
+                        "stat": "S:RangedAttackMaxRange",
+                        "tags": [
+                            "S:type.ground.light",
+                            "S:type.ground.heavy"
+                        ],
+                        "value": "I:1"
+                    }
+                ]
+            },
+            {
+                "ambience": "S:weather_storm",
+                "iconSprite": "S:weather_icons_rain",
+                "iconSpriteSheet": "S:ui",
+                "id": "S:rain",
+                "modifiers": [
+                    {
+                        "operation": "S:Multiply",
+                        "stat": "S:DamageMultiplier",
+                        "tags": [
+                            "S:type.air"
+                        ],
+                        "value": "S:0.8f"
+                    },
+                    {
+                        "operation": "S:Subtract",
+                        "stat": "S:MoveRange",
+                        "tags": [
+                            "S:type.sea"
+                        ],
+                        "value": "I:2"
+                    },
+                    {
+                        "operation": "S:Subtract",
+                        "stat": "S:RangedAttackMaxRange",
+                        "tags": [
+                            "S:type.ground.light",
+                            "S:type.ground.heavy"
+                        ],
+                        "value": "I:1"
+                    }
+                ]
+            },
+            {
+                "ambience": "S:weather_sandstorm",
+                "iconSprite": "S:weather_icons_sandstorm",
+                "iconSpriteSheet": "S:ui",
+                "id": "S:sandstorm",
+                "modifiers": [
+                    {
+                        "operation": "S:Multiply",
+                        "stat": "S:DamageMultiplier",
+                        "tags": [
+                            "S:type.air"
+                        ],
+                        "value": "S:0.8f"
+                    },
+                    {
+                        "operation": "S:Subtract",
+                        "stat": "S:MoveRange",
+                        "tags": [
+                            "S:type.sea"
+                        ],
+                        "value": "I:2"
+                    },
+                    {
+                        "operation": "S:Subtract",
+                        "stat": "S:RangedAttackMaxRange",
+                        "tags": [
+                            "S:type.ground.light",
+                            "S:type.ground.heavy"
+                        ],
+                        "value": "I:1"
+                    }
+                ]
+            },
+            {
+                "ambience": "S:weather_blizzard",
+                "iconSprite": "S:weather_icons_snow",
+                "iconSpriteSheet": "S:ui",
+                "id": "S:snow",
+                "modifiers": [
+                    {
+                        "operation": "S:Multiply",
+                        "stat": "S:DamageMultiplier",
+                        "tags": [
+                            "S:type.air"
+                        ],
+                        "value": "S:0.8f"
+                    },
+                    {
+                        "operation": "S:Subtract",
+                        "stat": "S:MoveRange",
+                        "tags": [
+                            "S:type.sea"
+                        ],
+                        "value": "I:2"
+                    },
+                    {
+                        "operation": "S:Subtract",
+                        "stat": "S:RangedAttackMaxRange",
+                        "tags": [
+                            "S:type.ground.light",
+                            "S:type.ground.heavy"
+                        ],
+                        "value": "I:1"
+                    }
+                ]
+            },
+            {
+                "ambience": "S:volcano_ambience",
+                "hidden": "S:true",
+                "iconSprite": "S:weather_icons_ash",
+                "iconSpriteSheet": "S:ui",
+                "id": "S:ash",
+                "modifiers": [
+                    {
+                        "operation": "S:Multiply",
+                        "stat": "S:DamageMultiplier",
+                        "tags": [
+                            "S:type.air"
+                        ],
+                        "value": "S:0.8f"
+                    },
+                    {
+                        "operation": "S:Subtract",
+                        "stat": "S:MoveRange",
+                        "tags": [
+                            "S:type.sea"
+                        ],
+                        "value": "I:2"
+                    },
+                    {
+                        "operation": "S:Subtract",
+                        "stat": "S:RangedAttackMaxRange",
+                        "tags": [
+                            "S:type.ground.light",
+                            "S:type.ground.heavy"
+                        ],
+                        "value": "I:1"
+                    }
+                ]
+            }
+        ]
+    }
+}

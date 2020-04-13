@@ -1,0 +1,44 @@
+{
+    "root": {
+        "weather_frequencies": [
+            {
+                "id": "S:default",
+                "name": "S:frequency_name_default",
+                "weather": [
+                    {
+                        "frequency": "F:0.2",
+                        "type": "S:severe"
+                    },
+                    {
+                        "frequency": "F:0.2",
+                        "type": "S:windy"
+                    }
+                ]
+            },
+            {
+                "id": "S:always_sunny",
+                "name": "S:weather_frequency_name_always_sunny"
+            },
+            {
+                "id": "S:always_windy",
+                "name": "S:weather_frequency_name_always_windy",
+                "weather": [
+                    {
+                        "frequency": "F:1.0",
+                        "type": "S:windy"
+                    }
+                ]
+            },
+            {
+                "id": "S:always_severe",
+                "name": "S:weather_frequency_name_always_severe",
+                "weather": [
+                    {
+                        "frequency": "F:1.0",
+                        "type": "S:severe"
+                    }
+                ]
+            }
+        ]
+    }
+}

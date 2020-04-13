@@ -1,0 +1,1316 @@
+{
+    "root": {
+        "unlocks": [
+            {
+                "conditions": [
+                    {
+                        "param": "I:12",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_heavensong",
+                "message": "S:ui_unlock_unlocked_codex_heavensong",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:5",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_floran",
+                "message": "S:ui_unlock_unlocked_codex_floran",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:2",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_felheim",
+                "message": "S:ui_unlock_unlocked_codex_felheim",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:14",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_lostleagues",
+                "message": "S:ui_unlock_unlocked_codex_lostleagues",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:11",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_cacophony",
+                "message": "S:ui_unlock_unlocked_codex_cacophony",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:25",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_magictech",
+                "message": "S:ui_unlock_unlocked_codex",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:22",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_cherryblade",
+                "message": "S:ui_unlock_unlocked_codex_cherryblade",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:24",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_fellgauntlet",
+                "message": "S:ui_unlock_unlocked_codex_fellgauntlet",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:elodie",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_elodie_arcade",
+                "id": "S:codex_lore_requiem",
+                "message": "S:ui_unlock_unlocked_codex_requiem",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:10",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_vampires",
+                "message": "S:ui_unlock_unlocked_codex_vampires",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:27",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_outlaws",
+                "message": "S:ui_unlock_unlocked_codex_outlaws",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:0",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_aurenia",
+                "message": "S:ui_unlock_unlocked_codex_aurenia",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:9",
+                        "type": "S:dlc1_campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_lore_enid",
+                "message": "S:ui_unlock_unlocked_codex_enid",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:0",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_game_mode",
+                "id": "S:game_mode_arcade",
+                "message": "S:ui_unlock_unlocked_arcade",
+                "unlockType": "S:arcade"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:16",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_game_mode",
+                "id": "S:game_mode_puzzle",
+                "message": "S:ui_unlock_unlocked_puzzle",
+                "unlockType": "S:puzzle"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:26",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_entry_elodie",
+                "message": "S:ui_unlock_unlocked_codex_elodie",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:6",
+                        "type": "S:campaign_map_flag"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_entry_mercival",
+                "message": "S:ui_unlock_unlocked_codex_mercival",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:32",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_entries",
+                "id": "S:codex_entry_darkmercia",
+                "message": "S:ui_unlock_unlocked_codex_darkmercia",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:mercia",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_mercia_arcade",
+                "id": "S:codex_mercia_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_mercia_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:3",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_mercia_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_mercia_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:mercival",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_mercival_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_mercival_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:emeric",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_emeric_arcade",
+                "id": "S:codex_emeric_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_emeric_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:1",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_emeric_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_emeric_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:caesar",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_caesar_arcade",
+                "id": "S:codex_caesar_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:6",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_caesar_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_caesar_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:valder",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_valder_arcade",
+                "id": "S:codex_valder_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_valder_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:23",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_valder_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_valder_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:ragna",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_ragna_arcade",
+                "id": "S:codex_ragna_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_ragna_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:4",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_ragna_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_ragna_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:sigrid",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_sigrid_arcade",
+                "id": "S:codex_sigrid_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_sigrid_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:16",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_sigrid_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_sigrid_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:greenfinger",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_greenfinger_arcade",
+                "id": "S:codex_greenfinger_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_greenfinger_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:7",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_greenfinger_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_greenfinger_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:nuru",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_nuru_arcade",
+                "id": "S:codex_nuru_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_nuru_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:8",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_nuru_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_nuru_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:sedge",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_sedge_arcade",
+                "id": "S:codex_sedge_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_sedge_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:9",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_sedge_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_sedge_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:tenri",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_tenri_arcade",
+                "id": "S:codex_tenri_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_tenri_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:17",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_tenri_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_tenri_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:koji",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_koji_arcade",
+                "id": "S:codex_koji_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_koji_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:20",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_koji_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_koji_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:ryota",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_complete_ryota_arcade",
+                "id": "S:codex_ryota_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_ryota_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:15",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_ryota_extra_lore2",
+                "message": "S:ui_unlock_unlocked_codex_ryota_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:boot",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_boot",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_boot",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:piano_tuna",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_piano_tuna",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_piano_tuna",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:ginger_guppy",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_ginger_guppy",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_ginger_guppy",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:jerkfish",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_jerkfish",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_jerkfish",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:salty_bass",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_salty_bass",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_salty_bass",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:pinchmaster",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_pinchmaster",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_pinchmaster",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:fruitfrog",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_fruitfrog",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_fruitfrog",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:lemon_loach",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_lemon_loach",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_lemon_loach",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:storm_jelly",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_storm_jelly",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_storm_jelly",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:eclectic_eel",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_eclectic_eel",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_eclectic_eel",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:dreadfish",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_dreadfish",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_dreadfish",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:toy_koi",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_toy_koi",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_toy_koi",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:clockwork_fish",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_clockwork_fish",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_clockwork_fish",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:lime_sole",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_lime_sole",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_lime_sole",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:snuffish",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_snuffish",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_snuffish",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:red_flapper",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_red_flapper",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_red_flapper",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:chucklefish",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_chucklefish",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_chucklefish",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:starfish",
+                        "type": "S:fish_caught"
+                    }
+                ],
+                "description": "S:unlock_fish",
+                "id": "S:codex_entry_fish_starfish",
+                "message": "S:ui_unlock_unlocked_codex_entry_fish_starfish",
+                "secret": "S:true",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:0",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_mercia",
+                "message": "S:ui_unlock_unlocked_arcade_mercia",
+                "unlockType": "S:hidden"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:11",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_emeric",
+                "message": "S:ui_unlock_unlocked_arcade_emeric",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:6",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_caesar",
+                "message": "S:ui_unlock_unlocked_arcade_caesar",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:24",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_valder",
+                "message": "S:ui_unlock_unlocked_arcade_valder",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:13",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_ragna",
+                "message": "S:ui_unlock_unlocked_arcade_ragna",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:30",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_sigrid",
+                "message": "S:ui_unlock_unlocked_arcade_sigrid",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:9",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_greenfinger",
+                "message": "S:ui_unlock_unlocked_arcade_greenfinger",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:8",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_nuru",
+                "message": "S:ui_unlock_unlocked_arcade_nuru",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:18",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_sedge",
+                "message": "S:ui_unlock_unlocked_arcade_sedge",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:17",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_tenri",
+                "message": "S:ui_unlock_unlocked_arcade_tenri",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:28",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_ryota",
+                "message": "S:ui_unlock_unlocked_arcade_ryota",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:19",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_koji",
+                "message": "S:ui_unlock_unlocked_arcade_koji",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:26",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:character_elodie",
+                "message": "S:ui_unlock_unlocked_character_elodie",
+                "secret": "S:true",
+                "unlockType": "S:character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:32",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:character_darkmercia",
+                "message": "S:ui_unlock_unlocked_character_darkmercia",
+                "secret": "S:true",
+                "unlockType": "S:character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:6",
+                        "type": "S:campaign_map_flag"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:character_mercival",
+                "message": "S:ui_unlock_unlocked_character_mercival",
+                "secret": "S:true",
+                "unlockType": "S:character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:26",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_elodie",
+                "message": "S:ui_unlock_unlocked_arcade_elodie",
+                "secret": "S:true",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:32",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_darkmercia",
+                "message": "S:ui_unlock_unlocked_arcade_darkmercia",
+                "secret": "S:true",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:6",
+                        "type": "S:campaign_map_flag"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_mercival",
+                "message": "S:ui_unlock_unlocked_arcade_mercival",
+                "secret": "S:true",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:0",
+                        "type": "S:dlc1_campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_wulfar",
+                "message": "S:ui_unlock_unlocked_arcade_wulfar",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:0",
+                        "type": "S:dlc1_campaign_map_flag"
+                    },
+                    {
+                        "param": "I:1",
+                        "type": "S:dlc1_campaign_map_flag"
+                    },
+                    {
+                        "param": "I:2",
+                        "type": "S:dlc1_campaign_map_flag"
+                    },
+                    {
+                        "param": "I:3",
+                        "type": "S:dlc1_campaign_map_flag"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_twins",
+                "message": "S:ui_unlock_unlocked_arcade_twins",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:9",
+                        "type": "S:dlc1_campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_characters",
+                "id": "S:arcade_vesper",
+                "message": "S:ui_unlock_unlocked_arcade_vesper",
+                "unlockType": "S:arcade_character"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:0",
+                        "type": "S:dlc1_campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_wulfar_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_wulfar_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:0",
+                        "type": "S:dlc1_campaign_map_flag"
+                    },
+                    {
+                        "param": "I:1",
+                        "type": "S:dlc1_campaign_map_flag"
+                    },
+                    {
+                        "param": "I:2",
+                        "type": "S:dlc1_campaign_map_flag"
+                    },
+                    {
+                        "param": "I:3",
+                        "type": "S:dlc1_campaign_map_flag"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_twins_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_twins_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:9",
+                        "type": "S:dlc1_campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_pages",
+                "id": "S:codex_vesper_extra_lore",
+                "message": "S:ui_unlock_unlocked_codex_vesper_extra_lore",
+                "unlockType": "S:codex"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:26",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_artwork",
+                "id": "S:gallery_elodie",
+                "message": "S:ui_unlock_unlocked_gallery",
+                "unlockType": "S:gallery"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "I:32",
+                        "type": "S:campaign_map_complete"
+                    }
+                ],
+                "description": "S:unlock_play_campaign_for_artwork",
+                "id": "S:gallery_darkmercia",
+                "message": "S:ui_unlock_unlocked_gallery",
+                "unlockType": "S:gallery"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:mercia",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_mercia",
+                "message": "S:ui_unlock_unlocked_jukebox_mercia",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:emeric",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_emeric",
+                "message": "S:ui_unlock_unlocked_jukebox_emeric",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:caesar",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_caesar",
+                "message": "S:ui_unlock_unlocked_jukebox_caesar",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:valder",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_valder",
+                "message": "S:ui_unlock_unlocked_jukebox_valder",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:ragna",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_ragna",
+                "message": "S:ui_unlock_unlocked_jukebox_ragna",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:sigrid",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_sigrid",
+                "message": "S:ui_unlock_unlocked_jukebox_sigrid",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:greenfinger",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_greenfinger",
+                "message": "S:ui_unlock_unlocked_jukebox_greenfinger",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:nuru",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_nuru",
+                "message": "S:ui_unlock_unlocked_jukebox_nuru",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:sedge",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_sedge",
+                "message": "S:ui_unlock_unlocked_jukebox_sedge",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:tenri",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_tenri",
+                "message": "S:ui_unlock_unlocked_jukebox_tenri",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:ryota",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_ryota",
+                "message": "S:ui_unlock_unlocked_jukebox_ryota",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:koji",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_koji",
+                "message": "S:ui_unlock_unlocked_jukebox_koji",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:elodie",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_elodie",
+                "message": "S:ui_unlock_unlocked_jukebox_elodie",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:darkmercia",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_darkmercia",
+                "message": "S:ui_unlock_unlocked_jukebox_darkmercia",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:mercival",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_mercival",
+                "message": "S:ui_unlock_unlocked_jukebox_mercival",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:wulfar",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_wulfar",
+                "message": "S:ui_unlock_unlocked_jukebox_wulfar",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:twins",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_twins",
+                "message": "S:ui_unlock_unlocked_jukebox_twins",
+                "unlockType": "S:jukebox"
+            },
+            {
+                "conditions": [
+                    {
+                        "param": "S:vesper",
+                        "type": "S:arcade_complete"
+                    }
+                ],
+                "description": "S:unlock_play_arcade_for_track",
+                "id": "S:jukebox_vesper",
+                "message": "S:ui_unlock_unlocked_jukebox_vesper",
+                "unlockType": "S:jukebox"
+            }
+        ]
+    }
+}

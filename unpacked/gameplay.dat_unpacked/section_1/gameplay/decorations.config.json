@@ -1,0 +1,1095 @@
+{
+    "root": {
+        "decorations": [
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_down01",
+                    "grass": "S:decoration/water/waterfall_down01",
+                    "ice": "S:decoration/water/waterfall_down01",
+                    "volcano": "S:decoration/water/waterfall_down01_lava"
+                },
+                "id": "S:waterfall_down1",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_down02",
+                    "grass": "S:decoration/water/waterfall_down02",
+                    "ice": "S:decoration/water/waterfall_down02",
+                    "volcano": "S:decoration/water/waterfall_down02_lava"
+                },
+                "id": "S:waterfall_down2",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_down03",
+                    "grass": "S:decoration/water/waterfall_down03",
+                    "ice": "S:decoration/water/waterfall_down03",
+                    "volcano": "S:decoration/water/waterfall_down03_lava"
+                },
+                "id": "S:waterfall_down3",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_left01",
+                    "grass": "S:decoration/water/waterfall_left01",
+                    "ice": "S:decoration/water/waterfall_left01",
+                    "volcano": "S:decoration/water/waterfall_left01_lava"
+                },
+                "id": "S:waterfall_left1",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_left02",
+                    "grass": "S:decoration/water/waterfall_left02",
+                    "ice": "S:decoration/water/waterfall_left02",
+                    "volcano": "S:decoration/water/waterfall_left02_lava"
+                },
+                "id": "S:waterfall_left2",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_left03",
+                    "grass": "S:decoration/water/waterfall_left03",
+                    "ice": "S:decoration/water/waterfall_left03",
+                    "volcano": "S:decoration/water/waterfall_left03_lava"
+                },
+                "id": "S:waterfall_left3",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_right01",
+                    "grass": "S:decoration/water/waterfall_right01",
+                    "ice": "S:decoration/water/waterfall_right01",
+                    "volcano": "S:decoration/water/waterfall_right01_lava"
+                },
+                "id": "S:waterfall_right1",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_right02",
+                    "grass": "S:decoration/water/waterfall_right02",
+                    "ice": "S:decoration/water/waterfall_right02",
+                    "volcano": "S:decoration/water/waterfall_right02_lava"
+                },
+                "id": "S:waterfall_right2",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_right03",
+                    "grass": "S:decoration/water/waterfall_right03",
+                    "ice": "S:decoration/water/waterfall_right03",
+                    "volcano": "S:decoration/water/waterfall_right03_lava"
+                },
+                "id": "S:waterfall_right3",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_up01",
+                    "grass": "S:decoration/water/waterfall_up01",
+                    "ice": "S:decoration/water/waterfall_up01",
+                    "volcano": "S:decoration/water/waterfall_up01_lava"
+                },
+                "id": "S:waterfall_up1",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_up02",
+                    "grass": "S:decoration/water/waterfall_up02",
+                    "ice": "S:decoration/water/waterfall_up02",
+                    "volcano": "S:decoration/water/waterfall_up02_lava"
+                },
+                "id": "S:waterfall_up2",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterfall_up03",
+                    "grass": "S:decoration/water/waterfall_up03",
+                    "ice": "S:decoration/water/waterfall_up03",
+                    "volcano": "S:decoration/water/waterfall_up03_lava"
+                },
+                "id": "S:waterfall_up3",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/mountainriver01_desert",
+                    "grass": "S:decoration/water/mountainriver01_grass",
+                    "ice": "S:decoration/water/mountainriver01_ice",
+                    "volcano": "S:decoration/water/mountainriver01_volcano"
+                },
+                "id": "S:mountain_river01",
+                "layer": "S:ground",
+                "snapOffset": [
+                    "I:-5",
+                    "I:10"
+                ],
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/water/waterfall_down02_lava"
+                },
+                "hidden": "S:true",
+                "id": "S:waterfall_down2_lava",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/water/waterfall_down03_lava"
+                },
+                "hidden": "S:true",
+                "id": "S:waterfall_down3_lava",
+                "layer": "S:above_water",
+                "snapToGrid": "S:true"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/breeze_desert",
+                    "grass": "S:decoration/ground/breeze_grass",
+                    "ice": "S:decoration/ground/breeze_ice",
+                    "volcano": "S:decoration/ground/breeze_volcano"
+                },
+                "id": "S:breeze",
+                "layer": "S:base"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/rock0_desert",
+                    "grass": "S:decoration/ground/rock0_grass",
+                    "ice": "S:decoration/ground/rock0_ice",
+                    "volcano": "S:decoration/ground/rock0_volcano"
+                },
+                "id": "S:rock0",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/rock1_desert",
+                    "grass": "S:decoration/ground/rock1_grass",
+                    "ice": "S:decoration/ground/rock1_ice",
+                    "volcano": "S:decoration/ground/rock1_volcano"
+                },
+                "id": "S:rock1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/rock2_desert",
+                    "grass": "S:decoration/ground/rock2_grass",
+                    "ice": "S:decoration/ground/rock2_ice",
+                    "volcano": "S:decoration/ground/rock2_volcano"
+                },
+                "id": "S:rock2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/flowers1_desert",
+                    "grass": "S:decoration/ground/flowers1_grass",
+                    "ice": "S:decoration/ground/flowers1_ice",
+                    "volcano": "S:decoration/ground/flowers1_volcano"
+                },
+                "id": "S:flowers1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/flowers2_desert",
+                    "grass": "S:decoration/ground/flowers2_grass",
+                    "ice": "S:decoration/ground/flowers2_ice",
+                    "volcano": "S:decoration/ground/flowers2_volcano"
+                },
+                "id": "S:flowers2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/log1_desert",
+                    "grass": "S:decoration/ground/log1_grass",
+                    "ice": "S:decoration/ground/log1_ice",
+                    "volcano": "S:decoration/ground/log1_volcano"
+                },
+                "id": "S:log1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/log2_desert",
+                    "grass": "S:decoration/ground/log2_grass",
+                    "ice": "S:decoration/ground/log2_ice",
+                    "volcano": "S:decoration/ground/log2_volcano"
+                },
+                "id": "S:log2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/stump1_desert",
+                    "grass": "S:decoration/ground/stump1_grass",
+                    "ice": "S:decoration/ground/stump1_ice",
+                    "volcano": "S:decoration/ground/stump1_desert"
+                },
+                "id": "S:stump1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/monolith1_desert",
+                    "grass": "S:decoration/unit/monolith1_grass",
+                    "ice": "S:decoration/unit/monolith1_ice",
+                    "volcano": "S:decoration/unit/monolith1_volcano"
+                },
+                "id": "S:monolith1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/ground/volcano_pillar_1"
+                },
+                "hidden": "S:true",
+                "id": "S:volcano_pillar_1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/ground/volcano_pillar_2"
+                },
+                "hidden": "S:true",
+                "id": "S:volcano_pillar_2",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/flag_red"
+                },
+                "id": "S:flag_red",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/flag_blue"
+                },
+                "id": "S:flag_blue",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/flag_yellow"
+                },
+                "id": "S:flag_yellow",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/flag_green"
+                },
+                "id": "S:flag_green",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/flag_purple"
+                },
+                "id": "S:flag_purple",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/ground/volcano"
+                },
+                "hidden": "S:true",
+                "id": "S:volcano",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/battlestandard_red"
+                },
+                "id": "S:battlestandard_red",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/battlestandard_blue"
+                },
+                "id": "S:battlestandard_blue",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/battlestandard_yellow"
+                },
+                "id": "S:battlestandard_yellow",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/battlestandard_green"
+                },
+                "id": "S:battlestandard_green",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/unit/battlestandard_purple"
+                },
+                "id": "S:battlestandard_purple",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/ruin1_desert",
+                    "grass": "S:decoration/unit/ruin1_grass",
+                    "ice": "S:decoration/unit/ruin1_ice",
+                    "volcano": "S:decoration/unit/ruin1_volcano"
+                },
+                "id": "S:ruin1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/ruin2_desert",
+                    "grass": "S:decoration/unit/ruin2_grass",
+                    "ice": "S:decoration/unit/ruin2_ice",
+                    "volcano": "S:decoration/unit/ruin2_volcano"
+                },
+                "id": "S:ruin2",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/ruin3_desert",
+                    "grass": "S:decoration/unit/ruin3_grass",
+                    "ice": "S:decoration/unit/ruin3_ice",
+                    "volcano": "S:decoration/unit/ruin3_volcano"
+                },
+                "id": "S:ruin3",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/ruin4_desert",
+                    "grass": "S:decoration/unit/ruin4_grass",
+                    "ice": "S:decoration/unit/ruin4_ice",
+                    "volcano": "S:decoration/unit/ruin4_volcano"
+                },
+                "id": "S:ruin4",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/ruin5_desert",
+                    "grass": "S:decoration/unit/ruin5_grass",
+                    "ice": "S:decoration/unit/ruin5_ice",
+                    "volcano": "S:decoration/unit/ruin5_volcano"
+                },
+                "id": "S:ruin5",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/ruin6_desert",
+                    "grass": "S:decoration/unit/ruin6_grass",
+                    "ice": "S:decoration/unit/ruin6_ice",
+                    "volcano": "S:decoration/unit/ruin6_volcano"
+                },
+                "id": "S:ruin6",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/ruin7_desert",
+                    "grass": "S:decoration/ground/ruin7_grass",
+                    "ice": "S:decoration/ground/ruin7_ice",
+                    "volcano": "S:decoration/ground/ruin7_volcano"
+                },
+                "id": "S:ruin7",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/ruinground_desert",
+                    "grass": "S:decoration/ground/ruinground_grass",
+                    "ice": "S:decoration/ground/ruinground_ice",
+                    "volcano": "S:decoration/ground/ruinground_volcano"
+                },
+                "id": "S:ruinground",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/orb_statue",
+                    "grass": "S:decoration/unit/orb_statue",
+                    "ice": "S:decoration/unit/orb_statue",
+                    "volcano": "S:decoration/unit/orb_statue"
+                },
+                "id": "S:orbstatue",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/princess_statue_desert",
+                    "grass": "S:decoration/unit/princess_statue_grass",
+                    "ice": "S:decoration/unit/princess_statue_ice",
+                    "volcano": "S:decoration/unit/princess_statue_volcano"
+                },
+                "id": "S:princessstatue",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/sign1_desert",
+                    "grass": "S:decoration/unit/sign1_grass",
+                    "ice": "S:decoration/unit/sign1_ice",
+                    "volcano": "S:decoration/unit/sign1_desert"
+                },
+                "id": "S:sign1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/sign2_desert",
+                    "grass": "S:decoration/unit/sign2_grass",
+                    "ice": "S:decoration/unit/sign2_ice",
+                    "volcano": "S:decoration/unit/sign2_desert"
+                },
+                "id": "S:sign2",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/gravestone1_desert",
+                    "grass": "S:decoration/unit/gravestone1_grass",
+                    "ice": "S:decoration/unit/gravestone1_ice",
+                    "volcano": "S:decoration/unit/gravestone1_volcano"
+                },
+                "id": "S:gravestone1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/well_desert",
+                    "grass": "S:decoration/unit/well_grass",
+                    "ice": "S:decoration/unit/well_ice",
+                    "volcano": "S:decoration/unit/well_desert"
+                },
+                "id": "S:well",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/campfire",
+                    "grass": "S:decoration/unit/campfire",
+                    "ice": "S:decoration/unit/campfire",
+                    "volcano": "S:decoration/unit/campfire"
+                },
+                "id": "S:campfire",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/chest1_desert",
+                    "grass": "S:decoration/unit/chest1_grass",
+                    "ice": "S:decoration/unit/chest1_ice",
+                    "volcano": "S:decoration/unit/chest1_volcano"
+                },
+                "id": "S:chest1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/scarecrow1_desert",
+                    "grass": "S:decoration/unit/scarecrow1_grass",
+                    "ice": "S:decoration/unit/scarecrow1_ice",
+                    "volcano": "S:decoration/unit/scarecrow1_volcano"
+                },
+                "id": "S:scarecrow1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/pillar1_desert",
+                    "grass": "S:decoration/unit/pillar1_grass",
+                    "ice": "S:decoration/unit/pillar1_ice",
+                    "volcano": "S:decoration/unit/pillar1_volcano"
+                },
+                "id": "S:pillar1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/pillar2_desert",
+                    "grass": "S:decoration/unit/pillar2_grass",
+                    "ice": "S:decoration/unit/pillar2_ice",
+                    "volcano": "S:decoration/unit/pillar2_volcano"
+                },
+                "id": "S:pillar2",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/barrel1_desert",
+                    "grass": "S:decoration/unit/barrel1_grass",
+                    "ice": "S:decoration/unit/barrel1_ice",
+                    "volcano": "S:decoration/unit/barrel1_volcano"
+                },
+                "id": "S:barrel1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/crate1_desert",
+                    "grass": "S:decoration/unit/crate1_grass",
+                    "ice": "S:decoration/unit/crate1_ice",
+                    "volcano": "S:decoration/unit/crate1_volcano"
+                },
+                "id": "S:crate1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/hay_desert",
+                    "grass": "S:decoration/unit/hay_grass",
+                    "ice": "S:decoration/unit/hay_ice",
+                    "volcano": "S:decoration/unit/hay_volcano"
+                },
+                "id": "S:hay",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/vase1_interior",
+                    "grass": "S:decoration/unit/vase1_interior",
+                    "ice": "S:decoration/unit/vase1_interior",
+                    "volcano": "S:decoration/unit/vase1_interior"
+                },
+                "id": "S:vase1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/displaycase1_interior",
+                    "grass": "S:decoration/unit/displaycase1_interior",
+                    "ice": "S:decoration/unit/displaycase1_interior",
+                    "volcano": "S:decoration/unit/displaycase1_interior"
+                },
+                "id": "S:displaycase1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/goldthrone1_interior",
+                    "grass": "S:decoration/unit/goldthrone1_interior",
+                    "ice": "S:decoration/unit/goldthrone1_interior",
+                    "volcano": "S:decoration/unit/goldthrone1_interior"
+                },
+                "id": "S:goldthrone1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/knightstand1_interior",
+                    "grass": "S:decoration/unit/knightstand1_interior",
+                    "ice": "S:decoration/unit/knightstand1_interior",
+                    "volcano": "S:decoration/unit/knightstand1_interior"
+                },
+                "id": "S:knightstand1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/vase2_interior",
+                    "grass": "S:decoration/unit/vase2_interior",
+                    "ice": "S:decoration/unit/vase2_interior",
+                    "volcano": "S:decoration/unit/vase2_interior"
+                },
+                "id": "S:vase2",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/bust1_interior",
+                    "grass": "S:decoration/unit/bust1_interior",
+                    "ice": "S:decoration/unit/bust1_interior",
+                    "volcano": "S:decoration/unit/bust1_interior"
+                },
+                "id": "S:bust1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/bust2_interior",
+                    "grass": "S:decoration/unit/bust2_interior",
+                    "ice": "S:decoration/unit/bust2_interior",
+                    "volcano": "S:decoration/unit/bust2_interior"
+                },
+                "id": "S:bust2",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/candleholder1_interior",
+                    "grass": "S:decoration/unit/candleholder1_interior",
+                    "ice": "S:decoration/unit/candleholder1_interior",
+                    "volcano": "S:decoration/unit/candleholder1_interior"
+                },
+                "id": "S:candleholder1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/plantpot1_interior",
+                    "grass": "S:decoration/unit/plantpot1_interior",
+                    "ice": "S:decoration/unit/plantpot1_interior",
+                    "volcano": "S:decoration/unit/plantpot1_interior"
+                },
+                "id": "S:plantpot1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/plantpot2_interior",
+                    "grass": "S:decoration/unit/plantpot2_interior",
+                    "ice": "S:decoration/unit/plantpot2_interior",
+                    "volcano": "S:decoration/unit/plantpot2_interior"
+                },
+                "id": "S:plantpot2",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/plantpot3_interior",
+                    "grass": "S:decoration/unit/plantpot3_interior",
+                    "ice": "S:decoration/unit/plantpot3_interior",
+                    "volcano": "S:decoration/unit/plantpot3_interior"
+                },
+                "id": "S:plantpot3",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/walltorch1_interior",
+                    "grass": "S:decoration/unit/walltorch1_interior",
+                    "ice": "S:decoration/unit/walltorch1_interior",
+                    "volcano": "S:decoration/unit/walltorch1_interior"
+                },
+                "id": "S:walltorch1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/cherrythrone_interior",
+                    "grass": "S:decoration/unit/cherrythrone_interior",
+                    "ice": "S:decoration/unit/cherrythrone_interior",
+                    "volcano": "S:decoration/unit/cherrythrone_interior"
+                },
+                "id": "S:cherrythrone",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/bookshelf_interior1",
+                    "grass": "S:decoration/unit/bookshelf_interior1",
+                    "ice": "S:decoration/unit/bookshelf_interior1",
+                    "volcano": "S:decoration/unit/bookshelf_interior1"
+                },
+                "id": "S:bookshelf1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/bookshelf_interior2",
+                    "grass": "S:decoration/unit/bookshelf_interior2",
+                    "ice": "S:decoration/unit/bookshelf_interior2",
+                    "volcano": "S:decoration/unit/bookshelf_interior2"
+                },
+                "id": "S:bookshelf2",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/bookshelf_interior3",
+                    "grass": "S:decoration/unit/bookshelf_interior3",
+                    "ice": "S:decoration/unit/bookshelf_interior3",
+                    "volcano": "S:decoration/unit/bookshelf_interior3"
+                },
+                "id": "S:bookshelf3",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/deskstudy_interior1",
+                    "grass": "S:decoration/unit/deskstudy_interior1",
+                    "ice": "S:decoration/unit/deskstudy_interior1",
+                    "volcano": "S:decoration/unit/deskstudy_interior1"
+                },
+                "id": "S:deskstudy1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/unit/weaponrack1_interior",
+                    "grass": "S:decoration/unit/weaponrack1_interior",
+                    "ice": "S:decoration/unit/weaponrack1_interior",
+                    "volcano": "S:decoration/unit/weaponrack1_interior"
+                },
+                "id": "S:weaponrack1",
+                "layer": "S:units"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/bearrug1_interior",
+                    "grass": "S:decoration/ground/bearrug1_interior",
+                    "ice": "S:decoration/ground/bearrug1_interior",
+                    "volcano": "S:decoration/ground/bearrug1_interior"
+                },
+                "id": "S:bearrug1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/bench1_interior",
+                    "grass": "S:decoration/ground/bench1_interior",
+                    "ice": "S:decoration/ground/bench1_interior",
+                    "volcano": "S:decoration/ground/bench1_interior"
+                },
+                "id": "S:bench1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/crack1_desert_interior",
+                    "grass": "S:decoration/ground/crack1_interior",
+                    "ice": "S:decoration/ground/crack1_ice_interior",
+                    "volcano": "S:decoration/ground/crack1_volcano_interior"
+                },
+                "id": "S:crack1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/crack2_desert_interior",
+                    "grass": "S:decoration/ground/crack2_interior",
+                    "ice": "S:decoration/ground/crack2_ice_interior",
+                    "volcano": "S:decoration/ground/crack2_volcano_interior"
+                },
+                "id": "S:crack2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/crack3_desert_interior",
+                    "grass": "S:decoration/ground/crack3_interior",
+                    "ice": "S:decoration/ground/crack3_ice_interior",
+                    "volcano": "S:decoration/ground/crack3_volcano_interior"
+                },
+                "id": "S:crack3",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/crack4_desert_interior",
+                    "grass": "S:decoration/ground/crack4_interior",
+                    "ice": "S:decoration/ground/crack4_ice_interior",
+                    "volcano": "S:decoration/ground/crack4_volcano_interior"
+                },
+                "id": "S:crack4",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/rubble1_desert_interior",
+                    "grass": "S:decoration/ground/rubble1_interior",
+                    "ice": "S:decoration/ground/rubble1_ice_interior",
+                    "volcano": "S:decoration/ground/rubble1_volcano_interior"
+                },
+                "id": "S:rubble1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/rubble2_desert_interior",
+                    "grass": "S:decoration/ground/rubble2_interior",
+                    "ice": "S:decoration/ground/rubble2_ice_interior",
+                    "volcano": "S:decoration/ground/rubble2_volcano_interior"
+                },
+                "id": "S:rubble2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/rubble3_desert_interior",
+                    "grass": "S:decoration/ground/rubble3_interior",
+                    "ice": "S:decoration/ground/rubble3_ice_interior",
+                    "volcano": "S:decoration/ground/rubble3_volcano_interior"
+                },
+                "id": "S:rubble3",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/rubble4_desert_interior",
+                    "grass": "S:decoration/ground/rubble4_interior",
+                    "ice": "S:decoration/ground/rubble4_ice_interior",
+                    "volcano": "S:decoration/ground/rubble4_volcano_interior"
+                },
+                "id": "S:rubble4",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/prisondrain1_interior",
+                    "grass": "S:decoration/ground/prisondrain1_interior",
+                    "ice": "S:decoration/ground/prisondrain1_interior",
+                    "volcano": "S:decoration/ground/prisondrain1_interior"
+                },
+                "id": "S:prisondrain",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/ballchain1_interior",
+                    "grass": "S:decoration/ground/ballchain1_interior",
+                    "ice": "S:decoration/ground/ballchain1_interior",
+                    "volcano": "S:decoration/ground/ballchain1_interior"
+                },
+                "id": "S:ballchain1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/chain1_interior",
+                    "grass": "S:decoration/ground/chain1_interior",
+                    "ice": "S:decoration/ground/chain1_interior",
+                    "volcano": "S:decoration/ground/chain1_interior"
+                },
+                "id": "S:chain1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/chain2_interior",
+                    "grass": "S:decoration/ground/chain2_interior",
+                    "ice": "S:decoration/ground/chain2_interior",
+                    "volcano": "S:decoration/ground/chain2_interior"
+                },
+                "id": "S:chain2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/bones1",
+                    "grass": "S:decoration/ground/bones1",
+                    "ice": "S:decoration/ground/bones1",
+                    "volcano": "S:decoration/ground/bones1"
+                },
+                "id": "S:bones1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/bones2",
+                    "grass": "S:decoration/ground/bones2",
+                    "ice": "S:decoration/ground/bones2",
+                    "volcano": "S:decoration/ground/bones2"
+                },
+                "id": "S:bones2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/ground/bones3",
+                    "grass": "S:decoration/ground/bones3",
+                    "ice": "S:decoration/ground/bones3",
+                    "volcano": "S:decoration/ground/bones3"
+                },
+                "id": "S:bones3",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/reeds1",
+                    "grass": "S:decoration/water/reeds1",
+                    "ice": "S:decoration/water/reeds1",
+                    "volcano": "S:decoration/water/lavarock4"
+                },
+                "id": "S:reeds1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/shark1",
+                    "grass": "S:decoration/water/shark1",
+                    "ice": "S:decoration/water/shark1",
+                    "volcano": "S:decoration/water/lavabubble"
+                },
+                "id": "S:shark1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterrock1",
+                    "grass": "S:decoration/water/waterrock1",
+                    "ice": "S:decoration/water/waterrock1",
+                    "volcano": "S:decoration/water/waterrock1_lava"
+                },
+                "id": "S:waterrock1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterrock2",
+                    "grass": "S:decoration/water/waterrock2",
+                    "ice": "S:decoration/water/waterrock2",
+                    "volcano": "S:decoration/water/waterrock2_lava"
+                },
+                "id": "S:waterrock2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterrock3",
+                    "grass": "S:decoration/water/waterrock3",
+                    "ice": "S:decoration/water/waterrock3",
+                    "volcano": "S:decoration/water/waterrock3_lava"
+                },
+                "id": "S:waterrock3",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/shipwreck1",
+                    "grass": "S:decoration/water/shipwreck1",
+                    "ice": "S:decoration/water/shipwreck1",
+                    "volcano": "S:decoration/water/lavarock1"
+                },
+                "id": "S:shipwreck1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/driftwood1",
+                    "grass": "S:decoration/water/driftwood1",
+                    "ice": "S:decoration/water/driftwood1",
+                    "volcano": "S:decoration/water/lavarock2"
+                },
+                "id": "S:driftwood1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterruin1_grass",
+                    "grass": "S:decoration/water/waterruin1_grass",
+                    "ice": "S:decoration/water/waterruin1_ice",
+                    "volcano": "S:decoration/water/waterruin1_lava"
+                },
+                "id": "S:waterruin1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterruin2_grass",
+                    "grass": "S:decoration/water/waterruin2_grass",
+                    "ice": "S:decoration/water/waterruin2_ice",
+                    "volcano": "S:decoration/water/waterruin2_lava"
+                },
+                "id": "S:waterruin2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterruin3_grass",
+                    "grass": "S:decoration/water/waterruin3_grass",
+                    "ice": "S:decoration/water/waterruin3_ice",
+                    "volcano": "S:decoration/water/waterruin3_lava"
+                },
+                "id": "S:waterruin3",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterruin4_grass",
+                    "grass": "S:decoration/water/waterruin4_grass",
+                    "ice": "S:decoration/water/waterruin4_ice",
+                    "volcano": "S:decoration/water/waterruin4_lava"
+                },
+                "id": "S:waterruin4",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "desert": "S:decoration/water/waterruin5_grass",
+                    "grass": "S:decoration/water/waterruin5_grass",
+                    "ice": "S:decoration/water/waterruin5_ice",
+                    "volcano": "S:decoration/water/waterruin5_lava"
+                },
+                "id": "S:waterruin5",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/water/lavarock1"
+                },
+                "hidden": "S:true",
+                "id": "S:lavarock1",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/water/lavarock2"
+                },
+                "hidden": "S:true",
+                "id": "S:lavarock2",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/water/lavarock3"
+                },
+                "hidden": "S:true",
+                "id": "S:lavarock3",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/water/lavarock4"
+                },
+                "hidden": "S:true",
+                "id": "S:lavarock4",
+                "layer": "S:ground"
+            },
+            {
+                "animation": {
+                    "undefined": "S:decoration/water/lavabubble"
+                },
+                "hidden": "S:true",
+                "id": "S:lavabubble",
+                "layer": "S:ground"
+            }
+        ]
+    }
+}
