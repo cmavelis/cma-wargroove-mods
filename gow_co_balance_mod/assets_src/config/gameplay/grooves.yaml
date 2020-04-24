@@ -1,0 +1,16 @@
+---
+
+grooves:
+  - id: drain_aura
+    name: groove_name_drain_aura
+    description: groove_description_drain_aura
+    maxCharge: 150
+    chargePerUse: 150
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_drain_aura                    #   The verb associated with the groove. This should match the id of the verb in verbs.yaml.
+
+...

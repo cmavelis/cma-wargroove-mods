@@ -1,0 +1,9 @@
+---
+
+id: GoWBalanceMod                   # The mod's id. This should not change over the lifetime of the mod.
+name: "GoW balance mod"               # The mod's name. This is looked up in the language string yaml configuration.
+author: "CMAvelis"
+description: "GoW community's balance for post-2.0 competitive play" # The mod's description. This is looked up in the language string yaml configuration.
+
+
+...
