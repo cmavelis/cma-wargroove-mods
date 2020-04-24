@@ -8,3 +8,4 @@ original_assets/
 .vscode
 *.iml
 wargroove-mod-packer.exe
+packmod.sh

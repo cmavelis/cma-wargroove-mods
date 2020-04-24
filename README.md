@@ -3,11 +3,21 @@
 A collection of Wargroove mods I've been working on
 
 Mods contained:
-- Balance mod
+- GoW Community balance mod
+- CMA balance mod
 - Logging mod
 - Groove Testmod
 
-## Balance Mod
+## GoW Community balance mod
+
+Community-sourced balance for competitive play after 2.0
+
+Changes:
+- DM charge speed: slow -> medium
+- Caesar charge speed: medium -> slow
+
+
+## CMA Balance Mod
 
 This mod adjusts balance from 2.0
 

@@ -13,4 +13,15 @@ grooves:
       kill: 30
     verb: groove_drain_aura                    #   The verb associated with the groove. This should match the id of the verb in verbs.yaml.
 
+  - id: second_wind
+    name: groove_name_second_wind
+    description: groove_description_second_wind
+    maxCharge: 200
+    chargePerUse: 200
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_second_wind  
 ...
