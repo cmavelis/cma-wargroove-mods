@@ -24,4 +24,16 @@ grooves:
       counter: 10
       kill: 30
     verb: groove_second_wind  
+
+    - id: convert   #elodie
+    name: groove_name_convert
+    description: groove_description_convert
+    maxCharge: 150
+    chargePerUse: 150
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_convert
 ...
