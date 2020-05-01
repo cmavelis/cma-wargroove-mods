@@ -13,7 +13,9 @@ Mods contained:
 Community-sourced balance for competitive play after 2.0
 
 Changes:
-- DM charge speed: slow -> medium
+- DM
+  - charge speed: slow -> medium
+  - damage: 30 -> 25
 - Caesar charge speed: medium -> slow
 
 
