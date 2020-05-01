@@ -1,7 +1,12 @@
 local Wargroove = require "wargroove/wargroove"
 local GrooveVerb = require "wargroove/groove_verb"
+local OldDrain = require "verbs/groove_drain_aura"
 
 local Drain = GrooveVerb:new()
+
+function Drain:init()
+    OldDrain.execute = Drain.execute
+end
 
 function Drain:getMaximumRange(unit, endPos)
     return 0
