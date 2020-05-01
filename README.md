@@ -10,14 +10,26 @@ Mods contained:
 
 ## GoW Community balance mod
 
-Community-sourced balance for competitive play after 2.0
+Groove of War community's balance for competitive play after 2.0
 
-Changes:
-- DM
+### Changes:
+#### Commanders:
+- Caesar 
+  - charge speed: medium -> slow
+- Dark Mercia
   - charge speed: slow -> medium
   - damage: 30 -> 25
-- Caesar charge speed: medium -> slow
+- Elodie 
+  - charge speed: slow -> medium
+- Emeric
+- Errol & Orla
+- Mercival
+- Nuru
+- Ryota
+- Sigrid
 
+#### Units:
+- Trebuchet
 
 ## CMA Balance Mod
 
