@@ -15,17 +15,18 @@ Groove of War community's balance for competitive play after 2.0
 ### Changes:
 #### Commanders:
 - Caesar 
-  - charge speed: medium -> slow
+    - charge speed: medium -> slow
 - Dark Mercia
-  - charge speed: slow -> medium
-  - damage: 30 -> 25
+    - charge speed: slow -> medium
+    - damage: 30 -> 25
 - Elodie 
-  - charge speed: slow -> medium
+    - charge speed: slow -> medium
 - Emeric
 - Errol & Orla
 - Mercival
 - Nuru
 - Ryota
+    - groove damage ramp per jump: +5% -> -5%
 - Sigrid
 
 #### Units:

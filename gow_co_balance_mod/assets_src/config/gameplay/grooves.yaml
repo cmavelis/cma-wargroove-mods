@@ -25,7 +25,7 @@ grooves:
       kill: 30
     verb: groove_second_wind  
 
-    - id: convert   #elodie
+  - id: convert   #elodie
     name: groove_name_convert
     description: groove_description_convert
     maxCharge: 150
