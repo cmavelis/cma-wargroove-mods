@@ -31,6 +31,8 @@ Groove of War community's balance for competitive play after 2.0
 
 #### Units:
 - Trebuchet
+    - min range: 2 -> 4
+    - structure base damage: 0.85 -> 0.7
 
 ## CMA Balance Mod
 
