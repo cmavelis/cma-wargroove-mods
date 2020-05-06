@@ -33,6 +33,17 @@ Groove of War community's balance for competitive play after 2.0
 - Trebuchet
     - min range: 2 -> 4
     - structure base damage: 0.85 -> 0.7
+- Mage
+    - damage edits
+        - harpy 1.4 -> 1.3
+        - witch 1.3 -> 1.2
+- Barge
+- Turtle
+- Harpoon Ship
+- Warship
+
+
+
 
 ## CMA Balance Mod
 
