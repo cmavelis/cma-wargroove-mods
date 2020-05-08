@@ -2,16 +2,62 @@ local Wargroove = require "wargroove/wargroove"
 local GrooveVerb = require "wargroove/groove_verb"
 local OldVampiricTouch = require "verbs/groove_vampiric_touch"
 
+local inspect = require "inspect"
+
 local VampiricTouch = GrooveVerb:new()
 
 VampiricTouch.isInPreExecute = false
 
+local function dump(o)
+    if type(o) == 'table' then
+       local s = '{ '
+       for k,v in pairs(o) do
+          if type(k) ~= 'number' then k = '"'..k..'"' end
+          s = s .. '['..k..'] = ' .. dump(v) .. ','
+       end
+       return s .. '} \n'
+    else
+       return tostring(o)
+    end
+ end
+
+local unpack = table.unpack or unpack
+
+-- local function unpack (t, i)
+--     i = i or 1
+--     if t[i] ~= nil then
+--       return t[i], unpack(t, i + 1)
+--     end
+-- end
+
+local function get_key_for_value( t, value )
+    for k,v in pairs(t) do
+      if v==value then return k end
+    end
+    return nil
+  end
+
+local function debugWrap(fcn)
+    print('wrapper applied')
+    return function (...)
+        local arg = {...}
+        arg.n = select("#", ...)
+        print('function name:', get_key_for_value(VampiricTouch, fcn))
+        print('argdump')
+        -- print(inspect(arg))
+        return fcn(unpack(arg, 1))  
+    end
+end
+
+-- local funcNames = {}
+
 function VampiricTouch:init()
-    OldVampiricTouch.canExecuteWithTarget = VampiricTouch.canExecuteWithTarget
-    OldVampiricTouch.execute = VampiricTouch.execute
-    OldVampiricTouch.getMaximumRange = VampiricTouch.getMaximumRange
-    OldVampiricTouch.getTargetType = VampiricTouch.getTargetType
-    OldVampiricTouch.onPostUpdateUnit = VampiricTouch.onPostUpdateUnit
+    for k,v in pairs(VampiricTouch) do
+        if (k ~= 'debugWrap') and (type(v) == 'function') then
+            print(k)
+            OldVampiricTouch[k] = debugWrap(v)
+        end
+    end
 end
 
 function VampiricTouch:getMaximumRange(unit, endPos)
@@ -94,7 +140,7 @@ end
 function VampiricTouch:execute(unit, targetPos, strParam, path)
     Wargroove.setIsUsingGroove(unit.id, true)
     Wargroove.updateUnit(unit)
-    print('ongroove',unit.pos.x)
+    print('ongroove',unit.pos.x,unit.pos.y)
 
 
     Wargroove.playPositionlessSound("battleStart")
@@ -126,13 +172,13 @@ function VampiricTouch:execute(unit, targetPos, strParam, path)
         coroutine.yield()
     end
     
-    print('after move',unit.pos.x)
+    print('after move',unit.pos.x,unit.pos.y)
 
     unit.pos = { x = targetPos.x, y = targetPos.y }
-    print('beforeupdate',unit.pos.x)
+    print('beforeupdate',unit.pos.x,unit.pos.y)
 
     Wargroove.updateUnit(unit)
-    print('afterupdate',unit.pos.x)
+    print('afterupdate',unit.pos.x,unit.pos.y)
     
     -- local u = Wargroove.getUnitAt(targetPos)
     -- if u.health then
