@@ -28,12 +28,25 @@ local function dump(o)
 
 local unpack = table.unpack or unpack
 
--- local function unpack (t, i)
---     i = i or 1
---     if t[i] ~= nil then
---       return t[i], unpack(t, i + 1)
---     end
--- end
+function VampiricTouch:parseTargets(strParam)
+    local targetStrs={}
+    local i = 1
+    for targetStr in string.gmatch(strParam, "([^"..";".."]+)") do
+        targetStrs[i] = targetStr
+        i = i + 1
+    end
+
+    local targetUnitId = tonumber(targetStrs[1])
+
+    local targetPosStr = targetStrs[2]
+    local vals = {}
+    for val in targetPosStr.gmatch(targetPosStr, "([^"..",".."]+)") do
+        vals[#vals+1] = val
+    end
+    targetPosition = { x = tonumber(vals[1]), y = tonumber(vals[2])}
+
+    return targetUnitId, targetPosition
+end
 
 local function get_key_for_value( t, value )
     for k,v in pairs(t) do
@@ -201,6 +214,8 @@ function VampiricTouch:execute(unit, targetPos, strParam, path)
     Wargroove.updateUnit(unit)
     print('ongroove',unit.pos.x,unit.pos.y)
     print('strParam', strParam)
+    local targetUnitId, groovedUnitPosition = VampiricTouch:parseTargets(strParam)
+    print('strParam parsed:', targetUnitId, groovedUnitPosition)
 
     Wargroove.playPositionlessSound("battleStart")
     Wargroove.playGrooveCutscene(unit.id)
@@ -239,7 +254,7 @@ function VampiricTouch:execute(unit, targetPos, strParam, path)
     Wargroove.updateUnit(unit)
     print('afterupdate',unit.pos.x,unit.pos.y)
     
-    local targetUnit = Wargroove.getUnitAt(strParam)
+    local targetUnit = Wargroove.getUnitAt(groovedUnitPosition)
     if targetUnit.health then
         unit:setHealth(unit.health + targetUnit.health, unit.id)
         targetUnit:setHealth(0, unit.id)
