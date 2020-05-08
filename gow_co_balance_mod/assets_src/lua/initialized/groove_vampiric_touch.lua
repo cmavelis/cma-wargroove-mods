@@ -2,6 +2,8 @@ local Wargroove = require "wargroove/wargroove"
 local GrooveVerb = require "wargroove/groove_verb"
 local OldVampiricTouch = require "verbs/groove_vampiric_touch"
 
+local inspect = require "inspect"
+
 local VampiricTouch = GrooveVerb:new()
 
 VampiricTouch.isInPreExecute = false
@@ -37,14 +39,12 @@ local function get_key_for_value( t, value )
 
 local function debugWrap(fcn)
     print('wrapper applied')
-    print('fcn', fcn)
     return function (...)
-        print('fcn nested test', fcn)
         local arg = {...}
         arg.n = select("#", ...)
         print('function name:', get_key_for_value(VampiricTouch, fcn))
         print('argdump')
-        print(dump(arg))
+        -- print(inspect(arg))
         return fcn(unpack(arg, 1))  
     end
 end
@@ -140,7 +140,7 @@ end
 function VampiricTouch:execute(unit, targetPos, strParam, path)
     Wargroove.setIsUsingGroove(unit.id, true)
     Wargroove.updateUnit(unit)
-    print('ongroove',unit.pos.x)
+    print('ongroove',unit.pos.x,unit.pos.y)
 
 
     Wargroove.playPositionlessSound("battleStart")
@@ -172,13 +172,13 @@ function VampiricTouch:execute(unit, targetPos, strParam, path)
         coroutine.yield()
     end
     
-    print('after move',unit.pos.x)
+    print('after move',unit.pos.x,unit.pos.y)
 
     unit.pos = { x = targetPos.x, y = targetPos.y }
-    print('beforeupdate',unit.pos.x)
+    print('beforeupdate',unit.pos.x,unit.pos.y)
 
     Wargroove.updateUnit(unit)
-    print('afterupdate',unit.pos.x)
+    print('afterupdate',unit.pos.x,unit.pos.y)
     
     -- local u = Wargroove.getUnitAt(targetPos)
     -- if u.health then
