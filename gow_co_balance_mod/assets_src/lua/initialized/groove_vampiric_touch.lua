@@ -110,15 +110,22 @@ function VampiricTouch:preExecute(unit, targetPos, strParam, endPos)
 
     local targetUnit = Wargroove.getSelectedTarget()
 
+    print('test1')
     if (targetUnit == nil) then
+        print('test2')
         VampiricTouch.isInPreExecute = false
         return false, ""
     end
 
+    print('test3, targetunit:', inspect(targetUnit))
     Wargroove.setSelectedTarget(targetPos)
+    print('test4, targetPos', targetPos)
+    local groovedUnit = Wargroove.getUnitAt(targetUnit)
+    print('preX groovedUnit', groovedUnit)
+
     VampiricTouch.isInPreExecute = false
-    print('preX targetunit.pos', targetUnit.pos.x, targetUnit.pos.y)
-    return true, targetUnit.id .. ";" .. targetUnit.pos.x .. "," .. targetUnit.pos.y
+    print('preX groovedUnit', groovedUnit)
+    return true, groovedUnit.id .. ";" .. groovedUnit.pos.x .. "," .. groovedUnit.pos.y
 end
 
 
@@ -145,9 +152,7 @@ function VampiricTouch:canExecuteWithTarget(unit, endPos, targetPos, strParam)
     print('canexecutewithTarget strparam', strParam)
     
     if VampiricTouch.isInPreExecute then
-        -- endPos.x = 2 --delet
-        -- endPos.y = 2 --delet
-        print('inPre')
+
         local targetUnit = Wargroove.getUnitAt(targetPos)
 
         if not targetUnit or not Wargroove.areEnemies(unit.playerId, targetUnit.playerId) or (not targetUnit.canBeAttacked) then
@@ -164,7 +169,7 @@ function VampiricTouch:canExecuteWithTarget(unit, endPos, targetPos, strParam)
             end
         end
 
-        return true, targetUnit.id .. ";" .. targetUnit.pos.x .. "," .. targetUnit.pos.y
+        return true --, targetUnit.id .. ";" .. targetUnit.pos.x .. "," .. targetUnit.pos.y
     end 
 
     local u = Wargroove.getUnitAt(targetPos)
