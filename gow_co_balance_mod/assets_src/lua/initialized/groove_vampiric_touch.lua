@@ -9,7 +9,6 @@ local inspect = require "inspect"
 local VampiricTouch = GrooveVerb:new()
 
 VampiricTouch.isInPreExecute = false
--- VampiricTouch.teleportLocation = {}
 VampiricTouch.teleportLocation = {}
 
 
@@ -60,14 +59,12 @@ local function debugWrap(fcn)
     return function (...)
         local arg = {...}
         arg.n = select("#", ...)
-        print('function name:', get_key_for_value(VampiricTouch, fcn))
-        print('argdump')
-        print(inspect(arg))
+        -- print('function name:', get_key_for_value(VampiricTouch, fcn))
+        -- print('argdump')
+        -- print(inspect(arg))
         return fcn(unpack(arg, 1))  
     end
 end
-
--- local funcNames = {}
 
 function VampiricTouch:init()
     for k,v in pairs(VampiricTouch) do
@@ -88,7 +85,7 @@ end
 
 function VampiricTouch:getTargetType()
     if VampiricTouch.isInPreExecute then
-        return "all" -- enemy?
+        return "unit" 
     end
 
     return "empty"
@@ -97,8 +94,9 @@ end
 function VampiricTouch:getTargets(unit, endPos, strParam)
     local targets = {}
     if VampiricTouch.isInPreExecute then
-        targets = Wargroove.getTargetsInRange(VampiricTouch.teleportLocation, 1, 'unit')
-        -- filter for enemies
+        targets = Functional.filter(function (targetPos)
+            return self:canExecuteWithTarget(unit, VampiricTouch.teleportLocation, targetPos, strParam)
+        end, Wargroove.getTargetsInRange(VampiricTouch.teleportLocation, 1, 'unit'))
     else
         targets = Functional.filter(function (targetPos)
             return self:canExecuteWithTarget(unit, endPos, targetPos, strParam)
@@ -110,6 +108,7 @@ end
 function VampiricTouch:preExecute(unit, targetPos, strParam, endPos)
     VampiricTouch.isInPreExecute = true
     VampiricTouch.teleportLocation = targetPos
+    Wargroove.displayTarget(targetPos)
     print('teleport set:', VampiricTouch.teleportLocation)
 
     print('preExecEndPos', endPos.x, endPos.y)
@@ -125,8 +124,8 @@ function VampiricTouch:preExecute(unit, targetPos, strParam, endPos)
 
     print('test1')
     if (targetUnit == nil) then
-        print('test2')
         VampiricTouch.isInPreExecute = false
+        Wargroove.clearDisplayTargets()
         return false, ""
     end
 
@@ -137,21 +136,18 @@ function VampiricTouch:preExecute(unit, targetPos, strParam, endPos)
     print('preX groovedUnit', groovedUnit)
 
     VampiricTouch.isInPreExecute = false
+    Wargroove.clearDisplayTargets()
     print('preX groovedUnit', groovedUnit)
     return true, groovedUnit.id .. ";" .. groovedUnit.pos.x .. "," .. groovedUnit.pos.y
 end
 
 
 function VampiricTouch:canExecuteAt(unit, endPos)
-    -- endPos.x = 2  --delet
-    -- endPos.y = 2 --delet
     if not Verb.canExecuteAt(self, unit, endPos) then
         return false
     end
     
     local targets = self:getTargets(unit, endPos, {}, false)  
-    -- local targets = self:getTargets(unit, VampiricTouch.teleportLocation, {}, false)  
-    -- get targets after teleport instead
     print("targetsEndPOs", endPos.x, endPos.y)
     return #targets > 0
 end
