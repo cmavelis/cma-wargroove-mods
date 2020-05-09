@@ -25,6 +25,9 @@ Groove of War community's balance for competitive play after 2.0
 - Errol & Orla
 - Mercival
 - Nuru
+    - groove can no longer summon "non-formation" units:
+        - Golems, Trebuchets, Ballista, Wagons, Dragons, Balloons, Warships, Harpoon Ships and Barges
+        - "non-formation" refers to their appearance in fight animations as a single unit, instead of multiple
 - Ryota
     - groove damage ramp per jump: +5% -> -5%
 - Sigrid
