@@ -28,6 +28,7 @@ Groove of War community's balance for competitive play after 2.0
 - Ryota
     - groove damage ramp per jump: +5% -> -5%
 - Sigrid
+    - 2-range teleport added to groove prior to targeting enemy
 
 #### Units:
 - Trebuchet
