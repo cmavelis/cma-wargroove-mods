@@ -109,10 +109,6 @@ function VampiricTouch:preExecute(unit, targetPos, strParam, endPos)
     VampiricTouch.isInPreExecute = true
     VampiricTouch.teleportLocation = targetPos
     Wargroove.displayTarget(targetPos)
-    print('teleport set:', VampiricTouch.teleportLocation)
-
-    print('preExecEndPos', endPos.x, endPos.y)
-    print('preExecTargetPos', targetPos.x, targetPos.y)
 
     Wargroove.selectTarget()
 
@@ -122,22 +118,17 @@ function VampiricTouch:preExecute(unit, targetPos, strParam, endPos)
 
     local targetUnit = Wargroove.getSelectedTarget()
 
-    print('test1')
     if (targetUnit == nil) then
         VampiricTouch.isInPreExecute = false
         Wargroove.clearDisplayTargets()
         return false, ""
     end
 
-    print('test3, targetunit:', inspect(targetUnit))
     Wargroove.setSelectedTarget(targetPos)
-    print('test4, targetPos', targetPos)
     local groovedUnit = Wargroove.getUnitAt(targetUnit)
-    print('preX groovedUnit', groovedUnit)
 
     VampiricTouch.isInPreExecute = false
     Wargroove.clearDisplayTargets()
-    print('preX groovedUnit', groovedUnit)
     return true, groovedUnit.id .. ";" .. groovedUnit.pos.x .. "," .. groovedUnit.pos.y
 end
 
@@ -148,7 +139,6 @@ function VampiricTouch:canExecuteAt(unit, endPos)
     end
     
     local targets = self:getTargets(unit, endPos, {}, false)  
-    print("targetsEndPOs", endPos.x, endPos.y)
     return #targets > 0
 end
 
@@ -156,9 +146,6 @@ function VampiricTouch:canExecuteWithTarget(unit, endPos, targetPos, strParam)
     if not self:canSeeTarget(targetPos) then
         return false
     end
-    print('canexecutewithTarget ENdpos', endPos.x, endPos.y)
-    print('canexecutewithTarget targetPos', targetPos.x, targetPos.y)
-    print('canexecutewithTarget strparam', strParam)
     
     if VampiricTouch.isInPreExecute then
 
@@ -208,10 +195,7 @@ end
 function VampiricTouch:execute(unit, targetPos, strParam, path)
     Wargroove.setIsUsingGroove(unit.id, true)
     Wargroove.updateUnit(unit)
-    print('ongroove',unit.pos.x,unit.pos.y)
-    print('strParam', strParam)
     local targetUnitId, groovedUnitPosition = VampiricTouch:parseTargets(strParam)
-    print('strParam parsed:', targetUnitId, groovedUnitPosition)
 
     Wargroove.playPositionlessSound("battleStart")
     Wargroove.playGrooveCutscene(unit.id)
@@ -241,14 +225,10 @@ function VampiricTouch:execute(unit, targetPos, strParam, path)
     while (Wargroove.isLuaMoving(unit.id)) do
         coroutine.yield()
     end
-    
-    print('after move',unit.pos.x,unit.pos.y)
 
     unit.pos = { x = targetPos.x, y = targetPos.y }
-    print('beforeupdate',unit.pos.x,unit.pos.y)
 
     Wargroove.updateUnit(unit)
-    print('afterupdate',unit.pos.x,unit.pos.y)
     
     local targetUnit = Wargroove.getUnitAt(groovedUnitPosition)
     if targetUnit.health then
