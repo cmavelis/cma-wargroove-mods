@@ -115,9 +115,12 @@ verbs:
   - id: groove_vampiric_touch
     icon: ui/icons/grooves/unit_action_icon_vampiric.png
     name: groove_name_vampiric_touch
-    targetColour: attack_target
-    targetOutlineColour: attack_target_outline
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
     targetted: true
+    preExecute: true
     scriptName: verbs/groove_vampiric_touch
 
   - id: groove_diplomacy
