@@ -10,7 +10,7 @@ Mods contained:
 
 ## GoW Community balance mod
 
-Groove of War community's balance for competitive play after 2.0
+Groove of War community's balance for competitive play after 2.1
 
 ### Changes:
 #### Commanders:
