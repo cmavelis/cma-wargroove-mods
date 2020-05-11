@@ -21,9 +21,11 @@ Groove of War community's balance for competitive play after 2.0
     - damage: 30 -> 25
 - Elodie 
     - charge speed: slow -> medium
-- Emeric
 - Errol & Orla
-- Mercival
+    - groove mechanics:
+        - both grooves may be used once groove is charged, instead of one or the other
+        - Scorching Fire is shown as the only groove, then Cooling Water appears as an option afterward (due to simplicity of programming it this way)
+        - choosing "Wait" while the Twins can use Cooling Water will reset groove charge to 0 (use it or lose it)
 - Nuru
     - groove can no longer summon "non-formation" units:
         - Golems, Trebuchets, Ballista, Wagons, Dragons, Balloons, Warships, Harpoon Ships and Barges
@@ -51,8 +53,6 @@ Groove of War community's balance for competitive play after 2.0
 - Warship
     - movement: 8 -> 12
     - attack range: 2-4 -> 2-3
-
-
 
 #### Game Mechanics:
 - Tile movement for "sailing" type units, i.e. ships

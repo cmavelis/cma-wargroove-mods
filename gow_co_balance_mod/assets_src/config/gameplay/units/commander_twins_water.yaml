@@ -1,0 +1,70 @@
+---
+
+unitClasses:
+  - id: commander_twins_water
+    name: unit_class_name_commander
+    cost: 500
+    canBeReinforced: false
+    movement: walking
+    moveRange: 0
+    aiPriority: 8.0
+    regeneration: 5
+    weapons: []
+    tags:
+      - commander
+      - type.ground.light
+    battleUnitCount: 1
+    isCommander: true
+    grooveId: area_heal
+
+units:
+  - class: commander_twins_water
+    faction: outlaw
+    name: character_twins_name
+    mapAnimation: units/commanders/twins/map_twins
+    battleAnimation: units/commanders/twins/battle_twins
+    battleAnimationRiver: fx/river_overlay/battle_twins_river
+    smallPortrait: units/commanders/twins/portrait_twins_small.png
+    mediumPortrait: units/commanders/twins/portrait_twins_medium.png
+    mapSpeed: 4.0
+    skinColour: typeVI
+    grabPos: [47, 47]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    sounds:
+      attack: twins/twinsAttack
+      attackCommander: twins/twinsCommanderKillAttack
+      attackEffect: twins/twinsAttackEffect
+      attackMap: unitAttack
+      captureShout: twins/twinsCapture
+      counter: twins/twinsCounterAttack
+      death: twins/twinsDie
+      deathMap: twins/twinsDieGhost
+      deathMapNoBattle: twins/twinsDieNoBattle
+      firstHit: twins/twinsHit
+      hit: twins/twinsShieldHit
+      hitEnd: twins/twinsShieldEnd
+      hitLeadup: twins/twinsShieldUp
+      hitMap: hitOrganic
+      run: infantryLightMapEntry
+      runMap: infantryLightMapEntry
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 1.5
+    emotes:
+      brave: emote_aiming
+      crying: emote_sad
+      dance: emote_dance
+      idle: idle
+      laugh: emote_laugh
+      negative: emote_angry
+      positive: emote_positive
+      surprise: emote_surprise
+    shouts:
+      twins_da: twins/twinsShoutDa
+      twins_hit: twins/twinsShoutHit
+      twins_laugh: twins/twinsShoutLaugh
+      twins_wondertwinpowers: twins/twinsShoutWonderTwinPowers
+
+...

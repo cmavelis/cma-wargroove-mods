@@ -36,4 +36,28 @@ grooves:
       counter: 10
       kill: 30
     verb: groove_convert
+
+  - id: dual_bombs   #twins will use fire first, then get water for free
+    name: groove_name_dual_bombs
+    description: groove_description_dual_bombs
+    maxCharge: 150
+    chargePerUse: 150
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_area_damage
+
+  - id: area_heal   #twins will use fire first, then get water for free
+    name: groove_name_dual_bombs
+    description: groove_description_dual_bombs
+    maxCharge: 1
+    chargePerUse: 1
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_area_heal
 ...
