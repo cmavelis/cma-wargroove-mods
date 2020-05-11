@@ -43,24 +43,6 @@ Groove of War community's balance for competitive play after 2.0
     - damage edits
         - harpy 1.4 -> 1.3
         - witch 1.3 -> 1.2
-- Barge
-    - movement: 10 -> 16
-- Turtle
-    - movement: 12 -> 18
-- Harpoon Ship
-    - movement: 4 -> 9
-    - attack range: 3-6 -> 3-4
-- Warship
-    - movement: 8 -> 12
-    - attack range: 2-4 -> 2-3
-
-#### Game Mechanics:
-- Tile movement for "sailing" type units, i.e. ships
-    - Ocean: 1 -> 2
-    - Beach: 2 -> 3
-    - Sea: 2 -> 3
-    - Bridge: 2 -> 3
-    - Reef: 4 -> 6
 
 
 ## CMA Balance Mod
