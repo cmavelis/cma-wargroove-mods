@@ -1,0 +1,7 @@
+---
+modifyingUnitClasses:
+  - id: giant
+    replace:  
+      movement: riding
+
+...

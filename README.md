@@ -36,13 +36,15 @@ Groove of War community's balance for competitive play after 2.1
     - 2-range teleport added to groove prior to targeting enemy
 
 #### Units:
-- Trebuchet
-    - min range: 2 -> 4
-    - structure base damage: 0.85 -> 0.7
+- Giant
+    - movement type: walking -> riding (what knights use)
 - Mage
     - damage edits
         - harpy 1.4 -> 1.3
         - witch 1.3 -> 1.2
+- Trebuchet
+    - min range: 2 -> 4
+    - structure base damage: 0.85 -> 0.7
 
 
 ## CMA Balance Mod
