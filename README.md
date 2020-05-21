@@ -44,7 +44,7 @@ Groove of War community's balance for competitive play after 2.1
         - witch 1.3 -> 1.2
 - Trebuchet
     - min range: 2 -> 4
-    - structure base damage: 0.85 -> 0.7
+    - structure base damage: 0.85 -> 0.65
 
 
 ## CMA Balance Mod

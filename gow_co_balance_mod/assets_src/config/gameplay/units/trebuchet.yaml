@@ -19,7 +19,7 @@ weapons:
       trebuchet: 0.8
       ballista: 0.85
       mage: 0.9
-      structure: 0.7 #from .85
+      structure: 0.65 #from .85
       giant: 0.55
       commander: 0.25
       warship: 0.75
