@@ -45,6 +45,20 @@ Groove of War community's balance for competitive play after 2.1
 - Trebuchet
     - min range: 2 -> 4
     - structure base damage: 0.85 -> 0.65
+- Barge
+- Turtle
+- Harpoon Ship
+    - attack range: 3-6 -> 3-4
+- Warship
+    - attack range: 2-4 -> 2-3
+
+#### Game Mechanics:
+- Tile movement for "sailing" type units, i.e. ships
+    - Ocean: 1 -> 2
+    - Beach: 2 -> 3
+    - Sea: 2 -> 3
+    - Bridge: 2 -> 3
+    - Reef: 4 -> 6
 
 
 ## CMA Balance Mod
