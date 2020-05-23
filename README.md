@@ -46,6 +46,27 @@ Groove of War community's balance for competitive play after 2.1
     - min range: 2 -> 4
     - structure base damage: 0.85 -> 0.65
 
+- Barge, Turle, Harpoon Ship, Warship
+    - New mechanic: If the unit's action is to "wait", it gets an additional move-only turn
+        - Turtle move-only movement range: 6 (rest of ships have same mvt for 1st and 2nd action)
+- Barge
+    - movement range: 10 -> 9
+- Turtle
+- Harpoon Ship
+    - movement range: 4 -> 8
+    - attack range: 3-6 -> 3-4
+- Warship
+    - movement range: 8 -> 9
+    - attack range: 2-4 -> 2-3
+
+#### Game Mechanics:
+- Tile movement for "sailing" type units, i.e. non-merfolk naval
+    - Ocean: 1 -> 2
+    - Beach: 2 -> 3
+    - Sea: 2 -> 3
+    - Bridge: 2 -> 3
+    - Reef: 4 -> 6
+
 
 ## CMA Balance Mod
 
