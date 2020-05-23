@@ -19,10 +19,14 @@ unitClasses:
     isHidden: true
     isRecruitable: false
     canAttack: false
+    classIconSpritesheet: ui_GoWBalanceMod
+    codexClass: turtle
+    appearsInLists: false
+    inPalettes: false
 
 
 units:
-  - class: turtle
+  - class: turtle_move_only
     enabled: true
     faction: cherrystone
     name: unit_name_turtle_cherrystone

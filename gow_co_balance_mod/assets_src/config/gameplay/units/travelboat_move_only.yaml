@@ -19,9 +19,14 @@ unitClasses:
     isHiddenInCutsceneEditor: true
     isHidden: true
     isRecruitable: false
+    classIconSpritesheet: ui_GoWBalanceMod
+    codexClass: travelboat
+    appearsInLists: false
+    inPalettes: false
+    
 
 units:
-  - class: travelboat
+  - class: travelboat_move_only
     faction: cherrystone
     name: unit_name_travelboat_cherrystone
     mapAnimation: units/travelboat/cherrystone/map_travelboat_cherrystone

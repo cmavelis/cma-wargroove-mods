@@ -1,6 +1,8 @@
 local OldUnitBuffs = require "wargroove/unit_buffs"
 local Wargroove = require "wargroove/wargroove"
 
+local TempUnits = require "temp_units"
+
 local UnitBuffs = {}
 
 function deepcopy(orig)
@@ -22,21 +24,26 @@ local CopyUnitBuffs = deepcopy(OldUnitBuffs)
 
 function UnitBuffs.init()
     OldUnitBuffs.getBuffs = UnitBuffs.getBuffs
+    OldUnitBuffs.TempUnits = UnitBuffs.TempUnits
 end
 
 function UnitBuffs:getBuffs()
     local OldBuffs = CopyUnitBuffs.getBuffs()
 
-    function OldBuffs.harpoonship_move_only(Wargroove, unit)
-        if Wargroove.isSimulating() then
-            return
+    for tempUnitName, origUnitName in pairs(TempUnits.reverse) do
+        function tempFunction(Wargroove, unit)
+            if Wargroove.isSimulating() then
+                return
+            end
+        
+            if unit.playerId ~= Wargroove.getCurrentPlayerId() then
+                unit.unitClassId = origUnitName
+                unit.grooveCharge = 0
+                Wargroove.updateUnit(unit)
+            end
         end
-        print('firing')
-        if unit.playerId ~= Wargroove.getCurrentPlayerId() then
-            print('updatings')
-            unit.unitClassId = "harpoonship"
-            Wargroove.updateUnit(unit)
-        end
+
+        OldBuffs[tempUnitName] = tempFunction
     end
 
     return OldBuffs

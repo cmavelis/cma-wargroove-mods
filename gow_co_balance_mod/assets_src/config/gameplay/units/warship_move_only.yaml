@@ -19,9 +19,13 @@ unitClasses:
     isHidden: true
     isRecruitable: false
     canAttack: false
+    classIconSpritesheet: ui_GoWBalanceMod
+    codexClass: warship
+    appearsInLists: false
+    inPalettes: false
 
 units:
-  - class: warship
+  - class: warship_move_only
     faction: cherrystone
     name: unit_name_warship_cherrystone
     mapAnimation: units/warship/cherrystone/map_warship_cherrystone
