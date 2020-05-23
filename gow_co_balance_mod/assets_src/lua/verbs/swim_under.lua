@@ -41,7 +41,7 @@ function SwimUnder:canExecuteWithTarget(unit, endPos, targetPos, strParam)
   if targetUnit == nil then -- or targetUnit.unitClassId ~= "gate"
     return false
   end
-  
+
   if not Wargroove.areEnemies(unit.playerId, targetUnit.playerId) then
     return false
   elseif not SwimUnder.canSwimUnder(targetUnit.unitClassId) then
@@ -65,6 +65,10 @@ function SwimUnder:execute(unit, targetPos, strParam, path)
   end
   Wargroove.updateUnit(unit)
 
+  local splashFX = Wargroove.getSplashEffect()
+  Wargroove.spawnMapAnimation(unit.pos, 1, splashFX)
+  Wargroove.playMapSound("unitSplash", unit.pos)
+
   Wargroove.setVisibleOverride(unit.id, false)
 
   Wargroove.waitTime(0.5)
@@ -85,6 +89,9 @@ function SwimUnder:onPostUpdateUnit(unit, targetPos, strParam, path)
   
   Wargroove.updateUnit(unit)
   coroutine.yield()
+  local splashFX = Wargroove.getSplashEffect()
+  Wargroove.spawnMapAnimation(unit.pos, 1, splashFX)
+  Wargroove.playMapSound("unitSplash", unit.pos)
   Wargroove.setVisibleOverride(unit.id, true)
 end
 
