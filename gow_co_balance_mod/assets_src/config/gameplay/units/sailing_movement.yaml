@@ -1,0 +1,18 @@
+---
+
+modifyingUnitClasses:   # all ship movement was scaled up to larger numbers for fine tuning
+  - id: harpoonship
+    replace:
+      moveRange: 8 # from 4
+  - id: travelboat
+    replace:
+      moveRange: 9 # from 10
+  # - id: turtle
+      #     add:
+#       verbs:
+#       - swim_under
+  - id: warship
+    replace:
+      moveRange: 9 # from 8
+
+...
