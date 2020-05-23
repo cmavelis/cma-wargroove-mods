@@ -5,7 +5,7 @@ unitClasses:
     name: unit_class_name_travelboat
     cost: 200
     movement: sailing
-    moveRange: 9
+    moveRange: 6 
     damageMultiplier: 1
     aiPriority: 1.5
     weapons: []

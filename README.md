@@ -10,7 +10,8 @@ Mods contained:
 
 ## GoW Community balance mod
 
-Groove of War community's balance for competitive play after 2.1
+ - Groove of War community's balance for competitive play after 2.1
+ - Credits: GimbleB for all the balance changes, Unicarn for modding support
 
 ### Changes:
 #### Commanders:
@@ -48,10 +49,14 @@ Groove of War community's balance for competitive play after 2.1
 
 - Barge, Turle, Harpoon Ship, Warship
     - New mechanic: If the unit's action is to "wait", it gets an additional move-only turn
-        - Turtle move-only movement range: 6 (rest of ships have same mvt for 1st and 2nd action)
+        - Turtle move-only movement range: 6 
+        - Barge move-only movement range: 6
+        - (rest of ships have same mvt for 1st and 2nd action)
 - Barge
-    - movement range: 10 -> 9
+    - movement range: 10 -> 12
 - Turtle
+    - new action: Swim Under
+        - Turtle can go to the other side of an enemy air unit or ship (barge, harpoon, warship)
 - Harpoon Ship
     - movement range: 4 -> 8
     - attack range: 3-6 -> 3-4

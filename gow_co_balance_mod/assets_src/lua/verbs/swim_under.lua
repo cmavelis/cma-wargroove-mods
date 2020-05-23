@@ -22,9 +22,9 @@ function SwimUnder:getTargetType()
   return "unit"
 end
 
-function SwimUnder:canSwimUnder(unit)
+function SwimUnder.canSwimUnder(unitClassId)
   for i, target in pairs(allowedTargets) do
-      if target == unit then 
+      if target == unitClassId then 
          return true
       end
    end
@@ -41,7 +41,7 @@ function SwimUnder:canExecuteWithTarget(unit, endPos, targetPos, strParam)
   if targetUnit == nil then -- or targetUnit.unitClassId ~= "gate"
     return false
   end
-
+  
   if not Wargroove.areEnemies(unit.playerId, targetUnit.playerId) then
     return false
   elseif not SwimUnder.canSwimUnder(targetUnit.unitClassId) then

@@ -14,6 +14,7 @@ function Wait:onPostUpdateUnit(unit, targetPos, strParam, path)
     if self.TempUnits.forward[unit.unitClassId] then
         unit.unitClassId = self.TempUnits.forward[unit.unitClassId]
         unit.hadTurn = false
+        return
     end
     if self.TempUnits.reverse[unit.unitClassId] then
         unit.unitClassId = self.TempUnits.reverse[unit.unitClassId]

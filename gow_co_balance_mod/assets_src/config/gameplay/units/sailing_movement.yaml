@@ -6,7 +6,7 @@ modifyingUnitClasses:   # all ship movement was scaled up to larger numbers for 
       moveRange: 8 # from 4
   - id: travelboat
     replace:
-      moveRange: 9 # from 10
+      moveRange: 12 # from 10
   # - id: turtle
       #     add:
 #       verbs:
