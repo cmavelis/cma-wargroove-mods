@@ -1,6 +1,14 @@
 ---
 
 verbs:
+  - id: swim_under
+    icon: ui/icons/unit_action_icon_reposition.png
+    name: ui_unit_verbs_swim_under
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    directTarget: true
+    scriptName: verbs/swim_under
 
   - id: attack
     icon: ui/icons/unit_action_icon_attack.png

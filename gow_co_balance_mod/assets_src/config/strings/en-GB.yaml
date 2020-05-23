@@ -1,0 +1,25 @@
+---
+
+# This is the string configuration file for English.
+en-GB:
+  # New Archer
+  unit_class_name_new_archer: "New Archer"
+  unit_description_new_archer: "Ranged ground units able to move and attack in the same turn. Critical hit when stationary. Same as old archer basically."
+  unit_name_new_archer_cherrystone: "New Ranger"
+  unit_name_new_archer_felheim: "New Dreadbow"
+  unit_name_new_archer_heavensong: "New Hawkbow"
+  unit_name_new_archer_floran: "New Shooter"
+
+  # Triggers
+  trigger_action_name_set_state: "Set State"                                                                            # The name
+  trigger_action_description_set_state: "Sets the unit state."                                                          # The general description
+  trigger_action_readable_set_state: Add set state {3} to {4} for unit type(s) {0} at location {1} owned by player {2}. # Numbers are filled in by user choices.
+
+  trigger_condition_name_state: "Has State"                                                                                   # The name
+  trigger_condition_description_state: "Triggers if a unit has a particular state."                                           # The general description
+  trigger_condition_readable_state: "If unit type(s) {0} at location {1} owned by player {2} have state {3} equal to {4}."    # Numbers are filled in by user choices.
+
+  # Verbs
+  ui_unit_verbs_swim_under: Swim Under
+  
+...
