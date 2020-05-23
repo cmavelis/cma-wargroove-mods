@@ -20,7 +20,7 @@ unitClasses:
     isHidden: true
     isRecruitable: false
     canAttack: false
-    classIconSpritesheet: ui_GoWMod
+    classIconSpritesheet: ui_GoWBalanceMod
     codexClass: harpoonship
     appearsInLists: false
     inPalettes: false

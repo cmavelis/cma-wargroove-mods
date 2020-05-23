@@ -17,9 +17,9 @@ function Wait:init()
 end
 
 function Wait:onPostUpdateUnit(unit, targetPos, strParam, path)
-    print('We wait')
     if unit.unitClassId == "harpoonship" then
         unit.unitClassId = "harpoonship_move_only"
+        unit.hadTurn = false
     end
     -- unit.unitClassId = "commander_twins_water"
     -- unit.hadTurn = false
