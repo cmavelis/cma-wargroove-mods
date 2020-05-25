@@ -56,7 +56,7 @@ function SwimUnder:canExecuteWithTarget(unit, endPos, targetPos, strParam)
     return false
   end
   local unitBeyond = Wargroove.getUnitAt(pointBeyond)
-  return Wargroove.canStandAt("turtle", pointBeyond) and (unitBeyond == nil or self:canSeeTarget(targetPos))
+  return Wargroove.canStandAt("turtle", pointBeyond) and unitBeyond == nil
 end
 
 function SwimUnder:execute(unit, targetPos, strParam, path)
@@ -95,7 +95,7 @@ function SwimUnder:onPostUpdateUnit(unit, targetPos, strParam, path)
   coroutine.yield()
   local splashFX = Wargroove.getSplashEffect()
   Wargroove.setVisibleOverride(unit.id, true)
-  Wargroove.spawnMapAnimation(unit.pos, 1, splashFX)
+  Wargroove.spawnMapAnimation(unit.pos, 1, splashFX, "idle", "behind_units", {x=12, y=8})
   Wargroove.playMapSound("unitSplash", unit.pos)
 end
 
