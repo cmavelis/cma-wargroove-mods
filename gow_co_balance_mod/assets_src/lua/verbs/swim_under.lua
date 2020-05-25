@@ -46,6 +46,8 @@ function SwimUnder:canExecuteWithTarget(unit, endPos, targetPos, strParam)
     return false
   elseif not SwimUnder.canSwimUnder(targetUnit.unitClassId) then
     return false
+  elseif not Wargroove.canStandAt("turtle", targetPos) then
+    return false
   end
 
   local direction = { x = targetPos.x - endPos.x, y = targetPos.y - endPos.y}
@@ -90,9 +92,9 @@ function SwimUnder:onPostUpdateUnit(unit, targetPos, strParam, path)
   Wargroove.updateUnit(unit)
   coroutine.yield()
   local splashFX = Wargroove.getSplashEffect()
+  Wargroove.setVisibleOverride(unit.id, true)
   Wargroove.spawnMapAnimation(unit.pos, 1, splashFX)
   Wargroove.playMapSound("unitSplash", unit.pos)
-  Wargroove.setVisibleOverride(unit.id, true)
 end
 
 return SwimUnder
