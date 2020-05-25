@@ -38,7 +38,7 @@ end
 
 function SwimUnder:canExecuteWithTarget(unit, endPos, targetPos, strParam)
   local targetUnit = Wargroove.getUnitAt(targetPos)
-  if targetUnit == nil then -- or targetUnit.unitClassId ~= "gate"
+  if targetUnit == nil then
     return false
   end
 
@@ -52,9 +52,11 @@ function SwimUnder:canExecuteWithTarget(unit, endPos, targetPos, strParam)
 
   local direction = { x = targetPos.x - endPos.x, y = targetPos.y - endPos.y}
   local pointBeyond = { x = targetPos.x + direction.x, y = targetPos.y + direction.y}
-
+  if not self:canSeeTarget(pointBeyond) then -- fog fix: need to be able to see ending space
+    return false
+  end
   local unitBeyond = Wargroove.getUnitAt(pointBeyond)
-  return unitBeyond == nil and Wargroove.canStandAt("turtle", pointBeyond)
+  return Wargroove.canStandAt("turtle", pointBeyond) and (unitBeyond == nil or self:canSeeTarget(targetPos))
 end
 
 function SwimUnder:execute(unit, targetPos, strParam, path)
