@@ -138,6 +138,7 @@ verbs:
     targetOutlineColour: attack_target_outline
     targetted: true
     directTarget: true
+    # preExecute: true
     scriptName: verbs/groove_diplomacy
 
   - id: groove_sadistic_rush
