@@ -31,6 +31,7 @@ Mods contained:
     - groove replaced: Diplomacy
         - Medium charge
         - 2 range: Convert an enemy structure to yours at full HP
+        - HQ not included, but production buildings convert with action ready
 - Nuru
     - groove can no longer summon "non-formation" units:
         - Golems, Trebuchets, Ballista, Wagons, Dragons, Balloons, Warships, Harpoon Ships and Barges
