@@ -27,6 +27,10 @@ Mods contained:
         - both grooves may be used once groove is charged, instead of one or the other
         - Scorching Fire is shown as the only groove, then Cooling Water appears as an option afterward (due to simplicity of programming it this way)
         - choosing "Wait" while the Twins can use Cooling Water will reset groove charge to 0 (use it or lose it)
+- Mercival
+    - groove replaced: Diplomacy
+        - Medium charge
+        - 2 range: Convert an enemy structure to yours at full HP
 - Nuru
     - groove can no longer summon "non-formation" units:
         - Golems, Trebuchets, Ballista, Wagons, Dragons, Balloons, Warships, Harpoon Ships and Barges

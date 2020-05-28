@@ -60,4 +60,16 @@ grooves:
       counter: 10
       kill: 30
     verb: groove_area_heal
+
+  - id: diplomacy   # giving this to Mercival
+    name: groove_name_diplomacy
+    description: groove_description_diplomacy
+    maxCharge: 150
+    chargePerUse: 150
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_diplomacy
 ...

@@ -1,0 +1,7 @@
+---
+modifyingUnitClasses:
+  - id: commander_mercival
+    replace:
+      grooveId: diplomacy
+
+...
