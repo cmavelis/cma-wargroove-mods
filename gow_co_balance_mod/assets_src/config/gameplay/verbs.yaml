@@ -1,6 +1,11 @@
 ---
 
 verbs:
+  - id: free_turn
+    icon: ui/icons/unit_action_icon_reposition.png
+    name: ui_unit_verbs_free_turn
+    scriptName: verbs/free_turn
+
   - id: swim_under
     icon: ui/icons/unit_action_icon_reposition.png
     name: ui_unit_verbs_swim_under

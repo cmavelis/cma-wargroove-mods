@@ -21,6 +21,8 @@ en-GB:
 
   # Verbs
   ui_unit_verbs_swim_under: Swim Under
+  ui_unit_verbs_free_turn: Free Move
+
   groove_name_diplomacy: Diplomacy
   
 ...

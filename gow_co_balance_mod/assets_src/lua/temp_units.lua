@@ -5,7 +5,7 @@ temp_units.forward = {
     harpoonship="harpoonship_move_only",
     warship="warship_move_only",
     turtle="turtle_move_only",
-    travelboat="travelboat_move_only"
+    -- travelboat="travelboat_move_only"
 }
 
 -- reverse is used to automatically reset temp units at end of turn

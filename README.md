@@ -54,9 +54,8 @@ Mods contained:
 
 - Barge, Turle, Harpoon Ship, Warship
     - New mechanic: If the unit's action is to "wait", it gets an additional move-only turn
-        - Turtle move-only movement range: 6 
-        - Barge move-only movement range: 6
-        - (rest of ships have same mvt for 1st and 2nd action)
+        - Turtle move-only movement range: 6  (rest of ships have same mvt for 1st and 2nd action)
+    - Barge has a special action that's only activated if it's not carrying any units
 - Barge
     - movement range: 10 -> 12
 - Turtle
