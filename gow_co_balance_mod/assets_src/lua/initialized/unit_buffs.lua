@@ -28,6 +28,8 @@ function UnitBuffs.init()
 end
 
 function UnitBuffs:getBuffs()
+    local overhealAnimation = "ui/icons/star_full"
+
     local OldBuffs = CopyUnitBuffs.getBuffs()
 
     for tempUnitName, origUnitName in pairs(TempUnits.reverse) do
@@ -59,7 +61,21 @@ function UnitBuffs:getBuffs()
         end
     end
 
+    function DarkMerciaBuff(Wargroove, unit)
+        if Wargroove.isSimulating() then
+            return
+        end
+        if (unit.health > 100) then
+            if not Wargroove.hasUnitEffect(unit.id, overhealAnimation) then
+                Wargroove.spawnUnitEffect(unit.id, overhealAnimation, "idle", startAnimation, true, false)
+            end
+        elseif Wargroove.hasUnitEffect(unit.id, overhealAnimation) then
+            Wargroove.deleteUnitEffectByAnimation(unit.id, overhealAnimation)
+        end
+    end
+
     OldBuffs['travelboat'] = TravelboatBuff
+    OldBuffs['commander_darkmercia'] = DarkMerciaBuff
 
     return OldBuffs
 end
