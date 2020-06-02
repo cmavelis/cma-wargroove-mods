@@ -41,9 +41,14 @@ function Wargroove.getUnitById(unitId)
     local result = CopyWargroove.getUnitById(unitId)
     assert(unitId ~= nil)
     print(inspect(result))
-    local function unitSetHealth(self, health, attackerId)
+
+    -- allow overhealing in some instances
+    local function unitSetHealth(self, health, attackerId, source)
         local maxHp = 100
-        if self.unitClassId == "commander_darkmercia" then
+        if source == "mercia_groove" then
+            maxHp = 110
+        end
+        if source == "dm_groove" and self.unitClassId == "commander_darkmercia" then
             maxHp = 200
         end
         self.health = math.floor(math.max(0, math.min(health, maxHp)) * 0.01 * self.unitClass.maxHealth + 0.5)

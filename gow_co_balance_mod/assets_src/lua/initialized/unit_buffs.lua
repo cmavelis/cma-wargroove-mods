@@ -28,7 +28,7 @@ function UnitBuffs.init()
 end
 
 function UnitBuffs:getBuffs()
-    local overhealAnimation = "ui/icons/star_full"
+    local overhealAnimation = "ui/icons/overheal"
 
     local OldBuffs = CopyUnitBuffs.getBuffs()
 
@@ -67,7 +67,7 @@ function UnitBuffs:getBuffs()
         end
         if (unit.health > 100) then
             if not Wargroove.hasUnitEffect(unit.id, overhealAnimation) then
-                Wargroove.spawnUnitEffect(unit.id, overhealAnimation, "idle", startAnimation, true, false)
+                Wargroove.spawnUnitEffect(unit.id, overhealAnimation, "overheal", startAnimation, true, false)
             end
         elseif Wargroove.hasUnitEffect(unit.id, overhealAnimation) then
             Wargroove.deleteUnitEffectByAnimation(unit.id, overhealAnimation)

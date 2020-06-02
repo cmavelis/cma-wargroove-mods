@@ -55,7 +55,7 @@ function Drain:execute(unit, targetPos, strParam, path)
         end
     end
 
-    unit:setHealth(unit.health + healthDrained, unit.id)
+    unit:setHealth(unit.health + healthDrained, unit.id, "dm_groove")
 
     Wargroove.waitTime(0.6)
 end
