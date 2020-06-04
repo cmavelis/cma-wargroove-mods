@@ -1,0 +1,9 @@
+---
+
+id: ExpandedHpBadgesMod                   # The mod's id. This should not change over the lifetime of the mod.
+name: "XHPB test grounds"               # The mod's name. This is looked up in the language string yaml configuration.
+author: "CMAvelis, Unicarn"
+description: "Testing for 1-99 hp badges" # The mod's description. This is looked up in the language string yaml configuration.
+
+
+...
