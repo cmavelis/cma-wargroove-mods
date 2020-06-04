@@ -85,6 +85,8 @@ function HealthBadges.createFunction()
             end
         elseif Wargroove.hasUnitEffect(unit.id, HealthBadgesAnimation) then
             Wargroove.deleteUnitEffectByAnimation(unit.id, HealthBadgesAnimation)
+        elseif unit.health == 100  -- delete these 2 lines after testing
+            Wargroove.spawnUnitEffect(unit.id, HealthBadgesAnimation, "badge77", startAnimation, true, false)
         end
     end
 
