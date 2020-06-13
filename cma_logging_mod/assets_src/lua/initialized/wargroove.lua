@@ -3,6 +3,8 @@ local Functional = require "halley/functional"
 
 local Wargroove = {}
 
+local inspect = require "inspect"
+
 function deepcopy(orig)
     local orig_type = type(orig)
     local copy
@@ -45,6 +47,7 @@ function Wargroove.init()
     OldWargroove.setTurnInfo = Wargroove.setTurnInfo
     OldWargroove.startCombat = Wargroove.startCombat
     OldWargroove.setMatchSeed = Wargroove.setMatchSeed
+    OldWargroove.getUnitById = Wargroove.getUnitById
     -- local mapSize = CopyWargroove.getMapSize()
     -- print('mapSize')
     -- print(dump(mapSize))
@@ -57,7 +60,7 @@ end
 function Wargroove.getAllUnitsForPlayer(playerId, includeChildren)
     print('===Wargroove.getAllUnitsForPlayer')
     local allUnits = Functional.map(OldWargroove.getUnitById, CopyWargroove.getAllUnitIdsForPlayer(playerId, includeChildren))
-    print(dump(allUnits))
+    print(inspect(allUnits))
     return allUnits
 end
 
@@ -88,6 +91,13 @@ function Wargroove.startCombat(attacker, defender, path)
     end
 
     CopyWargroove.startCombat(attacker, defender, path)
+end
+
+function Wargroove.getUnitById(unitId)
+    local result = CopyWargroove.getUnitById(unitId)
+    print("===Wargroove.getUnitById")
+    print(inspect(result))
+    return result
 end
 
 function Wargroove.setMoney(playerId, value)
